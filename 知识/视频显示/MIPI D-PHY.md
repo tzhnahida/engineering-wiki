@@ -259,8 +259,8 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](../../视频显示/MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](../../视频显示/MIPI DSI.md) — DSI 协议层（基于 D-PHY）
-- [视频显示/HDMI 物理层](../../视频显示/HDMI 物理层.md) — HDMI TMDS 物理层（同类对比参照）
-- [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md) — HDMI 编码层
+- [视频显示/MIPI 概述](MIPI 概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](MIPI DSI.md) — DSI 协议层（基于 D-PHY）
+- [视频显示/HDMI 物理层](HDMI 物理层.md) — HDMI TMDS 物理层（同类对比参照）
+- [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md) — HDMI 编码层
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接芯片（内部含 D-PHY TX）

@@ -11,7 +11,7 @@ sources:
 
 # MIPI DSI
 
-> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](../../视频显示/MIPI D-PHY.md)（或 [C-PHY](../../视频显示/MIPI C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
+> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](MIPI D-PHY.md)（或 [C-PHY](MIPI C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
 
 ## 1. 协议分层
 
@@ -334,10 +334,10 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](../../视频显示/MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI D-PHY](../../视频显示/MIPI D-PHY.md) — 物理层定义
-- [视频显示/MIPI DCS](../../视频显示/MIPI DCS.md) — Display Command Set 命令集
-- [视频显示/MIPI DBI](../../视频显示/MIPI DBI.md) — 并行总线接口
-- [视频显示/MIPI DPI](../../视频显示/MIPI DPI.md) — 并行像素接口
+- [视频显示/MIPI 概述](MIPI 概述.md) — MIPI 家族全景
+- [视频显示/MIPI D-PHY](MIPI D-PHY.md) — 物理层定义
+- [视频显示/MIPI DCS](MIPI DCS.md) — Display Command Set 命令集
+- [视频显示/MIPI DBI](MIPI DBI.md) — 并行总线接口
+- [视频显示/MIPI DPI](MIPI DPI.md) — 并行像素接口
 - [NT35597](../../NT35597.md) — Dual-DSI 面板驱动 IC 实例
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI → DSI 桥接芯片

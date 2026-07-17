@@ -10,7 +10,7 @@ sources:
 
 # MIPI DCS
 
-> **DCS (Display Command Set)** 是 MIPI 联盟定义的标准化显示命令集，为显示模组提供统一的控制接口。DCS 独立于物理传输层，可运行在 [DSI](../../视频显示/MIPI DSI.md)（通过 DCS 短包/长包）或 [DBI](../../视频显示/MIPI DBI.md)（通过并行总线）之上。
+> **DCS (Display Command Set)** 是 MIPI 联盟定义的标准化显示命令集，为显示模组提供统一的控制接口。DCS 独立于物理传输层，可运行在 [DSI](MIPI DSI.md)（通过 DCS 短包/长包）或 [DBI](MIPI DBI.md)（通过并行总线）之上。
 
 ## 1. 设计目标
 
@@ -203,8 +203,8 @@ msleep(120);
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](../../视频显示/MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](../../视频显示/MIPI DSI.md) — DSI 协议（DCS 命令的传输层）
-- [视频显示/MIPI DBI](../../视频显示/MIPI DBI.md) — DCS 在并行总线上的传输
+- [视频显示/MIPI 概述](MIPI 概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](MIPI DSI.md) — DSI 协议（DCS 命令的传输层）
+- [视频显示/MIPI DBI](MIPI DBI.md) — DCS 在并行总线上的传输
 - [NT35597](../../NT35597.md) — 面板驱动 IC（DCS 命令集实战）
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接（内部 DCS 转发）

@@ -13,7 +13,7 @@ sources: []
 - **制造商**: 深圳市汉昇实业有限公司（HANSHENG，www.hslcm.com）
 - **尺寸/分辨率**: 2.4"，240 RGB × 320（QVGA 竖屏），RGB 条状排列，最高 262K 色
 - **驱动 IC**: Sitronix **ST7789T3**（控制器/驱动器/GRAM 三合一，单芯片 COG）
-- **接口**: **SPI 4 线**（4-wire serial，即 [MIPI DBI](../../视频显示/MIPI DBI.md) Type C 4-line）
+- **接口**: **SPI 4 线**（4-wire serial，即 [MIPI DBI](../../知识/视频显示/MIPI DBI.md) Type C 4-line）
 - **背光**: 4 颗白光 LED 并联，侧入式导光
 - **典型应用**: MCU 直驱的小尺寸人机界面——帧数据全部写入驱动 IC 内部 GRAM，主控无需持续刷新
 
@@ -66,12 +66,12 @@ sources: []
 - 低功耗路径：SLPIN(0x10) 睡眠 + 关背光；背光 80 mA 远大于逻辑电流，**省电主要靠背光管理**
 
 ## 5. 接口/频率特性
-- **接口类型**: SPI 4 线写入式串口 = CS + SCL + SDA + RS（即 D/CX 数据/命令选择线），属 [MIPI DBI](../../视频显示/MIPI DBI.md) Type C Option 3
+- **接口类型**: SPI 4 线写入式串口 = CS + SCL + SDA + RS（即 D/CX 数据/命令选择线），属 [MIPI DBI](../../知识/视频显示/MIPI DBI.md) Type C Option 3
 - **采样时刻**: 数据在 **SCL 上升沿** 锁存（手册 SDA 脚描述），CS 低有效，RS=0 命令 / RS=1 参数或像素数据
 - **无 SDO/MISO 脚**：引脚表中不存在读回线，**只写接口**——寄存器状态、GRAM 内容都读不回来，软件需自己镜像状态
 - **SPI 时序参数**: —（手册第 12 页仅有时序图，文本无数值；具体 tSCYC/tSHW 等以 ST7789 驱动 IC 手册为准）
 - **显示 RAM**: 驱动 IC 内建全帧 GRAM，写入一次即持续显示；局部刷新用 CASET(0x2A)/RASET(0x2B) 划窗 + RAMWR(0x2C)
-- **命令集**: ST7789 标准命令，兼容 [MIPI DCS](../../视频显示/MIPI DCS.md)（0x11 SLPOUT、0x29 DISPON、0x36 MADCTL、0x3A COLMOD 等）
+- **命令集**: ST7789 标准命令，兼容 [MIPI DCS](../../知识/视频显示/MIPI DCS.md)（0x11 SLPOUT、0x29 DISPON、0x36 MADCTL、0x3A COLMOD 等）
 
 > [!tip] 刷新率量级估算
 > QVGA @ RGB565 一帧 = 240×320×16 bit ≈ 1.23 Mbit。SPI 跑 30 MHz 时理论上限约 24 fps——四线 SPI 驱 QVGA 只适合静态 UI 或局部更新，动画要靠划窗刷新减少数据量。
@@ -178,5 +178,5 @@ FPC 排线引出，信号清单如下（依手册第 6 章）：
 - DMA + SPI 是刚需：24 fps 上限的前提是 SCL 不停顿，靠 CPU 逐字节喂数达不到
 
 ## 参见
-- [MIPI DBI](../../视频显示/MIPI DBI.md) — 本模组 SPI 4 线接口所属的接口标准（Type C）
-- [MIPI DCS](../../视频显示/MIPI DCS.md) — 初始化序列中 0x11/0x29/0x36/0x3A 等标准显示命令集
+- [MIPI DBI](../../知识/视频显示/MIPI DBI.md) — 本模组 SPI 4 线接口所属的接口标准（Type C）
+- [MIPI DCS](../../知识/视频显示/MIPI DCS.md) — 初始化序列中 0x11/0x29/0x36/0x3A 等标准显示命令集

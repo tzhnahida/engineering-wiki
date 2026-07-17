@@ -143,7 +143,7 @@ TMDS（Transition Minimized Differential Signaling）是 HDMI 的核心物理层
 - **总带宽** = 3 × 3.4 = 10.2 Gbps（三个数据通道合计）
 - 一个 Tbit 周期传输 1 bit 数据，10 个 Tbit = 1 像素时钟周期
 
-**编码机制概述**（参见 [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md)）：
+**编码机制概述**（参见 [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md)）：
 
 每个 TMDS 通道在 1 个像素时钟周期内传输 10 bits 编码数据，其中包含 8 bits 视频/控制数据 + 2 bits 编码开销。编码算法将 8 bit 数据转换为最小化跳变次数的 10 bit 符号，同时保证足够的 DC 平衡。
 
@@ -254,8 +254,8 @@ HDMI 规范对物理层的可靠性提出了明确的容错要求：
 
 ## See Also
 
-- [视频显示/HDMI 协议概述](../../视频显示/HDMI 协议概述.md) — HDMI 协议栈（数据岛、视频周期、控制周期）
-- [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md) — TMDS 8b10b 编码算法与 DC 平衡
+- [视频显示/HDMI 协议概述](HDMI 协议概述.md) — HDMI 协议栈（数据岛、视频周期、控制周期）
+- [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md) — TMDS 8b10b 编码算法与 DC 平衡
 - [HDMI Type A](../../元件/连接器/HDMI Type A.md) — Type A 连接器实体页（含封装信息）
 - [HDMI Type D](../../元件/连接器/HDMI Type D.md) — Type D Micro 连接器实体页
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI 1.4 到 MIPI DSI 桥接芯片
