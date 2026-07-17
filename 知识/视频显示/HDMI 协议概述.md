@@ -3,7 +3,7 @@ type: concept
 tags: [hdmi, video, digital-interface, protocol]
 created: 2026-06-26
 updated: 2026-07-15
-sources: ["[2026-06-26 - HDMI 1.4 Specification](2026-06-26 - HDMI 1.4 Specification.md)"]
+sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26 - HDMI 1.4 Specification.md)"]
 ---
 
 # HDMI 协议概述
@@ -14,7 +14,7 @@ sources: ["[2026-06-26 - HDMI 1.4 Specification](2026-06-26 - HDMI 1.4 Specifica
 
 HDMI 由七家消费电子企业联合开发：**Hitachi、Panasonic、Philips、Silicon Image、Sony、Thomson、Toshiba**。其中 Silicon Image 贡献了核心的 TMDS (Transition Minimized Differential Signaling) 传输技术。
 
-HDMI 于 **2002 年 12 月 9 日** 首次发布，当前讨论的 **HDMI 1.4 版于 2009 年 6 月 5 日** 发布。HDMI 向后兼容 [DVI](HDMI Type A.md)，通过被动适配器即可实现 DVI 信号源到 HDMI 显示器的连接（仅传输视频，不包含音频）。
+HDMI 于 **2002 年 12 月 9 日** 首次发布，当前讨论的 **HDMI 1.4 版于 2009 年 6 月 5 日** 发布。HDMI 向后兼容 [DVI](../../元件/连接器/HDMI Type A.md)，通过被动适配器即可实现 DVI 信号源到 HDMI 显示器的连接（仅传输视频，不包含音频）。
 
 > [!note] HDMI 与 DVI 的兼容性
 > HDMI Type A 的物理层和 TMDS 信号电气特性与 DVI 1.0 完全兼容，仅通过适配器即可互连。区别在于 HDMI 增加了音频传输、CEC 控制和更紧凑的连接器。
@@ -62,13 +62,13 @@ HDMI 链路包含以下信号组：
 |--------|------|------|------|
 | **TMDS Data Channel 0/1/2** | 3 对差分线 | Source → Sink | 视频、音频、辅助数据主通道 |
 | **TMDS Clock** | 1 对差分线 | Source → Sink | 像素时钟参考 |
-| **DDC (Display Data Channel)** | 2 线 (SCL/SDA) | 双向 | I²C 总线，用于 [EDID](视频显示/HDMI EDID.md) 读取和 HDCP 密钥交换 |
+| **DDC (Display Data Channel)** | 2 线 (SCL/SDA) | 双向 | I²C 总线，用于 [EDID](../../视频显示/HDMI EDID.md) 读取和 HDCP 密钥交换 |
 | **CEC (Consumer Electronics Control)** | 1 线 | 双向 | 消费电子控制，单线双向协议 |
 | **Utility / HEAC** | 1 线 | 双向 | HDMI 1.4 新增：以太网通道 (HEC) 或音频回传通道 (ARC) |
 | **HPD (Hot Plug Detect)** | 1 线 | Sink → Source | 热插拔检测信号 |
 | **+5V Power** | 1 线 | Source → Sink | 为 Sink 端 DDC 电路供电（最高 50mA） |
 
-> 以上是 HDMI Type A（标准 19 引脚）的完整信号布局。Type C（Mini）和 [Type D（Micro）](HDMI Type D.md) 信号相同但引脚排列不同。
+> 以上是 HDMI Type A（标准 19 引脚）的完整信号布局。Type C（Mini）和 [Type D（Micro）](../../元件/连接器/HDMI Type D.md) 信号相同但引脚排列不同。
 
 ## 3. 链路架构
 
@@ -121,7 +121,7 @@ flowchart LR
     G -.->|"下一行"| A
 ```
 
-详细编码过程参见 [视频显示/HDMI TMDS 编码](视频显示/HDMI TMDS 编码.md)，视频时序参数参见 [视频显示/HDMI 视频传输](视频显示/HDMI 视频传输.md)。
+详细编码过程参见 [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md)，视频时序参数参见 [视频显示/HDMI 视频传输](../../视频显示/HDMI 视频传输.md)。
 
 ## 4. 版本演进
 
@@ -139,7 +139,7 @@ flowchart LR
 
 ### 5.1 新连接器类型
 
-- **[Type D (Micro HDMI)](HDMI Type D.md)**：尺寸 2.8mm × 6.4mm，比 Type C (Mini) 更小（约 1/3 体积），19 引脚间距 0.4mm，面向移动设备（智能手机、平板、数码相机）
+- **[Type D (Micro HDMI)](../../元件/连接器/HDMI Type D.md)**：尺寸 2.8mm × 6.4mm，比 Type C (Mini) 更小（约 1/3 体积），19 引脚间距 0.4mm，面向移动设备（智能手机、平板、数码相机）
 - **Type E (Automotive Connection System)**：汽车级连接器，带锁定卡扣和防脱落机械结构，工作温度范围更宽，具备防潮/防振动特性
 
 ### 5.2 Audio Return Channel (ARC)
@@ -227,10 +227,10 @@ HDMI 规范引用了以下外部标准和规范：
 
 ## 相关页面
 
-- [视频显示/HDMI 物理层](视频显示/HDMI 物理层.md) — 电气特性、信号摆幅、端接
-- [视频显示/HDMI TMDS 编码](视频显示/HDMI TMDS 编码.md) — 8b/10b、TERC4、控制编码细节
-- [视频显示/HDMI 视频传输](视频显示/HDMI 视频传输.md) — 视频时序、InfoFrame、色彩空间
-- [视频显示/HDMI EDID](视频显示/HDMI EDID.md) — EDID 数据结构与读取协议
-- [HDMI Type A](HDMI Type A.md) — 标准 19 引脚连接器
-- [HDMI Type D](HDMI Type D.md) — Micro HDMI 连接器
-- [TC358870](TC358870.md) — HDMI 1.4b → 双 MIPI DSI 桥接芯片
+- [视频显示/HDMI 物理层](../../视频显示/HDMI 物理层.md) — 电气特性、信号摆幅、端接
+- [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md) — 8b/10b、TERC4、控制编码细节
+- [视频显示/HDMI 视频传输](../../视频显示/HDMI 视频传输.md) — 视频时序、InfoFrame、色彩空间
+- [视频显示/HDMI EDID](../../视频显示/HDMI EDID.md) — EDID 数据结构与读取协议
+- [HDMI Type A](../../元件/连接器/HDMI Type A.md) — 标准 19 引脚连接器
+- [HDMI Type D](../../元件/连接器/HDMI Type D.md) — Micro HDMI 连接器
+- [TC358870](../../元件/接口存储/TC358870.md) — HDMI 1.4b → 双 MIPI DSI 桥接芯片

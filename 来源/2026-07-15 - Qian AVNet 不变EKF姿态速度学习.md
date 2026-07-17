@@ -11,7 +11,7 @@ updated: 2026-07-15
 **作者**: Long Qian, Xinchuang Lin, Xiaoguang Niu, Qihai Huang, Leilei Li, Guangyi Guo, Zexin Wang, Ruizhi Chen
 **期刊**: Satellite Navigation, 2025, 6:15. DOI: 10.1186/s43020-025-00168-7. 开放获取 (CC BY 4.0).
 **机构**: 武汉大学 LIESMARS + 重庆大学
-**PDF**: [参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf](参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf.md)
+**PDF**: [参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf](../参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf.md)
 
 ## 核心贡献
 
@@ -44,6 +44,6 @@ updated: 2026-07-15
 
 ## 与本 wiki 的关系
 
-- 知识页：[AVNet 不变扩展卡尔曼姿态](AVNet 不变扩展卡尔曼姿态.md)
-- 关联概念：[迭代不变扩展卡尔曼滤波](迭代不变扩展卡尔曼滤波.md)、[误差状态卡尔曼滤波](误差状态卡尔曼滤波.md)、[DO IONet Transformer直接姿态](DO IONet Transformer直接姿态.md)、[IMU姿态解算算法演进](IMU姿态解算算法演进.md)
+- 知识页：[AVNet 不变扩展卡尔曼姿态](../知识/姿态解算/AVNet 不变扩展卡尔曼姿态.md)
+- 关联概念：[迭代不变扩展卡尔曼滤波](../知识/姿态解算/迭代不变扩展卡尔曼滤波.md)、[误差状态卡尔曼滤波](../知识/姿态解算/误差状态卡尔曼滤波.md)、[DO IONet Transformer直接姿态](../知识/姿态解算/DO IONet Transformer直接姿态.md)、[IMU姿态解算算法演进](../知识/姿态解算/IMU姿态解算算法演进.md)
 - 方法论集合：深度学习 + 不变 Kalman 滤波混合方法

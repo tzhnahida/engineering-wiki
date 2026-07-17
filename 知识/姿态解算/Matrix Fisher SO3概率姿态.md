@@ -4,7 +4,7 @@ tags: [imu, bayesian, lie-group, so3, orientation, probability]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[2026-07-15 - Lee Matrix Fisher SO3 姿态估计](2026-07-15 - Lee Matrix Fisher SO3 姿态估计.md)"
+  - "[2026-07-15 - Lee Matrix Fisher SO3 姿态估计](../../来源/2026-07-15 - Lee Matrix Fisher SO3 姿态估计.md)"
 ---
 
 # Matrix Fisher SO(3) 概率姿态估计

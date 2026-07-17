@@ -4,12 +4,12 @@ tags: [mipi, c-phy, physical-layer, serial-interface, three-phase-encoding]
 created: 2026-06-30
 updated: 2026-07-15
 sources:
-  - "[2026-06-30 - MIPI C-PHY Specification v2.1](2026-06-30 - MIPI C-PHY Specification v2.1.md)"
+  - "[2026-06-30 - MIPI C-PHY Specification v2.1](../../来源/2026-06-30 - MIPI C-PHY Specification v2.1.md)"
 ---
 
 # MIPI C-PHY
 
-> C-PHY 是 MIPI 联盟定义的高速串行物理层规范，基于**三线三电平（3-Phase）符号编码**，每符号传输 ~2.28 bits。相比 [D-PHY](视频显示/MIPI D-PHY.md) 的差分对方案，C-PHY 用三根线实现嵌入式时钟，省去独立时钟通道，引脚效率更高。C-PHY 的 LP 模式和 Escape Mode 几乎完全复用 D-PHY，可与 D-PHY 共用同一 IC 引脚实现双模器件。
+> C-PHY 是 MIPI 联盟定义的高速串行物理层规范，基于**三线三电平（3-Phase）符号编码**，每符号传输 ~2.28 bits。相比 [D-PHY](../../视频显示/MIPI D-PHY.md) 的差分对方案，C-PHY 用三根线实现嵌入式时钟，省去独立时钟通道，引脚效率更高。C-PHY 的 LP 模式和 Escape Mode 几乎完全复用 D-PHY，可与 D-PHY 共用同一 IC 引脚实现双模器件。
 
 ## 1. 核心编码原理
 
@@ -261,8 +261,8 @@ DSI v1.3 和 CSI-2 v2.0+ 均可在 D-PHY 或 C-PHY 上运行。
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](视频显示/MIPI 概述.md) — MIPI 家族全景与 D-PHY/C-PHY 关系
-- [视频显示/MIPI D-PHY](视频显示/MIPI D-PHY.md) — 差分物理层对比
-- [视频显示/MIPI DSI](视频显示/MIPI DSI.md) — 显示串行接口（可使用 C-PHY）
-- [视频显示/HDMI 物理层](视频显示/HDMI 物理层.md) — HDMI TMDS 物理层（同类参照）
-- [2026-06-30 - MIPI C-PHY Specification v2.1](2026-06-30 - MIPI C-PHY Specification v2.1.md) — 来源摘要
+- [视频显示/MIPI 概述](../../视频显示/MIPI 概述.md) — MIPI 家族全景与 D-PHY/C-PHY 关系
+- [视频显示/MIPI D-PHY](../../视频显示/MIPI D-PHY.md) — 差分物理层对比
+- [视频显示/MIPI DSI](../../视频显示/MIPI DSI.md) — 显示串行接口（可使用 C-PHY）
+- [视频显示/HDMI 物理层](../../视频显示/HDMI 物理层.md) — HDMI TMDS 物理层（同类参照）
+- [2026-06-30 - MIPI C-PHY Specification v2.1](../../来源/2026-06-30 - MIPI C-PHY Specification v2.1.md) — 来源摘要

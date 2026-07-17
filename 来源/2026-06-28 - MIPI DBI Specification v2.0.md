@@ -22,9 +22,9 @@ DBI 规范定义了基于微处理器并行总线的显示接口，提供 Type A
 
 ## 产生的知识页
 
-- [视频显示/MIPI DBI](视频显示/MIPI DBI.md) — DBI 知识页
-- [视频显示/MIPI 概述](视频显示/MIPI 概述.md) — MIPI 概述（引用 DBI）
-- [视频显示/MIPI DCS](视频显示/MIPI DCS.md) — DBI 上运行的命令层
+- [视频显示/MIPI DBI](../视频显示/MIPI DBI.md) — DBI 知识页
+- [视频显示/MIPI 概述](../视频显示/MIPI 概述.md) — MIPI 概述（引用 DBI）
+- [视频显示/MIPI DCS](../视频显示/MIPI DCS.md) — DBI 上运行的命令层
 
 ## 相关标准
 

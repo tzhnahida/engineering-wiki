@@ -228,7 +228,7 @@ stateDiagram-v2
 - **DL MU-MIMO / Beamformee / DCM / 空间复用 / BSS Coloring**: 提升密集 AP 环境下的抗干扰与链路稳定性；DCM 双载波调制以速率换稳健。
 - **更长 OFDM 保护间隔**（0.8/1.6/3.2 µs）：多径环境更稳。
 - 向下兼容 802.11b/g/n（HT40 下最高 150 Mbps），WPA2/WPA3 个人及企业模式、GCMP/CCMP。
-- **硬件 TSF**: 自动 Beacon 监测由硬件 TSF 定时器完成，CPU 可睡——同一定时器也是 [通讯网络/TSF WiFi 时间同步](通讯网络/TSF WiFi 时间同步.md) 的 µs 级同步基准。
+- **硬件 TSF**: 自动 Beacon 监测由硬件 TSF 定时器完成，CPU 可睡——同一定时器也是 [通讯网络/TSF WiFi 时间同步](../../通讯网络/TSF WiFi 时间同步.md) 的 µs 级同步基准。
 - 4 个虚拟接口，Station / SoftAP / Station+SoftAP / 混杂模式，802.11mc FTM 测距。
 
 > [!note] Station 扫描会拖动 SoftAP 信道
@@ -310,4 +310,4 @@ stateDiagram-v2
 
 - [ESP32-S3](ESP32-S3.md) — 同厂高性能路线（双核 Xtensa + PSRAM + USB OTG）
 - [ESP8266EX](ESP8266EX.md) — 上一代低成本 WiFi SoC，对照可见十年架构演进
-- [通讯网络/TSF WiFi 时间同步](通讯网络/TSF WiFi 时间同步.md) — 基于 C6/S3 硬件 TSF 定时器的 µs 级多节点同步方案
+- [通讯网络/TSF WiFi 时间同步](../../通讯网络/TSF WiFi 时间同步.md) — 基于 C6/S3 硬件 TSF 定时器的 µs 级多节点同步方案

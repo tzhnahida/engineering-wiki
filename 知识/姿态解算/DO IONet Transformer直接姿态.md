@@ -4,7 +4,7 @@ tags: [imu, deep-learning, inertial-odometry, orientation, neural-network]
 created: 2026-06-26
 updated: 2026-07-15
 sources:
-  - "[2026-07-15 - Seo DO IONet 直接姿态估计](2026-07-15 - Seo DO IONet 直接姿态估计.md)"
+  - "[2026-07-15 - Seo DO IONet 直接姿态估计](../../来源/2026-07-15 - Seo DO IONet 直接姿态估计.md)"
 ---
 
 # DO IONet · CNN-BiLSTM 直接姿态估计
