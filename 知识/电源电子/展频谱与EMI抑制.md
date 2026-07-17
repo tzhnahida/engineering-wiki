@@ -3,7 +3,7 @@ type: concept
 tags: [electronics, emi, power-supply, spread-spectrum]
 created: 2026-06-12
 updated: 2026-07-15
-sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07 - Datasheet Collection.md)"]
+sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Datasheet%20Collection.md)"]
 ---
 
 # 展频谱与 EMI 抑制

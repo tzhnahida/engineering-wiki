@@ -4,14 +4,14 @@ tags: [mipi, dsi, display, serial-protocol, video-mode, command-mode]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28 - MIPI DSI Specification v1.3.md)"
-  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../来源/2026-06-28 - MIPI D-PHY Specification v2.5.md)"
-  - "[2026-06-28 - MIPI DCS Specification v1.02](../../来源/2026-06-28 - MIPI DCS Specification v1.02.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
+  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../来源/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)"
+  - "[2026-06-28 - MIPI DCS Specification v1.02](../../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
 ---
 
 # MIPI DSI
 
-> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](MIPI D-PHY.md)（或 [C-PHY](MIPI C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
+> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](MIPI%20D-PHY.md)（或 [C-PHY](MIPI%20C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
 
 ## 1. 协议分层
 
@@ -334,10 +334,10 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI D-PHY](MIPI D-PHY.md) — 物理层定义
-- [视频显示/MIPI DCS](MIPI DCS.md) — Display Command Set 命令集
-- [视频显示/MIPI DBI](MIPI DBI.md) — 并行总线接口
-- [视频显示/MIPI DPI](MIPI DPI.md) — 并行像素接口
+- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
+- [视频显示/MIPI D-PHY](MIPI%20D-PHY.md) — 物理层定义
+- [视频显示/MIPI DCS](MIPI%20DCS.md) — Display Command Set 命令集
+- [视频显示/MIPI DBI](MIPI%20DBI.md) — 并行总线接口
+- [视频显示/MIPI DPI](MIPI%20DPI.md) — 并行像素接口
 - [NT35597](../../NT35597.md) — Dual-DSI 面板驱动 IC 实例
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI → DSI 桥接芯片

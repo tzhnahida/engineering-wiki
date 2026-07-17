@@ -40,13 +40,13 @@ v1.3 是当前广泛使用的主流版本，新增 Sub-Link（分割链路/Deske
 
 ## 产生的知识页
 
-- [视频显示/MIPI DSI](../知识/视频显示/MIPI DSI.md) — DSI 协议知识页
-- [视频显示/MIPI 概述](../知识/视频显示/MIPI 概述.md) — MIPI 概述（引用 DSI）
-- [视频显示/MIPI DCS](../知识/视频显示/MIPI DCS.md) — DSI 承载 DCS 命令
-- [视频显示/MIPI DBI](../知识/视频显示/MIPI DBI.md) — DSI 的前身（DBI 并行接口）
-- [视频显示/MIPI DPI](../知识/视频显示/MIPI DPI.md) — DSI Video Mode 的原型
+- [视频显示/MIPI DSI](../知识/视频显示/MIPI%20DSI.md) — DSI 协议知识页
+- [视频显示/MIPI 概述](../知识/视频显示/MIPI%20概述.md) — MIPI 概述（引用 DSI）
+- [视频显示/MIPI DCS](../知识/视频显示/MIPI%20DCS.md) — DSI 承载 DCS 命令
+- [视频显示/MIPI DBI](../知识/视频显示/MIPI%20DBI.md) — DSI 的前身（DBI 并行接口）
+- [视频显示/MIPI DPI](../知识/视频显示/MIPI%20DPI.md) — DSI Video Mode 的原型
 
 ## 相关标准
 
-- [2026-06-28 - MIPI D-PHY Specification v2.5](2026-06-28 - MIPI D-PHY Specification v2.5.md) — DSI 的物理层基础
-- [2026-06-28 - MIPI DCS Specification v1.02](2026-06-28 - MIPI DCS Specification v1.02.md) — DSI 承载的命令集
+- [2026-06-28 - MIPI D-PHY Specification v2.5](2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md) — DSI 的物理层基础
+- [2026-06-28 - MIPI DCS Specification v1.02](2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md) — DSI 承载的命令集

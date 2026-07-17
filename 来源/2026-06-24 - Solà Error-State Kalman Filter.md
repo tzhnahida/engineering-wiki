@@ -8,7 +8,7 @@ updated: 2026-06-30
 # 2026-06-24 - Solà Error-State Kalman Filter
 
 > **论文**: Solà (2017) — *Quaternion Kinematics for the Error-State Kalman Filter*, arXiv:1711.02508
-> **存放**: [参考/论文/Solà 2017 - Quaternion Kinematics for the Error-State Kalman Filter.pdf](../参考/论文/Solà 2017 - Quaternion Kinematics for the Error-State Kalman Filter.pdf.md)
+> **存放**: [参考/论文/Solà 2017 - Quaternion Kinematics for the Error-State Kalman Filter.pdf](../参考/论文/Solà%202017%20-%20Quaternion%20Kinematics%20for%20the%20Error-State%20Kalman%20Filter.pdf.md)
 
 ## 概述
 

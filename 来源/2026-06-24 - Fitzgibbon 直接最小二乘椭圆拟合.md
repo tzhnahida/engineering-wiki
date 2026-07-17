@@ -8,7 +8,7 @@ updated: 2026-06-30
 # 2026-06-24 - Fitzgibbon 直接最小二乘椭圆拟合
 
 > **论文**: Fitzgibbon, Pilu & Fisher (1999) — *Direct Least Square Fitting of Ellipses*, IEEE TPAMI
-> **存放**: [参考/论文/Fitzgibbon 1999 - Direct Least Square Fitting of Ellipses.pdf](../参考/论文/Fitzgibbon 1999 - Direct Least Square Fitting of Ellipses.pdf.md)
+> **存放**: [参考/论文/Fitzgibbon 1999 - Direct Least Square Fitting of Ellipses.pdf](../参考/论文/Fitzgibbon%201999%20-%20Direct%20Least%20Square%20Fitting%20of%20Ellipses.pdf.md)
 
 ## 概述
 

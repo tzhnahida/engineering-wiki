@@ -4,7 +4,7 @@ tags: [imu, ahrs, magnetometer, magnetic-distortion, orientation, sensor-fusion]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[2026-07-15 - Yang MDR 磁畸变抑制](../../来源/2026-07-15 - Yang MDR 磁畸变抑制.md)"
+  - "[2026-07-15 - Yang MDR 磁畸变抑制](../../来源/2026-07-15%20-%20Yang%20MDR%20磁畸变抑制.md)"
 ---
 
 # MDR 磁畸变抑制姿态估计
@@ -261,6 +261,6 @@ MDR 在 iPhone XS Max（MATLAB Mobile App）上实测可实时处理 **3.37 倍*
 
 ## 参见
 
-- [VQF 姿态解算滤波器](VQF 姿态解算滤波器.md) — MDR 可增强 VQF 的航向对齐模块，用局部磁锚替换全局磁北
+- [VQF 姿态解算滤波器](VQF%20姿态解算滤波器.md) — MDR 可增强 VQF 的航向对齐模块，用局部磁锚替换全局磁北
 - [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 互补滤波与卡尔曼滤波在姿态解算中的对比
 - [QMC5883P](../../元件/传感器/QMC5883P.md) — 低成本磁力计的实际磁畸变敏感性

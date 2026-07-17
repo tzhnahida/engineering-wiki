@@ -8,7 +8,7 @@ updated: 2026-06-30
 # 2026-06-24 - Kartynnik MediaPipe Face Mesh
 
 > **论文**: Kartynnik et al. (2019) — *Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs*, CVPR Workshop
-> **存放**: [参考/论文/Kartynnik 2019 - Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs.pdf](../参考/论文/Kartynnik 2019 - Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs.pdf.md)
+> **存放**: [参考/论文/Kartynnik 2019 - Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs.pdf](../参考/论文/Kartynnik%202019%20-%20Real-time%20Facial%20Surface%20Geometry%20from%20Monocular%20Video%20on%20Mobile%20GPUs.pdf.md)
 
 ## 概述
 

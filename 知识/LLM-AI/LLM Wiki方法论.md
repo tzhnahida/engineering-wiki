@@ -3,7 +3,7 @@ type: concept
 tags: [methodology, knowledge-base, llm]
 created: 2026-06-07
 updated: 2026-06-12
-sources: [LLM Wiki](../../LLM Wiki.md)
+sources: [LLM Wiki](../../LLM%20Wiki.md)
 ---
 
 # LLM Wiki 方法论
@@ -39,7 +39,7 @@ sources: [LLM Wiki](../../LLM Wiki.md)
 
 ## 推荐工具
 
-- [Obsidian Web Clipper](../../元件/其他/Obsidian Web Clipper.md) —— 一键剪藏网页到剪藏/ 的浏览器扩展，支持按网站类型定制模板
+- [Obsidian Web Clipper](../../元件/其他/Obsidian%20Web%20Clipper.md) —— 一键剪藏网页到剪藏/ 的浏览器扩展，支持按网站类型定制模板
 
 ## 参见
 

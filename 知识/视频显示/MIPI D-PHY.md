@@ -4,13 +4,13 @@ tags: [mipi, d-phy, physical-layer, serial-interface, differential-signaling]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../来源/2026-06-28 - MIPI D-PHY Specification v2.5.md)"
-  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28 - MIPI DSI Specification v1.3.md)"
+  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../来源/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
 ---
 
 # MIPI D-PHY
 
-> D-PHY 是 MIPI 联盟定义的高速源同步物理层规范，专为移动设备内部短距离芯片互连设计。它被 [DSI](MIPI DSI.md) 和 [CSI-2](../../CSI-2.md) 等上层协议采用，提供每通道 80 Mbps ~ 4.5 Gbps 的数据传输能力。
+> D-PHY 是 MIPI 联盟定义的高速源同步物理层规范，专为移动设备内部短距离芯片互连设计。它被 [DSI](MIPI%20DSI.md) 和 [CSI-2](../../CSI-2.md) 等上层协议采用，提供每通道 80 Mbps ~ 4.5 Gbps 的数据传输能力。
 
 ## 1. 双模信号机制
 
@@ -259,8 +259,8 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](MIPI DSI.md) — DSI 协议层（基于 D-PHY）
-- [视频显示/HDMI 物理层](HDMI 物理层.md) — HDMI TMDS 物理层（同类对比参照）
-- [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md) — HDMI 编码层
+- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](MIPI%20DSI.md) — DSI 协议层（基于 D-PHY）
+- [视频显示/HDMI 物理层](HDMI%20物理层.md) — HDMI TMDS 物理层（同类对比参照）
+- [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md) — HDMI 编码层
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接芯片（内部含 D-PHY TX）

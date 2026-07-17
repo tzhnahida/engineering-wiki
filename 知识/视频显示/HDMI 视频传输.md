@@ -3,7 +3,7 @@ type: concept
 tags: [hdmi, video, deep-color, 4k, 3d, pixel-encoding]
 created: 2026-06-26
 updated: 2026-07-15
-sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26 - HDMI 1.4 Specification.md)"]
+sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
 ---
 
 # HDMI 视频传输
@@ -16,7 +16,7 @@ HDMI 可传输任意视频格式的时序——这一设计原则使 HDMI 能够
 
 - **源视频特性**：原始内容的分辨率、帧率、色彩格式
 - **Source 转换能力**：Source 是否具备格式转换（如 RGB ↔ YCbCr、4:4:4 ↔ 4:2:2）能力
-- **Sink 的 EDID 能力**：Sink 通过 [视频显示/HDMI EDID](HDMI EDID.md) 声明其支持的格式列表
+- **Sink 的 EDID 能力**：Sink 通过 [视频显示/HDMI EDID](HDMI%20EDID.md) 声明其支持的格式列表
 
 HDMI 定义了三种像素编码格式可供选择：
 
@@ -411,8 +411,8 @@ Sink 可以根据内容类型自动切换画面处理模式——例如游戏模
 
 ## See Also
 
-- [视频显示/HDMI 协议概述](HDMI 协议概述.md) — HDMI 协议栈（数据岛、视频周期、控制周期）
-- [视频显示/HDMI 物理层](HDMI 物理层.md) — 连接器、TMDS 电气特性、PCB 设计要点
-- [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md) — TMDS 8b10b 编码算法与 DC 平衡
-- [视频显示/HDMI EDID](HDMI EDID.md) — 扩展显示识别数据（EDID 结构与解析）
+- [视频显示/HDMI 协议概述](HDMI%20协议概述.md) — HDMI 协议栈（数据岛、视频周期、控制周期）
+- [视频显示/HDMI 物理层](HDMI%20物理层.md) — 连接器、TMDS 电气特性、PCB 设计要点
+- [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md) — TMDS 8b10b 编码算法与 DC 平衡
+- [视频显示/HDMI EDID](HDMI%20EDID.md) — 扩展显示识别数据（EDID 结构与解析）
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI 1.4 到 MIPI DSI 桥接芯片（头显项目核心器件）
