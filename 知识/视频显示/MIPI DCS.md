@@ -4,13 +4,13 @@ tags: [mipi, dcs, display, command-set, power-management]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI DCS Specification v1.02](2026-06-28 - MIPI DCS Specification v1.02.md)"
-  - "[2026-06-28 - MIPI DSI Specification v1.3](2026-06-28 - MIPI DSI Specification v1.3.md)"
+  - "[2026-06-28 - MIPI DCS Specification v1.02](../../来源/2026-06-28 - MIPI DCS Specification v1.02.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28 - MIPI DSI Specification v1.3.md)"
 ---
 
 # MIPI DCS
 
-> **DCS (Display Command Set)** 是 MIPI 联盟定义的标准化显示命令集，为显示模组提供统一的控制接口。DCS 独立于物理传输层，可运行在 [DSI](视频显示/MIPI DSI.md)（通过 DCS 短包/长包）或 [DBI](视频显示/MIPI DBI.md)（通过并行总线）之上。
+> **DCS (Display Command Set)** 是 MIPI 联盟定义的标准化显示命令集，为显示模组提供统一的控制接口。DCS 独立于物理传输层，可运行在 [DSI](../../视频显示/MIPI DSI.md)（通过 DCS 短包/长包）或 [DBI](../../视频显示/MIPI DBI.md)（通过并行总线）之上。
 
 ## 1. 设计目标
 
@@ -199,12 +199,12 @@ mipi_dsi_dcs_write(dsi, MIPI_DCS_SET_DISPLAY_ON, NULL, 0);
 msleep(120);
 ```
 
-> 参见 [NT35597](NT35597.md) 的 `panel-truly-nt35597.c` 驱动，完整展示了 Dual-DSI + DCS 的初始化序列：100+ 条厂商特定命令（通过 `MIPI_DCS_SET_DISPLAY_ON` 等标准 DCS 命令配合 `DCS Long Write` 传输）。
+> 参见 [NT35597](../../NT35597.md) 的 `panel-truly-nt35597.c` 驱动，完整展示了 Dual-DSI + DCS 的初始化序列：100+ 条厂商特定命令（通过 `MIPI_DCS_SET_DISPLAY_ON` 等标准 DCS 命令配合 `DCS Long Write` 传输）。
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](视频显示/MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](视频显示/MIPI DSI.md) — DSI 协议（DCS 命令的传输层）
-- [视频显示/MIPI DBI](视频显示/MIPI DBI.md) — DCS 在并行总线上的传输
-- [NT35597](NT35597.md) — 面板驱动 IC（DCS 命令集实战）
-- [TC358870](TC358870.md) — HDMI→DSI 桥接（内部 DCS 转发）
+- [视频显示/MIPI 概述](../../视频显示/MIPI 概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](../../视频显示/MIPI DSI.md) — DSI 协议（DCS 命令的传输层）
+- [视频显示/MIPI DBI](../../视频显示/MIPI DBI.md) — DCS 在并行总线上的传输
+- [NT35597](../../NT35597.md) — 面板驱动 IC（DCS 命令集实战）
+- [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接（内部 DCS 转发）

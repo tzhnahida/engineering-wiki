@@ -4,9 +4,9 @@ tags: [zupt, imu, navigation, zero-velocity, likelihood-ratio, foot-mounted, glr
 created: 2026-06-24
 updated: 2026-07-15
 sources:
-  - "[2026-06-24 - Skog 零速检测算法评估](2026-06-24 - Skog 零速检测算法评估.md)"
-  - "[2026-06-24 - IPIN 2017 实时步态分类 ZUPT](2026-06-24 - IPIN 2017 实时步态分类 ZUPT.md)"
-  - "[2026-06-24 - Sun 行星表面 ZUPT 多步态评估](2026-06-24 - Sun 行星表面 ZUPT 多步态评估.md)"
+  - "[2026-06-24 - Skog 零速检测算法评估](../../来源/2026-06-24 - Skog 零速检测算法评估.md)"
+  - "[2026-06-24 - IPIN 2017 实时步态分类 ZUPT](../../来源/2026-06-24 - IPIN 2017 实时步态分类 ZUPT.md)"
+  - "[2026-06-24 - Sun 行星表面 ZUPT 多步态评估](../../来源/2026-06-24 - Sun 行星表面 ZUPT 多步态评估.md)"
 ---
 
 # 零速检测 ZUPT
@@ -34,7 +34,7 @@ $$
 [📷 _llm/raw/assets/papers/skog2010/skog_p7_fig1.jpg|460]
 *Fig. 4 — 支撑相（stance phase）与加计/陀螺原始输出的时间对应关系：脚触地期间信号明显"安静"，这就是零速检测的物理依据*
 
-> [Foxlin (2005)](导航定位/脚装惯性导航奠基.md) 第一个提出鞋装 IMU + ZUPT 的完整方案，用"软"ZUPT（Kalman 测量更新）替代"硬"归零。Skog (2010) 把零速检测问题形式化为 GLRT。
+> [Foxlin (2005)](../../导航定位/脚装惯性导航奠基.md) 第一个提出鞋装 IMU + ZUPT 的完整方案，用"软"ZUPT（Kalman 测量更新）替代"硬"归零。Skog (2010) 把零速检测问题形式化为 GLRT。
 
 ---
 

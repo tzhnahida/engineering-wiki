@@ -167,7 +167,7 @@ Periodically (or on request), health-check the wiki:
 |---|---|---|
 | 🗂️ **项目** | [项目总览](项目总览.md) | Project index |
 | 🔩 **元件** | [元件总表](元件总表.md) | Component datasheet index |
-| 📖 **知识** | [知识总览](知识总览.md) | Knowledge index by discipline |
+| 📖 **知识** | [知识总览](知识/知识总览.md) | Knowledge index by discipline |
 
 ## 知识分类
 | 领域 | 入口 | 涵盖 |

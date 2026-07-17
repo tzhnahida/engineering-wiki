@@ -4,12 +4,12 @@ tags: [imu, ahrs, sensor-fusion, madgwick, vqf, kalman-filter, deep-learning, tr
 created: 2026-06-26
 updated: 2026-06-26
 sources:
-  - "[2026-06-24 - Madgwick AHRS 姿态解算滤波器](2026-06-24 - Madgwick AHRS 姿态解算滤波器.md)"
+  - "[2026-06-24 - Madgwick AHRS 姿态解算滤波器](../../来源/2026-06-24 - Madgwick AHRS 姿态解算滤波器.md)"
 ---
 
 # IMU 姿态解算算法演进
 
-> 从 Madgwick 到深度学习：九轴 IMU 姿态估计算法的现状与选择。服务于[全身动捕与头显系统](全身动捕与头显系统.md)的算法选型。
+> 从 Madgwick 到深度学习：九轴 IMU 姿态估计算法的现状与选择。服务于[全身动捕与头显系统](../../全身动捕与头显系统.md)的算法选型。
 
 ---
 
@@ -50,7 +50,7 @@ graph LR
 
 ### Madgwick (2009)
 
-梯度下降替代 Kalman 滤波，一步迭代，计算量极小。[详见 Madgwick 专题页](2026-06-24 - Madgwick AHRS 姿态解算滤波器.md)。
+梯度下降替代 Kalman 滤波，一步迭代，计算量极小。[详见 Madgwick 专题页](../../来源/2026-06-24 - Madgwick AHRS 姿态解算滤波器.md)。
 
 | 优点 | 缺点 |
 |------|------|
@@ -175,7 +175,7 @@ graph LR
 
 | 创新方向 | 核心论文 | 可行性 |
 |---------|---------|:---:|
-| VQF + 15 节点运动链 EKF 混合融合 | VQF + [Solà ESKF](2026-06-24 - Solà Error-State Kalman Filter\.md) | ✅ |
+| VQF + 15 节点运动链 EKF 混合融合 | VQF + [Solà ESKF](../../2026-06-24 - Solà Error-State Kalman Filter/.md) | ✅ |
 | Transformer 替代经典滤波器做动捕姿态 | DO IONet 2024 | ✅ |
 | CNN+InEKF + 光学参考外部修正 | AVNet 2025 | ✅ |
 | MDR 多节点磁干扰建模 + 运动链 | MDR 2024 | 🔬 |
@@ -195,9 +195,9 @@ graph LR
 
 ## 参见
 
-- [2026-06-24 - Madgwick AHRS 姿态解算滤波器](2026-06-24 - Madgwick AHRS 姿态解算滤波器.md) — Madgwick 算法详解
+- [2026-06-24 - Madgwick AHRS 姿态解算滤波器](../../来源/2026-06-24 - Madgwick AHRS 姿态解算滤波器.md) — Madgwick 算法详解
 - [梯度下降姿态解算](梯度下降姿态解算.md) — 梯度下降法理论推导
-- [2026-06-24 - Solà Error-State Kalman Filter](2026-06-24 - Solà Error-State Kalman Filter.md) — EKF 全局融合基础
-- [ICM-42688-P](ICM-42688-P.md) — 本项目 IMU
-- [QMC5883P](QMC5883P.md) — 本项目磁力计
-- [全身动捕与头显系统](全身动捕与头显系统.md) — 应用项目
+- [2026-06-24 - Solà Error-State Kalman Filter](../../来源/2026-06-24 - Solà Error-State Kalman Filter.md) — EKF 全局融合基础
+- [ICM-42688-P](../../元件/传感器/ICM-42688-P.md) — 本项目 IMU
+- [QMC5883P](../../元件/传感器/QMC5883P.md) — 本项目磁力计
+- [全身动捕与头显系统](../../全身动捕与头显系统.md) — 应用项目
