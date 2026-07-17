@@ -3,7 +3,7 @@ type: concept
 tags: [methodology, knowledge-base, llm]
 created: 2026-06-07
 updated: 2026-06-12
-sources: [[LLM Wiki]]
+sources: [LLM Wiki](LLM Wiki.md)
 ---
 
 # LLM Wiki 方法论
@@ -35,12 +35,12 @@ sources: [[LLM Wiki]]
 
 ## 灵感来源
 
-与 Vannevar Bush 的 [[Memex]] (1945) 精神相通——个人策划的知识存储，文件之间的关联路径与文件本身同样珍贵。Bush 没解决的维护问题，LLM 解决了。
+与 Vannevar Bush 的 [Memex](Memex.md) (1945) 精神相通——个人策划的知识存储，文件之间的关联路径与文件本身同样珍贵。Bush 没解决的维护问题，LLM 解决了。
 
 ## 推荐工具
 
-- [[Obsidian Web Clipper]] —— 一键剪藏网页到剪藏/ 的浏览器扩展，支持按网站类型定制模板
+- [Obsidian Web Clipper](Obsidian Web Clipper.md) —— 一键剪藏网页到剪藏/ 的浏览器扩展，支持按网站类型定制模板
 
 ## 参见
 
-- [[CLAUDE.md]] —— 实现这套方法论的 LLM 规则文档
+- [CLAUDE.md](CLAUDE.md.md) —— 实现这套方法论的 LLM 规则文档

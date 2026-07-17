@@ -19,11 +19,11 @@ Infineon OptiMOS N 沟道功率 MOSFET，PG-TDSON-8（SuperSO8）封装，丝印
 
 **典型应用定位**：
 - **同步整流**（次级侧 SR）——低 Qg(sync)、低 Qrr、低 RDS(on) 三者兼备，正是手册的首要目标场景
-- **理想二极管 / ORing** —— 作 [[LM5050]] 等理想二极管控制器的外置 NMOS，0.9V 体二极管压降被 2.8mΩ 沟道取代（50A 时压降从 0.9V 降至约 0.14V）
+- **理想二极管 / ORing** —— 作 [LM5050](LM5050.md) 等理想二极管控制器的外置 NMOS，0.9V 体二极管压降被 2.8mΩ 沟道取代（50A 时压降从 0.9V 降至约 0.14V）
 - **半桥 / 电机驱动 / 电池保护** —— 400A 脉冲能力与低 Qrr 体二极管适合硬开关半桥
 - **热插拔** —— 可用，但线性区（预充电阶段）须严格核 SOA，见 §6
 
-> [!note] 与 [[AO3401A]] 的量级对比
+> [!note] 与 [AO3401A](AO3401A.md) 的量级对比
 > AO3401A 是 -30V/-4A/50mΩ 的 SOT-23 小功率 PMOS，靠栅极简单的高侧直驱取胜；本器件是 60V/100A/2.8mΩ 的功率级 NMOS，导通电阻低约 20 倍，但必须配专用栅驱动（高侧需自举/电荷泵）。两者是"信号级开关 vs 功率级开关"的两端。
 
 ## 2. 极限工况
@@ -44,7 +44,7 @@ Infineon OptiMOS N 沟道功率 MOSFET，PG-TDSON-8（SuperSO8）封装，丝印
 | 结温/存储温度 | Tj, Tstg | — | -55 ~ +150 | °C |
 | IEC 气候等级 | — | DIN IEC 68-1 | 55/150/56 | — |
 
-![[_llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig2.jpg|380]]
+[📷 _llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig2.jpg|380]
 *Fig.2 电流降额曲线 ID=f(TC)，VGS≥10V*
 
 > [!warning] 100A 与 23A 的差距怎么读
@@ -74,10 +74,10 @@ Infineon OptiMOS N 沟道功率 MOSFET，PG-TDSON-8（SuperSO8）封装，丝印
 
 **TDSON-8 的散热路径**：热量主要从底部漏极大焊盘流出（1.5 K/W），顶面塑封路径差 13 倍（20 K/W）——顶部贴散热片收益有限，**散热设计的全部重点在 PCB**：漏极焊盘下打过孔阵列引到背面/内层大铜箔，铜箔面积直接决定 RthJA。
 
-![[_llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig1.jpg|380]]
+[📷 _llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig1.jpg|380]
 *Fig.1 功耗降额曲线 Ptot=f(TC)：83W@25°C 线性降额至 150°C 归零*
 
-![[_llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig5.jpg|380]]
+[📷 _llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig5.jpg|380]
 *Fig.4 最大瞬态热阻抗 ZthJC=f(tp)，参数为占空比 D=tp/T*
 
 **瞬态热阻抗曲线怎么用**：脉冲功率下结温升 ΔTj = P × ZthJC(tp, D)。
@@ -166,7 +166,7 @@ Tj=25°C（另注除外），min/typ/max：
 
 ### 安全工作区（SOA）怎么用
 
-![[_llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig4.jpg|420]]
+[📷 _llm/raw/assets/datasheets/bsc028n06ns/bsc028n06ns_p4_fig4.jpg|420]
 *Fig.3 安全工作区 ID=f(VDS)，TC=25°C，单脉冲（D=0），参数为脉宽 tp*
 
 双对数坐标下每条脉宽线由三段边界围成：

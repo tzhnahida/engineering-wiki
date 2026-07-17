@@ -3,7 +3,7 @@ type: concept
 tags: [electronics, power-supply, dc-dc, switching-regulator]
 created: 2026-06-07
 updated: 2026-07-15
-sources: ["[[2026-06-07 - Datasheet Collection]]"]
+sources: ["[2026-06-07 - Datasheet Collection](2026-06-07 - Datasheet Collection.md)"]
   - SiC46x 数据手册
 ---
 
@@ -13,7 +13,7 @@ sources: ["[[2026-06-07 - Datasheet Collection]]"]
 
 ## 基本原理
 
-![[_llm/raw/assets/datasheets/tps54302/tps54302_p1_fig1.jpg|480]]
+[📷 _llm/raw/assets/datasheets/tps54302/tps54302_p1_fig1.jpg|480]
 *同步降压最小系统（TPS54302 首页简化原理图）：上/下管 + 电感 + 输入/输出电容 + 反馈分压*
 
 
@@ -23,12 +23,12 @@ $$D = \frac{V_{OUT}}{V_{IN}}$$
 
 ## 关键拓扑类型
 
-- **同步整流** — 低边用 MOSFET 替代二极管，效率更高（如 [[SiC46x]]）
+- **同步整流** — 低边用 MOSFET 替代二极管，效率更高（如 [SiC46x](SiC46x.md)）
 - **非同步** — 低边用肖特基二极管，成本更低
 
 ## 控制方案
 
-![[_llm/raw/assets/datasheets/tps54302/tps54302_p9_fig1.jpg|560]]
+[📷 _llm/raw/assets/datasheets/tps54302/tps54302_p9_fig1.jpg|560]
 *峰值电流模式控制实例（TPS54302 功能模块图）：电流采样 + 斜率补偿 + 误差放大器构成双环*
 
 
@@ -36,7 +36,7 @@ $$D = \frac{V_{OUT}}{V_{IN}}$$
 |------|------|---------|
 | 电压模式 PWM | 成熟稳定，需补偿 | — |
 | 电流模式 PWM | 逐周期限流，响应快 | — |
-| **Constant On-Time (COT)** | 超快瞬态响应，无需复杂补偿 | [[SiC46x]] |
+| **Constant On-Time (COT)** | 超快瞬态响应，无需复杂补偿 | [SiC46x](SiC46x.md) |
 | 滞回控制 | 简单，纹波大 | — |
 
 ## 关键设计参数
@@ -48,5 +48,5 @@ $$D = \frac{V_{OUT}}{V_{IN}}$$
 
 ## See Also
 
-- [[SiC46x]] — 实体页（Vishay microBUCK 系列）
-- [[电源电子/恒定导通时间控制]] — COT 控制方案详解
+- [SiC46x](SiC46x.md) — 实体页（Vishay microBUCK 系列）
+- [电源电子/恒定导通时间控制](电源电子/恒定导通时间控制.md) — COT 控制方案详解

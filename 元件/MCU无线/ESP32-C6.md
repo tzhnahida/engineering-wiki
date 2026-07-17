@@ -30,7 +30,7 @@ updated: 2026-07-15
 
 ### 同厂横向对比
 
-| | ESP32-C6 | [[ESP32-S3]] | [[ESP8266EX]] |
+| | ESP32-C6 | [ESP32-S3](ESP32-S3.md) | [ESP8266EX](ESP8266EX.md) |
 |---|---|---|---|
 | CPU | RISC-V 单核 160 MHz + LP 核 20 MHz | Xtensa LX7 双核 240 MHz | Xtensa L106 80/160 MHz |
 | WiFi | **WiFi 6** (802.11ax, 20 MHz) | WiFi 4 (802.11n) | WiFi 4 (802.11n) |
@@ -43,7 +43,7 @@ updated: 2026-07-15
 | Deep-sleep | 7 µA（LP 存储保持） | ~7 µA | ~20 µA |
 | 定位 | 低功耗三模 IoT 端节点 | 多媒体/AI 网关 | 上一代低成本 WiFi |
 
-选型逻辑：需要 **Thread/Zigbee/Matter 边界路由**、**WiFi 6 TWT 电池设备**、或 **deep-sleep 下仍要跑逻辑（LP 核）**时选 C6；需要大 RAM（PSRAM）、摄像头 DVP、双核算力时选 [[ESP32-S3]]。
+选型逻辑：需要 **Thread/Zigbee/Matter 边界路由**、**WiFi 6 TWT 电池设备**、或 **deep-sleep 下仍要跑逻辑（LP 核）**时选 C6；需要大 RAM（PSRAM）、摄像头 DVP、双核算力时选 [ESP32-S3](ESP32-S3.md)。
 
 ## 2. 极限工况
 
@@ -186,7 +186,7 @@ stateDiagram-v2
 
 ## 6. 核心功能
 
-![[_llm/raw/assets/datasheets/esp32c6/esp32c6_p15_full.jpg|640]]
+[📷 _llm/raw/assets/datasheets/esp32c6/esp32c6_p15_full.jpg|640]
 *功能框图（数据手册 p15）：RISC-V 160MHz 主核 + LP 核 + WiFi 6 / BLE 5 / 802.15.4 三模射频*
 
 ### 6.1 双核体系：HP + LP 的分工
@@ -208,7 +208,7 @@ stateDiagram-v2
 | 封装外 flash | 最大 16 MB | SPI/Dual/Quad/QPI，XTS-AES 硬件加解密，指令/数据各 16 MB 按 64 KB 块映射 |
 
 > [!warning] 没有 PSRAM 接口
-> ESP32-C6 外部存储只支持 flash，**不支持 PSRAM 扩展**——大缓冲（音频/图像/大型 TLS 会话池）应用要么精打细算 512 KB SRAM，要么换 [[ESP32-S3]]。
+> ESP32-C6 外部存储只支持 flash，**不支持 PSRAM 扩展**——大缓冲（音频/图像/大型 TLS 会话池）应用要么精打细算 512 KB SRAM，要么换 [ESP32-S3](ESP32-S3.md)。
 
 ### 6.3 三模射频与共存
 
@@ -228,7 +228,7 @@ stateDiagram-v2
 - **DL MU-MIMO / Beamformee / DCM / 空间复用 / BSS Coloring**: 提升密集 AP 环境下的抗干扰与链路稳定性；DCM 双载波调制以速率换稳健。
 - **更长 OFDM 保护间隔**（0.8/1.6/3.2 µs）：多径环境更稳。
 - 向下兼容 802.11b/g/n（HT40 下最高 150 Mbps），WPA2/WPA3 个人及企业模式、GCMP/CCMP。
-- **硬件 TSF**: 自动 Beacon 监测由硬件 TSF 定时器完成，CPU 可睡——同一定时器也是 [[通讯网络/TSF WiFi 时间同步]] 的 µs 级同步基准。
+- **硬件 TSF**: 自动 Beacon 监测由硬件 TSF 定时器完成，CPU 可睡——同一定时器也是 [通讯网络/TSF WiFi 时间同步](通讯网络/TSF WiFi 时间同步.md) 的 µs 级同步基准。
 - 4 个虚拟接口，Station / SoftAP / Station+SoftAP / 混杂模式，802.11mc FTM 测距。
 
 > [!note] Station 扫描会拖动 SoftAP 信道
@@ -308,6 +308,6 @@ stateDiagram-v2
 
 ## 参见
 
-- [[ESP32-S3]] — 同厂高性能路线（双核 Xtensa + PSRAM + USB OTG）
-- [[ESP8266EX]] — 上一代低成本 WiFi SoC，对照可见十年架构演进
-- [[通讯网络/TSF WiFi 时间同步]] — 基于 C6/S3 硬件 TSF 定时器的 µs 级多节点同步方案
+- [ESP32-S3](ESP32-S3.md) — 同厂高性能路线（双核 Xtensa + PSRAM + USB OTG）
+- [ESP8266EX](ESP8266EX.md) — 上一代低成本 WiFi SoC，对照可见十年架构演进
+- [通讯网络/TSF WiFi 时间同步](通讯网络/TSF WiFi 时间同步.md) — 基于 C6/S3 硬件 TSF 定时器的 µs 级多节点同步方案

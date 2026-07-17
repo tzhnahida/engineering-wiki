@@ -4,13 +4,13 @@ tags: [mipi, dpi, display, parallel-interface, pixel-stream, rgb]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[[2026-06-28 - MIPI DPI Specification v2.0]]"
-  - "[[2026-06-28 - MIPI DSI Specification v1.3]]"
+  - "[2026-06-28 - MIPI DPI Specification v2.0](2026-06-28 - MIPI DPI Specification v2.0.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](2026-06-28 - MIPI DSI Specification v1.3.md)"
 ---
 
 # MIPI DPI
 
-> **DPI (Display Pixel Interface)** 是 MIPI 联盟定义的并行像素级显示接口，通过 HSYNC/VSYNC/DE/DOTCLK 时序信号直接传输实时像素流。DPI 是传统 RGB 并行接口的标准化版本，也是 [[视频显示/MIPI DSI|DSI]] 的 Video Mode 传输模式的原型。
+> **DPI (Display Pixel Interface)** 是 MIPI 联盟定义的并行像素级显示接口，通过 HSYNC/VSYNC/DE/DOTCLK 时序信号直接传输实时像素流。DPI 是传统 RGB 并行接口的标准化版本，也是 [DSI](视频显示/MIPI DSI.md) 的 Video Mode 传输模式的原型。
 
 ## 1. 定位与用途
 
@@ -38,7 +38,7 @@ flowchart LR
 
 ## 2. 信号定义
 
-![[_llm/raw/assets/standards/dpi20/dpi20_p13_fig1.jpg|480]]
+[📷 _llm/raw/assets/standards/dpi20/dpi20_p13_fig1.jpg|480]
 *Figure 5 — DPI 接口信号与电源连接：像素总线 + HSYNC/VSYNC/DE/PCLK + SD/CM 控制*
 
 
@@ -62,7 +62,7 @@ DPI 使用以下核心信号：
 
 ## 3. 时序关系
 
-![[_llm/raw/assets/standards/dpi20/dpi20_p16_fig1.jpg|560]]
+[📷 _llm/raw/assets/standards/dpi20/dpi20_p16_fig1.jpg|560]
 *Figure 6 — DPI 时序参数定义：HSA/HBP/HACT/HFP 与垂直方向对应参数*
 
 
@@ -104,11 +104,11 @@ DPI 标准支持以下并行像素格式：
 | YCbCr 4:2:2 | 8/16-bit | — | 视频场景 |
 
 > [!note] DPI 色彩深度与 HDMI 的关联
-> DPI 24-bit RGB 格式与 HDMI Deep Color 前的基础格式一致。HDMI→DSI 桥接芯片（如 [[TC358870]]）的内部流程是：HDMI TMDS 解码 → 24-bit RGB 像素 → DSI 长包封装，其中间格式即为 DPI。
+> DPI 24-bit RGB 格式与 HDMI Deep Color 前的基础格式一致。HDMI→DSI 桥接芯片（如 [TC358870](TC358870.md)）的内部流程是：HDMI TMDS 解码 → 24-bit RGB 像素 → DSI 长包封装，其中间格式即为 DPI。
 
 ## 5. 三种操作模式
 
-![[_llm/raw/assets/standards/dpi20/dpi20_p31_fig1.jpg|540]]
+[📷 _llm/raw/assets/standards/dpi20/dpi20_p31_fig1.jpg|540]
 *Figure 8 — 上电与关断恢复序列*
 
 
@@ -146,8 +146,8 @@ DPI 的物理信号在 DSI Video Mode 中通过**短包**虚拟化：
 
 ## 相关页面
 
-- [[视频显示/MIPI 概述]] — MIPI 家族全景
-- [[视频显示/MIPI DSI]] — DSI Video Mode（DPI 的串行等价）
-- [[视频显示/MIPI DBI]] — 并行命令接口（不同于 DPI 的像素流模式）
-- [[视频显示/HDMI 视频传输]] — HDMI 视频时序（同类概念对比）
-- [[TC358870]] — HDMI→DSI 桥接（内部 DPI 格式中间层）
+- [视频显示/MIPI 概述](视频显示/MIPI 概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](视频显示/MIPI DSI.md) — DSI Video Mode（DPI 的串行等价）
+- [视频显示/MIPI DBI](视频显示/MIPI DBI.md) — 并行命令接口（不同于 DPI 的像素流模式）
+- [视频显示/HDMI 视频传输](视频显示/HDMI 视频传输.md) — HDMI 视频时序（同类概念对比）
+- [TC358870](TC358870.md) — HDMI→DSI 桥接（内部 DPI 格式中间层）
