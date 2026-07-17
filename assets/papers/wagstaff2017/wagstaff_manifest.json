@@ -1,0 +1,362 @@
+[
+ {
+  "page": 1,
+  "file": "wagstaff_p1_fig1.jpg",
+  "bbox": [
+   632,
+   342,
+   1117,
+   581
+  ],
+  "size": [
+   485,
+   239
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Our proposed system.",
+   "Brandon Wagstaff, Valentin Peretroukhin, and Jonathan Kelly",
+   "Improving Foot-Mounted Inertial Navigation Through Real-Time Motion Classiﬁcation"
+  ]
+ },
+ {
+  "page": 1,
+  "file": "wagstaff_p1_fig3.jpg",
+  "bbox": [
+   625,
+   622,
+   1120,
+   780
+  ],
+  "size": [
+   495,
+   158
+  ],
+  "caption": "Fig. 1: (Top) Our system consists of an SVM that classiﬁes motion based on inertial data. We use the motion class to select optimal paramete",
+  "nearby": [
+   "Localization within indoor environments can often be chal- lenging because building materials can signiﬁcantly atten- uate or reﬂect GNSS-ba",
+   "(a) Our proposed system.",
+   "(b) Six different motion types."
+  ]
+ },
+ {
+  "page": 1,
+  "file": "wagstaff_p1_fig5.jpg",
+  "bbox": [
+   617,
+   823,
+   1124,
+   900
+  ],
+  "size": [
+   507,
+   77
+  ],
+  "caption": null,
+  "nearby": [
+   "(b) Six different motion types.",
+   "Walk Jog Run Sprint Crouch Climb",
+   "detection threshold that balances both the precision and recall of the detector. Second, we describe a motion classiﬁer based on a support v"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "wagstaff_p3_fig1.jpg",
+  "bbox": [
+   622,
+   126,
+   1109,
+   503
+  ],
+  "size": [
+   487,
+   377
+  ],
+  "caption": "Fig. 2: Unﬁltered (top) and ﬁltered (bottom) classiﬁcation results with associated ground truth.",
+  "nearby": [
+   "Fig. 2: Unﬁltered (top) and ﬁltered (bottom) classiﬁcation results with associated ground truth.",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan",
+   "walking from running. We post-process the classiﬁer output using a mean ﬁlter to remove abrupt motion transitions. Given a motion class, our"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "wagstaff_p4_fig1.jpg",
+  "bbox": [
+   100,
+   122,
+   591,
+   320
+  ],
+  "size": [
+   491,
+   198
+  ],
+  "caption": "Fig. 3: Our apparatus: an Inertial Elements MIMU22BTP(X) [17] wireless 4-IMU array mounted to the foot of a test subject. Note that we use b",
+  "nearby": [
+   "Fig. 3: Our apparatus: an Inertial Elements MIMU22BTP(X) [17] wireless 4-IMU array mounted to the foot of a test subject. Note that we use b",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan",
+   "B. Motion Classiﬁcation"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "wagstaff_p4_fig2.jpg",
+  "bbox": [
+   92,
+   333,
+   599,
+   413
+  ],
+  "size": [
+   507,
+   80
+  ],
+  "caption": null,
+  "nearby": [
+   "B. Motion Classiﬁcation",
+   "To select which set of optimal parameters to use for zero- velocity detection, we must have some notion of motion type. In our work, we rely",
+   "Wireless IMU (MIMU22BTP)"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "wagstaff_p5_fig1.jpg",
+  "bbox": [
+   97,
+   147,
+   592,
+   485
+  ],
+  "size": [
+   495,
+   338
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Top-down projection of a walking trajectory within the Vicon motion capture volume. Ground truth estimates are shown along with the outp",
+   "(b) Foot speed computed by numerically differentiating Vicon posi- tion data while a user (subject 5) is walking. We deﬁne midstance when fo",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "wagstaff_p5_fig2.jpg",
+  "bbox": [
+   92,
+   503,
+   600,
+   582
+  ],
+  "size": [
+   508,
+   79
+  ],
+  "caption": null,
+  "nearby": [
+   "Walking Trials",
+   "−3 −2 −1 0 1 2 3 x (m)",
+   "0.0 0.2 0.4 0.6 0.8 1.0"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "wagstaff_p5_fig3.jpg",
+  "bbox": [
+   98,
+   590,
+   592,
+   938
+  ],
+  "size": [
+   494,
+   348
+  ],
+  "caption": "Fig. 4: Optimizing the zero-velocity detector threshold from ground truth position data.",
+  "nearby": [
+   "(a) Top-down projection of a walking trajectory within the Vicon motion capture volume. Ground truth estimates are shown along with the outp",
+   "(b) Foot speed computed by numerically differentiating Vicon posi- tion data while a user (subject 5) is walking. We deﬁne midstance when fo",
+   "(c) Fβ scores for a range of γ, with maximum points for all subjects’ walking and running trajectories."
+  ]
+ },
+ {
+  "page": 5,
+  "file": "wagstaff_p5_fig5.jpg",
+  "bbox": [
+   616,
+   503,
+   1124,
+   581
+  ],
+  "size": [
+   508,
+   78
+  ],
+  "caption": null,
+  "nearby": [
+   "Walking Trials",
+   "4 6 8 10 12 14 16 18 20 Time (s)",
+   "−3 −2 −1 0 1 2 3 x (m)"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "wagstaff_p5_fig6.jpg",
+  "bbox": [
+   625,
+   590,
+   1118,
+   935
+  ],
+  "size": [
+   493,
+   345
+  ],
+  "caption": "Fig. 4: Optimizing the zero-velocity detector threshold from ground truth position data.",
+  "nearby": [
+   "(a) Top-down projection of a walking trajectory within the Vicon motion capture volume. Ground truth estimates are shown along with the outp",
+   "(b) Foot speed computed by numerically differentiating Vicon posi- tion data while a user (subject 5) is walking. We deﬁne midstance when fo",
+   "(c) Fβ scores for a range of γ, with maximum points for all subjects’ walking and running trajectories."
+  ]
+ },
+ {
+  "page": 5,
+  "file": "wagstaff_p5_fig9.jpg",
+  "bbox": [
+   619,
+   128,
+   1117,
+   486
+  ],
+  "size": [
+   498,
+   358
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Top-down projection of a walking trajectory within the Vicon motion capture volume. Ground truth estimates are shown along with the outp",
+   "(b) Foot speed computed by numerically differentiating Vicon posi- tion data while a user (subject 5) is walking. We deﬁne midstance when fo",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "wagstaff_p6_fig1.jpg",
+  "bbox": [
+   102,
+   126,
+   587,
+   516
+  ],
+  "size": [
+   485,
+   390
+  ],
+  "caption": "Fig. 5: Confusion matrix depicting SVM Motion classiﬁcation output.",
+  "nearby": [
+   "Fig. 5: Confusion matrix depicting SVM Motion classiﬁcation output.",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan",
+   "and compounded them to compute the coordinates of each marker in a single navigation frame. To compute each frame-to-frame SE(3) transform, "
+  ]
+ },
+ {
+  "page": 7,
+  "file": "wagstaff_p7_fig1.jpg",
+  "bbox": [
+   107,
+   130,
+   598,
+   478
+  ],
+  "size": [
+   491,
+   348
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) The UTIAS hallway course ﬂoor map with six ground truth markers (surveyed using a Leica Multistation).",
+   "(b) Pure walking motion. Note that the adaptive threshold trajectory is visually equivalent to the walking threshold trajectory.",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "wagstaff_p7_fig3.jpg",
+  "bbox": [
+   613,
+   543,
+   1103,
+   892
+  ],
+  "size": [
+   490,
+   349
+  ],
+  "caption": "Fig. 6: INS position estimates using two different zero-velocity thresholds and our adaptive approach. All trajectories come from subject 4.",
+  "nearby": [
+   "(b) Pure walking motion. Note that the adaptive threshold trajectory is visually equivalent to the walking threshold trajectory.",
+   "(a) The UTIAS hallway course ﬂoor map with six ground truth markers (surveyed using a Leica Multistation).",
+   "(c) Pure running motion. Note that the adaptive threshold trajectory is visually equivalent to the running threshold trajectory."
+  ]
+ },
+ {
+  "page": 7,
+  "file": "wagstaff_p7_fig7.jpg",
+  "bbox": [
+   100,
+   545,
+   589,
+   892
+  ],
+  "size": [
+   489,
+   347
+  ],
+  "caption": "Fig. 6: INS position estimates using two different zero-velocity thresholds and our adaptive approach. All trajectories come from subject 4.",
+  "nearby": [
+   "(b) Pure walking motion. Note that the adaptive threshold trajectory is visually equivalent to the walking threshold trajectory.",
+   "(a) The UTIAS hallway course ﬂoor map with six ground truth markers (surveyed using a Leica Multistation).",
+   "(c) Pure running motion. Note that the adaptive threshold trajectory is visually equivalent to the running threshold trajectory."
+  ]
+ },
+ {
+  "page": 7,
+  "file": "wagstaff_p7_fig9.jpg",
+  "bbox": [
+   620,
+   130,
+   1110,
+   479
+  ],
+  "size": [
+   490,
+   349
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) The UTIAS hallway course ﬂoor map with six ground truth markers (surveyed using a Leica Multistation).",
+   "(b) Pure walking motion. Note that the adaptive threshold trajectory is visually equivalent to the walking threshold trajectory.",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "wagstaff_p8_fig1.jpg",
+  "bbox": [
+   92,
+   115,
+   581,
+   193
+  ],
+  "size": [
+   489,
+   78
+  ],
+  "caption": null,
+  "nearby": [
+   "Trial Subject SVM Accuracy (%) Furthest Point Error (m)",
+   "γwalk γrun γadapt",
+   "2017 International Conference on Indoor Positioning and Indoor Navigation (IPIN), 18–21 September 2017, Sapporo, Japan"
+  ]
+ }
+]

@@ -1,0 +1,61 @@
+[
+ {
+  "page": 3,
+  "file": "fitzgibbon_p3_fig1.jpg",
+  "bbox": [
+   54,
+   122,
+   1047,
+   557
+  ],
+  "size": [
+   993,
+   435
+  ],
+  "caption": "Fig. 1. (a) Fits to hand-input data to illustrate the ellipse specificity of the method. (b) Experiments with noisy parabolic data (after Sa",
+  "nearby": [
+   "Fig. 1. (a) Fits to hand-input data to illustrate the ellipse specificity of the method. (b) Experiments with noisy parabolic data (after Sa",
+   "478 IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 21, NO. 5, MAY 1999"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "fitzgibbon_p3_fig3.jpg",
+  "bbox": [
+   86,
+   643,
+   1042,
+   969
+  ],
+  "size": [
+   956,
+   326
+  ],
+  "caption": "Fig. 2. (a) Variation of center position for increasing noise level when fitting to a whole ellipse. (b) Fits to arc of ellipse with increas",
+  "nearby": [
+   "Fig. 2. (a) Variation of center position for increasing noise level when fitting to a whole ellipse. (b) Fits to arc of ellipse with increas",
+   "Fig. 1. (a) Fits to hand-input data to illustrate the ellipse specificity of the method. (b) Experiments with noisy parabolic data (after Sa",
+   "PROOF. Since the eigenvalues of C are {-2, -1, 2, 0, 0, 0}, from Lemma 1 we have that (7) has exactly one positive eigenvalue li > 0, giving"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "fitzgibbon_p4_fig1.jpg",
+  "bbox": [
+   114,
+   126,
+   1025,
+   400
+  ],
+  "size": [
+   911,
+   274
+  ],
+  "caption": "Fig. 3. Stability experiments for different runs with same noise variance (10% of data spread). The ellipse-specific method shows a remarkab",
+  "nearby": [
+   "Fig. 3. Stability experiments for different runs with same noise variance (10% of data spread). The ellipse-specific method shows a remarkab",
+   "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 21, NO. 5, MAY 1999 479",
+   "scalar multiple of the original one and thus the new mini- mizer is transformed by H, which proved the affine invari- ance of the method."
+  ]
+ }
+]

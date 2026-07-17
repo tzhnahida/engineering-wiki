@@ -72,7 +72,7 @@ updated: 2026-07-15
 
 ## 6. 核心功能
 
-[📷 _llm/raw/assets/datasheets/ina_csa/ina_csa_p1_fig3.jpg|560]
+![ina_csa_p1_fig3.jpg](../../assets/datasheets/ina_csa/ina_csa_p1_fig3.jpg)
 *高侧/低侧电流感测应用示意（数据手册首页）*
 
 
@@ -87,7 +87,7 @@ updated: 2026-07-15
 
 ## 7. 引脚与典型连线
 
-[📷 _llm/raw/assets/datasheets/ina_csa/ina_csa_p28_fig1.jpg|560]
+![ina_csa_p28_fig1.jpg](../../assets/datasheets/ina_csa/ina_csa_p28_fig1.jpg)
 *图 27 — INA226 典型电路配置*
 
 

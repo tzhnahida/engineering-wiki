@@ -1,0 +1,178 @@
+[
+ {
+  "page": 3,
+  "file": "doionet_p3_fig1.jpg",
+  "bbox": [
+   596,
+   129,
+   1070,
+   505
+  ],
+  "size": [
+   474,
+   376
+  ],
+  "caption": "FIGURE 1. Overview of the proposed framework.",
+  "nearby": [
+   "FIGURE 1. Overview of the proposed framework.",
+   "H.-I. Seo et al.: DO IONet: 9-Axis IMU-Based 6-DOF Odometry Framework",
+   "B. 6-DOF INERTIAL ODOMETRY NETWORK 6-DOF IO represents the relative pose change in 3D space using the position (x-axis, y-axis, z-axis) and "
+  ]
+ },
+ {
+  "page": 4,
+  "file": "doionet_p4_fig1.jpg",
+  "bbox": [
+   75,
+   126,
+   545,
+   492
+  ],
+  "size": [
+   470,
+   366
+  ],
+  "caption": "FIGURE 2. Structure of DO IONet.",
+  "nearby": [
+   "FIGURE 2. Structure of DO IONet.",
+   "H.-I. Seo et al.: DO IONet: 9-Axis IMU-Based 6-DOF Odometry Framework",
+   "and enables the model to learn more patterns compared to a conventional recurrent neural network model. Finally, 1p and q are estimated thro"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "doionet_p6_fig1.jpg",
+  "bbox": [
+   223,
+   131,
+   919,
+   1286
+  ],
+  "size": [
+   696,
+   1155
+  ],
+  "caption": "FIGURE 3. Top and side view of ground truth (blue) and predicted (red) trajectories of ‘data1/seq2’ dataset from 0sec to 20sec.",
+  "nearby": [
+   "FIGURE 3. Top and side view of ground truth (blue) and predicted (red) trajectories of ‘data1/seq2’ dataset from 0sec to 20sec.",
+   "H.-I. Seo et al.: DO IONet: 9-Axis IMU-Based 6-DOF Odometry Framework",
+   "Tables 5 and 6 list the RMSE of the 3D translation vec- tor in the reference coordinate system for short- and long- term, respectively. The "
+  ]
+ },
+ {
+  "page": 7,
+  "file": "doionet_p7_fig1.jpg",
+  "bbox": [
+   222,
+   131,
+   919,
+   1289
+  ],
+  "size": [
+   697,
+   1158
+  ],
+  "caption": "FIGURE 4. Top and side view of ground truth (blue) and predicted (red) trajectories of ‘data5/seq1’ dataset from 100sec to 120sec.",
+  "nearby": [
+   "FIGURE 4. Top and side view of ground truth (blue) and predicted (red) trajectories of ‘data5/seq1’ dataset from 100sec to 120sec.",
+   "H.-I. Seo et al.: DO IONet: 9-Axis IMU-Based 6-DOF Odometry Framework",
+   "In Table 5, the 9-axis IONet is superior in nine sequences and mean RMSE among three models. However, DO IONet showed the best performance i"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "doionet_p8_fig1.jpg",
+  "bbox": [
+   76,
+   133,
+   539,
+   469
+  ],
+  "size": [
+   463,
+   336
+  ],
+  "caption": "FIGURE 5. Norm of difference between ground truth and predicted orientation.",
+  "nearby": [
+   "FIGURE 5. Norm of difference between ground truth and predicted orientation.",
+   "VI. CONCLUSION A novel 6-DOF initial odometry framework is proposed to address the need to set the reference orientation values when using I",
+   "H.-I. Seo et al.: DO IONet: 9-Axis IMU-Based 6-DOF Odometry Framework"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "doionet_p9_fig1.jpg",
+  "bbox": [
+   592,
+   547,
+   738,
+   725
+  ],
+  "size": [
+   146,
+   178
+  ],
+  "caption": null,
+  "nearby": [
+   "JU-WON BAE received the B.S. degree in ocean engineering and the M.S. degree in electrical and electronics engineering from Korea Maritime a",
+   "[28] M. Zhang, M. Zhang, Y. Chen, and M. Li, ‘‘IMU data processing for inertial aided navigation: A recurrent neural network based approach,"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "doionet_p9_fig2.jpg",
+  "bbox": [
+   593,
+   782,
+   737,
+   965
+  ],
+  "size": [
+   144,
+   183
+  ],
+  "caption": null,
+  "nearby": [
+   "WON-YEOL KIM received the B.S., M.S., and Ph.D. degrees in electrical and electronics engi- neering from Korea Maritime and Ocean Uni- versi",
+   "HONG-IL SEO received the B.S. and M.S. degrees in electrical and electronics engineer- ing from Korea Maritime and Ocean University, South K"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "doionet_p9_fig3.jpg",
+  "bbox": [
+   593,
+   1020,
+   737,
+   1202
+  ],
+  "size": [
+   144,
+   182
+  ],
+  "caption": null,
+  "nearby": [
+   "DONG-HOAN SEO received the B.S., M.S., and Ph.D. degrees in electronic engineering from Kyungpook National University, South Korea, in 1996,",
+   "JU-WON BAE received the B.S. degree in ocean engineering and the M.S. degree in electrical and electronics engineering from Korea Maritime a"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "doionet_p9_fig4.jpg",
+  "bbox": [
+   593,
+   1276,
+   737,
+   1457
+  ],
+  "size": [
+   144,
+   181
+  ],
+  "caption": null,
+  "nearby": [
+   "55388 VOLUME 11, 2023",
+   "WON-YEOL KIM received the B.S., M.S., and Ph.D. degrees in electrical and electronics engi- neering from Korea Maritime and Ocean Uni- versi"
+  ]
+ }
+]

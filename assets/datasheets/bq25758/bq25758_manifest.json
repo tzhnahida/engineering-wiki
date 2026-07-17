@@ -1,0 +1,62 @@
+[
+ {
+  "page": 1,
+  "file": "bq25758_p1_fig2.jpg",
+  "bbox": [
+   635,
+   913,
+   1102,
+   1222
+  ],
+  "size": [
+   467,
+   309
+  ],
+  "caption": null,
+  "nearby": [
+   "(1) 有关所有可用封装，请参阅节 12。 (2) 封装尺寸（长 × 宽）为标称值，并包括引脚（如适用）。",
+   "简化原理图",
+   "BQ25758 RRV (VQFN 36) 6.0mm × 5.0mm 6.0mm × 5.0mm"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "bq25758_p3_fig1.jpg",
+  "bbox": [
+   293,
+   189,
+   932,
+   868
+  ],
+  "size": [
+   639,
+   679
+  ],
+  "caption": "图 4-1. BQ25758 RRV 封装 36 引脚 VQFN 顶视图",
+  "nearby": [
+   "4 引脚配置和功能",
+   "图 4-1. BQ25758 RRV 封装 36 引脚 VQFN 顶视图",
+   "BQ25758 ZHCSSI5B – DECEMBER 2022 – REVISED MARCH 2024"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "bq25758_p15_fig1.jpg",
+  "bbox": [
+   120,
+   188,
+   1108,
+   1302
+  ],
+  "size": [
+   988,
+   1114
+  ],
+  "caption": null,
+  "nearby": [
+   "6.2 功能方框图",
+   "BQ25758 ZHCSSI5B – DECEMBER 2022 – REVISED MARCH 2024",
+   "www.ti.com.cn"
+  ]
+ }
+]

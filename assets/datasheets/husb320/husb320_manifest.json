@@ -1,0 +1,102 @@
+[
+ {
+  "page": 1,
+  "file": "husb320_p1_fig1.jpg",
+  "bbox": [
+   332,
+   1013,
+   892,
+   1376
+  ],
+  "size": [
+   560,
+   363
+  ],
+  "caption": "Figure 1. Typical Application Circuit",
+  "nearby": [
+   "TYPICAL APPLICATION CIRCUIT",
+   "Figure 1. Typical Application Circuit",
+   "©2022 Hynetek Semiconductor Co., Ltd. All rights reserved."
+  ]
+ },
+ {
+  "page": 4,
+  "file": "husb320_p4_fig1.jpg",
+  "bbox": [
+   421,
+   289,
+   803,
+   751
+  ],
+  "size": [
+   382,
+   462
+  ],
+  "caption": "Figure 2. Pin Assignment",
+  "nearby": [
+   "Figure 2. Pin Assignment",
+   "PIN CONFIGURATION AND FUNCTION DESCRIPTIONS",
+   "Table 1. Pin Function Descriptions"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "husb320_p11_fig1.jpg",
+  "bbox": [
+   202,
+   276,
+   1021,
+   833
+  ],
+  "size": [
+   819,
+   557
+  ],
+  "caption": "Figure 4. HUSB320 Functional Block Diagram",
+  "nearby": [
+   "Figure 4. HUSB320 Functional Block Diagram",
+   "FUNCTIONAL BLOCK DIAGRAM",
+   "Data Sheet HUSB320"
+  ]
+ },
+ {
+  "page": 24,
+  "file": "husb320_p24_fig1.jpg",
+  "bbox": [
+   247,
+   275,
+   971,
+   747
+  ],
+  "size": [
+   724,
+   472
+  ],
+  "caption": "Figure 10. Typical Application",
+  "nearby": [
+   "Figure 10. Typical Application",
+   "TYPICAL APPLICATION CIRCUITS",
+   "Data Sheet HUSB320"
+  ]
+ },
+ {
+  "page": 25,
+  "file": "husb320_p25_fig1.jpg",
+  "bbox": [
+   163,
+   306,
+   1062,
+   614
+  ],
+  "size": [
+   899,
+   308
+  ],
+  "caption": null,
+  "nearby": [
+   "TOP VIEW SIDE VIEW BOTTOM VIEW",
+   "PACKAGE OUTLINE DIMENSIONS",
+   "Data Sheet HUSB320"
+  ]
+ }
+]

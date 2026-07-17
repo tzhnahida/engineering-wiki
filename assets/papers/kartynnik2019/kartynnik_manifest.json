@@ -1,0 +1,101 @@
+[
+ {
+  "page": 1,
+  "file": "kartynnik_p1_fig1.jpg",
+  "bbox": [
+   635,
+   451,
+   1051,
+   668
+  ],
+  "size": [
+   416,
+   217
+  ],
+  "caption": "Figure 1: Face mesh prediction examples",
+  "nearby": [
+   "Figure 1: Face mesh prediction examples",
+   "{kartynnik, artsiom, igrishchenko, grundman}@google.com",
+   "Yury Kartynnik Artsiom Ablavatski Ivan Grishchenko Matthias Grundmann Google Research 1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "kartynnik_p2_fig1.jpg",
+  "bbox": [
+   143,
+   149,
+   309,
+   351
+  ],
+  "size": [
+   166,
+   202
+  ],
+  "caption": "Figure 2: The predicted mesh topology (a) and its 3-level Catmull-Clark subdivision (b)",
+  "nearby": [
+   "(a) (b)",
+   "Figure 2: The predicted mesh topology (a) and its 3-level Catmull-Clark subdivision (b)",
+   "the eye centers with the horizontal axis of the rectangle. 2. A rectangle obtained in the previous step is cropped from the original image a"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "kartynnik_p2_fig4.jpg",
+  "bbox": [
+   355,
+   148,
+   528,
+   354
+  ],
+  "size": [
+   173,
+   206
+  ],
+  "caption": "Figure 2: The predicted mesh topology (a) and its 3-level Catmull-Clark subdivision (b)",
+  "nearby": [
+   "(a) (b)",
+   "Figure 2: The predicted mesh topology (a) and its 3-level Catmull-Clark subdivision (b)",
+   "the eye centers with the horizontal axis of the rectangle. 2. A rectangle obtained in the previous step is cropped from the original image a"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "kartynnik_p2_fig6.jpg",
+  "bbox": [
+   772,
+   141,
+   933,
+   354
+  ],
+  "size": [
+   161,
+   213
+  ],
+  "caption": "Figure 3: The 2D semantic contours used during the initial bootstrap process",
+  "nearby": [
+   "Figure 3: The 2D semantic contours used during the initial bootstrap process",
+   "a wide variety of sensors in changing lighting conditions. During training, we further augment the dataset with stan- dard cropping and imag"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "kartynnik_p3_fig2.jpg",
+  "bbox": [
+   645,
+   1139,
+   1068,
+   1352
+  ],
+  "size": [
+   423,
+   213
+  ],
+  "caption": "Figure 4: Application examples: Facial texture painting and AR object rendering (glasses)",
+  "nearby": [
+   "Figure 4: Application examples: Facial texture painting and AR object rendering (glasses)",
+   "The technology described in this paper is driving major AR self-expression applications and AR developer APIs on mobile phones. Figure 4 pre",
+   "Table 1: Model performance characteristics"
+  ]
+ }
+]

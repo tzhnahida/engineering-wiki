@@ -1,0 +1,178 @@
+[
+ {
+  "page": 18,
+  "file": "sola_p18_fig1.jpg",
+  "bbox": [
+   350,
+   218,
+   849,
+   337
+  ],
+  "size": [
+   499,
+   119
+  ],
+  "caption": "Figure 2: Exponential maps of the rotation matrix.",
+  "nearby": [
+   "Figure 2: Exponential maps of the rotation matrix.",
+   "2.3.2 The capitalized exponential map",
+   "The exponential map above is sometimes expressed with some abuse of notation, i.e., confounding φ ∈R3 with [φ]× ∈so(3). To avoid possible am"
+  ]
+ },
+ {
+  "page": 24,
+  "file": "sola_p24_fig1.jpg",
+  "bbox": [
+   157,
+   1190,
+   1040,
+   1322
+  ],
+  "size": [
+   883,
+   132
+  ],
+  "caption": null,
+  "nearby": [
+   "✓ q1",
+   "φ = 2✓"
+  ]
+ },
+ {
+  "page": 26,
+  "file": "sola_p26_fig1.jpg",
+  "bbox": [
+   157,
+   1198,
+   1040,
+   1302
+  ],
+  "size": [
+   883,
+   104
+  ],
+  "caption": null,
+  "nearby": [
+   "qAC qAB",
+   "qAC = qAB ⌦qBC"
+  ]
+ },
+ {
+  "page": 38,
+  "file": "sola_p38_fig1.jpg",
+  "bbox": [
+   323,
+   223,
+   879,
+   398
+  ],
+  "size": [
+   556,
+   175
+  ],
+  "caption": "Figure 11: The S3 manifold is a unit sphere in R4, here represented by a unit circle (blue), where all unit quaternions live. The tangent sp",
+  "nearby": [
+   "Figure 11: The S3 manifold is a unit sphere in R4, here represented by a unit circle (blue), where all unit quaternions live. The tangent sp",
+   "to/from elements of S3. Right: The ⊕and ⊖operators relate elements of the manifold with elements in the tangent space. (Likewise, these ﬁgur"
+  ]
+ },
+ {
+  "page": 38,
+  "file": "sola_p38_fig2.jpg",
+  "bbox": [
+   157,
+   430,
+   1040,
+   561
+  ],
+  "size": [
+   883,
+   131
+  ],
+  "caption": null,
+  "nearby": [
+   "✓= q p",
+   "Notice that",
+   "✓= Log(q)"
+  ]
+ },
+ {
+  "page": 49,
+  "file": "sola_p49_fig1.jpg",
+  "bbox": [
+   439,
+   217,
+   763,
+   449
+  ],
+  "size": [
+   324,
+   232
+  ],
+  "caption": "Figure 13: Angular velocity approximations for the integral: Red: true velocity. Blue: zero- th order approximations (bottom to top: forward",
+  "nearby": [
+   "Figure 13: Angular velocity approximations for the integral: Red: true velocity. Blue: zero- th order approximations (bottom to top: forward",
+   "!n !n+1 !n−1"
+  ]
+ },
+ {
+  "page": 49,
+  "file": "sola_p49_fig2.jpg",
+  "bbox": [
+   158,
+   470,
+   1040,
+   547
+  ],
+  "size": [
+   882,
+   77
+  ],
+  "caption": null,
+  "nearby": [
+   "!n !n−1",
+   "!n !n+1 !n−1",
+   "!n !n+1"
+  ]
+ },
+ {
+  "page": 49,
+  "file": "sola_p49_fig3.jpg",
+  "bbox": [
+   208,
+   575,
+   991,
+   722
+  ],
+  "size": [
+   783,
+   147
+  ],
+  "caption": "Figure 13: Angular velocity approximations for the integral: Red: true velocity. Blue: zero- th order approximations (bottom to top: forward",
+  "nearby": [
+   "Figure 13: Angular velocity approximations for the integral: Red: true velocity. Blue: zero- th order approximations (bottom to top: forward",
+   "Figure 14: Integration schemes for two consecutive time steps (gray and black arrow sets), where variables sharing the same time stamp have ",
+   "therefore,"
+  ]
+ },
+ {
+  "page": 49,
+  "file": "sola_p49_fig4.jpg",
+  "bbox": [
+   158,
+   748,
+   1041,
+   824
+  ],
+  "size": [
+   883,
+   76
+  ],
+  "caption": "Figure 13: Angular velocity approximations for the integral: Red: true velocity. Blue: zero- th order approximations (bottom to top: forward",
+  "nearby": [
+   "qn−1 qn+1 qn",
+   "qn−1 qn+1 qn",
+   "qn−1 qn+1 qn"
+  ]
+ }
+]

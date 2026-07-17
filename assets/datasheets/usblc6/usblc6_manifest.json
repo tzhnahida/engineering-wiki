@@ -1,0 +1,42 @@
+[
+ {
+  "page": 4,
+  "file": "usblc6_p4_fig1.jpg",
+  "bbox": [
+   339,
+   312,
+   828,
+   659
+  ],
+  "size": [
+   489,
+   347
+  ],
+  "caption": null,
+  "nearby": [
+   "7. Typical Characteristic",
+   "8. Typical Application",
+   "USBLC6-2SC6-ES Rev-1.5 www.elecsuper.com"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "usblc6_p4_fig2.jpg",
+  "bbox": [
+   242,
+   875,
+   943,
+   1260
+  ],
+  "size": [
+   701,
+   385
+  ],
+  "caption": null,
+  "nearby": [
+   "8. Typical Application",
+   "Typical Interface Application",
+   "9. Dimension (SOT-23-6L)"
+  ]
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "page": 1584,
+  "file": "tsf_p1584_fig1.jpg",
+  "bbox": [
+   277,
+   168,
+   940,
+   325
+  ],
+  "size": [
+   663,
+   157
+  ],
+  "caption": "Figure 11-1—Beacon transmission on a busy network",
+  "nearby": [
+   "Figure 11-1—Beacon transmission on a busy network",
+   "IEEE Std 802.11-2016 IEEE Standard for Information Technology—Local and Metropolitan Area Networks—Specific Requirements Part 11: Wireless L",
+   "If a STA that does not support short slot time associates with an AP that supports Clause 18 operation, and the AP is using short slot time,"
+  ]
+ },
+ {
+  "page": 1588,
+  "file": "tsf_p1588_fig1.jpg",
+  "bbox": [
+   250,
+   159,
+   971,
+   590
+  ],
+  "size": [
+   721,
+   431
+  ],
+  "caption": "Figure 11-3—Beacon transmission in an IBSS",
+  "nearby": [
+   "Figure 11-3—Beacon transmission in an IBSS",
+   "IEEE Std 802.11-2016 IEEE Standard for Information Technology—Local and Metropolitan Area Networks—Specific Requirements Part 11: Wireless L",
+   "11.1.3.7 Beacon reception"
+  ]
+ },
+ {
+  "page": 1593,
+  "file": "tsf_p1593_fig1.jpg",
+  "bbox": [
+   272,
+   410,
+   934,
+   721
+  ],
+  "size": [
+   662,
+   311
+  ],
+  "caption": "Figure 11-4—Probe response",
+  "nearby": [
+   "See Figure 11-4 for non-DMG STAs.",
+   "Figure 11-4—Probe response",
+   "h) Set the NAV to 0 and scan the next channel."
+  ]
+ }
+]

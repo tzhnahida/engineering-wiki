@@ -1,0 +1,243 @@
+[
+ {
+  "page": 4,
+  "file": "fusiello_p4_fig1.jpg",
+  "bbox": [
+   84,
+   104,
+   568,
+   494
+  ],
+  "size": [
+   484,
+   390
+  ],
+  "caption": "Fig. 3. Nearly rectiﬁed synthetic stereo pair (top) and rectiﬁed pair (bottom). The ﬁgure shows the epipolar lines of the points marked with",
+  "nearby": [
+   "Fig. 3. Nearly rectiﬁed synthetic stereo pair (top) and rectiﬁed pair (bottom). The ﬁgure shows the epipolar lines of the points marked with",
+   "A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs 19",
+   "Left image"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "fusiello_p4_fig3.jpg",
+  "bbox": [
+   86,
+   585,
+   568,
+   976
+  ],
+  "size": [
+   482,
+   391
+  ],
+  "caption": "Fig. 4. General synthetic stereo pair (top) and rectiﬁed pair (bottom). The ﬁgure shows the epipolar lines of the points marked with a circl",
+  "nearby": [
+   "Fig. 4. General synthetic stereo pair (top) and rectiﬁed pair (bottom). The ﬁgure shows the epipolar lines of the points marked with a circl",
+   "Fig. 3. Nearly rectiﬁed synthetic stereo pair (top) and rectiﬁed pair (bottom). The ﬁgure shows the epipolar lines of the points marked with",
+   "Correctness. The tests used both synthetic and real data. Each set of synthetic data consisted of a cloud of 3D points and a pair of PPMs. F"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "fusiello_p5_fig1.jpg",
+  "bbox": [
+   85,
+   130,
+   772,
+   1445
+  ],
+  "size": [
+   687,
+   1315
+  ],
+  "caption": "20 A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs",
+  "nearby": [
+   "20 A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "fusiello_p5_fig2.jpg",
+  "bbox": [
+   781,
+   603,
+   1096,
+   679
+  ],
+  "size": [
+   315,
+   76
+  ],
+  "caption": null,
+  "nearby": []
+ },
+ {
+  "page": 5,
+  "file": "fusiello_p5_fig3.jpg",
+  "bbox": [
+   782,
+   1377,
+   1096,
+   1450
+  ],
+  "size": [
+   314,
+   73
+  ],
+  "caption": null,
+  "nearby": []
+ },
+ {
+  "page": 6,
+  "file": "fusiello_p6_fig1.jpg",
+  "bbox": [
+   85,
+   105,
+   508,
+   782
+  ],
+  "size": [
+   423,
+   677
+  ],
+  "caption": "Fig. 7. Reconstruction error vs noise levels in the image coordinates (left) and calibration parameters (right) for the general synthetic st",
+  "nearby": [
+   "Fig. 7. Reconstruction error vs noise levels in the image coordinates (left) and calibration parameters (right) for the general synthetic st",
+   "A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs 21",
+   " 9.765·102 5.382·101 −2.398·102 3.875·105"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "fusiello_p6_fig2.jpg",
+  "bbox": [
+   82,
+   795,
+   572,
+   869
+  ],
+  "size": [
+   490,
+   74
+  ],
+  "caption": null,
+  "nearby": [
+   "std dev of relative error on calibration parameters",
+   "0 0.005 0.01 0.015 0.02 0.025 0.03 0.035 0.04 0.045 0.05 0",
+   " 9.765·102 5.382·101 −2.398·102 3.875·105"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "fusiello_p6_fig3.jpg",
+  "bbox": [
+   609,
+   103,
+   1031,
+   782
+  ],
+  "size": [
+   422,
+   679
+  ],
+  "caption": "Fig. 7. Reconstruction error vs noise levels in the image coordinates (left) and calibration parameters (right) for the general synthetic st",
+  "nearby": [
+   "Fig. 7. Reconstruction error vs noise levels in the image coordinates (left) and calibration parameters (right) for the general synthetic st",
+   "Fig. 8. Reconstruction error vs noise levels in the image coordinates (left) and calibration parameters (right) for the nearly rectiﬁed synt",
+   "A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs 21"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "fusiello_p6_fig4.jpg",
+  "bbox": [
+   605,
+   795,
+   1096,
+   869
+  ],
+  "size": [
+   491,
+   74
+  ],
+  "caption": null,
+  "nearby": [
+   "std dev of relative error on calibration parameters",
+   "0 0.005 0.01 0.015 0.02 0.025 0.03 0.035 0.04 0.045 0.05 0",
+   " 9.765·102 5.382·101 −2.398·102 3.875·105"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "fusiello_p7_fig1.jpg",
+  "bbox": [
+   90,
+   1055,
+   290,
+   1279
+  ],
+  "size": [
+   200,
+   224
+  ],
+  "caption": null,
+  "nearby": [
+   "Ayache N, Lustman F (1991) Trinocular stereo vision for robotics. IEEE Trans Pattern Anal Mach Intell 13: 73–85 Caprile B, Torre V (1990) Us"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "fusiello_p7_fig2.jpg",
+  "bbox": [
+   82,
+   1284,
+   572,
+   1377
+  ],
+  "size": [
+   490,
+   93
+  ],
+  "caption": null,
+  "nearby": []
+ },
+ {
+  "page": 7,
+  "file": "fusiello_p7_fig3.jpg",
+  "bbox": [
+   612,
+   110,
+   815,
+   388
+  ],
+  "size": [
+   203,
+   278
+  ],
+  "caption": "22 A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs",
+  "nearby": [
+   "22 A. Fusiello et al.: A compact algorithm for rectiﬁcation of stereo pairs",
+   "Alessandro Verri received the Laurea and Ph.D. in theoretical physics from the University of Genova in 1984 and 1988. Since 1989, he has bee"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "fusiello_p7_fig4.jpg",
+  "bbox": [
+   614,
+   551,
+   815,
+   776
+  ],
+  "size": [
+   201,
+   225
+  ],
+  "caption": null,
+  "nearby": [
+   "Emanuele Trucco received his Laurea cum laude (MSc) in 1984 and the Re- search Doctorate (PhD) degree in 1990 from the University of Genoa, "
+  ]
+ }
+]

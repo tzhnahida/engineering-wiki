@@ -15,7 +15,7 @@ sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Dat
 固定 400kHz → 能量集中在 400kHz 尖峰
 展频谱 400kHz ±10% → 能量散布在 360–440kHz，峰值下降 5–10dB
 
-[📷 _llm/raw/assets/datasheets/tps54302/tps54302_p13_fig1.jpg|640]
+![tps54302_p13_fig1.jpg](../../assets/datasheets/tps54302/tps54302_p13_fig1.jpg)
 *TPS54302 展频频谱实测对比（数据手册 图 6-3）：开启展频后基波及各次谐波尖峰显著压低，能量摊平到边带*
 
 ## 实现方式

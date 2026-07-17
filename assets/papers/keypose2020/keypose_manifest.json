@@ -1,0 +1,402 @@
+[
+ {
+  "page": 1,
+  "file": "keypose_p1_fig1.jpg",
+  "bbox": [
+   614,
+   452,
+   1086,
+   883
+  ],
+  "size": [
+   472,
+   431
+  ],
+  "caption": "Figure 1: RGB image (top), depth map (middle), and point cloud (bottom) of an opaque bottle (left) and its transparent twin (right). The opa",
+  "nearby": [
+   "Figure 1: RGB image (top), depth map (middle), and point cloud (bottom) of an opaque bottle (left) and its transparent twin (right). The opa",
+   "1Stanford University 2Robotics at Google",
+   "Xingyu Liu1∗ Rico Jonschkowski2 Anelia Angelova2 Kurt Konolige2"
+  ]
+ },
+ {
+  "page": 1,
+  "file": "keypose_p1_fig2.jpg",
+  "bbox": [
+   610,
+   922,
+   1089,
+   1036
+  ],
+  "size": [
+   479,
+   114
+  ],
+  "caption": null,
+  "nearby": [
+   "jects such as the human hand or body [29, 14]. While some of these methods predict 3D keypoints from a single RGB image, others use RGBD dat",
+   "0.70",
+   "0.70"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "keypose_p3_fig1.jpg",
+  "bbox": [
+   98,
+   140,
+   569,
+   415
+  ],
+  "size": [
+   471,
+   275
+  ],
+  "caption": "Figure 2: Data capturing pipeline. We mount both the stereo RGB camera and RGBD camera on the end-effector of the robot. We then use the rob",
+  "nearby": [
+   "arm (we could also move it by hand). To estimate the pose of the camera relative to the world, we set up a planar form with AprilTags [34] t",
+   "Figure 2: Data capturing pipeline. We mount both the stereo RGB camera and RGBD camera on the end-effector of the robot. We then use the rob"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "keypose_p3_fig2.jpg",
+  "bbox": [
+   94,
+   436,
+   571,
+   598
+  ],
+  "size": [
+   477,
+   162
+  ],
+  "caption": "Figure 3: Challenging cases in our dataset, including dark background textures (left), thin handles of mugs (middle) and motion blur (right)",
+  "nearby": [
+   "methods and for other applications",
+   "Multi-view Data Capture Optional, for comparison with depth-based",
+   "tion rely on capturing RGBD images and annotating pose by either constructing a 3D mesh [17], or ﬁtting 3D CAD models to 3D point clouds [18"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "keypose_p3_fig3.jpg",
+  "bbox": [
+   613,
+   159,
+   1093,
+   266
+  ],
+  "size": [
+   480,
+   107
+  ],
+  "caption": "Figure 3: Challenging cases in our dataset, including dark background textures (left), thin handles of mugs (middle) and motion blur (right)",
+  "nearby": [
+   "Figure 3: Challenging cases in our dataset, including dark background textures (left), thin handles of mugs (middle) and motion blur (right)",
+   "Multi-view Data Capture Optional, for comparison with depth-based",
+   "arm (we could also move it by hand). To estimate the pose of the camera relative to the world, we set up a planar form with AprilTags [34] t"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "keypose_p3_fig4.jpg",
+  "bbox": [
+   610,
+   278,
+   1089,
+   368
+  ],
+  "size": [
+   479,
+   90
+  ],
+  "caption": "Figure 2: Data capturing pipeline. We mount both the stereo RGB camera and RGBD camera on the end-effector of the robot. We then use the rob",
+  "nearby": [
+   "Multi-view Data Capture Optional, for comparison with depth-based",
+   "arm (we could also move it by hand). To estimate the pose of the camera relative to the world, we set up a planar form with AprilTags [34] t",
+   "Figure 2: Data capturing pipeline. We mount both the stereo RGB camera and RGBD camera on the end-effector of the robot. We then use the rob"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "keypose_p4_fig1.jpg",
+  "bbox": [
+   125,
+   141,
+   543,
+   383
+  ],
+  "size": [
+   418,
+   242
+  ],
+  "caption": "Figure 4: Example of cropping with bounding box for left and right images.",
+  "nearby": [
+   "Figure 4: Example of cropping with bounding box for left and right images.",
+   "jection errors, we calculate the random error of the labeled 3D keypoints to be around 3.4 mm RMSE, which is quite accurate. Details of the "
+  ]
+ },
+ {
+  "page": 4,
+  "file": "keypose_p4_fig3.jpg",
+  "bbox": [
+   615,
+   141,
+   1074,
+   284
+  ],
+  "size": [
+   459,
+   143
+  ],
+  "caption": "Figure 5: Early fusion architecture.",
+  "nearby": [
+   "Figure 5: Early fusion architecture.",
+   "Dilated",
+   "CNN Blocks"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "keypose_p4_fig5.jpg",
+  "bbox": [
+   615,
+   339,
+   1074,
+   520
+  ],
+  "size": [
+   459,
+   181
+  ],
+  "caption": "Figure 5: Early fusion architecture.",
+  "nearby": [
+   "Figure 5: Early fusion architecture.",
+   "Figure 6: Late fusion architecture.",
+   "Probability Maps"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "keypose_p5_fig1.jpg",
+  "bbox": [
+   616,
+   156,
+   1068,
+   357
+  ],
+  "size": [
+   452,
+   201
+  ],
+  "caption": "Figure 7: Precision curves for object instances. Y axis is cumulative percent. X axis is 3D MAE in mm; note it is limited to 50 mm instead o",
+  "nearby": [
+   "To test the efﬁcacy of early fusion, we also implemented a late fusion model (Figure 6), in which siamese dilated CNN blocks separately pred",
+   "Figure 7: Precision curves for object instances. Y axis is cumulative percent. X axis is 3D MAE in mm; note it is limited to 50 mm instead o",
+   "e N is a normalized inverse"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "keypose_p5_fig2.jpg",
+  "bbox": [
+   610,
+   377,
+   1089,
+   468
+  ],
+  "size": [
+   479,
+   91
+  ],
+  "caption": null,
+  "nearby": [
+   "0 10 20 30 40 50 0",
+   "0 10 20 30 40 50 0",
+   "2. Heatmaps. For each keypoint i, a CNN layer pro- duces a heatmap, followed by spatial softmax to gen- erate a probability map probi, and t"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "keypose_p7_fig1.jpg",
+  "bbox": [
+   99,
+   159,
+   1086,
+   922
+  ],
+  "size": [
+   987,
+   763
+  ],
+  "caption": "Figure 8: Visualization of prediction results on validation set. From left to right in each row: left stereo image with groundtruth keypoint",
+  "nearby": [
+   "0.000",
+   "0.000",
+   "Figure 8: Visualization of prediction results on validation set. From left to right in each row: left stereo image with groundtruth keypoint"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "keypose_p7_fig2.jpg",
+  "bbox": [
+   93,
+   933,
+   1088,
+   1002
+  ],
+  "size": [
+   995,
+   69
+  ],
+  "caption": null,
+  "nearby": [
+   "0.000",
+   "0.000",
+   "0.005"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "keypose_p8_fig3.jpg",
+  "bbox": [
+   618,
+   142,
+   1081,
+   295
+  ],
+  "size": [
+   463,
+   153
+  ],
+  "caption": "Figure 9: Visualization of ablation study: without (left) vs. with (right) permutation loss. We use red, yellow, green and blue to mark keyp",
+  "nearby": [
+   "3D MAE (mm) 10.1 10.6 9.9 6.0 5.8 UV MAE (px) 1.23 1.38 1.30 1.41 1.37 Disp MAE (px) 0.94 0.96 0.89 0.47 0.48",
+   "Figure 9: Visualization of ablation study: without (left) vs. with (right) permutation loss. We use red, yellow, green and blue to mark keyp",
+   "Table 4: Ablation study for architecture and loss functions."
+  ]
+ },
+ {
+  "page": 8,
+  "file": "keypose_p8_fig4.jpg",
+  "bbox": [
+   611,
+   306,
+   1089,
+   397
+  ],
+  "size": [
+   478,
+   91
+  ],
+  "caption": "Table 5: Ablation study on size of crop region for bottle0.",
+  "nearby": [
+   "3D MAE (mm) 10.0 7.9 5.4 4.7 4.6 UV MAE (px) 1.62 1.07 1.08 1.14 1.21 Disp MAE (px) 0.91 0.67 0.45 0.38 0.36",
+   "metrics 3D MAE (mm) UV MAE (px) Disp MAE (px) perm loss",
+   "\u0017 26.4 11.1 1.46 \u0013 12.8 2.79 1.05"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "keypose_p12_fig1.jpg",
+  "bbox": [
+   145,
+   141,
+   1038,
+   1261
+  ],
+  "size": [
+   893,
+   1120
+  ],
+  "caption": "Figure 13: Visualization of ball0, bottle0, bottle1, bottle2, cup0, cup1 from top to bottom. From left to right in each row: object twin wit",
+  "nearby": [
+   "Figure 13: Visualization of ball0, bottle0, bottle1, bottle2, cup0, cup1 from top to bottom. From left to right in each row: object twin wit"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "keypose_p12_fig2.jpg",
+  "bbox": [
+   93,
+   1282,
+   1089,
+   1352
+  ],
+  "size": [
+   996,
+   70
+  ],
+  "caption": null,
+  "nearby": []
+ },
+ {
+  "page": 13,
+  "file": "keypose_p13_fig1.jpg",
+  "bbox": [
+   145,
+   141,
+   1038,
+   1260
+  ],
+  "size": [
+   893,
+   1119
+  ],
+  "caption": "Figure 14: Visualization of heart0, mug0, mug1, mug2, mug3, mug4 from top to bottom. From left to right in each row: object twin with ground",
+  "nearby": [
+   "Figure 14: Visualization of heart0, mug0, mug1, mug2, mug3, mug4 from top to bottom. From left to right in each row: object twin with ground"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "keypose_p13_fig2.jpg",
+  "bbox": [
+   93,
+   1283,
+   1089,
+   1352
+  ],
+  "size": [
+   996,
+   69
+  ],
+  "caption": null,
+  "nearby": []
+ },
+ {
+  "page": 14,
+  "file": "keypose_p14_fig1.jpg",
+  "bbox": [
+   145,
+   142,
+   1038,
+   1260
+  ],
+  "size": [
+   893,
+   1118
+  ],
+  "caption": "Figure 15: Visualization of mug5, mug6, mug7, mug8, sakura0, shovel0 from top to bottom. From left to right in each row: object twin with gr",
+  "nearby": [
+   "Figure 15: Visualization of mug5, mug6, mug7, mug8, sakura0, shovel0 from top to bottom. From left to right in each row: object twin with gr"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "keypose_p14_fig2.jpg",
+  "bbox": [
+   93,
+   1281,
+   1088,
+   1373
+  ],
+  "size": [
+   995,
+   92
+  ],
+  "caption": null,
+  "nearby": []
+ }
+]

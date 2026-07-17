@@ -1,0 +1,216 @@
+[
+ {
+  "page": 2,
+  "file": "sun_p2_fig1.jpg",
+  "bbox": [
+   179,
+   1063,
+   507,
+   1477
+  ],
+  "size": [
+   328,
+   414
+  ],
+  "caption": "Figure 1. A diagram of zero-velocity-constrained dead- reckoning with MEMS",
+  "nearby": [
+   "Figure 1. A diagram of zero-velocity-constrained dead- reckoning with MEMS",
+   "where g is the gravity value, σf and σω are measurement errors (standard deviations), γ is the pre-defined zero velocity detection threshold",
+   "This contribution has been peer-reviewed. doi:10.5194/isprsarchives-XL-4-239-2014 240"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "sun_p2_fig3.jpg",
+  "bbox": [
+   670,
+   517,
+   1014,
+   860
+  ],
+  "size": [
+   344,
+   343
+  ],
+  "caption": null,
+  "nearby": [
+   "In order to validate the developed ZUPT based dead-reckoning (ZUPT-DR) algorithm and evaluate the navigation performance under different loc",
+   "The diagram of zero-velocity-constrained dead-reckoning with MEMS is shown in Figure 1. An extended Kalman filter method is adopted in this "
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig1.jpg",
+  "bbox": [
+   109,
+   293,
+   311,
+   568
+  ],
+  "size": [
+   202,
+   275
+  ],
+  "caption": "Figure 3. Straight line path of 50 meters Figure 4. Straight line path of 100 meters In the second group of experiments, the experimenter wa",
+  "nearby": [
+   "Figure 3. Straight line path of 50 meters Figure 4. Straight line path of 100 meters In the second group of experiments, the experimenter wa",
+   "In the first group of experiments, the experimenter walked straight for 78 seconds and 156 seconds, with a total distance of 50 meters and 1",
+   "ISPRS Technical Commission IV Symposium, 14 – 16 May 2014, Suzhou, China"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig3.jpg",
+  "bbox": [
+   336,
+   293,
+   558,
+   568
+  ],
+  "size": [
+   222,
+   275
+  ],
+  "caption": "Figure 3. Straight line path of 50 meters Figure 4. Straight line path of 100 meters In the second group of experiments, the experimenter wa",
+  "nearby": [
+   "Figure 3. Straight line path of 50 meters Figure 4. Straight line path of 100 meters In the second group of experiments, the experimenter wa",
+   "In the first group of experiments, the experimenter walked straight for 78 seconds and 156 seconds, with a total distance of 50 meters and 1",
+   "and downhill walking on surfaces of different levels of hardness and slope were tested. The recovered paths are shown in Figures 8 and 9."
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig5.jpg",
+  "bbox": [
+   156,
+   734,
+   532,
+   1018
+  ],
+  "size": [
+   376,
+   284
+  ],
+  "caption": "Figure 3. Straight line path of 50 meters Figure 4. Straight line path of 100 meters In the second group of experiments, the experimenter wa",
+  "nearby": [
+   "Figure 3. Straight line path of 50 meters Figure 4. Straight line path of 100 meters In the second group of experiments, the experimenter wa",
+   "Figure 5. Closed path of 100 meters"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig7.jpg",
+  "bbox": [
+   155,
+   1077,
+   532,
+   1379
+  ],
+  "size": [
+   377,
+   302
+  ],
+  "caption": "Figure 5. Closed path of 100 meters",
+  "nearby": [
+   "Figure 5. Closed path of 100 meters",
+   "Figure 6. Closed path of 80 meters The above experiments were carried out in the park with hard surface. The following experiments were carr"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig9.jpg",
+  "bbox": [
+   667,
+   223,
+   1020,
+   461
+  ],
+  "size": [
+   353,
+   238
+  ],
+  "caption": "Figure 7. Field experiments in a desert",
+  "nearby": [
+   "and downhill walking on surfaces of different levels of hardness and slope were tested. The recovered paths are shown in Figures 8 and 9.",
+   "Figure 7. Field experiments in a desert",
+   "ISPRS Technical Commission IV Symposium, 14 – 16 May 2014, Suzhou, China"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig11.jpg",
+  "bbox": [
+   676,
+   536,
+   1006,
+   930
+  ],
+  "size": [
+   330,
+   394
+  ],
+  "caption": "Figure 7. Field experiments in a desert",
+  "nearby": [
+   "Figure 7. Field experiments in a desert",
+   "Figure 8. Uphill walk path of 66.46 meters"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sun_p3_fig13.jpg",
+  "bbox": [
+   668,
+   1009,
+   1011,
+   1318
+  ],
+  "size": [
+   343,
+   309
+  ],
+  "caption": "Figure 8. Uphill walk path of 66.46 meters",
+  "nearby": [
+   "Figure 8. Uphill walk path of 66.46 meters",
+   "Figure 9. Downhill walk path of 68.04 meters In the fourth group of experiments, the performances of hopping along a straight line of 50 met"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "sun_p4_fig1.jpg",
+  "bbox": [
+   118,
+   150,
+   502,
+   497
+  ],
+  "size": [
+   384,
+   347
+  ],
+  "caption": "Figure 10. Hopping path of 50 meters",
+  "nearby": [
+   "Figure 10. Hopping path of 50 meters",
+   "ISPRS Technical Commission IV Symposium, 14 – 16 May 2014, Suzhou, China",
+   "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XL-4, 2014"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "sun_p4_fig3.jpg",
+  "bbox": [
+   117,
+   578,
+   507,
+   920
+  ],
+  "size": [
+   390,
+   342
+  ],
+  "caption": "Figure 10. Hopping path of 50 meters",
+  "nearby": [
+   "Figure 10. Hopping path of 50 meters",
+   "Figure 11. Hopping path of 100 meters All the experimental results are summarized in Table 2. The reference (“true”) distances of uphill and"
+  ]
+ }
+]

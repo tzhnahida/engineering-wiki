@@ -71,7 +71,7 @@ HDMI 线缆按最大 TMDS 时钟频率分为两类：
 
 ## 4. TMDS 电气特性
 
-[📷 _llm/raw/assets/standards/hdmi14/hdmi14_p68_fig1.jpg|540]
+![hdmi14_p68_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p68_fig1.jpg)
 *Figure 4-22 — 单对 TMDS 差分线概念原理图：源端电流舵 + 接收端 3.3V 上拉 50Ω 端接*
 
 
@@ -123,7 +123,7 @@ TMDS（Transition Minimized Differential Signaling）是 HDMI 的核心物理层
 
 ## 5. 信号完整性关键参数
 
-[📷 _llm/raw/assets/standards/hdmi14/hdmi14_p74_fig2.jpg|480]
+![hdmi14_p74_fig2.jpg](../../assets/standards/hdmi14/hdmi14_p74_fig2.jpg)
 *Figure 4-30 — TP1 源端眼图模板：归一化幅度 vs 0.5×Tbit 时间窗*
 
 
@@ -170,7 +170,7 @@ DDC 通道在 HDMI 连接中的作用：
 
 ## 7. CEC 线
 
-[📷 _llm/raw/assets/standards/hdmi14/hdmi14_p169_fig1.jpg|560]
+![hdmi14_p169_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p169_fig1.jpg)
 *Figure 8-5 — CEC 与 DDC 的连接拓扑：CEC 单线菊花链贯穿所有设备，DDC 点对点*
 
 

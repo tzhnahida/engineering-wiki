@@ -13,7 +13,7 @@ sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Dat
 
 ## 基本原理
 
-[📷 _llm/raw/assets/datasheets/tps54302/tps54302_p1_fig1.jpg|480]
+![tps54302_p1_fig1.jpg](../../assets/datasheets/tps54302/tps54302_p1_fig1.jpg)
 *同步降压最小系统（TPS54302 首页简化原理图）：上/下管 + 电感 + 输入/输出电容 + 反馈分压*
 
 
@@ -28,7 +28,7 @@ $$D = \frac{V_{OUT}}{V_{IN}}$$
 
 ## 控制方案
 
-[📷 _llm/raw/assets/datasheets/tps54302/tps54302_p9_fig1.jpg|560]
+![tps54302_p9_fig1.jpg](../../assets/datasheets/tps54302/tps54302_p9_fig1.jpg)
 *峰值电流模式控制实例（TPS54302 功能模块图）：电流采样 + 斜率补偿 + 误差放大器构成双环*
 
 

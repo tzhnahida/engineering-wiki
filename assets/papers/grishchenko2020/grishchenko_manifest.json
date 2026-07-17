@@ -1,0 +1,102 @@
+[
+ {
+  "page": 1,
+  "file": "grishchenko_p1_fig1.jpg",
+  "bbox": [
+   661,
+   451,
+   1043,
+   831
+  ],
+  "size": [
+   382,
+   380
+  ],
+  "caption": "Figure 1. Salient contours predicted by Attention Mesh submodels",
+  "nearby": [
+   "Figure 1. Salient contours predicted by Attention Mesh submodels",
+   "{igrishchenko, artsiom, kartynnik, krav, grundman}@google.com",
+   "Ivan Grishchenko Artsiom Ablavatski Yury Kartynnik Karthik Raveendran Matthias Grundmann Google Research 1600 Amphitheatre Pkwy, Mountain Vi"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "grishchenko_p2_fig1.jpg",
+  "bbox": [
+   117,
+   186,
+   1069,
+   559
+  ],
+  "size": [
+   952,
+   373
+  ],
+  "caption": "Figure 2. The inference pipeline and the model architecture overview",
+  "nearby": [
+   "Figure 2. The inference pipeline and the model architecture overview",
+   "ule [4] to extract 24 × 24 region features from the 64 × 64 feature map. The spatial transformer is controlled by an afﬁne transformation ma",
+   "ing a 64 × 64 feature map, the model splits into several sub-models (Figure 2). One submodel predicts all 478 face mesh landmarks in 3D and "
+  ]
+ },
+ {
+  "page": 2,
+  "file": "grishchenko_p2_fig3.jpg",
+  "bbox": [
+   647,
+   964,
+   1056,
+   1355
+  ],
+  "size": [
+   409,
+   391
+  ],
+  "caption": "Figure 3. Spatial transformer as the attention mechanism",
+  "nearby": [
+   "Figure 3. Spatial transformer as the attention mechanism",
+   "This afﬁne transformation can be constructed either via supervised prediction of matrix parameters, or by comput- ing them from the output o",
+   "θ = \u0014 xx shx tx shy sy ty"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "grishchenko_p3_fig3.jpg",
+  "bbox": [
+   617,
+   379,
+   1087,
+   539
+  ],
+  "size": [
+   470,
+   160
+  ],
+  "caption": "Figure 4. Virtual makeup comparison: base mesh without reﬁnements (left) vs. attention mesh with submodels (right)",
+  "nearby": [
+   "Figure 4. Virtual makeup comparison: base mesh without reﬁnements (left) vs. attention mesh with submodels (right)",
+   "AR Makeup Accurate registration of the face mesh is critical to applications like AR makeup where even small errors in alignment can drive t",
+   "Dataset Our dataset contains 30K in-the-wild mobile camera photos taken with numerous camera sensors and in varied conditions. We used manua"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "grishchenko_p3_fig5.jpg",
+  "bbox": [
+   617,
+   941,
+   1087,
+   1161
+  ],
+  "size": [
+   470,
+   220
+  ],
+  "caption": "Figure 5. Puppeteering",
+  "nearby": [
+   "Figure 5. Puppeteering",
+   "Puppeteering Our model can also be used for virtual pup- peteering and facial triggers. We built a small fully con- nected model that predic",
+   "5. Conclusion"
+  ]
+ }
+]

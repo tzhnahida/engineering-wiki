@@ -1,0 +1,102 @@
+[
+ {
+  "page": 8,
+  "file": "iekf_p8_fig1.jpg",
+  "bbox": [
+   160,
+   394,
+   523,
+   692
+  ],
+  "size": [
+   363,
+   298
+  ],
+  "caption": "Fig. 1. Experiment: estimated Euler angles",
+  "nearby": [
+   "Time (s)",
+   "VII. NUMERICAL RESULTS",
+   "Fig. 1. Experiment: estimated Euler angles"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "iekf_p8_fig3.jpg",
+  "bbox": [
+   675,
+   110,
+   1042,
+   712
+  ],
+  "size": [
+   367,
+   602
+  ],
+  "caption": "Fig. 2. Simulation: estimated Euler angles (top) and velocities (bottom)",
+  "nearby": [
+   "Time (s)",
+   "!\"#$%&'",
+   "Fig. 2. Simulation: estimated Euler angles (top) and velocities (bottom)"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "iekf_p9_fig1.jpg",
+  "bbox": [
+   150,
+   109,
+   552,
+   716
+  ],
+  "size": [
+   402,
+   607
+  ],
+  "caption": "Fig. 3. Simulation: estimated biases (MEKF top, RIEKF bottom)",
+  "nearby": [
+   "Fig. 3. Simulation: estimated biases (MEKF top, RIEKF bottom)",
+   "Norm of the velocity error EV",
+   "T0 MEKF"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "iekf_p9_fig3.jpg",
+  "bbox": [
+   166,
+   784,
+   526,
+   1086
+  ],
+  "size": [
+   360,
+   302
+  ],
+  "caption": "Fig. 3. Simulation: estimated biases (MEKF top, RIEKF bottom)",
+  "nearby": [
+   "Fig. 3. Simulation: estimated biases (MEKF top, RIEKF bottom)",
+   "Fig. 4. Simulation: evolution of EV = ∥ν∥for three initial conditions",
+   "Time (s)"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "iekf_p9_fig5.jpg",
+  "bbox": [
+   686,
+   109,
+   1042,
+   714
+  ],
+  "size": [
+   356,
+   605
+  ],
+  "caption": "Fig. 5. Simulation: evolution of K (MEKF top, RIEKF bottom)",
+  "nearby": [
+   "Fig. 5. Simulation: evolution of K (MEKF top, RIEKF bottom)",
+   "!\"#$%&'",
+   "pp. 1027–1032. [8] D. H. S. Maithripala, W. P. Dayawansa, and J. M. BERG, “Intrinsec"
+  ]
+ }
+]

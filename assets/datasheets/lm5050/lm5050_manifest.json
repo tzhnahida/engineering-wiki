@@ -1,0 +1,122 @@
+[
+ {
+  "page": 1,
+  "file": "lm5050_p1_fig1.jpg",
+  "bbox": [
+   295,
+   741,
+   866,
+   983
+  ],
+  "size": [
+   571,
+   242
+  ],
+  "caption": "Figure 1. Full Application with MOSFET Diagnostic",
+  "nearby": [
+   "Typical Application Circuits",
+   "Figure 1. Full Application with MOSFET Diagnostic",
+   "shorted MOSFETs. Supplies"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "lm5050_p10_fig2.jpg",
+  "bbox": [
+   254,
+   196,
+   951,
+   907
+  ],
+  "size": [
+   697,
+   711
+  ],
+  "caption": null,
+  "nearby": [
+   "BLOCK DIAGRAM",
+   "SNVS679B –NOVEMBER 2010–REVISED MARCH 2013 www.ti.com",
+   "LM5050-2"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "lm5050_p15_fig1.jpg",
+  "bbox": [
+   297,
+   144,
+   918,
+   444
+  ],
+  "size": [
+   621,
+   300
+  ],
+  "caption": "Figure 23. Basic Application with Input Transient Protection",
+  "nearby": [
+   "www.ti.com SNVS679B –NOVEMBER 2010–REVISED MARCH 2013",
+   "Figure 23. Basic Application with Input Transient Protection",
+   "Q1 SUM40N10-30"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "lm5050_p15_fig3.jpg",
+  "bbox": [
+   300,
+   520,
+   917,
+   770
+  ],
+  "size": [
+   617,
+   250
+  ],
+  "caption": "Figure 24. Typical +48V Application with Transient Protection",
+  "nearby": [
+   "Figure 24. Typical +48V Application with Transient Protection",
+   "Figure 23. Basic Application with Input Transient Protection",
+   "Q1 SUM40N15-38"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "lm5050_p15_fig5.jpg",
+  "bbox": [
+   312,
+   848,
+   907,
+   1099
+  ],
+  "size": [
+   595,
+   251
+  ],
+  "caption": "Figure 25. +48V Application with Reversed Input Voltage (VIN = -48V) Protection",
+  "nearby": [
+   "Figure 25. +48V Application with Reversed Input Voltage (VIN = -48V) Protection",
+   "Figure 24. Typical +48V Application with Transient Protection",
+   "GND GND"
+  ]
+ },
+ {
+  "page": 21,
+  "file": "lm5050_p21_fig1.jpg",
+  "bbox": [
+   105,
+   203,
+   1116,
+   1263
+  ],
+  "size": [
+   1011,
+   1060
+  ],
+  "caption": null,
+  "nearby": [
+   "NOTES: 1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing per A",
+   "SMALL OUTLINE TRANSISTOR",
+   "SCALE 4.000"
+  ]
+ }
+]

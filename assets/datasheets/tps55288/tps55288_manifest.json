@@ -1,0 +1,102 @@
+[
+ {
+  "page": 1,
+  "file": "tps55288_p1_fig2.jpg",
+  "bbox": [
+   604,
+   979,
+   1133,
+   1273
+  ],
+  "size": [
+   529,
+   294
+  ],
+  "caption": null,
+  "nearby": [
+   "(1) 如需了解所有可用封装，请参阅数据表末尾的可订购产品附 录。",
+   "典型应用电路",
+   "TPS55288 VQFN-HR 4.00mm × 3.50mm"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "tps55288_p3_fig1.jpg",
+  "bbox": [
+   255,
+   187,
+   968,
+   800
+  ],
+  "size": [
+   713,
+   613
+  ],
+  "caption": "5 Pin Configuration and Functions",
+  "nearby": [
+   "5 Pin Configuration and Functions",
+   "图 5-1. 26-pin VQFN-HR, RPM Package (Transparent Top View)",
+   "TPS55288 ZHCSKY4B – NOVEMBER 2018 – REVISED DECEMBER 2020"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "tps55288_p15_fig1.jpg",
+  "bbox": [
+   109,
+   186,
+   1111,
+   866
+  ],
+  "size": [
+   1002,
+   680
+  ],
+  "caption": null,
+  "nearby": [
+   "7.3 Feature Description",
+   "7.2 Functional Block Diagram",
+   "7.3.1 VCC Power Supply"
+  ]
+ },
+ {
+  "page": 35,
+  "file": "tps55288_p35_fig1.jpg",
+  "bbox": [
+   112,
+   680,
+   1110,
+   1256
+  ],
+  "size": [
+   998,
+   576
+  ],
+  "caption": "图 8-1. USB PD Power Supply With 9-V to 20-V Input Voltage",
+  "nearby": [
+   "The TPS55288 provides a small size solution for USB PD power supply application with the input voltage ranging from 9 V to 20 V.",
+   "图 8-1. USB PD Power Supply With 9-V to 20-V Input Voltage",
+   "8.2 Typical Application"
+  ]
+ },
+ {
+  "page": 52,
+  "file": "tps55288_p52_fig1.jpg",
+  "bbox": [
+   121,
+   176,
+   1097,
+   1212
+  ],
+  "size": [
+   976,
+   1036
+  ],
+  "caption": null,
+  "nearby": [
+   "PLASTIC QUAD FLATPACK-NO LEAD RPM0026A",
+   "NOTES:",
+   "VQFN-HR - 1 mm max height"
+  ]
+ }
+]

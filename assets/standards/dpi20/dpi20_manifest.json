@@ -1,0 +1,82 @@
+[
+ {
+  "page": 13,
+  "file": "dpi20_p13_fig1.jpg",
+  "bbox": [
+   267,
+   574,
+   952,
+   1203
+  ],
+  "size": [
+   685,
+   629
+  ],
+  "caption": "Figure 5 DPI Interface Signals and Power Connections 242",
+  "nearby": [
+   "Figure 5 DPI Interface Signals and Power Connections 242",
+   "The display module interface shall be implemented with a 16-bit, 18-bit, or 24-bit data width. 240",
+   "The host processor shall support all control signals for Type 2, Type 3, and Type 4 display architectures as 243 shown in Figure 5. SD and C"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "dpi20_p16_fig1.jpg",
+  "bbox": [
+   224,
+   665,
+   994,
+   1214
+  ],
+  "size": [
+   770,
+   549
+  ],
+  "caption": "Figure 6 DPI Timing Parameters 273",
+  "nearby": [
+   "Figure 6 DPI Timing Parameters 273",
+   "Figure 6 defines timing parameters for DPI operation. 271",
+   "Table 3 specifies requirements for DPI timing parameters. The host processor shall support the range 274 specified in this table. 275"
+  ]
+ },
+ {
+  "page": 21,
+  "file": "dpi20_p21_fig2.jpg",
+  "bbox": [
+   443,
+   603,
+   883,
+   1052
+  ],
+  "size": [
+   440,
+   449
+  ],
+  "caption": "Figure 7 DPI Signal Timings 309",
+  "nearby": [
+   "Figure 7 DPI Signal Timings 309",
+   "9.1.3 AC Characteristics 307",
+   "Table 8 DPI-2 AC Characteristics 310"
+  ]
+ },
+ {
+  "page": 31,
+  "file": "dpi20_p31_fig1.jpg",
+  "bbox": [
+   267,
+   517,
+   949,
+   917
+  ],
+  "size": [
+   682,
+   400
+  ],
+  "caption": "Figure 8 Power-on and Shutdown Recovery Sequence 344",
+  "nearby": [
+   "Figure 8 Power-on and Shutdown Recovery Sequence 344",
+   "The display module may reduce its power consumption by switching off its internal circuits. The control 341 interface shall remain powered o",
+   "Table 17 AC timing for power-on sequence and recovery sequence from shutdown 345"
+  ]
+ }
+]

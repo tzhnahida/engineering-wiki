@@ -1,0 +1,121 @@
+[
+ {
+  "page": 17,
+  "file": "dbi20_p17_fig1.jpg",
+  "bbox": [
+   363,
+   376,
+   857,
+   804
+  ],
+  "size": [
+   494,
+   428
+  ],
+  "caption": "Figure 5 Type A Interface Block Diagram 242",
+  "nearby": [
+   "Figure 5 Type A Interface Block Diagram 242",
+   "There are three types of DBI implementations, named type A, B and C as shown in Figure 5, Figure 6 and 239 Figure 7, respectively. 240",
+   "The electrical connection between the host processor and a display module consists of two blocks: power 235 and interface. Power is supplied"
+  ]
+ },
+ {
+  "page": 17,
+  "file": "dbi20_p17_fig3.jpg",
+  "bbox": [
+   363,
+   878,
+   858,
+   1307
+  ],
+  "size": [
+   495,
+   429
+  ],
+  "caption": "Figure 6 Type B Interface Block Diagram 244",
+  "nearby": [
+   "Figure 6 Type B Interface Block Diagram 244",
+   "Figure 5 Type A Interface Block Diagram 242",
+   "D[15:0], D[8:0] or D[7:0]"
+  ]
+ },
+ {
+  "page": 18,
+  "file": "dbi20_p18_fig1.jpg",
+  "bbox": [
+   350,
+   146,
+   872,
+   618
+  ],
+  "size": [
+   522,
+   472
+  ],
+  "caption": "Figure 7 Type C Interface Block Diagram 246",
+  "nearby": [
+   "Figure 7 Type C Interface Block Diagram 246",
+   "Version 2.00 29-Nov-2005 MIPI Alliance Standard for Display Bus Interface"
+  ]
+ },
+ {
+  "page": 23,
+  "file": "dbi20_p23_fig1.jpg",
+  "bbox": [
+   313,
+   522,
+   914,
+   876
+  ],
+  "size": [
+   601,
+   354
+  ],
+  "caption": "Figure 9 Type A Interface - Fixed E Mode Write Cycle 282",
+  "nearby": [
+   "Figure 9 Type A Interface - Fixed E Mode Write Cycle 282",
+   "The write cycle is described in Figure 9 and Figure 10. 280",
+   "During a write cycle the host processor writes commands or data to the display module via the interface. 276 Type A interfaces support two m"
+  ]
+ },
+ {
+  "page": 28,
+  "file": "dbi20_p28_fig1.jpg",
+  "bbox": [
+   241,
+   491,
+   985,
+   857
+  ],
+  "size": [
+   744,
+   366
+  ],
+  "caption": "Figure 17 Type B Interface - Write Cycle 327",
+  "nearby": [
+   "Figure 17 Type B Interface - Write Cycle 327",
+   "Figure 17 shows a write cycle for the type B interface. 325",
+   "During a write cycle the host processor sends data to the display module via the interface. The Type B 319 interface utilizes D/CX, RDX and "
+  ]
+ },
+ {
+  "page": 31,
+  "file": "dbi20_p31_fig1.jpg",
+  "bbox": [
+   282,
+   446,
+   944,
+   831
+  ],
+  "size": [
+   662,
+   385
+  ],
+  "caption": "Figure 21 shows the write cycle for the type C interface. 353",
+  "nearby": [
+   "Figure 21 shows the write cycle for the type C interface. 353",
+   "Figure 21 Type C Interface Write Cycle 355",
+   "During a write cycle the host processor sends a single bit of data to the display module via the interface. 349 The Type C interface utilize"
+  ]
+ }
+]

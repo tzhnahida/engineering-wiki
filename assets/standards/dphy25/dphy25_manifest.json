@@ -1,0 +1,220 @@
+[
+ {
+  "page": 25,
+  "file": "dphy25_p25_fig1.jpg",
+  "bbox": [
+   314,
+   451,
+   905,
+   1025
+  ],
+  "size": [
+   591,
+   574
+  ],
+  "caption": "Figure 1 Universal Lane Module Functions",
+  "nearby": [
+   "Figure 1 Universal Lane Module Functions",
+   "Interconnect. 235",
+   "PHY Lane Modules communicates via two Lines to a complementary part at the other side of the Lane 234"
+  ]
+ },
+ {
+  "page": 27,
+  "file": "dphy25_p27_fig1.jpg",
+  "bbox": [
+   212,
+   411,
+   1009,
+   826
+  ],
+  "size": [
+   797,
+   415
+  ],
+  "caption": "Figure 2 Two Data Lane PHY Configuration",
+  "nearby": [
+   "Figure 2 Two Data Lane PHY Configuration",
+   "clock and control signals for the Clock Multiplier Unit are not within the scope of this specification. 300",
+   "functionality of that Lane. As shown in Figure 2, Clock signals may be shared for all Lanes. The reference 299"
+  ]
+ },
+ {
+  "page": 40,
+  "file": "dphy25_p40_fig1.jpg",
+  "bbox": [
+   320,
+   587,
+   906,
+   788
+  ],
+  "size": [
+   586,
+   201
+  ],
+  "caption": "Figure 13 Line Levels in HS and LP Modes",
+  "nearby": [
+   "mode of operation. The LP-Receivers shall always interpret both High-Speed differential states as LP-00. 465",
+   "Figure 13 Line Levels in HS and LP Modes",
+   "states are Differential-0 and Differential-1. The interpretation of Low-Power Lane states depends on the 464"
+  ]
+ },
+ {
+  "page": 45,
+  "file": "dphy25_p45_fig1.jpg",
+  "bbox": [
+   182,
+   359,
+   1037,
+   597
+  ],
+  "size": [
+   855,
+   238
+  ],
+  "caption": "Figure 15 High-Speed Data Transmission in Bursts",
+  "nearby": [
+   "Figure 15 High-Speed Data Transmission in Bursts",
+   "Lane. The handshake with the protocol-layer is described in Annex A. 540",
+   "will start synchronously but may end at different times due to an unequal amount of transmitted bytes per 539"
+  ]
+ },
+ {
+  "page": 45,
+  "file": "dphy25_p45_fig3.jpg",
+  "bbox": [
+   179,
+   733,
+   1040,
+   1276
+  ],
+  "size": [
+   861,
+   543
+  ],
+  "caption": "Figure 16 TX and RX State Machines for High-Speed Data Transmission",
+  "nearby": [
+   "Figure 16 TX and RX State Machines for High-Speed Data Transmission",
+   "Figure 16 shows the state machine for High-Speed data transmission that is described in Table 6. 542",
+   "Figure 15 High-Speed Data Transmission in Bursts"
+  ]
+ },
+ {
+  "page": 48,
+  "file": "dphy25_p48_fig1.jpg",
+  "bbox": [
+   156,
+   471,
+   1429,
+   764
+  ],
+  "size": [
+   1273,
+   293
+  ],
+  "caption": "Figure 17 ALP Mode General Burst Format",
+  "nearby": [
+   "Figure 17 ALP Mode General Burst Format"
+  ]
+ },
+ {
+  "page": 51,
+  "file": "dphy25_p51_fig1.jpg",
+  "bbox": [
+   185,
+   243,
+   1024,
+   402
+  ],
+  "size": [
+   839,
+   159
+  ],
+  "caption": "Figure 19 Control Mode Lane Turnaround Procedure",
+  "nearby": [
+   "Figure 19 Control Mode Lane Turnaround Procedure",
+   "Figure 19 shows the Control Mode Lane Turnaround procedure graphically. 608",
+   "The Low-Power clock timing for both sides of the Link does not have to be the same, but may differ. 610"
+  ]
+ },
+ {
+  "page": 51,
+  "file": "dphy25_p51_fig3.jpg",
+  "bbox": [
+   360,
+   739,
+   845,
+   1281
+  ],
+  "size": [
+   485,
+   542
+  ],
+  "caption": "Figure 20 Control Mode Lane Turnaround State Machine",
+  "nearby": [
+   "Figure 20 Control Mode Lane Turnaround State Machine",
+   "details. Figure 20 shows the Control Mode Lane Turnaround state machine that is described in Table 8. 619",
+   "because the Turnaround procedure did not complete within a certain time. See Section 7.3.5 for more 618"
+  ]
+ },
+ {
+  "page": 56,
+  "file": "dphy25_p56_fig1.jpg",
+  "bbox": [
+   180,
+   781,
+   1028,
+   1150
+  ],
+  "size": [
+   848,
+   369
+  ],
+  "caption": "Figure 22 Trigger-Reset Command in Escape Mode",
+  "nearby": [
+   "Figure 22 Trigger-Reset Command in Escape Mode",
+   "Mode action for a Trigger-Reset command is shown in Figure 22. 657",
+   "Therefore, operation of a Data Lane in this mode does not depend on the Clock Lane. The complete Escape 656"
+  ]
+ },
+ {
+  "page": 59,
+  "file": "dphy25_p59_fig1.jpg",
+  "bbox": [
+   319,
+   285,
+   887,
+   919
+  ],
+  "size": [
+   568,
+   634
+  ],
+  "caption": "Figure 24 Escape Mode State Machine",
+  "nearby": [
+   "Figure 24 Escape Mode State Machine",
+   "The state machine for Escape Mode operation is shown in Figure 24 and described in Table 11. 698",
+   "6.6.4 Escape Mode State Machine"
+  ]
+ },
+ {
+  "page": 65,
+  "file": "dphy25_p65_fig1.jpg",
+  "bbox": [
+   233,
+   240,
+   984,
+   654
+  ],
+  "size": [
+   751,
+   414
+  ],
+  "caption": "Figure 27 High-Speed Clock Transmission State Machine",
+  "nearby": [
+   "The Clock Lane state machine is shown in Figure 27 and is described in Table 15. 744",
+   "Note: Horizontally aligned states occur simultaneously. 745",
+   "05-Jul-2019"
+  ]
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "page": 1,
+  "file": "pcm5102a_p1_fig2.jpg",
+  "bbox": [
+   321,
+   1146,
+   899,
+   1408
+  ],
+  "size": [
+   578,
+   262
+  ],
+  "caption": null,
+  "nearby": [
+   "4 简化系统图",
+   "(1) 要了解所有可用封装，请见数据表末尾的可订购产品附录。",
+   "PCM5100A"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "pcm5102a_p14_fig1.jpg",
+  "bbox": [
+   167,
+   552,
+   1051,
+   1002
+  ],
+  "size": [
+   884,
+   450
+  ],
+  "caption": null,
+  "nearby": [
+   "9.3 Feature Description",
+   "9.2 Functional Block Diagram",
+   "9.3.1 Terminology"
+  ]
+ },
+ {
+  "page": 26,
+  "file": "pcm5102a_p26_fig1.jpg",
+  "bbox": [
+   208,
+   435,
+   1006,
+   739
+  ],
+  "size": [
+   798,
+   304
+  ],
+  "caption": "Figure 33. Simplified Schematic, Hardware-Controlled Subsystem",
+  "nearby": [
+   "10.1.1 Typical Applications",
+   "Figure 33. Simplified Schematic, Hardware-Controlled Subsystem",
+   "10.1 Application Information"
+  ]
+ }
+]

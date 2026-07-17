@@ -1,0 +1,202 @@
+[
+ {
+  "page": 6,
+  "file": "fisher_p6_fig1.jpg",
+  "bbox": [
+   669,
+   113,
+   1074,
+   815
+  ],
+  "size": [
+   405,
+   702
+  ],
+  "caption": "Fig. 1. Cumulative distribution for M(sI3×3)",
+  "nearby": [
+   "Fig. 1. Cumulative distribution for M(sI3×3)",
+   "D. Visualization",
+   "While the preceding analysis for the mean attitude, mo- ments, and cumulative distribution characterize the stochastic properties of the mat"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "fisher_p8_fig1.jpg",
+  "bbox": [
+   91,
+   318,
+   599,
+   443
+  ],
+  "size": [
+   508,
+   125
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) F ′ c = AFc = (AU)SV T (b) F ′′ c = (AU)S(UT AT UV T )",
+   "(a) Fa = 5I3×3 (b) Fb = 20I3×3",
+   "(c) Fc = diag[25, 5, 1]"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "fisher_p8_fig2.jpg",
+  "bbox": [
+   617,
+   318,
+   1123,
+   425
+  ],
+  "size": [
+   506,
+   107
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) F ′ c = AFc = (AU)SV T (b) F ′′ c = (AU)S(UT AT UV T )",
+   "(c) Fc = diag[25, 5, 1]",
+   "the inertial frame; (iii) the proper singular vales S describe the concentration of the distribution along the rotations about the principle"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "fisher_p12_fig1.jpg",
+  "bbox": [
+   103,
+   118,
+   591,
+   279
+  ],
+  "size": [
+   488,
+   161
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Fa = 5I3×3 (b) Fb = 20I3×3 (c) Fc = diag[25, 5, 1]",
+   "σ = 0.9",
+   "Proof. We ﬁrst show that the presented unscented transform, especially θi is well deﬁned via (59). From the property (iii) of Theorem II.1, "
+  ]
+ },
+ {
+  "page": 12,
+  "file": "fisher_p12_fig2.jpg",
+  "bbox": [
+   159,
+   323,
+   537,
+   616
+  ],
+  "size": [
+   378,
+   293
+  ],
+  "caption": "Fig. 4. Visualization of sigma points with σ = 0.9: (a-c) the body-ﬁxed axes of each sigma point for selected matrix Fisher distributions ar",
+  "nearby": [
+   "(d) cos θi with σ = 0.9 and si = 15",
+   "(a) Fa = 5I3×3 (b) Fb = 20I3×3 (c) Fc = diag[25, 5, 1]",
+   "Fig. 4. Visualization of sigma points with σ = 0.9: (a-c) the body-ﬁxed axes of each sigma point for selected matrix Fisher distributions ar"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "fisher_p13_fig3.jpg",
+  "bbox": [
+   628,
+   124,
+   1115,
+   357
+  ],
+  "size": [
+   487,
+   233
+  ],
+  "caption": "Fig. 5. Angular velocity trajectories and measurement errors",
+  "nearby": [
+   "6: Perform the singular value decomposition of E[Rk+1] to obtain U, D, V from (47) 7: Solve (49) for S with D 8: Compute Fk+1 with U, S, V f",
+   "Fig. 5. Angular velocity trajectories and measurement errors",
+   "the propagated sigma points is obtained by (65), and it is multiplied by I3×3+ h"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "fisher_p14_fig3.jpg",
+  "bbox": [
+   107,
+   347,
+   590,
+   535
+  ],
+  "size": [
+   483,
+   188
+  ],
+  "caption": "Fig. 6. Case I: large initial error: ﬁrst-order (red), unscented (blue)",
+  "nearby": [
+   "(b) Uncertainty measured by 1 si+sj",
+   "(a) Attitude estimation error (deg)",
+   "(a) t = 0, pmax = 1.45 × 104 (b) t = 0.08, pmax = 4.38 × 103"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "fisher_p14_fig8.jpg",
+  "bbox": [
+   634,
+   787,
+   858,
+   968
+  ],
+  "size": [
+   224,
+   181
+  ],
+  "caption": "Fig. 7. Case I: visualizations of M(Fk) for the ﬁrst-order ﬁlter",
+  "nearby": [
+   "(b) Uncertainty measured by 1 si+sj",
+   "(a) Attitude estimation error (deg)",
+   "Fig. 7. Case I: visualizations of M(Fk) for the ﬁrst-order ﬁlter"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "fisher_p14_fig11.jpg",
+  "bbox": [
+   890,
+   787,
+   1117,
+   967
+  ],
+  "size": [
+   227,
+   180
+  ],
+  "caption": "Fig. 7. Case I: visualizations of M(Fk) for the ﬁrst-order ﬁlter",
+  "nearby": [
+   "(b) Uncertainty measured by 1 si+sj",
+   "(a) Attitude estimation error (deg)",
+   "Fig. 7. Case I: visualizations of M(Fk) for the ﬁrst-order ﬁlter"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "fisher_p15_fig1.jpg",
+  "bbox": [
+   107,
+   115,
+   589,
+   711
+  ],
+  "size": [
+   482,
+   596
+  ],
+  "caption": "Fig. 9. Case II: visualizations of M(Fk) for the unscented ﬁlter",
+  "nearby": [
+   "Fig. 9. Case II: visualizations of M(Fk) for the unscented ﬁlter",
+   "which shows the ﬁrst equality of (i). The next property (ii) follows directly from this as the singular values of F remain unchanged by eith",
+   "The corresponding numerical simulation results are sum- marized in Table III, and Figures 8 and 9. In this case, the unscented ﬁlter perform"
+  ]
+ }
+]

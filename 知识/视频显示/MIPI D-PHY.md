@@ -14,7 +14,7 @@ sources:
 
 ## 1. 双模信号机制
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p40_fig1.jpg|540]
+![dphy25_p40_fig1.jpg](../../assets/standards/dphy25/dphy25_p40_fig1.jpg)
 *Figure 13 — HS 与 LP 模式的线电平：HS 差分 ±200mV @ 200mV 共模，LP 单端 0-1.2V*
 
 
@@ -42,10 +42,10 @@ stateDiagram-v2
 
 ## 2. Lane 模块架构
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p25_fig1.jpg|480]
+![dphy25_p25_fig1.jpg](../../assets/standards/dphy25/dphy25_p25_fig1.jpg)
 *Figure 1 — Universal Lane Module 内部功能：HS-TX/RX + LP-TX/RX/CD 组合*
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p27_fig1.jpg|560]
+![dphy25_p27_fig1.jpg](../../assets/standards/dphy25/dphy25_p27_fig1.jpg)
 *Figure 2 — 双数据 Lane PHY 配置：时钟 Lane + 数据 Lane 的典型组织*
 
 
@@ -90,10 +90,10 @@ Data:   ──X──X──X──X──X──X──X──X──
 
 ## 3. HS 传输结构
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p45_fig1.jpg|620]
+![dphy25_p45_fig1.jpg](../../assets/standards/dphy25/dphy25_p45_fig1.jpg)
 *Figure 15 — HS Burst 传输序列：LP-11 → SoT → HS 载荷 → EoT → LP-11*
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p45_fig3.jpg|560]
+![dphy25_p45_fig3.jpg](../../assets/standards/dphy25/dphy25_p45_fig3.jpg)
 *Figure 16 — HS 数据收发状态机*
 
 
@@ -130,7 +130,7 @@ DSI 协议层可在 payload 末尾插入 EoTp 短包标记传输结束（DSI v1.
 
 ## 4. LP 模式与 Escape Mode
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p59_fig1.jpg|480]
+![dphy25_p59_fig1.jpg](../../assets/standards/dphy25/dphy25_p59_fig1.jpg)
 *Figure 24 — Escape Mode 状态机：LP-11→LP-10→LP-00→LP-01→LP-00 进入序列*
 
 
@@ -173,7 +173,7 @@ ULPS 将所有 Lane 置于最低功耗状态（nA 级漏电流）：
 
 ## 5. BTA（Bus Turnaround）
 
-[📷 _llm/raw/assets/standards/dphy25/dphy25_p51_fig1.jpg|620]
+![dphy25_p51_fig1.jpg](../../assets/standards/dphy25/dphy25_p51_fig1.jpg)
 *Figure 19 — 控制模式 Lane 换向流程：主从驱动权交接的电平序列*
 
 

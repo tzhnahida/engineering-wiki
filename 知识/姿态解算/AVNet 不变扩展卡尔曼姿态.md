@@ -10,7 +10,7 @@ sources: ["[2026-07-15 - Qian AVNet 不变EKF姿态速度学习](../../来源/20
 
 > CNN+GRU 从手机 IMU 学出姿态和速度，同时学出 Kalman 协方差——深度学习替代了所有人工调参。武汉大学 2025。
 
-[📷 _llm/raw/assets/papers/avnet2025/avnet_p4_fig1.jpg|620]
+![avnet_p4_fig1.jpg](../../assets/papers/avnet2025/avnet_p4_fig1.jpg)
 *Fig. 1 — DMDVDR 框架总览：AVNet → 协方差适配器 → InEKF，端到端 IMU→3D 位姿*
 
 ## 问题设定：智能手机车载航位推算
@@ -26,7 +26,7 @@ sources: ["[2026-07-15 - Qian AVNet 不变EKF姿态速度学习](../../来源/20
 > 传统航位推算用 IMU 原始数据做机械编排（积分得姿态→速度→位置），误差随时间三次方增长。AVNet 的方案是：网络从 IMU 时序中**直接回归**出姿态和速度作为"伪观测"，Kalman 滤波再用这些观测去校正机械编排——网络替代的是物理传感器，而不是替代滤波模型。
 
 
-[📷 _llm/raw/assets/papers/avnet2025/avnet_p5_fig1.jpg|560]
+![avnet_p5_fig1.jpg](../../assets/papers/avnet2025/avnet_p5_fig1.jpg)
 *Fig. 2 — AVNet 架构：1D Conv(5)+ReLU+MaxPool×2 → FC×2 → GRU → DDATT+DDODO*
 
 ## AVNet 网络：CNN-GRU 混合架构
@@ -180,7 +180,7 @@ v_v = R_v_s · (R_s_w · v_w + [ω]× · p_s_v)
 
 （数据来源：论文 Table 1，11 条序列的综合范围，因速度和轨迹形状而异。）
 
-[📷 _llm/raw/assets/papers/avnet2025/avnet_p17_fig3.jpg]
+![avnet_p17_fig3.jpg](../../assets/papers/avnet2025/avnet_p17_fig3.jpg)
 
 ### 关键发现
 

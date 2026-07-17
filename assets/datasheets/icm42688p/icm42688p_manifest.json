@@ -1,0 +1,42 @@
+[
+ {
+  "page": 22,
+  "file": "icm42688p_p22_fig1.jpg",
+  "bbox": [
+   274,
+   163,
+   944,
+   246
+  ],
+  "size": [
+   670,
+   83
+  ],
+  "caption": "Figure 7. ICM-42688-P System Block Diagram",
+  "nearby": [
+   "4.4 SYSTEM BLOCK DIAGRAM",
+   "Figure 7. ICM-42688-P System Block Diagram",
+   "ICM-42688-P"
+  ]
+ },
+ {
+  "page": 25,
+  "file": "icm42688p_p25_fig1.jpg",
+  "bbox": [
+   78,
+   280,
+   1193,
+   437
+  ],
+  "size": [
+   1115,
+   157
+  ],
+  "caption": "Figure 8. ICM-42688-P Signal Path",
+  "nearby": [
+   "Figure 8. ICM-42688-P Signal Path",
+   "The following figure shows a block diagram of the signal path for ICM-42688-P.",
+   "The signal path starts with ADCs for the gyroscope and accelerometer. Other components of the signal path are described below in further det"
+  ]
+ }
+]

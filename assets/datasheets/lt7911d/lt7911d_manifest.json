@@ -1,0 +1,42 @@
+[
+ {
+  "page": 5,
+  "file": "lt7911d_p5_fig1.jpg",
+  "bbox": [
+   176,
+   435,
+   1008,
+   1253
+  ],
+  "size": [
+   832,
+   818
+  ],
+  "caption": "Figure 6.1.1 LT7911D Pin Assignment (Top View)",
+  "nearby": [
+   "Figure 6.1.1 LT7911D Pin Assignment (Top View)",
+   "To improve signal integrity, all differential pairs should be routed with 100Ω±10% differential impedance. Maximum trace length mismatch sho",
+   "To minimize the power supply noise floor, at least one 0.1μF and one 0.01μF decoupling capacitors recommended to be installed near all the L"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "lt7911d_p8_fig1.jpg",
+  "bbox": [
+   153,
+   335,
+   1063,
+   882
+  ],
+  "size": [
+   910,
+   547
+  ],
+  "caption": "Figure 7.1.1 Function Block Diagram",
+  "nearby": [
+   "Figure 7.1.1 Function Block Diagram",
+   "7.1 Function Block Diagram",
+   "7. Function Description"
+  ]
+ }
+]

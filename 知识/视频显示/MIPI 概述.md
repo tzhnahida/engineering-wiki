@@ -108,7 +108,7 @@ DSI 协议栈分层设计，各层独立演进：
 
 ## 5. 物理拓扑
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p22_fig1.jpg|600]
+![dsi13_p22_fig1.jpg](../../assets/standards/dsi13/dsi13_p22_fig1.jpg)
 *DSI Figure 1 — 主机与外设的 DSI 接口：一条时钟 Lane + N 条数据 Lane 的点对点连接*
 
 最简 DSI 系统：

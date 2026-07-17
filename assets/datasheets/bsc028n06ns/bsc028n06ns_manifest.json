@@ -1,0 +1,181 @@
+[
+ {
+  "page": 1,
+  "file": "bsc028n06ns_p1_fig2.jpg",
+  "bbox": [
+   153,
+   671,
+   249,
+   734
+  ],
+  "size": [
+   96,
+   63
+  ],
+  "caption": null,
+  "nearby": [
+   "• Halogen-free according to IEC61249-2-21",
+   "Type Package Marking",
+   "• Pb-free lead plating; RoHS compliant"
+  ]
+ },
+ {
+  "page": 1,
+  "file": "bsc028n06ns_p1_fig4.jpg",
+  "bbox": [
+   525,
+   652,
+   608,
+   741
+  ],
+  "size": [
+   83,
+   89
+  ],
+  "caption": null,
+  "nearby": [
+   "• Halogen-free according to IEC61249-2-21",
+   "Type Package Marking",
+   "BSC028N06NS PG-TDSON-8 028N06NS"
+  ]
+ },
+ {
+  "page": 1,
+  "file": "bsc028n06ns_p1_fig5.jpg",
+  "bbox": [
+   782,
+   606,
+   994,
+   755
+  ],
+  "size": [
+   212,
+   149
+  ],
+  "caption": null,
+  "nearby": [
+   "PG-TDSON-8",
+   "QG(0..10V) 37 nC",
+   "Qoss 43 nC"
+  ]
+ },
+ {
+  "page": 1,
+  "file": "bsc028n06ns_p1_fig6.jpg",
+  "bbox": [
+   806,
+   808,
+   985,
+   922
+  ],
+  "size": [
+   179,
+   114
+  ],
+  "caption": null,
+  "nearby": [
+   "Value",
+   "Parameter Symbol Conditions Unit",
+   "Continuous drain current I D V GS=10 V, T C=25 °C 100 A"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "bsc028n06ns_p4_fig1.jpg",
+  "bbox": [
+   124,
+   328,
+   583,
+   864
+  ],
+  "size": [
+   459,
+   536
+  ],
+  "caption": "3 Safe operating area 4 Max. transient thermal impedance",
+  "nearby": [
+   "3 Safe operating area 4 Max. transient thermal impedance",
+   "P tot=f(T C) I D=f(T C); V GS≥10 V",
+   "I D=f(V DS); T C=25 °C; D =0 Z thJC=f(t p)"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "bsc028n06ns_p4_fig2.jpg",
+  "bbox": [
+   602,
+   329,
+   1062,
+   865
+  ],
+  "size": [
+   460,
+   536
+  ],
+  "caption": "3 Safe operating area 4 Max. transient thermal impedance",
+  "nearby": [
+   "3 Safe operating area 4 Max. transient thermal impedance",
+   "P tot=f(T C) I D=f(T C); V GS≥10 V",
+   "I D=f(V DS); T C=25 °C; D =0 Z thJC=f(t p)"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "bsc028n06ns_p4_fig4.jpg",
+  "bbox": [
+   124,
+   1022,
+   570,
+   1550
+  ],
+  "size": [
+   446,
+   528
+  ],
+  "caption": "3 Safe operating area 4 Max. transient thermal impedance",
+  "nearby": [
+   "parameter: t p parameter: D =t p/T",
+   "Rev.2.1 page 4 2013-01-18",
+   "I D=f(V DS); T C=25 °C; D =0 Z thJC=f(t p)"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "bsc028n06ns_p4_fig5.jpg",
+  "bbox": [
+   601,
+   1015,
+   1061,
+   1554
+  ],
+  "size": [
+   460,
+   539
+  ],
+  "caption": "3 Safe operating area 4 Max. transient thermal impedance",
+  "nearby": [
+   "parameter: t p parameter: D =t p/T",
+   "Rev.2.1 page 4 2013-01-18",
+   "I D=f(V DS); T C=25 °C; D =0 Z thJC=f(t p)"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "bsc028n06ns_p5_fig1.jpg",
+  "bbox": [
+   120,
+   210,
+   1062,
+   1553
+  ],
+  "size": [
+   942,
+   1343
+  ],
+  "caption": null,
+  "nearby": [
+   "BSC028N06NS",
+   "Rev.2.1 page 5 2013-01-18"
+  ]
+ }
+]

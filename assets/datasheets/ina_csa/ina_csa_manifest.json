@@ -1,0 +1,62 @@
+[
+ {
+  "page": 1,
+  "file": "ina_csa_p1_fig3.jpg",
+  "bbox": [
+   103,
+   855,
+   1115,
+   1304
+  ],
+  "size": [
+   1012,
+   449
+  ],
+  "caption": null,
+  "nearby": [
+   "高侧或低侧感测应用",
+   "(1) 如需了解所有可用封装，请见数据表末尾的可订购产品附录。 • 计算 • 电源管理 • 电池充电器 • 电源 • 测试设备",
+   "An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectu"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "ina_csa_p10_fig1.jpg",
+  "bbox": [
+   310,
+   426,
+   913,
+   795
+  ],
+  "size": [
+   603,
+   369
+  ],
+  "caption": null,
+  "nearby": [
+   "(1) Read-only",
+   "7.2 Functional Block Diagram",
+   "(2) Read/write"
+  ]
+ },
+ {
+  "page": 28,
+  "file": "ina_csa_p28_fig1.jpg",
+  "bbox": [
+   105,
+   564,
+   1115,
+   1013
+  ],
+  "size": [
+   1010,
+   449
+  ],
+  "caption": "图27. Typical Circuit Configuration, INA226",
+  "nearby": [
+   "图27. Typical Circuit Configuration, INA226",
+   "8.2.1 High-Side Sensing Circuit Application",
+   "8.2 Typical Applications"
+  ]
+ }
+]
