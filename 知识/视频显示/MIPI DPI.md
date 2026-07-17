@@ -10,7 +10,7 @@ sources:
 
 # MIPI DPI
 
-> **DPI (Display Pixel Interface)** 是 MIPI 联盟定义的并行像素级显示接口，通过 HSYNC/VSYNC/DE/DOTCLK 时序信号直接传输实时像素流。DPI 是传统 RGB 并行接口的标准化版本，也是 [DSI](../../视频显示/MIPI DSI.md) 的 Video Mode 传输模式的原型。
+> **DPI (Display Pixel Interface)** 是 MIPI 联盟定义的并行像素级显示接口，通过 HSYNC/VSYNC/DE/DOTCLK 时序信号直接传输实时像素流。DPI 是传统 RGB 并行接口的标准化版本，也是 [DSI](MIPI DSI.md) 的 Video Mode 传输模式的原型。
 
 ## 1. 定位与用途
 
@@ -146,8 +146,8 @@ DPI 的物理信号在 DSI Video Mode 中通过**短包**虚拟化：
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](../../视频显示/MIPI 概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](../../视频显示/MIPI DSI.md) — DSI Video Mode（DPI 的串行等价）
-- [视频显示/MIPI DBI](../../视频显示/MIPI DBI.md) — 并行命令接口（不同于 DPI 的像素流模式）
-- [视频显示/HDMI 视频传输](../../视频显示/HDMI 视频传输.md) — HDMI 视频时序（同类概念对比）
+- [视频显示/MIPI 概述](MIPI 概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](MIPI DSI.md) — DSI Video Mode（DPI 的串行等价）
+- [视频显示/MIPI DBI](MIPI DBI.md) — 并行命令接口（不同于 DPI 的像素流模式）
+- [视频显示/HDMI 视频传输](HDMI 视频传输.md) — HDMI 视频时序（同类概念对比）
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接（内部 DPI 格式中间层）

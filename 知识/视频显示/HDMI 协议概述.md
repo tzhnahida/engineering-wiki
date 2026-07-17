@@ -62,7 +62,7 @@ HDMI 链路包含以下信号组：
 |--------|------|------|------|
 | **TMDS Data Channel 0/1/2** | 3 对差分线 | Source → Sink | 视频、音频、辅助数据主通道 |
 | **TMDS Clock** | 1 对差分线 | Source → Sink | 像素时钟参考 |
-| **DDC (Display Data Channel)** | 2 线 (SCL/SDA) | 双向 | I²C 总线，用于 [EDID](../../视频显示/HDMI EDID.md) 读取和 HDCP 密钥交换 |
+| **DDC (Display Data Channel)** | 2 线 (SCL/SDA) | 双向 | I²C 总线，用于 [EDID](HDMI EDID.md) 读取和 HDCP 密钥交换 |
 | **CEC (Consumer Electronics Control)** | 1 线 | 双向 | 消费电子控制，单线双向协议 |
 | **Utility / HEAC** | 1 线 | 双向 | HDMI 1.4 新增：以太网通道 (HEC) 或音频回传通道 (ARC) |
 | **HPD (Hot Plug Detect)** | 1 线 | Sink → Source | 热插拔检测信号 |
@@ -121,7 +121,7 @@ flowchart LR
     G -.->|"下一行"| A
 ```
 
-详细编码过程参见 [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md)，视频时序参数参见 [视频显示/HDMI 视频传输](../../视频显示/HDMI 视频传输.md)。
+详细编码过程参见 [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md)，视频时序参数参见 [视频显示/HDMI 视频传输](HDMI 视频传输.md)。
 
 ## 4. 版本演进
 
@@ -227,10 +227,10 @@ HDMI 规范引用了以下外部标准和规范：
 
 ## 相关页面
 
-- [视频显示/HDMI 物理层](../../视频显示/HDMI 物理层.md) — 电气特性、信号摆幅、端接
-- [视频显示/HDMI TMDS 编码](../../视频显示/HDMI TMDS 编码.md) — 8b/10b、TERC4、控制编码细节
-- [视频显示/HDMI 视频传输](../../视频显示/HDMI 视频传输.md) — 视频时序、InfoFrame、色彩空间
-- [视频显示/HDMI EDID](../../视频显示/HDMI EDID.md) — EDID 数据结构与读取协议
+- [视频显示/HDMI 物理层](HDMI 物理层.md) — 电气特性、信号摆幅、端接
+- [视频显示/HDMI TMDS 编码](HDMI TMDS 编码.md) — 8b/10b、TERC4、控制编码细节
+- [视频显示/HDMI 视频传输](HDMI 视频传输.md) — 视频时序、InfoFrame、色彩空间
+- [视频显示/HDMI EDID](HDMI EDID.md) — EDID 数据结构与读取协议
 - [HDMI Type A](../../元件/连接器/HDMI Type A.md) — 标准 19 引脚连接器
 - [HDMI Type D](../../元件/连接器/HDMI Type D.md) — Micro HDMI 连接器
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI 1.4b → 双 MIPI DSI 桥接芯片

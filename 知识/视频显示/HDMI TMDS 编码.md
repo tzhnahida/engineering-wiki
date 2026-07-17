@@ -253,8 +253,8 @@ sequenceDiagram
 
 ## 与 HDMI 其他知识模块的关系
 
-- [视频显示/HDMI 协议概述](../../视频显示/HDMI 协议概述.md) — TMDS 是 HDMI 链路层的核心编码方案
-- [视频显示/HDMI 物理层](../../视频显示/HDMI 物理层.md) — TMDS 差分信号的电平规范（3.3V 单端，摆幅 400-600mV）
-- [视频显示/HDMI 视频传输](../../视频显示/HDMI 视频传输.md) — TMDS 承载的视频像素时序和消隐期安排
-- [视频显示/HDMI EDID](../../视频显示/HDMI EDID.md) — TMDS 时钟和通道支持的像素格式由 EDID 协商确定
+- [视频显示/HDMI 协议概述](HDMI 协议概述.md) — TMDS 是 HDMI 链路层的核心编码方案
+- [视频显示/HDMI 物理层](HDMI 物理层.md) — TMDS 差分信号的电平规范（3.3V 单端，摆幅 400-600mV）
+- [视频显示/HDMI 视频传输](HDMI 视频传输.md) — TMDS 承载的视频像素时序和消隐期安排
+- [视频显示/HDMI EDID](HDMI EDID.md) — TMDS 时钟和通道支持的像素格式由 EDID 协商确定
 - [TC358870](../../元件/接口存储/TC358870.md) — 该接口芯片内部包含 TMDS 编码器，将并行 RGB 转换为 HDMI 串行输出

@@ -34,7 +34,7 @@ $$
 [📷 _llm/raw/assets/papers/skog2010/skog_p7_fig1.jpg|460]
 *Fig. 4 — 支撑相（stance phase）与加计/陀螺原始输出的时间对应关系：脚触地期间信号明显"安静"，这就是零速检测的物理依据*
 
-> [Foxlin (2005)](../../导航定位/脚装惯性导航奠基.md) 第一个提出鞋装 IMU + ZUPT 的完整方案，用"软"ZUPT（Kalman 测量更新）替代"硬"归零。Skog (2010) 把零速检测问题形式化为 GLRT。
+> [Foxlin (2005)](脚装惯性导航奠基.md) 第一个提出鞋装 IMU + ZUPT 的完整方案，用"软"ZUPT（Kalman 测量更新）替代"硬"归零。Skog (2010) 把零速检测问题形式化为 GLRT。
 
 ---
 
