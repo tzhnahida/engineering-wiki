@@ -3,7 +3,7 @@ type: concept
 tags: [tsf, wifi, synchronization, ieee, 802.11, esp32, beacon, timestamp]
 created: 2026-06-24
 updated: 2026-07-15
-sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准.md)"]
+sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2026-06-24%20-%20IEEE%20802.11-2016%20TSF%20时间同步标准.md)"]
 ---
 
 # TSF WiFi 时间同步

@@ -14,7 +14,7 @@ site: 菜鸟教程
 
 ## 核心内容
 
-[Obsidian Web Clipper](../元件/其他/Obsidian Web Clipper.md) 是 Obsidian 官方出品的免费开源浏览器扩展，可将任何网页一键保存为本地 Markdown 笔记。
+[Obsidian Web Clipper](../元件/其他/Obsidian%20Web%20Clipper.md) 是 Obsidian 官方出品的免费开源浏览器扩展，可将任何网页一键保存为本地 Markdown 笔记。
 
 ### 两种剪藏模式
 
@@ -46,10 +46,10 @@ site: 菜鸟教程
 
 ## 与 LLM Wiki 的关联
 
-Web Clipper 是[LLM Wiki方法论](../知识/LLM-AI/LLM Wiki方法论.md)中推荐的获取资料到 `raw/sources/` 的核心工具。通过模板自动触发功能，可以针对不同网站（如 arxiv、YouTube）使用不同的保存格式，大幅简化资料收集流程。
+Web Clipper 是[LLM Wiki方法论](../知识/LLM-AI/LLM%20Wiki方法论.md)中推荐的获取资料到 `raw/sources/` 的核心工具。通过模板自动触发功能，可以针对不同网站（如 arxiv、YouTube）使用不同的保存格式，大幅简化资料收集流程。
 
 ## See Also
 
-- [Obsidian Web Clipper](../元件/其他/Obsidian Web Clipper.md) — 实体页
-- [LLM Wiki方法论](../知识/LLM-AI/LLM Wiki方法论.md) — 方法论模式
-- [LLM Wiki](../LLM Wiki.md) — 原始文章
+- [Obsidian Web Clipper](../元件/其他/Obsidian%20Web%20Clipper.md) — 实体页
+- [LLM Wiki方法论](../知识/LLM-AI/LLM%20Wiki方法论.md) — 方法论模式
+- [LLM Wiki](../LLM%20Wiki.md) — 原始文章

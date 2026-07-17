@@ -42,6 +42,6 @@ esp_wifi_get_tsf_time(WIFI_IF_STA); // µs 精度
 
 ## 相关
 
-- [TSF WiFi 时间同步](../../知识/通讯网络/TSF WiFi 时间同步.md) — TSF API 使用
+- [TSF WiFi 时间同步](../../知识/通讯网络/TSF%20WiFi%20时间同步.md) — TSF API 使用
 - [梯度下降姿态解算](../../知识/姿态解算/梯度下降姿态解算.md) — Madgwick 固件
 - `F:\Projects\PCB\Library\Candidate\esp32-s3_datasheet_cn.pdf`

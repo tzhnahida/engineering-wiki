@@ -4,7 +4,7 @@ tags: [imu, ahrs, vqf, quaternion, sensor-fusion, gyroscope, bias-estimation]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[2026-07-15 - Laidig VQF 姿态解算滤波器](../../来源/2026-07-15 - Laidig VQF 姿态解算滤波器.md)"
+  - "[2026-07-15 - Laidig VQF 姿态解算滤波器](../../来源/2026-07-15%20-%20Laidig%20VQF%20姿态解算滤波器.md)"
 ---
 
 # VQF 姿态解算滤波器
@@ -332,5 +332,5 @@ MIT 许可证。
 - [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 全景对比
 - [梯度下降姿态解算](梯度下降姿态解算.md) — Madgwick 数学基础
 - [误差状态卡尔曼滤波](误差状态卡尔曼滤波.md) — EKF 方法对比
-- [MDR 磁畸变抑制](MDR 磁畸变抑制.md) — 磁干扰抑制专题
+- [MDR 磁畸变抑制](MDR%20磁畸变抑制.md) — 磁干扰抑制专题
 - [ICM-42688-P](../../元件/传感器/ICM-42688-P.md)

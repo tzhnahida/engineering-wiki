@@ -50,10 +50,10 @@ CLAUDE.md             # This file — the complete rulebook
 
 ## Naming Conventions
 
-- **Component pages** (`元件/`): `[Part Number](Part Number.md)` → file `Part Number.md`
-- **Knowledge pages** (`知识/<discipline>/`): `[Topic Name](Topic Name.md)` → file `Topic Name.md`
-- **Source summaries** (`来源/`): `[YYYY-MM-DD - Source Title](YYYY-MM-DD - Source Title.md)` → file `YYYY-MM-DD - Source Title.md`
-- **Project pages** (`项目/`): `[Project Name](Project Name.md)` → file `Project Name.md`
+- **Component pages** (`元件/`): `[Part Number](Part%20Number.md)` → file `Part Number.md`
+- **Knowledge pages** (`知识/<discipline>/`): `[Topic Name](Topic%20Name.md)` → file `Topic Name.md`
+- **Source summaries** (`来源/`): `[YYYY-MM-DD - Source Title](YYYY-MM-DD%20-%20Source%20Title.md)` → file `YYYY-MM-DD - Source Title.md`
+- **Project pages** (`项目/`): `[Project Name](Project%20Name.md)` → file `Project Name.md`
 - **Datasheet files**: `Chip_<Category>_<SubCategory>_<PartNumber>.PDF` — e.g. `Chip_DCDC_TPS54302.PDF`
 
 Use `PascalCase` or `Natural Language` names for wiki pages — whatever reads naturally. Keep names consistent once chosen. Use Obsidian wiki-links (`[...](....md)`) for all internal cross-references.
@@ -68,7 +68,7 @@ type: concept
 tags: [tag1, tag2]
 created: 2026-06-26
 updated: 2026-06-26
-sources: ["[2026-06-26 - Source Title](2026-06-26 - Source Title.md)"]   # MANDATORY — links to 来源/ summaries
+sources: ["[2026-06-26 - Source Title](2026-06-26%20-%20Source%20Title.md)"]   # MANDATORY — links to 来源/ summaries
 ---
 ```
 
@@ -80,7 +80,7 @@ type: entity
 tags: [electronics, category, subcategory]
 created: 2026-06-07
 updated: 2026-06-17
-sources: ["[2026-06-26 - Source Title](2026-06-26 - Source Title.md)"]   # Optional — datasheet source
+sources: ["[2026-06-26 - Source Title](2026-06-26%20-%20Source%20Title.md)"]   # Optional — datasheet source
 ---
 ```
 
@@ -174,7 +174,7 @@ Periodically (or on request), health-check the wiki:
 |------|------|------|
 
 ## 活跃项目
-- [Project Name](Project Name.md) — Description
+- [Project Name](Project%20Name.md) — Description
 ```
 
 ### `知识/知识总览.md` — knowledge index by discipline
@@ -185,7 +185,7 @@ Periodically (or on request), health-check the wiki:
 ## Discipline Name
 | 页面 | 内容 | 来源 |
 |------|------|------|
-| [subfolder/Page Name](subfolder/Page Name.md) | One-line summary | [Source](Source.md) |
+| [subfolder/Page Name](subfolder/Page%20Name.md) | One-line summary | [Source](Source.md) |
 ```
 
 ## Log File Format

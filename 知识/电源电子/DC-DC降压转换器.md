@@ -3,7 +3,7 @@ type: concept
 tags: [electronics, power-supply, dc-dc, switching-regulator]
 created: 2026-06-07
 updated: 2026-07-15
-sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07 - Datasheet Collection.md)"]
+sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Datasheet%20Collection.md)"]
   - SiC46x 数据手册
 ---
 

@@ -4,7 +4,7 @@ tags: [imu, bayesian, lie-group, so3, orientation, probability]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[2026-07-15 - Lee Matrix Fisher SO3 姿态估计](../../来源/2026-07-15 - Lee Matrix Fisher SO3 姿态估计.md)"
+  - "[2026-07-15 - Lee Matrix Fisher SO3 姿态估计](../../来源/2026-07-15%20-%20Lee%20Matrix%20Fisher%20SO3%20姿态估计.md)"
 ---
 
 # Matrix Fisher SO(3) 概率姿态估计
@@ -246,5 +246,5 @@ Jin 2025 将 Lee 2018 的贝叶斯框架与深度学习结合：
 ## 参见
 
 - [误差状态卡尔曼滤波](误差状态卡尔曼滤波.md) — ESKF 的误差状态表示与 Matrix Fisher 的全局分布对比
-- [AVNet 不变扩展卡尔曼姿态](AVNet 不变扩展卡尔曼姿态.md) — InEKF 也在 SO(3) 上工作，但以不变观测驱动而非显式概率分布
+- [AVNet 不变扩展卡尔曼姿态](AVNet%20不变扩展卡尔曼姿态.md) — InEKF 也在 SO(3) 上工作，但以不变观测驱动而非显式概率分布
 - [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 姿态估计算法全景图
