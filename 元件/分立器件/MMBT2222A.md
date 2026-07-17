@@ -56,7 +56,7 @@ NPN 通用小信号三极管，SOT-23 封装。两种主要变体：
 
 ## 6. 核心功能
 
-![[_llm/raw/assets/datasheets/mmbt2222a/mmbt2222a_p3_fig6.jpg|620]]
+[📷 _llm/raw/assets/datasheets/mmbt2222a/mmbt2222a_p3_fig6.jpg|620]
 *Figure 3 — 直流电流增益 hFE 随 IC 变化曲线*
 
 

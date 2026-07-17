@@ -4,7 +4,7 @@ tags: [姿态解算, 生物力学, 运动链, EKF]
 created: 2026-07-03
 updated: 2026-07-15
 sources:
-  - "[[2026-06-26 - Foxlin 鞋装惯性传感器行人追踪]]"
+  - "[2026-06-26 - Foxlin 鞋装惯性传感器行人追踪](2026-06-26 - Foxlin 鞋装惯性传感器行人追踪.md)"
   - "医学 ROM 数据来自 Kapandji 关节生理学等标准参考"
 ---
 
@@ -269,4 +269,4 @@ if ROM_constraint_violation(node_i):
 - AAOS: *Joint Motion: Method of Measuring and Recording*, 1965
 - ISB: *Recommendations for Standardization in the Reporting of Kinematic Data*, 2002, 2005
 - GB/T 10000-1988: 中国成年人人体尺寸
-- [[SO(3)-EKF 与运动链约束的全身姿态解算]] — 本文的 ROMM 约束嵌入该框架的约束层
+- [SO(3)-EKF 与运动链约束的全身姿态解算](SO(3)-EKF 与运动链约束的全身姿态解算.md) — 本文的 ROMM 约束嵌入该框架的约束层

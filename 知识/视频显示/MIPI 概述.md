@@ -4,11 +4,11 @@ tags: [mipi, video, display, serial-interface, protocol, mobile]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[[2026-06-28 - MIPI D-PHY Specification v2.5]]"
-  - "[[2026-06-28 - MIPI DSI Specification v1.3]]"
-  - "[[2026-06-28 - MIPI DCS Specification v1.02]]"
-  - "[[2026-06-28 - MIPI DBI Specification v2.0]]"
-  - "[[2026-06-28 - MIPI DPI Specification v2.0]]"
+  - "[2026-06-28 - MIPI D-PHY Specification v2.5](2026-06-28 - MIPI D-PHY Specification v2.5.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](2026-06-28 - MIPI DSI Specification v1.3.md)"
+  - "[2026-06-28 - MIPI DCS Specification v1.02](2026-06-28 - MIPI DCS Specification v1.02.md)"
+  - "[2026-06-28 - MIPI DBI Specification v2.0](2026-06-28 - MIPI DBI Specification v2.0.md)"
+  - "[2026-06-28 - MIPI DPI Specification v2.0](2026-06-28 - MIPI DPI Specification v2.0.md)"
 ---
 
 # MIPI 概述
@@ -95,20 +95,20 @@ DSI 协议栈分层设计，各层独立演进：
 
 | 概念 | 说明 | 详见 |
 |------|------|------|
-| **D-PHY** | 差分物理层：HS 模式用差分 LVDS、LP 模式用单端 CMOS | [[视频显示/MIPI D-PHY]] |
-| **C-PHY** | 三线三电平物理层：嵌入式时钟、~2.28 bits/symbol、可与 D-PHY 共存 | [[视频显示/MIPI C-PHY]] |
-| **DSI Host / Peripheral** | 主机（SoC）发送时钟和命令，外设（面板）响应 | [[视频显示/MIPI DSI]] |
-| **Video Mode** | 实时视频流，类似 HDMI 的 HSYNC/VSYNC 时序 | [[视频显示/MIPI DSI]] |
-| **Command Mode** | 面板自有帧缓存，主机发命令触发刷新 | [[视频显示/MIPI DSI]] |
-| **DCS Commands** | 标准显示命令：Sleep In/Out、Display On/Off、Gamma | [[视频显示/MIPI DCS]] |
-| **DBI Type A/B/C** | 并行 CPU 总线接口的三种变体 | [[视频显示/MIPI DBI]] |
-| **DPI** | 并行像素接口，带 HSYNC/VSYNC/DE/DOTCLK | [[视频显示/MIPI DPI]] |
-| **Virtual Channel** | 同一 DSI 链路上多外设复用（最多 4 个 VC） | [[视频显示/MIPI DSI]] |
-| **Dual DSI** | 双 DSI 链路驱动一面超高分辨率面板 | [[视频显示/MIPI DSI]] |
+| **D-PHY** | 差分物理层：HS 模式用差分 LVDS、LP 模式用单端 CMOS | [视频显示/MIPI D-PHY](视频显示/MIPI D-PHY.md) |
+| **C-PHY** | 三线三电平物理层：嵌入式时钟、~2.28 bits/symbol、可与 D-PHY 共存 | [视频显示/MIPI C-PHY](视频显示/MIPI C-PHY.md) |
+| **DSI Host / Peripheral** | 主机（SoC）发送时钟和命令，外设（面板）响应 | [视频显示/MIPI DSI](视频显示/MIPI DSI.md) |
+| **Video Mode** | 实时视频流，类似 HDMI 的 HSYNC/VSYNC 时序 | [视频显示/MIPI DSI](视频显示/MIPI DSI.md) |
+| **Command Mode** | 面板自有帧缓存，主机发命令触发刷新 | [视频显示/MIPI DSI](视频显示/MIPI DSI.md) |
+| **DCS Commands** | 标准显示命令：Sleep In/Out、Display On/Off、Gamma | [视频显示/MIPI DCS](视频显示/MIPI DCS.md) |
+| **DBI Type A/B/C** | 并行 CPU 总线接口的三种变体 | [视频显示/MIPI DBI](视频显示/MIPI DBI.md) |
+| **DPI** | 并行像素接口，带 HSYNC/VSYNC/DE/DOTCLK | [视频显示/MIPI DPI](视频显示/MIPI DPI.md) |
+| **Virtual Channel** | 同一 DSI 链路上多外设复用（最多 4 个 VC） | [视频显示/MIPI DSI](视频显示/MIPI DSI.md) |
+| **Dual DSI** | 双 DSI 链路驱动一面超高分辨率面板 | [视频显示/MIPI DSI](视频显示/MIPI DSI.md) |
 
 ## 5. 物理拓扑
 
-![[_llm/raw/assets/standards/dsi13/dsi13_p22_fig1.jpg|600]]
+[📷 _llm/raw/assets/standards/dsi13/dsi13_p22_fig1.jpg|600]
 *DSI Figure 1 — 主机与外设的 DSI 接口：一条时钟 Lane + N 条数据 Lane 的点对点连接*
 
 最简 DSI 系统：
@@ -142,7 +142,7 @@ flowchart LR
 | 内容保护 | HDCP | （无标准内容保护） |
 
 > [!note] HDMI→DSI 桥接
-> 在嵌入式和移动场景中，[[TC358870]] 等桥接芯片将 HDMI 1.4 输入转换为 MIPI DSI 输出，使得标准 HDMI 信号源可以驱动 MIPI 面板。
+> 在嵌入式和移动场景中，[TC358870](TC358870.md) 等桥接芯片将 HDMI 1.4 输入转换为 MIPI DSI 输出，使得标准 HDMI 信号源可以驱动 MIPI 面板。
 
 ## 7. 工业实践
 
@@ -150,16 +150,16 @@ MIPI DSI 在现代设备中无处不在：
 
 - **智能手机**：几乎所有现代手机使用 DSI 连接 LCD/OLED 面板
 - **嵌入式 Linux**：DRM 驱动框架通过 `mipi_dsi_device` 抽象 DSI 外设
-- **Linux 驱动示例**：`panel-truly-nt35597.c`（[[NT35597]]）实现 dual-DSI + DCS 完整驱动
+- **Linux 驱动示例**：`panel-truly-nt35597.c`（[NT35597](NT35597.md)）实现 dual-DSI + DCS 完整驱动
 
 ## 相关页面
 
-- [[视频显示/MIPI D-PHY]] — 物理层：HS/LP 差分信号、电气特性、时序
-- [[视频显示/MIPI C-PHY]] — 物理层：三电平编码、嵌入式时钟、2.28 bits/symbol
-- [[视频显示/MIPI DSI]] — 协议层：包格式、视频/命令模式、ECC
-- [[视频显示/MIPI DCS]] — 命令集：电源控制、伽马、显示设置
-- [[视频显示/MIPI DBI]] — 并行总线接口 Type A/B/C
-- [[视频显示/MIPI DPI]] — 并行像素接口
-- [[视频显示/HDMI 协议概述]] — HDMI 协议栈（同属显示接口）
-- [[TC358870]] — HDMI 1.4 → 双 MIPI DSI 桥接芯片
-- [[NT35597]] — Novatek 2K 面板驱动 IC（Dual-DSI + DCS）
+- [视频显示/MIPI D-PHY](视频显示/MIPI D-PHY.md) — 物理层：HS/LP 差分信号、电气特性、时序
+- [视频显示/MIPI C-PHY](视频显示/MIPI C-PHY.md) — 物理层：三电平编码、嵌入式时钟、2.28 bits/symbol
+- [视频显示/MIPI DSI](视频显示/MIPI DSI.md) — 协议层：包格式、视频/命令模式、ECC
+- [视频显示/MIPI DCS](视频显示/MIPI DCS.md) — 命令集：电源控制、伽马、显示设置
+- [视频显示/MIPI DBI](视频显示/MIPI DBI.md) — 并行总线接口 Type A/B/C
+- [视频显示/MIPI DPI](视频显示/MIPI DPI.md) — 并行像素接口
+- [视频显示/HDMI 协议概述](视频显示/HDMI 协议概述.md) — HDMI 协议栈（同属显示接口）
+- [TC358870](TC358870.md) — HDMI 1.4 → 双 MIPI DSI 桥接芯片
+- [NT35597](NT35597.md) — Novatek 2K 面板驱动 IC（Dual-DSI + DCS）

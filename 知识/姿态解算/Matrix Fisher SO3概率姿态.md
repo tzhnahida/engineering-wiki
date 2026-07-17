@@ -4,7 +4,7 @@ tags: [imu, bayesian, lie-group, so3, orientation, probability]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[[2026-07-15 - Lee Matrix Fisher SO3 姿态估计]]"
+  - "[2026-07-15 - Lee Matrix Fisher SO3 姿态估计](2026-07-15 - Lee Matrix Fisher SO3 姿态估计.md)"
 ---
 
 # Matrix Fisher SO(3) 概率姿态估计
@@ -66,7 +66,7 @@ $$
 \mathrm{Prob}[ \angle(\mathbf{R}, \mathbf{M}) \leq \theta ] = \frac{1}{\pi(I_0(2s) - I_1(2s))} \int_0^\theta e^{2s\cos\rho} (1-\cos\rho) \, d\rho
 $$
 
-![[_llm/raw/assets/papers/leefisher2018/fisher_p6_fig1.jpg|480]]
+[📷 _llm/raw/assets/papers/leefisher2018/fisher_p6_fig1.jpg|480]
 *Fig. 1 — $M(sI_{3\times3})$ 的累积分布函数。$s$ 越大分布越集中；$s=0$ 退化为均匀分布。$s=100$ 时姿态角误差 $<10^\circ$ 的概率为 0.9。*
 
 ## 均值姿态与一阶矩
@@ -110,7 +110,7 @@ $$
 
 这类似于圆上的 von Mises 分布，集中参数 $\kappa = s_j + s_k$。当 $s_j + s_k$ 足够大时，$\theta_i$ 近似服从方差为 $1/(s_j + s_k)$ 的高斯分布。
 
-![[_llm/raw/assets/papers/leefisher2018/fisher_p8_fig1.jpg|520]]
+[📷 _llm/raw/assets/papers/leefisher2018/fisher_p8_fig1.jpg|520]
 *Fig. 3 — $U$ 和 $V$ 对分布形状的几何作用：左乘旋转矩阵 $A$ 同时改变均值姿态和主轴方向（左图）；同时调整 $U$ 和 $V$ 可仅改变主轴方向而不改变均值姿态（右图）。*
 
 **示例**：$\mathbf{F}_c = \mathrm{diag}[25,5,1]$ 时均值姿态为 $\mathbf{I}_{3\times3}$，主轴为 $(e_1,e_2,e_3)$。$s_2+s_3 = 6$（绕 $e_1$ 轴最分散），$s_1+s_2 = 30$（绕 $e_3$ 轴最集中）。这与多元高斯中协方差矩阵的特征值分解完全对应——$U$ 的列就是 SO(3) 上的"特征向量"。
@@ -182,7 +182,7 @@ $$
 
 权重 $\{w_0, w_1, w_2, w_3\}$ 的设计保证加权一阶矩 $\sum \tilde{w} \tilde{\mathbf{R}}$ 与 $\mathbb{E}[\mathbf{R}]$ 精确匹配（定理 IV.1）。
 
-![[_llm/raw/assets/papers/leefisher2018/fisher_p12_fig2.jpg|520]]
+[📷 _llm/raw/assets/papers/leefisher2018/fisher_p12_fig2.jpg|520]
 *Fig. 4 — 不同 Matrix Fisher 分布（$F_a = 5I$，$F_b = 20I$，$F_c = \mathrm{diag}[25,5,1]$）的 sigma 点体轴可视化。下图为 $\cos \theta_i$ 随 $s_j+s_k$ 的变化曲线。*
 
 ### Unscented 传播（原文 Table II）
@@ -201,7 +201,7 @@ $$
 
 初始估计为绕第一体轴旋转 $180^\circ$ 的错误姿态，且估计器对该错误**过度自信**（$s=100$）：
 
-![[_llm/raw/assets/papers/leefisher2018/fisher_p14_fig3.jpg|520]]
+[📷 _llm/raw/assets/papers/leefisher2018/fisher_p14_fig3.jpg|520]
 *Fig. 6 — Case I 估计误差对比：一阶（红线）、Unscented（蓝线）。初始误差 $180^\circ$，三次姿态测量后（$t=0.3$s）降至 $4^\circ$ 以下。*
 
 对比结果（原文 Table III）：
@@ -245,6 +245,6 @@ Jin 2025 将 Lee 2018 的贝叶斯框架与深度学习结合：
 
 ## 参见
 
-- [[误差状态卡尔曼滤波]] — ESKF 的误差状态表示与 Matrix Fisher 的全局分布对比
-- [[AVNet 不变扩展卡尔曼姿态]] — InEKF 也在 SO(3) 上工作，但以不变观测驱动而非显式概率分布
-- [[IMU姿态解算算法演进]] — 姿态估计算法全景图
+- [误差状态卡尔曼滤波](误差状态卡尔曼滤波.md) — ESKF 的误差状态表示与 Matrix Fisher 的全局分布对比
+- [AVNet 不变扩展卡尔曼姿态](AVNet 不变扩展卡尔曼姿态.md) — InEKF 也在 SO(3) 上工作，但以不变观测驱动而非显式概率分布
+- [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 姿态估计算法全景图

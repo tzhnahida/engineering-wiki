@@ -46,11 +46,11 @@ DCS 规范定义了控制显示模组的标准化命令集。无论底层使用 
 
 ## 产生的知识页
 
-- [[视频显示/MIPI DCS]] — DCS 知识页
-- [[视频显示/MIPI DSI]] — DSI 承载 DCS 命令
-- [[视频显示/MIPI DBI]] — DBI 承载 DCS 命令
+- [视频显示/MIPI DCS](视频显示/MIPI DCS.md) — DCS 知识页
+- [视频显示/MIPI DSI](视频显示/MIPI DSI.md) — DSI 承载 DCS 命令
+- [视频显示/MIPI DBI](视频显示/MIPI DBI.md) — DBI 承载 DCS 命令
 
 ## 相关标准
 
-- [[2026-06-28 - MIPI DSI Specification v1.3]]
-- [[2026-06-28 - MIPI D-PHY Specification v2.5]]
+- [2026-06-28 - MIPI DSI Specification v1.3](2026-06-28 - MIPI DSI Specification v1.3.md)
+- [2026-06-28 - MIPI D-PHY Specification v2.5](2026-06-28 - MIPI D-PHY Specification v2.5.md)

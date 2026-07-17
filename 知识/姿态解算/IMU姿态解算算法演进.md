@@ -4,12 +4,12 @@ tags: [imu, ahrs, sensor-fusion, madgwick, vqf, kalman-filter, deep-learning, tr
 created: 2026-06-26
 updated: 2026-06-26
 sources:
-  - "[[2026-06-24 - Madgwick AHRS 姿态解算滤波器]]"
+  - "[2026-06-24 - Madgwick AHRS 姿态解算滤波器](2026-06-24 - Madgwick AHRS 姿态解算滤波器.md)"
 ---
 
 # IMU 姿态解算算法演进
 
-> 从 Madgwick 到深度学习：九轴 IMU 姿态估计算法的现状与选择。服务于[[全身动捕与头显系统]]的算法选型。
+> 从 Madgwick 到深度学习：九轴 IMU 姿态估计算法的现状与选择。服务于[全身动捕与头显系统](全身动捕与头显系统.md)的算法选型。
 
 ---
 
@@ -50,7 +50,7 @@ graph LR
 
 ### Madgwick (2009)
 
-梯度下降替代 Kalman 滤波，一步迭代，计算量极小。[[2026-06-24 - Madgwick AHRS 姿态解算滤波器|详见 Madgwick 专题页]]。
+梯度下降替代 Kalman 滤波，一步迭代，计算量极小。[详见 Madgwick 专题页](2026-06-24 - Madgwick AHRS 姿态解算滤波器.md)。
 
 | 优点 | 缺点 |
 |------|------|
@@ -62,7 +62,7 @@ graph LR
 
 ---
 
-### VQF (2023) → [[VQF 姿态解算滤波器|详页]]
+### VQF (2023) → [详页](VQF 姿态解算滤波器.md)
 
 > 解耦式四元数滤波器，当前经典算法天花板。
 > Laidig & Seel, *Information Fusion* 91:187–204. DOI: [10.1016/j.inffus.2022.10.014](https://doi.org/10.1016/j.inffus.2022.10.014)
@@ -81,7 +81,7 @@ graph LR
 
 ---
 
-### Correntropy GD (2024) → [[相关熵梯度下降姿态解算|详页]]
+### Correntropy GD (2024) → [详页](相关熵梯度下降姿态解算.md)
 
 > Li et al., *IEEE TIM* 73 (2024).
 > DOI: [10.1109/TIM.2023.3334336](https://doi.org/10.1109/TIM.2023.3334336)
@@ -98,7 +98,7 @@ graph LR
 
 ---
 
-### MDR (2024) → [[MDR 磁畸变抑制|详页]]
+### MDR (2024) → [详页](MDR 磁畸变抑制.md)
 
 > Yang et al., arXiv:2410.12304 (Oct 2024).
 > 完整版：[escholarship.org](https://escholarship.org/content/qt04m228kd/qt04m228kd.pdf)
@@ -113,7 +113,7 @@ graph LR
 
 ## 深度学习方案
 
-### DO IONet (2023–2024) → [[DO IONet Transformer直接姿态|详页]]
+### DO IONet (2023–2024) → [详页](DO IONet Transformer直接姿态.md)
 
 > Han et al., *JAMET* 48(2):96–106 (2024).
 > DOI: [10.5916/jamet.2024.48.2.96](https://doi.org/10.5916/jamet.2024.48.2.96)
@@ -130,7 +130,7 @@ graph LR
 
 ---
 
-### AVNet + InEKF (2025) → [[AVNet 不变扩展卡尔曼姿态|详页]]
+### AVNet + InEKF (2025) → [详页](AVNet 不变扩展卡尔曼姿态.md)
 
 > Qian et al., *Satellite Navigation* 6:15 (2025).
 > DOI: [10.1186/s43020-025-00168-7](https://doi.org/10.1186/s43020-025-00168-7)（开放获取）
@@ -143,7 +143,7 @@ graph LR
 
 ---
 
-### Matrix Fisher SO(3) (2025) → [[Matrix Fisher SO3概率姿态|详页]]
+### Matrix Fisher SO(3) (2025) → [详页](Matrix Fisher SO3概率姿态.md)
 
 > *Information Fusion*, 2025.
 
@@ -175,7 +175,7 @@ graph LR
 
 | 创新方向 | 核心论文 | 可行性 |
 |---------|---------|:---:|
-| VQF + 15 节点运动链 EKF 混合融合 | VQF + [[2026-06-24 - Solà Error-State Kalman Filter\|Solà ESKF]] | ✅ |
+| VQF + 15 节点运动链 EKF 混合融合 | VQF + [Solà ESKF](2026-06-24 - Solà Error-State Kalman Filter\.md) | ✅ |
 | Transformer 替代经典滤波器做动捕姿态 | DO IONet 2024 | ✅ |
 | CNN+InEKF + 光学参考外部修正 | AVNet 2025 | ✅ |
 | MDR 多节点磁干扰建模 + 运动链 | MDR 2024 | 🔬 |
@@ -195,9 +195,9 @@ graph LR
 
 ## 参见
 
-- [[2026-06-24 - Madgwick AHRS 姿态解算滤波器]] — Madgwick 算法详解
-- [[梯度下降姿态解算]] — 梯度下降法理论推导
-- [[2026-06-24 - Solà Error-State Kalman Filter]] — EKF 全局融合基础
-- [[ICM-42688-P]] — 本项目 IMU
-- [[QMC5883P]] — 本项目磁力计
-- [[全身动捕与头显系统]] — 应用项目
+- [2026-06-24 - Madgwick AHRS 姿态解算滤波器](2026-06-24 - Madgwick AHRS 姿态解算滤波器.md) — Madgwick 算法详解
+- [梯度下降姿态解算](梯度下降姿态解算.md) — 梯度下降法理论推导
+- [2026-06-24 - Solà Error-State Kalman Filter](2026-06-24 - Solà Error-State Kalman Filter.md) — EKF 全局融合基础
+- [ICM-42688-P](ICM-42688-P.md) — 本项目 IMU
+- [QMC5883P](QMC5883P.md) — 本项目磁力计
+- [全身动捕与头显系统](全身动捕与头显系统.md) — 应用项目
