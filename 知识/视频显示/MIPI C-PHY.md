@@ -13,10 +13,10 @@ sources:
 
 ## 1. 核心编码原理
 
-[📷 _llm/raw/assets/standards/cphy21/cphy21_p27_fig7.jpg|400]
+![cphy21_p27_fig7.jpg](../../assets/standards/cphy21/cphy21_p27_fig7.jpg)
 *Figure 1 — C-PHY 三线六状态（+x/-x/+y/-y/+z/-z）的电流路径与电平组合*
 
-[📷 _llm/raw/assets/standards/cphy21/cphy21_p28_fig1.jpg|460]
+![cphy21_p28_fig1.jpg](../../assets/standards/cphy21/cphy21_p28_fig1.jpg)
 *Figure 2 — 六状态转移图：每个 UI 必须换状态，5 种转移编码 log₂5≈2.32bit*
 
 
@@ -146,10 +146,10 @@ LP Mode ────────╮                           ╭──── LP
 
 ## 4. Lane 架构
 
-[📷 _llm/raw/assets/standards/cphy21/cphy21_p29_fig1.jpg|640]
+![cphy21_p29_fig1.jpg](../../assets/standards/cphy21/cphy21_p29_fig1.jpg)
 *Figure 3 — 16bit 数据端到端传输：映射器 → 三线状态序列 → 解映射还原*
 
-[📷 _llm/raw/assets/standards/cphy21/cphy21_p34_fig1.jpg|560]
+![cphy21_p34_fig1.jpg](../../assets/standards/cphy21/cphy21_p34_fig1.jpg)
 *Figure 6 — 三 Lane PHY 配置：C-PHY 无独立时钟 Lane，时钟内嵌于状态转移*
 
 

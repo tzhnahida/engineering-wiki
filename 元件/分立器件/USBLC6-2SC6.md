@@ -43,7 +43,7 @@ USB 专用 ESD 保护二极管，2 路单向通道。SOT-23-6L 封装。IEC 6100
 > 超低电容 (3pF) 确保高速数据信号完整性。
 ## 6. 核心功能
 
-[📷 _llm/raw/assets/datasheets/usblc6/usblc6_p4_fig2.jpg|560]
+![usblc6_p4_fig2.jpg](../../assets/datasheets/usblc6/usblc6_p4_fig2.jpg)
 *典型应用：USB 2.0 数据线 ESD 保护接法*
 
 

@@ -1,0 +1,295 @@
+[
+ {
+  "page": 4,
+  "file": "avnet_p4_fig1.jpg",
+  "bbox": [
+   211,
+   176,
+   970,
+   1182
+  ],
+  "size": [
+   759,
+   1006
+  ],
+  "caption": "Fig. 1 The framework of the proposed DMDVDR method",
+  "nearby": [
+   "Fig. 1 The framework of the proposed DMDVDR method",
+   "deep learning virtual sensors become a feasible approach to realize functions similar to physical sensors. The meas- urement estimator calcu",
+   "velocity (Niu et al., 2007). In addition, steering wheel angle sensors can provide rotation measurements for correcting the lateral motion m"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "avnet_p5_fig1.jpg",
+  "bbox": [
+   213,
+   779,
+   978,
+   1414
+  ],
+  "size": [
+   765,
+   635
+  ],
+  "caption": "Fig. 2 Architecture of the proposed AVNet",
+  "nearby": [
+   "Fig. 2 Architecture of the proposed AVNet",
+   "where N is the number of clipped time sections, qpred i and qtrue i are the estimated and ground truth attitude change of the sensor represe",
+   "where Rw s is the Data-Driven Attitude (DDATT) and vv v,lon is the Data-Driven Velocity (DDODO) which is call DDODO in this paper, while Wes"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "avnet_p6_fig1.jpg",
+  "bbox": [
+   210,
+   721,
+   975,
+   1411
+  ],
+  "size": [
+   765,
+   690
+  ],
+  "caption": "Fig. 3 Architecture of the proposed filter parameter adapter",
+  "nearby": [
+   "Fig. 3 Architecture of the proposed filter parameter adapter",
+   "Data‑driven filter parameter adapter The measurement filter parameter adapter calculates the process and measurement covariances Q(tn) and N",
+   "In terms of implementation, the simple CNN-like archi- tecture shown in Fig. 3 is adopted to let the network be trainable. Also a simple net"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "avnet_p11_fig1.jpg",
+  "bbox": [
+   210,
+   556,
+   975,
+   813
+  ],
+  "size": [
+   765,
+   257
+  ],
+  "caption": "Fig. 4 Data collection platform",
+  "nearby": [
+   "Fig. 4 Data collection platform",
+   "this smartphone was an STMicroelectronics LSM6DSM. The gyroscope rate noise density quoted by the manufac- turer was 3.8 × 10−3 ◦s−1 Hz−0.5 ",
+   "Experimental results Experimental setup To assess the performance of the proposed method, the experiments were conducted in a surface parkin"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "avnet_p11_fig3.jpg",
+  "bbox": [
+   213,
+   903,
+   970,
+   1412
+  ],
+  "size": [
+   757,
+   509
+  ],
+  "caption": "Fig. 5 Experimental sequences",
+  "nearby": [
+   "Fig. 5 Experimental sequences",
+   "Fig. 4 Data collection platform"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "avnet_p13_fig2.jpg",
+  "bbox": [
+   209,
+   624,
+   670,
+   1082
+  ],
+  "size": [
+   461,
+   458
+  ],
+  "caption": "Fig. 6 Trajectory results on sequence 01",
+  "nearby": [
+   "Fig. 6 Trajectory results on sequence 01",
+   "11 1553 807 386 174846 35661 255 26 26 26 7.61 5.80 1.1 3.40 0.45",
+   "10 839 418 422 4767 4057 144 13 13 12 3.66 2.22 1.0 2.90 0.58"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "avnet_p14_fig1.jpg",
+  "bbox": [
+   209,
+   175,
+   722,
+   682
+  ],
+  "size": [
+   513,
+   507
+  ],
+  "caption": "Fig. 7 Trajectory results on sequence 10",
+  "nearby": [
+   "Fig. 7 Trajectory results on sequence 10",
+   "Page 14 of 22 Qian et al. Satellite Navigation (2025) 6:15"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "avnet_p14_fig3.jpg",
+  "bbox": [
+   208,
+   794,
+   978,
+   1417
+  ],
+  "size": [
+   770,
+   623
+  ],
+  "caption": "Fig. 8 Errors of the data-driven attitude",
+  "nearby": [
+   "Fig. 8 Errors of the data-driven attitude",
+   "Fig. 7 Trajectory results on sequence 10"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "avnet_p15_fig1.jpg",
+  "bbox": [
+   213,
+   176,
+   974,
+   785
+  ],
+  "size": [
+   761,
+   609
+  ],
+  "caption": "Fig. 9 Errors of the data-driven velocity",
+  "nearby": [
+   "Fig. 9 Errors of the data-driven velocity",
+   "(magenta dashed-dotted line) has a deviation in head- ing at the first 90 ◦ turn. The DeepOri method (green dotted line) can see the shape o",
+   "compared methods showed a significant degradation. As can be seen from the Table 1, for the DeepOri method, sequences 02 achieved better res"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "avnet_p16_fig1.jpg",
+  "bbox": [
+   210,
+   173,
+   975,
+   784
+  ],
+  "size": [
+   765,
+   611
+  ],
+  "caption": "Fig. 10 Data-driven attitude result on sequence 05",
+  "nearby": [
+   "Fig. 10 Data-driven attitude result on sequence 05",
+   "velocity factor on accuracy showed a pattern similar to that of the rectangular trajectory. As can be seen in Table 1, the results for seque",
+   "(−0.5, 0.5) m/s . The mean absolute velocity error of the whole dataset is 0.5 m/s. The complex turning situations can have an impact on the"
+  ]
+ },
+ {
+  "page": 17,
+  "file": "avnet_p17_fig1.jpg",
+  "bbox": [
+   210,
+   174,
+   974,
+   777
+  ],
+  "size": [
+   764,
+   603
+  ],
+  "caption": "Fig. 11 Data-driven velocity result on sequence 05",
+  "nearby": [
+   "Fig. 11 Data-driven velocity result on sequence 05",
+   "Page 17 of 22 Qian et al. Satellite Navigation (2025) 6:15"
+  ]
+ },
+ {
+  "page": 17,
+  "file": "avnet_p17_fig3.jpg",
+  "bbox": [
+   209,
+   906,
+   721,
+   1415
+  ],
+  "size": [
+   512,
+   509
+  ],
+  "caption": "Fig. 12 Trajectory results on sequence 11",
+  "nearby": [
+   "Fig. 12 Trajectory results on sequence 11",
+   "Fig. 11 Data-driven velocity result on sequence 05"
+  ]
+ },
+ {
+  "page": 18,
+  "file": "avnet_p18_fig1.jpg",
+  "bbox": [
+   209,
+   174,
+   720,
+   681
+  ],
+  "size": [
+   511,
+   507
+  ],
+  "caption": "Fig. 13 Trajectory results on sequence 09",
+  "nearby": [
+   "Fig. 13 Trajectory results on sequence 09",
+   "Page 18 of 22 Qian et al. Satellite Navigation (2025) 6:15"
+  ]
+ },
+ {
+  "page": 18,
+  "file": "avnet_p18_fig4.jpg",
+  "bbox": [
+   219,
+   771,
+   977,
+   1408
+  ],
+  "size": [
+   758,
+   637
+  ],
+  "caption": "Fig. 14 The selected section of trajectory visualization",
+  "nearby": [
+   "Fig. 14 The selected section of trajectory visualization",
+   "Fig. 13 Trajectory results on sequence 09"
+  ]
+ },
+ {
+  "page": 19,
+  "file": "avnet_p19_fig1.jpg",
+  "bbox": [
+   209,
+   173,
+   976,
+   748
+  ],
+  "size": [
+   767,
+   575
+  ],
+  "caption": "Fig. 15 Main filter states of the selected section",
+  "nearby": [
+   "Fig. 15 Main filter states of the selected section",
+   "are primarily designed for pedestrian navigation (Chen & Pan, 2024). Few datasets can provide synchronized smartphone sensors data with high",
+   "Sequence 09 included reverse parking to simulate a more realistic situation in Fig. 13. This trajectory started at the origin heading west a"
+  ]
+ }
+]

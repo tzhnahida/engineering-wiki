@@ -31,7 +31,7 @@ $$
 
 但人走路时脚周期性触地——每步有 0.1~0.3 秒完全静止。这是天然锚点。
 
-[📷 _llm/raw/assets/papers/skog2010/skog_p7_fig1.jpg|460]
+![skog_p7_fig1.jpg](../../assets/papers/skog2010/skog_p7_fig1.jpg)
 *Fig. 4 — 支撑相（stance phase）与加计/陀螺原始输出的时间对应关系：脚触地期间信号明显"安静"，这就是零速检测的物理依据*
 
 > [Foxlin (2005)](脚装惯性导航奠基.md) 第一个提出鞋装 IMU + ZUPT 的完整方案，用"软"ZUPT（Kalman 测量更新）替代"硬"归零。Skog (2010) 把零速检测问题形式化为 GLRT。
@@ -70,7 +70,7 @@ $$T(z_n) = \frac{1}{N} \sum_{k=n}^{n+N-1} \left( \frac{1}{\sigma_a^2} \left\| y_
 
 **物理含义**：加计和陀螺测量的"偏离理想静止信号"程度，各自按噪声方差的倒数加权，窗口平均。低于阈值 → 大概率静止。
 
-[📷 _llm/raw/assets/papers/skog2010/skog_p6_fig3.jpg|420]
+![skog_p6_fig3.jpg](../../assets/papers/skog2010/skog_p6_fig3.jpg)
 *Fig. 3 — 四种检测统计量 $T(z_n)$ 随时间的输出：静止段（stance）统计量显著低于摆动段，阈值 γ 水平切割即得零速判决*
 
 ---
@@ -106,7 +106,7 @@ $$T_\omega(z_n^\omega) = \frac{1}{N} \sum_{k=n}^{n+N-1} \|y_k^\omega\|^2 < \gamm
 
 > **结论**：角速度能量 ≈ SHOE ≫ 纯加计方案。陀螺信号比加计信号**干净得多**——信号噪声比更高，且"静止=零角速度"的先验比"静止=重力方向"更确定。
 
-[📷 _llm/raw/assets/papers/skog2010/skog_p7_fig3.jpg|400] [📷 _llm/raw/assets/papers/skog2010/skog_p8_fig1.jpg|400]
+![skog_p7_fig3.jpg](../../assets/papers/skog2010/skog_p7_fig3.jpg) ![skog_p8_fig1.jpg](../../assets/papers/skog2010/skog_p8_fig1.jpg)
 *Fig. 5 / Fig. 6 — 慢走（左）与正常步速（右）下四种 GLRT 检测器的检测概率-虚警概率曲线：角速度能量与 SHOE 几乎重合于左上角，两种纯加计检测器明显落后*
 
 $\sigma_a = 0.02$ m/s², $\sigma_\omega = 0.1$ °/s, N=5 @ 30 Hz ($\approx$ 150 ms 窗口)。
@@ -143,7 +143,7 @@ ZUPT 的死穴：**走路调好的阈值，跑起步来全部失效**。
 
 SVM 分类器（RBF 核），1 秒窗口（125 样本 @ 125 Hz），输入 6 轴原始 IMU 数据归一化：
 
-[📷 _llm/raw/assets/papers/wagstaff2017/wagstaff_p1_fig3.jpg|540]
+![wagstaff_p1_fig3.jpg](../../assets/papers/wagstaff2017/wagstaff_p1_fig3.jpg)
 *Fig. 1 — 系统架构：SVM 依惯性数据分类动作 → 按动作切换零速检测阈值 → ZUPT-EKF 融合*
 
 | 动作 | 分类准确率 |
@@ -168,7 +168,7 @@ $$F_\beta = (1+\beta^2)\frac{P \cdot R}{\beta^2 P + R}$$
 | 走路 | 0.96 | ×1 |
 | **跑步** | **13.11** | **×13.7** |
 
-[📷 _llm/raw/assets/papers/wagstaff2017/wagstaff_p5_fig3.jpg|420]
+![wagstaff_p5_fig3.jpg](../../assets/papers/wagstaff2017/wagstaff_p5_fig3.jpg)
 *Fig. 4 — 用 Vicon 真值扫描零速阈值：不同动作的最优 γ 相差一个数量级以上*
 
 > 跑步阈值是走路的 **14 倍**——如果只用走路的阈值跑起步，大部分零速事件被漏检，位置误差膨胀至 128m（5 名被试均值）vs 4.3m（用跑步专用阈值）。
@@ -181,7 +181,7 @@ $$F_\beta = (1+\beta^2)\frac{P \cdot R}{\beta^2 P + R}$$
 | 固定跑步 γ | 3.30 |
 | **自适应（SVM 切 γ）** | **2.68** |
 
-[📷 _llm/raw/assets/papers/wagstaff2017/wagstaff_p7_fig3.jpg|440]
+![wagstaff_p7_fig3.jpg](../../assets/papers/wagstaff2017/wagstaff_p7_fig3.jpg)
 *Fig. 6 — 走廊实验轨迹对比：固定走路阈值（漂移最大）vs 固定跑步阈值 vs 自适应切换（最贴合真值标记点）*
 
 > 自适应降低误差 63%（vs 走路阈值）、19%（vs 跑步阈值）。纯单动作时自适应 = 对应最优固定阈值（分类正确率 >95%）。

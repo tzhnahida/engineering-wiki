@@ -1,0 +1,179 @@
+[
+ {
+  "page": 1,
+  "file": "foxlin_p1_fig1.jpg",
+  "bbox": [
+   669,
+   86,
+   1076,
+   337
+  ],
+  "size": [
+   407,
+   251
+  ],
+  "caption": null,
+  "nearby": [
+   "Eric Foxlin InterSense",
+   "A navigation system that tracks the loca- tion of a person on foot is useful for ﬁnd- ing and rescuing ﬁreﬁghters or other emergency ﬁrst re",
+   "menting distant objects, a user would barely notice the NavShoe’s meter-level error combined with any error in the head’s assumed location r"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "foxlin_p4_fig1.jpg",
+  "bbox": [
+   134,
+   1170,
+   911,
+   1450
+  ],
+  "size": [
+   777,
+   280
+  ],
+  "caption": null,
+  "nearby": [
+   "formed from the n-frame accelerometer output vector . This term causes attitude errors to propagate into linear velocity errors in the n-fra",
+   "error covariance matrix at time k+1 based on mea- surements received through time k, and Qkis the process noise covariance matrix, which is ",
+   "P P Q k k k k k k T k + = + 1 Φ Φ"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "foxlin_p4_fig2.jpg",
+  "bbox": [
+   531,
+   93,
+   1064,
+   554
+  ],
+  "size": [
+   533,
+   461
+  ],
+  "caption": "1 The NavShoe system: (a) system block diagram and (b) Wireless InertiaCube3 (right) and its receiver (left).",
+  "nearby": [
+   "1 The NavShoe system: (a) system block diagram and (b) Wireless InertiaCube3 (right) and its receiver (left).",
+   "The rotation matrix Cn b transforms vectors from b- frame to locally level navigation frame (n-frame) is included in the matrix subblocks (φ",
+   "error covariance matrix at time k+1 based on mea- surements received through time k, and Qkis the process noise covariance matrix, which is "
+  ]
+ },
+ {
+  "page": 6,
+  "file": "foxlin_p6_fig1.jpg",
+  "bbox": [
+   115,
+   94,
+   585,
+   451
+  ],
+  "size": [
+   470,
+   357
+  ],
+  "caption": "3 NavShoe trajectory during a 118.5-meter exploratory path through a house: (a) plan view and (b) elevation.",
+  "nearby": [
+   "3 NavShoe trajectory during a 118.5-meter exploratory path through a house: (a) plan view and (b) elevation.",
+   "to take one compass yaw measurement per step. We take this measurement at the end of the stance phase, just as the foot begins to lift, beca",
+   "include not only the white noise originating from the sensor, but also the colored measurement noises aris- ing from magnetic disturbances i"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "foxlin_p6_fig2.jpg",
+  "bbox": [
+   632,
+   100,
+   1041,
+   448
+  ],
+  "size": [
+   409,
+   348
+  ],
+  "caption": "3 NavShoe trajectory during a 118.5-meter exploratory path through a house: (a) plan view and (b) elevation.",
+  "nearby": [
+   "3 NavShoe trajectory during a 118.5-meter exploratory path through a house: (a) plan view and (b) elevation.",
+   "to take one compass yaw measurement per step. We take this measurement at the end of the stance phase, just as the foot begins to lift, beca"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "foxlin_p7_fig1.jpg",
+  "bbox": [
+   149,
+   88,
+   575,
+   427
+  ],
+  "size": [
+   426,
+   339
+  ],
+  "caption": "4 NavShoe trajectory on a 741-meter road loop.",
+  "nearby": [
+   "4 NavShoe trajectory on a 741-meter road loop.",
+   "Moving Mixed Reality into the Real World",
+   "would allow a rescuer to unambiguously ﬁgure out in which room on which floor to look for a NavShoe- tracked ﬁreﬁghter. The total drift in a"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "foxlin_p8_fig1.jpg",
+  "bbox": [
+   575,
+   91,
+   1034,
+   440
+  ],
+  "size": [
+   459,
+   349
+  ],
+  "caption": "5 NavShoe test integrating GPS, inertial navigation system (INS), and a compass and simulated GPS outage.",
+  "nearby": [
+   "5 NavShoe test integrating GPS, inertial navigation system (INS), and a compass and simulated GPS outage.",
+   "vision or hybrid vision/inertial tracking. The NavShoe can operate synergistically with a vision-based head- tracker. By providing a robust "
+  ]
+ },
+ {
+  "page": 9,
+  "file": "foxlin_p9_fig1.jpg",
+  "bbox": [
+   665,
+   720,
+   787,
+   883
+  ],
+  "size": [
+   122,
+   163
+  ],
+  "caption": null,
+  "nearby": [
+   "References 1. E. Foxlin, Inertial Head-Tracking, master’s thesis, Dept. of Electrical Eng. and Computer Science, Massachusetts Inst. of Tech",
+   "s a v e"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "foxlin_p9_fig2.jpg",
+  "bbox": [
+   82,
+   1005,
+   1079,
+   1455
+  ],
+  "size": [
+   997,
+   450
+  ],
+  "caption": "46 November/December 2005",
+  "nearby": [
+   "46 November/December 2005",
+   "Future work Although the simple closed-loop tests suggest that the system accuracy is on the order of 0.3 percent, further experiments compa",
+   "Eric Foxlinis founder and chief tech- nology officer at InterSense. His research interests include motion tracking, inertial navigation, sen"
+  ]
+ }
+]

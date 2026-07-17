@@ -1,0 +1,60 @@
+[
+ {
+  "page": 7,
+  "file": "tc358870_p7_fig1.jpg",
+  "bbox": [
+   142,
+   505,
+   1081,
+   902
+  ],
+  "size": [
+   939,
+   397
+  ],
+  "caption": "Figure 1.1 TC358870XBG System Overview",
+  "nearby": [
+   "TC358870XBG, Ultra HD to DSI, bridge converts high resolution (higher than 4 Gbps) HDMI® stream to MIPI® DSI Tx video. It is a follow up dev",
+   "Figure 1.1 TC358870XBG System Overview"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "tc358870_p16_fig1.jpg",
+  "bbox": [
+   384,
+   225,
+   790,
+   492
+  ],
+  "size": [
+   406,
+   267
+  ],
+  "caption": null,
+  "nearby": [
+   "The automatic adjustment function of terminus resistance is attached to HDMI-Rx. Therefore, connect 2kΩ±1% of reference resistance between V",
+   "The Audio PLL external terminal connections used in the Audio clock generation are shown in the Figure below. In DAOUT output (PLL input), a"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "tc358870_p16_fig3.jpg",
+  "bbox": [
+   273,
+   852,
+   860,
+   1373
+  ],
+  "size": [
+   587,
+   521
+  ],
+  "caption": "Figure 5.3 Audio Clock External LPF circuit block diagram",
+  "nearby": [
+   "The Audio PLL external terminal connections used in the Audio clock generation are shown in the Figure below. In DAOUT output (PLL input), a",
+   "Figure 5.3 Audio Clock External LPF circuit block diagram",
+   "5.3. Audio PLL"
+  ]
+ }
+]

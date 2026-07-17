@@ -1,0 +1,362 @@
+[
+ {
+  "page": 22,
+  "file": "dsi13_p22_fig1.jpg",
+  "bbox": [
+   197,
+   663,
+   1022,
+   1092
+  ],
+  "size": [
+   825,
+   429
+  ],
+  "caption": "Figure 1 DSI Transmitter and Receiver Interface 520",
+  "nearby": [
+   "Figure 1 DSI Transmitter and Receiver Interface 520",
+   "From a system or software point of view, the serialization and deserialization operations should be 513 transparent. The most visible, and u",
+   "Figure 1 shows a simplified DSI interface. From a conceptual viewpoint, a DSI-compliant interface 507 performs the same functions as interfa"
+  ]
+ },
+ {
+  "page": 23,
+  "file": "dsi13_p23_fig1.jpg",
+  "bbox": [
+   197,
+   204,
+   1039,
+   879
+  ],
+  "size": [
+   842,
+   675
+  ],
+  "caption": "Figure 2 DSI Layers 523",
+  "nearby": [
+   "Figure 2 DSI Layers 523",
+   "4.1 DSI Layer Definitions 521",
+   "A conceptual view of DSI organizes the interface into several functional layers. A description of the layers 524 follows and is also shown i"
+  ]
+ },
+ {
+  "page": 26,
+  "file": "dsi13_p26_fig1.jpg",
+  "bbox": [
+   185,
+   474,
+   1040,
+   612
+  ],
+  "size": [
+   855,
+   138
+  ],
+  "caption": "Figure 3 Basic HS Transmission Structure 612",
+  "nearby": [
+   "Between transmissions, the differential data signal or Lane goes to a low-power state (LPS). Interfaces 608 should be in LPS when they are n",
+   "Figure 3 Basic HS Transmission Structure 612",
+   "D-PHY low-level protocol specifies a minimum data unit of one byte, and a transmission contains an 613 integer number of bytes. 614"
+  ]
+ },
+ {
+  "page": 30,
+  "file": "dsi13_p30_fig1.jpg",
+  "bbox": [
+   156,
+   206,
+   1436,
+   736
+  ],
+  "size": [
+   1280,
+   530
+  ],
+  "caption": "Figure 4 Peripheral Power-Up Sequencing Example 755",
+  "nearby": [
+   "Any drive state except LP-11, LP-10 or LP-01",
+   "Version 1.3 23-Mar-2015 Specification for DSI",
+   "Figure 4 Peripheral Power-Up Sequencing Example 755"
+  ]
+ },
+ {
+  "page": 31,
+  "file": "dsi13_p31_fig1.jpg",
+  "bbox": [
+   253,
+   566,
+   979,
+   1278
+  ],
+  "size": [
+   726,
+   712
+  ],
+  "caption": "Figure 5 Lane Distributor Conceptual Overview 769",
+  "nearby": [
+   "Conceptually, between the PHY and higher functional blocks is a layer that enables multi-Lane operation. 763 In the transmitter, shown in Fi",
+   "Figure 5 Lane Distributor Conceptual Overview 769",
+   "Multi-Lane implementations shall use a single common clock signal, shared by all Data Lanes. 762"
+  ]
+ },
+ {
+  "page": 33,
+  "file": "dsi13_p33_fig1.jpg",
+  "bbox": [
+   181,
+   143,
+   1038,
+   518
+  ],
+  "size": [
+   857,
+   375
+  ],
+  "caption": "Figure 7 Four-Lane Transmitter with Two-Lane Receiver Example 786",
+  "nearby": [
+   "Figure 7 Four-Lane Transmitter with Two-Lane Receiver Example 786",
+   "Version 1.3 23-Mar-2015 DRAFT MIPI Alliance Specification for DSI",
+   "6.1.1 Clock Considerations with Multi-Lane 787"
+  ]
+ },
+ {
+  "page": 34,
+  "file": "dsi13_p34_fig1.jpg",
+  "bbox": [
+   188,
+   188,
+   1040,
+   672
+  ],
+  "size": [
+   852,
+   484
+  ],
+  "caption": "Figure 8 Two Lane HS Transmission Example 811",
+  "nearby": [
+   "Number of Bytes, N, transmitted is an integer multiple of the number of lanes:",
+   "Figure 8 Two Lane HS Transmission Example 811",
+   "Version 1.3 23-Mar-2015 DRAFT MIPI Alliance Specification for DSI"
+  ]
+ },
+ {
+  "page": 56,
+  "file": "dsi13_p56_fig1.jpg",
+  "bbox": [
+   179,
+   144,
+   1035,
+   718
+  ],
+  "size": [
+   856,
+   574
+  ],
+  "caption": "Figure 22 Long Packet Structure 1209",
+  "nearby": [
+   "Figure 22 Long Packet Structure 1209",
+   "Version 1.3 23-Mar-2015 DRAFT MIPI Alliance Specification for DSI",
+   "The Data Identifier defines the Virtual Channel for the data and the Data Type for the application specific 1210 payload data. See Section 8"
+  ]
+ },
+ {
+  "page": 57,
+  "file": "dsi13_p57_fig1.jpg",
+  "bbox": [
+   286,
+   357,
+   908,
+   781
+  ],
+  "size": [
+   622,
+   424
+  ],
+  "caption": "Figure 23 Short Packet Structure 1238",
+  "nearby": [
+   "Figure 23 Short Packet Structure 1238",
+   "The Error Correction Code (ECC) byte allows single-bit errors to be corrected and 2-bit errors to be 1235 detected in the Short packet. 1236",
+   "8.5 Common Packet Elements 1239"
+  ]
+ },
+ {
+  "page": 57,
+  "file": "dsi13_p57_fig3.jpg",
+  "bbox": [
+   438,
+   1167,
+   789,
+   1352
+  ],
+  "size": [
+   351,
+   185
+  ],
+  "caption": "Figure 24 Data Identifier Byte 1247",
+  "nearby": [
+   "1246",
+   "Figure 24 Data Identifier Byte 1247",
+   "DI[5:0]: These six bits specify the Data Type. 1245"
+  ]
+ },
+ {
+  "page": 77,
+  "file": "dsi13_p77_fig1.jpg",
+  "bbox": [
+   189,
+   403,
+   1033,
+   1172
+  ],
+  "size": [
+   844,
+   769
+  ],
+  "caption": "Figure 38 24-bit per Pixel – RGB Color Format, Long Packet 1676",
+  "nearby": [
+   "1675",
+   "Figure 38 24-bit per Pixel – RGB Color Format, Long Packet 1676",
+   "Figure 38 is a Long packet. It is used to transmit image data formatted as 24-bit pixels to a Video Mode 1670 display module. The packet con"
+  ]
+ },
+ {
+  "page": 89,
+  "file": "dsi13_p89_fig1.jpg",
+  "bbox": [
+   180,
+   211,
+   1023,
+   649
+  ],
+  "size": [
+   843,
+   438
+  ],
+  "caption": "Figure 42 Video Mode Interface Timing Legend 2057",
+  "nearby": [
+   "2056",
+   "DSI Sync Event Packet: V Sync Start",
+   "Transmission packet components used in the figures in this section are defined in Figure 42 unless 2054 otherwise specified. 2055"
+  ]
+ },
+ {
+  "page": 89,
+  "file": "dsi13_p89_fig2.jpg",
+  "bbox": [
+   183,
+   992,
+   1040,
+   1352
+  ],
+  "size": [
+   857,
+   360
+  ],
+  "caption": "Figure 43 Video Mode Interface Timing: Non-Burst Transmission with Sync Start and End 2067",
+  "nearby": [
+   "Figure 43 Video Mode Interface Timing: Non-Burst Transmission with Sync Start and End 2067",
+   "With this format, the goal is to accurately convey DPI-type timing over the DSI serial Link. This includes 2062 matching DPI pixel-transmiss",
+   "Copyright © 2005-2015 MIPI Alliance, Inc. All rights reserved. Confidential 77"
+  ]
+ },
+ {
+  "page": 89,
+  "file": "dsi13_p89_fig4.jpg",
+  "bbox": [
+   430,
+   1463,
+   786,
+   1529
+  ],
+  "size": [
+   356,
+   66
+  ],
+  "caption": "Figure 43 Video Mode Interface Timing: Non-Burst Transmission with Sync Start and End 2067",
+  "nearby": [
+   "Figure 43 Video Mode Interface Timing: Non-Burst Transmission with Sync Start and End 2067",
+   "2066",
+   "VACT Lines"
+  ]
+ },
+ {
+  "page": 90,
+  "file": "dsi13_p90_fig1.jpg",
+  "bbox": [
+   184,
+   542,
+   1027,
+   1005
+  ],
+  "size": [
+   843,
+   463
+  ],
+  "caption": "Figure 44 Video Mode Interface Timing: Non-Burst Transmission with Sync Events 2082",
+  "nearby": [
+   "Figure 44 Video Mode Interface Timing: Non-Burst Transmission with Sync Events 2082",
+   "This mode is a simplification of the format described in Section 8.11.2. Only the start of each 2077 synchronization pulse is transmitted. T",
+   "As with the previous Non-Burst Mode, if there is sufficient time to transition from HS to LP mode and 2083 back again, a timed interval in L"
+  ]
+ },
+ {
+  "page": 91,
+  "file": "dsi13_p91_fig1.jpg",
+  "bbox": [
+   185,
+   236,
+   1027,
+   700
+  ],
+  "size": [
+   842,
+   464
+  ],
+  "caption": "Figure 45 Video Mode Interface Timing: Burst Transmission 2098",
+  "nearby": [
+   "Figure 45 Video Mode Interface Timing: Burst Transmission 2098",
+   "LP transmission may take place in either direction. If the peripheral takes control of the bus for sending 2094 data to the host processor, ",
+   "Similar to the Non-Burst Mode scenario, if there is sufficient time to transition from HS to LP mode and 2099 back again, a timed interval i"
+  ]
+ },
+ {
+  "page": 99,
+  "file": "dsi13_p99_fig1.jpg",
+  "bbox": [
+   178,
+   409,
+   1041,
+   912
+  ],
+  "size": [
+   863,
+   503
+  ],
+  "caption": "Figure 46 24-bit ECC Generation on TX side 2280",
+  "nearby": [
+   "Figure 46 24-bit ECC Generation on TX side 2280",
+   "ECC is generated from the twenty-four data bits within the Packet Header as illustrated in Figure 46, which 2276 also serves as an ECC calcu",
+   "9.5 Applying ECC on the Receiver 2281"
+  ]
+ },
+ {
+  "page": 100,
+  "file": "dsi13_p100_fig1.jpg",
+  "bbox": [
+   188,
+   148,
+   1027,
+   539
+  ],
+  "size": [
+   839,
+   391
+  ],
+  "caption": "Figure 47 24-bit ECC on RX Side Including Error Correction 2290",
+  "nearby": [
+   "Version 1.3 23-Mar-2015 DRAFT MIPI Alliance Specification for DSI",
+   "Figure 47 24-bit ECC on RX Side Including Error Correction 2290",
+   "Decoding the syndrome has three aspects: 2291"
+  ]
+ }
+]

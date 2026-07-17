@@ -1,0 +1,259 @@
+[
+ {
+  "page": 5,
+  "file": "madgwick_p5_fig1.jpg",
+  "bbox": [
+   475,
+   151,
+   733,
+   433
+  ],
+  "size": [
+   258,
+   282
+  ],
+  "caption": "Figure 1: The orientation of frame B is achieved by a rotation, from alignment with frame A, of angle θ around the axis Ar.",
+  "nearby": [
+   "Figure 1: The orientation of frame B is achieved by a rotation, from alignment with frame A, of angle θ around the axis Ar.",
+   "The quaternion product, denoted by ⊗, can be used to deﬁne compound orientations. For example, for two orientations described by A B ˆq and "
+  ]
+ },
+ {
+  "page": 11,
+  "file": "madgwick_p11_fig1.jpg",
+  "bbox": [
+   244,
+   679,
+   981,
+   1026
+  ],
+  "size": [
+   737,
+   347
+  ],
+  "caption": "Figure 2: Block diagram representation of the complete orientation ﬁlter for an IMU imple- mentation",
+  "nearby": [
+   "It can be seen from equations (42) to (44) that the ﬁlter calculates the orientation S Eqest by numerically integrating the estimated orient",
+   "Figure 2: Block diagram representation of the complete orientation ﬁlter for an IMU imple- mentation",
+   "3.4 Magnetic distortion compensation"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "madgwick_p13_fig1.jpg",
+  "bbox": [
+   239,
+   375,
+   980,
+   851
+  ],
+  "size": [
+   741,
+   476
+  ],
+  "caption": "Figure 3: Block diagram representation of the complete orientation ﬁlter for an MARG im- plementation including magnetic distortion (Group 1",
+  "nearby": [
+   "each axis, Sωϵ is equal to a quaternion derivative of unit length. Therefore the integral gain ζ directly deﬁnes the rate of convergence of ",
+   "Figure 3: Block diagram representation of the complete orientation ﬁlter for an MARG im- plementation including magnetic distortion (Group 1",
+   "3.6 Filter gains"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "madgwick_p13_fig2.jpg",
+  "bbox": [
+   137,
+   888,
+   1076,
+   968
+  ],
+  "size": [
+   939,
+   80
+  ],
+  "caption": null,
+  "nearby": [
+   "3.6 Filter gains",
+   "S E ˙qest,t",
+   "q ∥q∥"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "madgwick_p15_fig1.jpg",
+  "bbox": [
+   242,
+   373,
+   975,
+   787
+  ],
+  "size": [
+   733,
+   414
+  ],
+  "caption": "Figure 4: Photograph of the orientation measurement platform",
+  "nearby": [
+   "shows an annotated photograph of the orientation measurement platform where Cistart, Ciend, Cjstart, Cjend, Ckstart and Ckend deﬁne the meas",
+   "Figure 4: Photograph of the orientation measurement platform",
+   "Ciend −Cistart ∥Ciend −Cistart∥ (52)"
+  ]
+ },
+ {
+  "page": 17,
+  "file": "madgwick_p17_fig1.jpg",
+  "bbox": [
+   391,
+   141,
+   726,
+   645
+  ],
+  "size": [
+   335,
+   504
+  ],
+  "caption": "Figure 5: Photograph of the pendulum and optical markers used to measure the direction of gravity in the camera frame",
+  "nearby": [
+   "Figure 5: Photograph of the pendulum and optical markers used to measure the direction of gravity in the camera frame",
+   "in the camera frame. The mean position of each marker over a period of time deﬁne the direction of the compass in the camera frame, C ˆc; as"
+  ]
+ },
+ {
+  "page": 17,
+  "file": "madgwick_p17_fig3.jpg",
+  "bbox": [
+   230,
+   854,
+   983,
+   1122
+  ],
+  "size": [
+   753,
+   268
+  ],
+  "caption": "Figure 6: Photograph of the magnetic compass and optical markers used to measure the direction of the earth’s magnetic ﬁeld in the camera fr",
+  "nearby": [
+   "in the camera frame. The mean position of each marker over a period of time deﬁne the direction of the compass in the camera frame, C ˆc; as",
+   "Figure 6: Photograph of the magnetic compass and optical markers used to measure the direction of the earth’s magnetic ﬁeld in the camera fr",
+   "Figure 5: Photograph of the pendulum and optical markers used to measure the direction of gravity in the camera frame"
+  ]
+ },
+ {
+  "page": 20,
+  "file": "madgwick_p20_fig1.jpg",
+  "bbox": [
+   237,
+   155,
+   982,
+   551
+  ],
+  "size": [
+   745,
+   396
+  ],
+  "caption": "Figure 7: Typical results for measured and estimated angle φ (top) and error (bottom)",
+  "nearby": [
+   "Figure 7: Typical results for measured and estimated angle φ (top) and error (bottom)",
+   "100 Measured and estimated angle θ",
+   "Measured Kalman Proposed filter"
+  ]
+ },
+ {
+  "page": 20,
+  "file": "madgwick_p20_fig3.jpg",
+  "bbox": [
+   237,
+   685,
+   982,
+   1084
+  ],
+  "size": [
+   745,
+   399
+  ],
+  "caption": "Figure 8: Typical results for measured and estimated angle θ (top) and error (bottom)",
+  "nearby": [
+   "Figure 8: Typical results for measured and estimated angle θ (top) and error (bottom)",
+   "Figure 7: Typical results for measured and estimated angle φ (top) and error (bottom)",
+   "time (seconds)"
+  ]
+ },
+ {
+  "page": 21,
+  "file": "madgwick_p21_fig1.jpg",
+  "bbox": [
+   239,
+   154,
+   975,
+   551
+  ],
+  "size": [
+   736,
+   397
+  ],
+  "caption": "Figure 9: Typical results for measured and estimated angle ψ (top) and error (bottom)",
+  "nearby": [
+   "Figure 9: Typical results for measured and estimated angle ψ (top) and error (bottom)",
+   "5.2 Static and dynamic performance",
+   "The static and dynamic RMS values of φϵ, θϵ, and ψϵ were calculated where a static state was assumed when the measured corresponding angular"
+  ]
+ },
+ {
+  "page": 22,
+  "file": "madgwick_p22_fig1.jpg",
+  "bbox": [
+   232,
+   866,
+   983,
+   1230
+  ],
+  "size": [
+   751,
+   364
+  ],
+  "caption": "Figure 10: The eﬀect of the adjustable parameter, β, on the performance of the proposed ﬁlter IMU (left) and MARG (right) implementations",
+  "nearby": [
+   "The results of an investigation into the eﬀect of the ﬁlter adjustable parameter, β, on the proposed ﬁlter performance are summarised in Fig",
+   "Figure 10: The eﬀect of the adjustable parameter, β, on the performance of the proposed ﬁlter IMU (left) and MARG (right) implementations"
+  ]
+ },
+ {
+  "page": 23,
+  "file": "madgwick_p23_fig1.jpg",
+  "bbox": [
+   235,
+   450,
+   974,
+   818
+  ],
+  "size": [
+   739,
+   368
+  ],
+  "caption": "Figure 11: The eﬀect of sampling rate on the performance of the proposed ﬁlter IMU (left) and MARG (right) implementations",
+  "nearby": [
+   "and dynamic error < 7◦while sampling at 10 Hz. This level of accracuy may be suﬃcent be eﬀective for applications such as human motion captu",
+   "Figure 11: The eﬀect of sampling rate on the performance of the proposed ﬁlter IMU (left) and MARG (right) implementations",
+   "The results of an investigation into the eﬀect of sampling rate on ﬁlter performance is sum- marised in Figure11. The experimental data was "
+  ]
+ },
+ {
+  "page": 24,
+  "file": "madgwick_p24_fig1.jpg",
+  "bbox": [
+   250,
+   147,
+   976,
+   466
+  ],
+  "size": [
+   726,
+   319
+  ],
+  "caption": "Figure 12: Filter tracking of gyroscope bias drift",
+  "nearby": [
+   "Figure 12: Filter tracking of gyroscope bias drift",
+   "6 Discussion",
+   "The derivation of the ﬁlter initially assumed that the accelerometer and magnetometer would only measure gravity and the earth’s magnetic ﬁe"
+  ]
+ }
+]

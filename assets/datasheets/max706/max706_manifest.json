@@ -1,0 +1,113 @@
+[
+ {
+  "page": 1,
+  "file": "max706_p1_fig3.jpg",
+  "bbox": [
+   626,
+   1137,
+   1101,
+   1413
+  ],
+  "size": [
+   475,
+   276
+  ],
+  "caption": null,
+  "nearby": [
+   "Applications",
+   "Typical Operating Circuits",
+   "________________________________________________________________ Maxim Integrated Products 1"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "max706_p11_fig2.jpg",
+  "bbox": [
+   103,
+   291,
+   583,
+   1303
+  ],
+  "size": [
+   480,
+   1012
+  ],
+  "caption": null,
+  "nearby": [
+   "Pin Configurations",
+   "+3V Voltage Monitoring, Low-Cost µP Supervisory Circuits",
+   "______________________________________________________________________________________ 11"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "max706_p11_fig3.jpg",
+  "bbox": [
+   625,
+   317,
+   1104,
+   611
+  ],
+  "size": [
+   479,
+   294
+  ],
+  "caption": null,
+  "nearby": [
+   "Typical Operating Circuits (continued)",
+   "Pin Configurations",
+   "+3V Voltage Monitoring, Low-Cost µP Supervisory Circuits"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "max706_p12_fig1.jpg",
+  "bbox": [
+   327,
+   363,
+   631,
+   535
+  ],
+  "size": [
+   304,
+   172
+  ],
+  "caption": null,
+  "nearby": [
+   "Package Information (The package drawing(s) in this data sheet may not reflect the most current specifications. For the latest package outli",
+   "+3V Voltage Monitoring, Low-Cost µP Supervisory Circuits"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "max706_p12_fig2.jpg",
+  "bbox": [
+   290,
+   586,
+   633,
+   827
+  ],
+  "size": [
+   343,
+   241
+  ],
+  "caption": null,
+  "nearby": []
+ },
+ {
+  "page": 12,
+  "file": "max706_p12_fig3.jpg",
+  "bbox": [
+   713,
+   556,
+   905,
+   785
+  ],
+  "size": [
+   192,
+   229
+  ],
+  "caption": null,
+  "nearby": []
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "page": 6,
+  "file": "w25q64_p6_fig2.jpg",
+  "bbox": [
+   347,
+   268,
+   914,
+   514
+  ],
+  "size": [
+   567,
+   246
+  ],
+  "caption": "Figure 1a. W25Q64JV Pin Assignments, 8-pin SOIC 208-mil (Package Code SS)",
+  "nearby": [
+   "3.1 Pin Configuration SOIC 208-mil",
+   "Figure 1a. W25Q64JV Pin Assignments, 8-pin SOIC 208-mil (Package Code SS)",
+   "3. PACKAGE TYPES AND PIN CONFIGURATIONS"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "w25q64_p11_fig1.jpg",
+  "bbox": [
+   193,
+   267,
+   1074,
+   1260
+  ],
+  "size": [
+   881,
+   993
+  ],
+  "caption": "Figure 2. W25Q64JV Serial Flash Memory Block Diagram",
+  "nearby": [
+   "Figure 2. W25Q64JV Serial Flash Memory Block Diagram",
+   "5. BLOCK DIAGRAM",
+   "W25Q64JV"
+  ]
+ }
+]

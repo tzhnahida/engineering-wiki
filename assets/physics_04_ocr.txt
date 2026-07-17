@@ -1,0 +1,89 @@
+Elapsed: 133.1s
+Chars: 1576
+
+# 第一章质点运动学主要内容
+
+## 一、描述运动的物理量
+
+### 1. 位矢、位移和路程
+
+由坐标原点到质点所在位置的矢量 \(\vec{r}\) 称为位矢  
+\[\vec{r} = x \vec{i} + y \vec{j}\]
+大小  
+\[r = |\vec{r}| = \sqrt{x^2 + y^2}\]
+运动方程  
+\[\vec{r} = \vec{r}(t)\]
+
+运动方程的分量形式  
+\[\begin{cases} 
+x = x(t) \\ 
+y = y(t) 
+\end{cases}\]
+
+### 位移
+
+描述质点位移变化的物理量  
+\[\Delta \vec{r} = \vec{r}(t_2) - \vec{r}(t_1)\]
+
+### 路程
+
+描述质点运动轨迹上两点之间实际行程的物理量  
+\[\Delta s = |\vec{r}(t_2) - \vec{r}(t_1)|\]
+
+### 速度
+
+描述质点在位移变化过程中的快慢和方向  
+\[\vec{v} = \frac{\Delta \vec{r}}{\Delta t} = \frac{\Delta \vec{r}}{|\Delta \vec{r}|}\]
+大小  
+\[v = |\vec{v}| = \frac{|(\Delta \vec{r})|}{|\Delta \vec{r}|}\]
+方向  
+\[\vec{v} = \frac{\Delta \vec{r}}{|\Delta \vec{r}|}\]
+
+### 加速度
+
+描述质点在速度变化过程中的加速度  
+\[\vec{a} = \frac{\Delta \vec{v}}{\Delta t} = \frac{\Delta (\vec{v})}{\Delta t}\]
+大小  
+\[a = |\vec{a}| = \frac{|\Delta \vec{v}|}{\Delta t}\]
+方向  
+\[\vec{a} = \frac{\Delta \vec{v}}{\Delta t}\]
+
+### 速率
+
+描述质点在时间间隔内的速度变化率  
+\[\vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{r}}{\Delta t} = \frac{\Delta \vec{r}}{\Delta t}\]
+大小  
+\[v = |\vec{v}|\]
+方向  
+\[\vec{v} = \frac{\Delta \vec{r}}{\Delta t}\]
+
+# 二、描述运动状态的物理量
+
+### 角位移
+
+描述质点转动过程中转过的角度  
+\[\Delta \theta = \frac{|\Delta \vec{r}|}{\Delta t}\]
+
+### 线位移
+
+描述质点沿轨迹方向发生的位移  
+\[\Delta s = r \Delta \theta\]
+
+# 三、描述质点运动状态的物理量
+
+### 加速度
+
+描述质点在速度变化过程中的加速度  
+\[\vec{a} = \frac{d \vec{v}}{dt} = \frac{d (\vec{v})}{dt}\]
+大小  
+\[a = |\vec{a}| = \frac{d^2 \vec{r}}{dt^2}\]
+
+### 线加速度
+
+描述质点在速度变化过程中的加速度  
+\[\vec{a} = \frac{d \vec{v}}{dt} = \frac{d (\vec{v})}{dt}\]
+
+### 角加速度
+
+描述质点在速度变化过程中的加速度变化率  
+\[\vec{a} = \frac{d \vec{v}}{dt} = \frac{d (\vec{v})}{dt}\]

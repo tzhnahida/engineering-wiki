@@ -1,0 +1,61 @@
+[
+ {
+  "page": 1,
+  "file": "a4950_p1_fig1.jpg",
+  "bbox": [
+   147,
+   701,
+   487,
+   818
+  ],
+  "size": [
+   340,
+   117
+  ],
+  "caption": null,
+  "nearby": [
+   "Package: 8-pin SOICN with exposed thermal pad (suffix LJ)",
+   "Not to scale",
+   "Features and Benefits • Low RDS(on) outputs • Overcurrent protection (OCP) ▫ Motor short protection ▫ Motor lead short to ground protection "
+  ]
+ },
+ {
+  "page": 1,
+  "file": "a4950_p1_fig3.jpg",
+  "bbox": [
+   252,
+   1003,
+   1033,
+   1379
+  ],
+  "size": [
+   781,
+   376
+  ],
+  "caption": null,
+  "nearby": [
+   "Functional Block Diagram",
+   "A4950-DS, Rev. 4",
+   "Not to scale"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "a4950_p2_fig6.jpg",
+  "bbox": [
+   110,
+   1109,
+   301,
+   1222
+  ],
+  "size": [
+   191,
+   113
+  ],
+  "caption": null,
+  "nearby": [
+   "Pin-out Diagram",
+   "*Additional thermal information available on the Allegro website."
+  ]
+ }
+]

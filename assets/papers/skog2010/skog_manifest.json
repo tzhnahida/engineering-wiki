@@ -1,0 +1,319 @@
+[
+ {
+  "page": 2,
+  "file": "skog_p2_fig1.jpg",
+  "bbox": [
+   669,
+   132,
+   1049,
+   337
+  ],
+  "size": [
+   380,
+   205
+  ],
+  "caption": "Fig. 1. Illustration of the instep-mounted IMU and the FSRs used in the reference system. The reference system is used to evaluate the perfo",
+  "nearby": [
+   "Fig. 1. Illustration of the instep-mounted IMU and the FSRs used in the reference system. The reference system is used to evaluate the perfo",
+   "2658 IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 57, NO. 11, NOVEMBER 2010",
+   "k and yω"
+  ]
+ },
+ {
+  "page": 2,
+  "file": "skog_p2_fig2.jpg",
+  "bbox": [
+   603,
+   357,
+   1111,
+   486
+  ],
+  "size": [
+   508,
+   129
+  ],
+  "caption": null,
+  "nearby": [
+   "In the gait analysis, where the motion of the foot during the individual gait cycles, but not the accumulated motion of the foot over severa",
+   "gyroscopes, has been attached to the instep of a foot, as illus- trated in Fig. 1. Let yk ∈R6 be the vector",
+   "k yω"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "skog_p6_fig1.jpg",
+  "bbox": [
+   87,
+   134,
+   579,
+   366
+  ],
+  "size": [
+   492,
+   232
+  ],
+  "caption": "Fig. 2. Block diagram of the inertial sensors and reference system. The re- sistance of the FSRs are compared to the thresholds deﬁned by Vr",
+  "nearby": [
+   "Fig. 2. Block diagram of the inertial sensors and reference system. The re- sistance of the FSRs are compared to the thresholds deﬁned by Vr",
+   "2662 IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 57, NO. 11, NOVEMBER 2010",
+   "the information from the accelerometers versus the disturbances in the information from the gyroscopes. Further, we may note that the angula"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "skog_p6_fig2.jpg",
+  "bbox": [
+   78,
+   388,
+   585,
+   512
+  ],
+  "size": [
+   507,
+   124
+  ],
+  "caption": null,
+  "nearby": [
+   "the information from the accelerometers versus the disturbances in the information from the gyroscopes. Further, we may note that the angula",
+   "a/σ2",
+   "ω →∞."
+  ]
+ },
+ {
+  "page": 6,
+  "file": "skog_p6_fig3.jpg",
+  "bbox": [
+   644,
+   131,
+   1082,
+   735
+  ],
+  "size": [
+   438,
+   604
+  ],
+  "caption": "Fig. 3. Test statistics T (zn ), T ′",
+  "nearby": [
+   "Fig. 3. Test statistics T (zn ), T ′",
+   "v (za",
+   "n ), Tm (za"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "skog_p6_fig4.jpg",
+  "bbox": [
+   604,
+   759,
+   1110,
+   830
+  ],
+  "size": [
+   506,
+   71
+  ],
+  "caption": null,
+  "nearby": [
+   "tracking system. However, an optical-tracking system only works in a limited area, and therefore, is not suitable for collect- ing the amoun",
+   "the information from the accelerometers versus the disturbances in the information from the gyroscopes. Further, we may note that the angula"
+  ]
+ },
+ {
+  "page": 7,
+  "file": "skog_p7_fig1.jpg",
+  "bbox": [
+   99,
+   132,
+   545,
+   846
+  ],
+  "size": [
+   446,
+   714
+  ],
+  "caption": "Fig. 4. Stance phase as a function of time together with the output from the accelerometers and gyroscopes. When the LED is ON (white dot in",
+  "nearby": [
+   "Fig. 4. Stance phase as a function of time together with the output from the accelerometers and gyroscopes. When the LED is ON (white dot in",
+   "SKOG et al.: ZERO-VELOCITY DETECTION—AN ALGORITHM EVALUATION 2663",
+   "of the FSRs beneath the heel and front-sole, and the threshold settings of the switches."
+  ]
+ },
+ {
+  "page": 7,
+  "file": "skog_p7_fig2.jpg",
+  "bbox": [
+   70,
+   867,
+   577,
+   937
+  ],
+  "size": [
+   507,
+   70
+  ],
+  "caption": null,
+  "nearby": [
+   "1) the angular rate energy detector and the SHOE detector",
+   "have the highest performance, and behave basically in the same manner, indicating that the gyroscope signal holds the most reliable informat",
+   "of the FSRs beneath the heel and front-sole, and the threshold settings of the switches."
+  ]
+ },
+ {
+  "page": 7,
+  "file": "skog_p7_fig3.jpg",
+  "bbox": [
+   600,
+   131,
+   1096,
+   539
+  ],
+  "size": [
+   496,
+   408
+  ],
+  "caption": "Fig. 5. Probability of detection versus probability of false alarm for the GLRT algorithms based on the slow-gait data.",
+  "nearby": [
+   "Fig. 5. Probability of detection versus probability of false alarm for the GLRT algorithms based on the slow-gait data.",
+   "SKOG et al.: ZERO-VELOCITY DETECTION—AN ALGORITHM EVALUATION 2663",
+   "B. Detector Statistics"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "skog_p8_fig1.jpg",
+  "bbox": [
+   85,
+   131,
+   580,
+   540
+  ],
+  "size": [
+   495,
+   409
+  ],
+  "caption": "Fig. 6. Probability of detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+  "nearby": [
+   "Fig. 6. Probability of detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+   "Fig. 8. Probability of stationarity detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+   "2664 IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 57, NO. 11, NOVEMBER 2010"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "skog_p8_fig3.jpg",
+  "bbox": [
+   84,
+   617,
+   576,
+   1026
+  ],
+  "size": [
+   492,
+   409
+  ],
+  "caption": "Fig. 6. Probability of detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+  "nearby": [
+   "Fig. 6. Probability of detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+   "Fig. 8. Probability of stationarity detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+   "Fig. 7. Probability of stationarity detection versus probability of false alarm for the GLRT algorithms based on the slow-gait data."
+  ]
+ },
+ {
+  "page": 8,
+  "file": "skog_p8_fig5.jpg",
+  "bbox": [
+   612,
+   131,
+   1105,
+   540
+  ],
+  "size": [
+   493,
+   409
+  ],
+  "caption": "Fig. 6. Probability of detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+  "nearby": [
+   "Fig. 6. Probability of detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+   "Fig. 8. Probability of stationarity detection versus probability of false alarm for the GLRT algorithms based on the normal-gait data.",
+   "2664 IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 57, NO. 11, NOVEMBER 2010"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "skog_p10_fig1.jpg",
+  "bbox": [
+   82,
+   136,
+   226,
+   318
+  ],
+  "size": [
+   144,
+   182
+  ],
+  "caption": null,
+  "nearby": [
+   "2666 IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 57, NO. 11, NOVEMBER 2010",
+   "Peter H¨andel (S’88–M’93–SM’98) received the M.Sc. and Ph.D. degrees from Uppsala Univer- sity, Uppsala, Sweden, in 1987 and 1993, respec- t",
+   "From 1987 to 1993, he was at various positions at Uppsala University. During 1993 through 1997, he was with Ericsson AB, Kista, Sweden. Duri"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "skog_p10_fig2.jpg",
+  "bbox": [
+   82,
+   418,
+   227,
+   599
+  ],
+  "size": [
+   145,
+   181
+  ],
+  "caption": null,
+  "nearby": [
+   "During the spring of 2009, he was a Visiting Re- searcher at the Mobile Multisensor System Research Team, University of Calgary, Canada. He ",
+   "Isaac Skog (S’09–M’10) received the B.Sc., M.Sc., and Ph.D. degrees in electrical engineering, wireless systems, and signal processing from "
+  ]
+ },
+ {
+  "page": 10,
+  "file": "skog_p10_fig3.jpg",
+  "bbox": [
+   609,
+   138,
+   752,
+   316
+  ],
+  "size": [
+   143,
+   178
+  ],
+  "caption": null,
+  "nearby": [
+   "2666 IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING, VOL. 57, NO. 11, NOVEMBER 2010",
+   "Peter H¨andel (S’88–M’93–SM’98) received the M.Sc. and Ph.D. degrees from Uppsala Univer- sity, Uppsala, Sweden, in 1987 and 1993, respec- t",
+   "Jouni Rantakokko received the M.Sc. degree in electrical engineering from the Royal Institute of Technology, Stockholm, Sweden, in 1998."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "skog_p10_fig4.jpg",
+  "bbox": [
+   609,
+   454,
+   753,
+   634
+  ],
+  "size": [
+   144,
+   180
+  ],
+  "caption": null,
+  "nearby": [
+   "During the spring of 2009, he was a Visiting Re- searcher at the Mobile Multisensor System Research Team, University of Calgary, Canada. He ",
+   "His current research interests include signal pro- cessing, estimation theory, and implementation issues within aided inertial navigation."
+  ]
+ }
+]

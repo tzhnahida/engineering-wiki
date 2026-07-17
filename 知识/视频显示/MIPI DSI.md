@@ -15,7 +15,7 @@ sources:
 
 ## 1. 协议分层
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p23_fig1.jpg|560]
+![dsi13_p23_fig1.jpg](../../assets/standards/dsi13/dsi13_p23_fig1.jpg)
 *Figure 2 — DSI 分层模型：应用层 → 低级协议层 → Lane 管理层 → D-PHY 物理层*
 
 
@@ -56,10 +56,10 @@ flowchart TB
 
 ## 2. 包格式
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p56_fig1.jpg|600]
+![dsi13_p56_fig1.jpg](../../assets/standards/dsi13/dsi13_p56_fig1.jpg)
 *Figure 22 — 长包结构：4B 包头（DI+WC+ECC）+ 载荷（0~65541B）+ 2B 校验和*
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p57_fig1.jpg|440]
+![dsi13_p57_fig1.jpg](../../assets/standards/dsi13/dsi13_p57_fig1.jpg)
 *Figure 23 — 短包结构：仅 4B（DI + 2B 数据 + ECC）*
 
 
@@ -140,10 +140,10 @@ flowchart LR
 
 ## 4. Video Mode
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p89_fig2.jpg|620]
+![dsi13_p89_fig2.jpg](../../assets/standards/dsi13/dsi13_p89_fig2.jpg)
 *Figure 43 — Non-Burst 同步脉冲模式时序：HSS/HSE 包精确对齐行同步沿*
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p91_fig1.jpg|620]
+![dsi13_p91_fig1.jpg](../../assets/standards/dsi13/dsi13_p91_fig1.jpg)
 *Figure 45 — Burst 模式时序：像素数据高速突发后链路进入 LP 省电*
 
 
@@ -256,7 +256,7 @@ DSI 通过 LP Escape Mode 的 **Tearing Effect Trigger** (Entry Command `0001_11
 
 ## 7. ECC 与 Checksum
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p99_fig1.jpg|560]
+![dsi13_p99_fig1.jpg](../../assets/standards/dsi13/dsi13_p99_fig1.jpg)
 *Figure 46 — 发送侧 24bit ECC 生成：Hamming 码覆盖包头 24 位*
 
 
@@ -274,7 +274,7 @@ DSI 通过 LP Escape Mode 的 **Tearing Effect Trigger** (Entry Command `0001_11
 
 ## 8. 多 Lane 与 Sub-Link（DSI v1.3）
 
-[📷 _llm/raw/assets/standards/dsi13/dsi13_p31_fig1.jpg|480]
+![dsi13_p31_fig1.jpg](../../assets/standards/dsi13/dsi13_p31_fig1.jpg)
 *Figure 5 — Lane 分配器概念图：字节流轮转分发到 N 条 Lane*
 
 

@@ -1,0 +1,142 @@
+[
+ {
+  "page": 4,
+  "file": "tja1044_p4_fig1.jpg",
+  "bbox": [
+   240,
+   298,
+   936,
+   1057
+  ],
+  "size": [
+   696,
+   759
+  ],
+  "caption": "5 Block diagram",
+  "nearby": [
+   "1. Pin 5 is not connected in non-VIO product variants. 2. VIO = VCC in non-VIO product variants.",
+   "5 Block diagram",
+   "Figure 1. Block diagram"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "tja1044_p5_fig1.jpg",
+  "bbox": [
+   216,
+   354,
+   468,
+   575
+  ],
+  "size": [
+   252,
+   221
+  ],
+  "caption": "6 Pinning information",
+  "nearby": [
+   "a. SO8",
+   "6.1 Pinning",
+   "TJA1044CTK TJA1044GTK"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "tja1044_p5_fig2.jpg",
+  "bbox": [
+   712,
+   372,
+   962,
+   575
+  ],
+  "size": [
+   250,
+   203
+  ],
+  "caption": null,
+  "nearby": [
+   "b. SO8 with VIO",
+   "TJA1044BTK TJA1044GTK/3",
+   "terminal 1 index area"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "tja1044_p5_fig4.jpg",
+  "bbox": [
+   204,
+   621,
+   482,
+   830
+  ],
+  "size": [
+   278,
+   209
+  ],
+  "caption": "Figure 2. Pin configuration diagrams",
+  "nearby": [
+   "c. HVSON8",
+   "a. SO8",
+   "Figure 2. Pin configuration diagrams"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "tja1044_p5_fig5.jpg",
+  "bbox": [
+   703,
+   618,
+   969,
+   800
+  ],
+  "size": [
+   266,
+   182
+  ],
+  "caption": null,
+  "nearby": [
+   "b. SO8 with VIO",
+   "Transparent top view",
+   "d. HVSON8 with VIO"
+  ]
+ },
+ {
+  "page": 18,
+  "file": "tja1044_p18_fig2.jpg",
+  "bbox": [
+   576,
+   491,
+   934,
+   646
+  ],
+  "size": [
+   358,
+   155
+  ],
+  "caption": null,
+  "nearby": [
+   "A A 1 A 2",
+   "SO8: plastic small outline package; 8 leads; body width 3.9 mm SOT96-1",
+   "(A ) 3"
+  ]
+ },
+ {
+  "page": 19,
+  "file": "tja1044_p19_fig1.jpg",
+  "bbox": [
+   105,
+   243,
+   1081,
+   1302
+  ],
+  "size": [
+   976,
+   1059
+  ],
+  "caption": "Figure 10. Package outline SOT782-1 (HVSON8)",
+  "nearby": [
+   "References Outline version",
+   "European projection Issue date IEC JEDEC JEITA",
+   "High-speed CAN transceiver with Standby mode"
+  ]
+ }
+]

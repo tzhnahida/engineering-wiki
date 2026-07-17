@@ -1,0 +1,82 @@
+[
+ {
+  "page": 1,
+  "file": "tps65130_p1_fig2.jpg",
+  "bbox": [
+   294,
+   1035,
+   924,
+   1310
+  ],
+  "size": [
+   630,
+   275
+  ],
+  "caption": null,
+  "nearby": [
+   "量 • 通用分离轨电源 – T&M、数据采集、DAC、ADC – 差分音频 PA 电源 – 工厂自动化和控制输入和输出模块 – 差分 OPAMP 和比较器电源",
+   "简化版应用",
+   "(1) 如需了解所有可用封装，请参阅数据表末尾的可订购产品附 录。"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "tps65130_p3_fig1.jpg",
+  "bbox": [
+   405,
+   189,
+   815,
+   584
+  ],
+  "size": [
+   410,
+   395
+  ],
+  "caption": "5 Pin Configuration and Functions",
+  "nearby": [
+   "5 Pin Configuration and Functions",
+   "图 5-1. RGE Package, 24-PIN VQFN (Top View)",
+   "TPS65130, TPS65131 ZHCSQG4E – MARCH 2004 – REVISED APRIL 2022"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "tps65130_p8_fig1.jpg",
+  "bbox": [
+   185,
+   443,
+   1037,
+   1108
+  ],
+  "size": [
+   852,
+   665
+  ],
+  "caption": null,
+  "nearby": [
+   "Copyright © 2017, Texas Instruments Incorporated",
+   "7.2 Functional Block Diagram",
+   "7.3 Feature Description"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "tps65130_p11_fig1.jpg",
+  "bbox": [
+   242,
+   502,
+   977,
+   840
+  ],
+  "size": [
+   735,
+   338
+  ],
+  "caption": "图 8-1. Typical Application",
+  "nearby": [
+   "8.2 Typical Application",
+   "图 8-1. Typical Application",
+   "The TPS6513x boost converter output voltage, VPOS, and the inverting converter output voltage, VNEG, require external components to set the "
+  ]
+ }
+]

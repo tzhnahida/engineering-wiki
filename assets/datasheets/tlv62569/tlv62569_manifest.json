@@ -1,0 +1,102 @@
+[
+ {
+  "page": 1,
+  "file": "tlv62569_p1_fig5.jpg",
+  "bbox": [
+   687,
+   1084,
+   1059,
+   1349
+  ],
+  "size": [
+   372,
+   265
+  ],
+  "caption": null,
+  "nearby": [
+   "D008",
+   "Efficiency at 5-V Input Voltage",
+   "TLV62569PDRL Power Good 19E"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "tlv62569_p6_fig1.jpg",
+  "bbox": [
+   201,
+   421,
+   1011,
+   935
+  ],
+  "size": [
+   810,
+   514
+  ],
+  "caption": "Figure 4. TLV62569 Functional Block Diagram",
+  "nearby": [
+   "Figure 4. TLV62569 Functional Block Diagram",
+   "7.2 Functional Block Diagrams",
+   "The TLV62569 is a high-efficiency synchronous step-down converter. The device operates with an adaptive off time with peak current control s"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "tlv62569_p8_fig1.jpg",
+  "bbox": [
+   264,
+   495,
+   953,
+   770
+  ],
+  "size": [
+   689,
+   275
+  ],
+  "caption": "Figure 5. TLV62569 1.8-V Output Application",
+  "nearby": [
+   "8.2 Typical Application",
+   "Figure 5. TLV62569 1.8-V Output Application",
+   "The following section discusses the design of the external components to complete the power supply design for several input and output volta"
+  ]
+ },
+ {
+  "page": 21,
+  "file": "tlv62569_p21_fig1.jpg",
+  "bbox": [
+   105,
+   203,
+   1116,
+   1263
+  ],
+  "size": [
+   1011,
+   1060
+  ],
+  "caption": null,
+  "nearby": [
+   "NOTES: 1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing per A",
+   "SMALL OUTLINE TRANSISTOR",
+   "SCALE 4.000"
+  ]
+ },
+ {
+  "page": 24,
+  "file": "tlv62569_p24_fig1.jpg",
+  "bbox": [
+   105,
+   203,
+   1116,
+   1263
+  ],
+  "size": [
+   1011,
+   1060
+  ],
+  "caption": null,
+  "nearby": [
+   "NOTES: 1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing per A",
+   "SMALL OUTLINE TRANSISTOR",
+   "SCALE 4.000"
+  ]
+ }
+]

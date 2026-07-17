@@ -186,7 +186,7 @@ stateDiagram-v2
 
 ## 6. 核心功能
 
-[📷 _llm/raw/assets/datasheets/esp32c6/esp32c6_p15_full.jpg|640]
+![esp32c6_p15_full.jpg](../../assets/datasheets/esp32c6/esp32c6_p15_full.jpg)
 *功能框图（数据手册 p15）：RISC-V 160MHz 主核 + LP 核 + WiFi 6 / BLE 5 / 802.15.4 三模射频*
 
 ### 6.1 双核体系：HP + LP 的分工

@@ -1,0 +1,999 @@
+[
+ {
+  "page": 1,
+  "file": "mdr_p1_fig1.jpg",
+  "bbox": [
+   771,
+   438,
+   967,
+   616
+  ],
+  "size": [
+   196,
+   178
+  ],
+  "caption": "Fig. 1. WRF and GRF. Existing orientation estimation methods assume that the magnetic field directions are constant. How- ever, magnetic dis",
+  "nearby": [
+   "Fig. 1. WRF and GRF. Existing orientation estimation methods assume that the magnetic field directions are constant. How- ever, magnetic dis",
+   "is established with north as the X-axis, west as the Y- axis, and up as the Z-axis, as shown in Figure 1.",
+   "Sikai Yang syang126@ucmerced.edu Miaomiao Liu mliu71@ucmerced.edu Wan Du wdu3@ucmerced.edu"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "mdr_p4_fig1.jpg",
+  "bbox": [
+   632,
+   907,
+   863,
+   1097
+  ],
+  "size": [
+   231,
+   190
+  ],
+  "caption": "Fig. 2. Temporal stability of the magnetic field.",
+  "nearby": [
+   "Θ(𝑡+ Δ𝑡) = Θ(𝑡) · 𝑅𝑔· 𝑅𝑎(𝑘𝑎) · 𝑅𝑚(𝑘𝑚), (1)",
+   "Fig. 2. Temporal stability of the magnetic field.",
+   "Fig. 3. Spatial correlation of the magnetic field."
+  ]
+ },
+ {
+  "page": 4,
+  "file": "mdr_p4_fig3.jpg",
+  "bbox": [
+   877,
+   897,
+   1107,
+   1096
+  ],
+  "size": [
+   230,
+   199
+  ],
+  "caption": "Fig. 2. Temporal stability of the magnetic field.",
+  "nearby": [
+   "Fig. 2. Temporal stability of the magnetic field.",
+   "Fig. 3. Spatial correlation of the magnetic field.",
+   "In this section, we introduce the design of MDR, including three key components: database query, automatic updating, and distortion detectio"
+  ]
+ },
+ {
+  "page": 5,
+  "file": "mdr_p5_fig1.jpg",
+  "bbox": [
+   673,
+   879,
+   1066,
+   1062
+  ],
+  "size": [
+   393,
+   183
+  ],
+  "caption": "Fig. 4. MDR Application Workflow.",
+  "nearby": [
+   "Fig. 4. MDR Application Workflow.",
+   "Application Workflow: We demonstrate the prac- tical application of MDR in Figure 4. The workflow begins when a user launches an application",
+   "C. Database Query MDR queries the database to acquire a magnetic anchor and feeds it to the complementary filter for correct magnetic calibr"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "mdr_p6_fig1.jpg",
+  "bbox": [
+   97,
+   108,
+   594,
+   281
+  ],
+  "size": [
+   497,
+   173
+  ],
+  "caption": "Fig. 5. MDR System Workflow.",
+  "nearby": [
+   "Fig. 5. MDR System Workflow.",
+   "an anchor from the database to estimate orientation. Additionally, the database requires a location result from the particle filter for quer"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig1.jpg",
+  "bbox": [
+   165,
+   108,
+   409,
+   324
+  ],
+  "size": [
+   244,
+   216
+  ],
+  "caption": "Fig. 6. Relationship between an- gular velocity magnitude and ori- entation error.",
+  "nearby": [
+   "Fig. 6. Relationship between an- gular velocity magnitude and ori- entation error.",
+   "the average. Figure 10 illustrates the distribution of magnetic field magnitude variances in all collected data. Higher variance typically i"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig2.jpg",
+  "bbox": [
+   163,
+   340,
+   409,
+   400
+  ],
+  "size": [
+   246,
+   60
+  ],
+  "caption": null,
+  "nearby": [
+   "0 3 6 9 12 Angular Velocity (rad/s)",
+   "the average. Figure 10 illustrates the distribution of magnetic field magnitude variances in all collected data. Higher variance typically i",
+   "Orientation Error (°)"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig3.jpg",
+  "bbox": [
+   484,
+   112,
+   729,
+   324
+  ],
+  "size": [
+   245,
+   212
+  ],
+  "caption": "Fig. 7. Relationship between an- gular velocity magnitude and an- chor error.",
+  "nearby": [
+   "Fig. 7. Relationship between an- gular velocity magnitude and an- chor error.",
+   "the average. Figure 10 illustrates the distribution of magnetic field magnitude variances in all collected data. Higher variance typically i",
+   "1) Baselines: MUSE[13]: The state-of-the-art arm tracking method, which uses complementary filter for orientation estimation and particle fi"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig4.jpg",
+  "bbox": [
+   482,
+   340,
+   729,
+   400
+  ],
+  "size": [
+   247,
+   60
+  ],
+  "caption": null,
+  "nearby": [
+   "0 3 6 9 12 Angular Velocity (rad/s)",
+   "the average. Figure 10 illustrates the distribution of magnetic field magnitude variances in all collected data. Higher variance typically i",
+   "1) Baselines: MUSE[13]: The state-of-the-art arm tracking method, which uses complementary filter for orientation estimation and particle fi"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig5.jpg",
+  "bbox": [
+   104,
+   631,
+   331,
+   802
+  ],
+  "size": [
+   227,
+   171
+  ],
+  "caption": "Fig. 9. Relationship between distortion and magnetic field magnitude.",
+  "nearby": [
+   "the average. Figure 10 illustrates the distribution of magnetic field magnitude variances in all collected data. Higher variance typically i",
+   "Fig. 9. Relationship between distortion and magnetic field magnitude.",
+   "Fig. 10. Relationship between magnetic distortion and magni- tude variance."
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig6.jpg",
+  "bbox": [
+   103,
+   842,
+   334,
+   904
+  ],
+  "size": [
+   231,
+   62
+  ],
+  "caption": null,
+  "nearby": [
+   "0.135 1 2 Magnetic Magnitude Variance",
+   "0 40 60 100 140 Magnetic Field Magnitude (µT)",
+   "V. Evaluation"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig7.jpg",
+  "bbox": [
+   348,
+   626,
+   580,
+   816
+  ],
+  "size": [
+   232,
+   190
+  ],
+  "caption": "Fig. 9. Relationship between distortion and magnetic field magnitude.",
+  "nearby": [
+   "Fig. 9. Relationship between distortion and magnetic field magnitude.",
+   "Fig. 10. Relationship between magnetic distortion and magni- tude variance.",
+   "the average. Figure 10 illustrates the distribution of magnetic field magnitude variances in all collected data. Higher variance typically i"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig8.jpg",
+  "bbox": [
+   347,
+   842,
+   581,
+   903
+  ],
+  "size": [
+   234,
+   61
+  ],
+  "caption": null,
+  "nearby": [
+   "0.135 1 2 Magnetic Magnitude Variance",
+   "0 40 60 100 140 Magnetic Field Magnitude (µT)",
+   "V. Evaluation"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig9.jpg",
+  "bbox": [
+   803,
+   112,
+   1048,
+   323
+  ],
+  "size": [
+   245,
+   211
+  ],
+  "caption": "Fig. 8. Relationship between In- ertial Angular Index (IAI) and anchor error.",
+  "nearby": [
+   "Fig. 8. Relationship between In- ertial Angular Index (IAI) and anchor error.",
+   "1) Baselines: MUSE[13]: The state-of-the-art arm tracking method, which uses complementary filter for orientation estimation and particle fi"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "mdr_p8_fig10.jpg",
+  "bbox": [
+   801,
+   340,
+   1048,
+   400
+  ],
+  "size": [
+   247,
+   60
+  ],
+  "caption": null,
+  "nearby": [
+   "0 1 3 6 9 12 Inertial Angular Index",
+   "1) Baselines: MUSE[13]: The state-of-the-art arm tracking method, which uses complementary filter for orientation estimation and particle fi",
+   "Anchor Error (°)"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig1.jpg",
+  "bbox": [
+   95,
+   104,
+   249,
+   203
+  ],
+  "size": [
+   154,
+   99
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Watch Acc.",
+   "(b) Watch Gyro.",
+   "Gyro. (rad/s)"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig3.jpg",
+  "bbox": [
+   96,
+   237,
+   250,
+   336
+  ],
+  "size": [
+   154,
+   99
+  ],
+  "caption": "Fig. 11. Sensor comparison among smart devices",
+  "nearby": [
+   "(a) Watch Acc.",
+   "(b) Watch Gyro.",
+   "(d) Samsung Acc."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig5.jpg",
+  "bbox": [
+   445,
+   348,
+   600,
+   468
+  ],
+  "size": [
+   155,
+   120
+  ],
+  "caption": "Fig. 11. Sensor comparison among smart devices",
+  "nearby": [
+   "(h) iPhone Gyro.",
+   "(i) iPhone Mag.",
+   "0 5 10 15 Time (s)"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig8.jpg",
+  "bbox": [
+   96,
+   369,
+   250,
+   468
+  ],
+  "size": [
+   154,
+   99
+  ],
+  "caption": "Fig. 11. Sensor comparison among smart devices",
+  "nearby": [
+   "(d) Samsung Acc.",
+   "(e) Samsung Gyro.",
+   "(g) iPhone Acc."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig10.jpg",
+  "bbox": [
+   270,
+   101,
+   425,
+   203
+  ],
+  "size": [
+   155,
+   102
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Watch Acc.",
+   "(b) Watch Gyro.",
+   "(c) Watch Mag."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig12.jpg",
+  "bbox": [
+   445,
+   104,
+   600,
+   203
+  ],
+  "size": [
+   155,
+   99
+  ],
+  "caption": null,
+  "nearby": [
+   "• Draw straight lines, e.g., up to down, and left to right.",
+   "(b) Watch Gyro.",
+   "(c) Watch Mag."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig14.jpg",
+  "bbox": [
+   271,
+   235,
+   425,
+   336
+  ],
+  "size": [
+   154,
+   101
+  ],
+  "caption": "Fig. 11. Sensor comparison among smart devices",
+  "nearby": [
+   "(a) Watch Acc.",
+   "(b) Watch Gyro.",
+   "(c) Watch Mag."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig16.jpg",
+  "bbox": [
+   271,
+   362,
+   425,
+   469
+  ],
+  "size": [
+   154,
+   107
+  ],
+  "caption": "Fig. 11. Sensor comparison among smart devices",
+  "nearby": [
+   "(d) Samsung Acc.",
+   "(e) Samsung Gyro.",
+   "(f) Samsung Mag."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "mdr_p9_fig18.jpg",
+  "bbox": [
+   445,
+   237,
+   600,
+   336
+  ],
+  "size": [
+   155,
+   99
+  ],
+  "caption": "Fig. 11. Sensor comparison among smart devices",
+  "nearby": [
+   "(b) Watch Gyro.",
+   "(c) Watch Mag.",
+   "(e) Samsung Gyro."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig1.jpg",
+  "bbox": [
+   94,
+   196,
+   252,
+   317
+  ],
+  "size": [
+   158,
+   121
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Conference Room.",
+   "(b) Corridor. (c) House.",
+   "[49], [50], the Meta Quest 2 exhibits an orientation error below 0.85° and a location error below 0.7 cm."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig3.jpg",
+  "bbox": [
+   94,
+   364,
+   252,
+   484
+  ],
+  "size": [
+   158,
+   120
+  ],
+  "caption": "Fig. 12. Places for data collection and experiments",
+  "nearby": [
+   "(a) Conference Room.",
+   "(d) Stairwell. (e) Office. (f) Auditorium.",
+   "(b) Corridor. (c) House."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig4.jpg",
+  "bbox": [
+   269,
+   197,
+   427,
+   317
+  ],
+  "size": [
+   158,
+   120
+  ],
+  "caption": null,
+  "nearby": [
+   "(a) Conference Room.",
+   "(b) Corridor. (c) House.",
+   "[49], [50], the Meta Quest 2 exhibits an orientation error below 0.85° and a location error below 0.7 cm."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig6.jpg",
+  "bbox": [
+   269,
+   365,
+   426,
+   483
+  ],
+  "size": [
+   157,
+   118
+  ],
+  "caption": "Fig. 12. Places for data collection and experiments",
+  "nearby": [
+   "(a) Conference Room.",
+   "(d) Stairwell. (e) Office. (f) Auditorium.",
+   "(b) Corridor. (c) House."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig8.jpg",
+  "bbox": [
+   443,
+   197,
+   600,
+   317
+  ],
+  "size": [
+   157,
+   120
+  ],
+  "caption": null,
+  "nearby": [
+   "(b) Corridor. (c) House.",
+   "[49], [50], the Meta Quest 2 exhibits an orientation error below 0.85° and a location error below 0.7 cm.",
+   "(d) Stairwell. (e) Office. (f) Auditorium."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig10.jpg",
+  "bbox": [
+   443,
+   363,
+   600,
+   484
+  ],
+  "size": [
+   157,
+   121
+  ],
+  "caption": "Fig. 12. Places for data collection and experiments",
+  "nearby": [
+   "(d) Stairwell. (e) Office. (f) Auditorium.",
+   "(b) Corridor. (c) House.",
+   "(g) Apartment 1. (h) Apartment 2. (i) Apartment 3."
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig13.jpg",
+  "bbox": [
+   94,
+   517,
+   253,
+   634
+  ],
+  "size": [
+   159,
+   117
+  ],
+  "caption": "Fig. 12. Places for data collection and experiments",
+  "nearby": [
+   "(d) Stairwell. (e) Office. (f) Auditorium.",
+   "(g) Apartment 1. (h) Apartment 2. (i) Apartment 3.",
+   "Fig. 12. Places for data collection and experiments"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig16.jpg",
+  "bbox": [
+   266,
+   516,
+   424,
+   634
+  ],
+  "size": [
+   158,
+   118
+  ],
+  "caption": "Fig. 12. Places for data collection and experiments",
+  "nearby": [
+   "(d) Stairwell. (e) Office. (f) Auditorium.",
+   "(g) Apartment 1. (h) Apartment 2. (i) Apartment 3.",
+   "Fig. 12. Places for data collection and experiments"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "mdr_p10_fig18.jpg",
+  "bbox": [
+   437,
+   516,
+   593,
+   634
+  ],
+  "size": [
+   156,
+   118
+  ],
+  "caption": "Fig. 12. Places for data collection and experiments",
+  "nearby": [
+   "(d) Stairwell. (e) Office. (f) Auditorium.",
+   "(g) Apartment 1. (h) Apartment 2. (i) Apartment 3.",
+   "Fig. 12. Places for data collection and experiments"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "mdr_p11_fig1.jpg",
+  "bbox": [
+   136,
+   103,
+   553,
+   284
+  ],
+  "size": [
+   417,
+   181
+  ],
+  "caption": "Fig. 13. Overall orientation error.",
+  "nearby": [
+   "Fig. 13. Overall orientation error.",
+   "Fig. 14. Performance among different users.",
+   "Orientation Error (°)"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "mdr_p11_fig3.jpg",
+  "bbox": [
+   598,
+   100,
+   1073,
+   285
+  ],
+  "size": [
+   475,
+   185
+  ],
+  "caption": "Fig. 14. Performance among different users.",
+  "nearby": [
+   "Fig. 14. Performance among different users.",
+   "Orientation Error (°)",
+   "MDR AVOID MUSE"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "mdr_p11_fig5.jpg",
+  "bbox": [
+   167,
+   338,
+   599,
+   528
+  ],
+  "size": [
+   432,
+   190
+  ],
+  "caption": "Fig. 13. Overall orientation error.",
+  "nearby": [
+   "Fig. 13. Overall orientation error.",
+   "Fig. 14. Performance among different users.",
+   "Fig. 15. Performance at different places."
+  ]
+ },
+ {
+  "page": 11,
+  "file": "mdr_p11_fig7.jpg",
+  "bbox": [
+   681,
+   354,
+   1074,
+   530
+  ],
+  "size": [
+   393,
+   176
+  ],
+  "caption": "Fig. 16. Different distortion levels.",
+  "nearby": [
+   "Fig. 16. Different distortion levels.",
+   "Fig. 14. Performance among different users.",
+   "A B C D E F G H I J L M User"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "mdr_p13_fig1.jpg",
+  "bbox": [
+   120,
+   109,
+   361,
+   303
+  ],
+  "size": [
+   241,
+   194
+  ],
+  "caption": "Fig. 17. Database accuracy and database size during self- construction.",
+  "nearby": [
+   "Fig. 17. Database accuracy and database size during self- construction.",
+   "Fig. 18. Database accuracy and visits per voxel during self- construction.",
+   "using a smartwatch. Both applications rely solely on IMU sensors, and are conducted in magnetically distorted indoor environments."
+  ]
+ },
+ {
+  "page": 13,
+  "file": "mdr_p13_fig3.jpg",
+  "bbox": [
+   388,
+   111,
+   627,
+   303
+  ],
+  "size": [
+   239,
+   192
+  ],
+  "caption": "Fig. 17. Database accuracy and database size during self- construction.",
+  "nearby": [
+   "Fig. 17. Database accuracy and database size during self- construction.",
+   "Fig. 18. Database accuracy and visits per voxel during self- construction.",
+   "Fig. 19. MDR error with different spatial resolu- tion."
+  ]
+ },
+ {
+  "page": 13,
+  "file": "mdr_p13_fig5.jpg",
+  "bbox": [
+   656,
+   108,
+   845,
+   304
+  ],
+  "size": [
+   189,
+   196
+  ],
+  "caption": "Fig. 18. Database accuracy and visits per voxel during self- construction.",
+  "nearby": [
+   "Fig. 18. Database accuracy and visits per voxel during self- construction.",
+   "Fig. 19. MDR error with different spatial resolu- tion.",
+   "Fig. 20. Overall location es- timation error."
+  ]
+ },
+ {
+  "page": 13,
+  "file": "mdr_p13_fig7.jpg",
+  "bbox": [
+   873,
+   110,
+   1092,
+   303
+  ],
+  "size": [
+   219,
+   193
+  ],
+  "caption": "Fig. 19. MDR error with different spatial resolu- tion.",
+  "nearby": [
+   "Fig. 19. MDR error with different spatial resolu- tion.",
+   "Fig. 20. Overall location es- timation error.",
+   "LPIPS of MDR and MUSE, both compared to the ground truth traces. We can see that the LPIPS of MDR (with an average of 0.1216) is lower than "
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig2.jpg",
+  "bbox": [
+   92,
+   535,
+   314,
+   680
+  ],
+  "size": [
+   222,
+   145
+  ],
+  "caption": "Fig. 24. CDF of orientation estimation error during in- air writing.",
+  "nearby": [
+   "Fig. 24. CDF of orientation estimation error during in- air writing.",
+   "Fig. 25. CDF of location estimation error during in- air writing.",
+   "Fig. 23. In-Air Writing Trace Inferred by MUSE"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig3.jpg",
+  "bbox": [
+   92,
+   704,
+   313,
+   771
+  ],
+  "size": [
+   221,
+   67
+  ],
+  "caption": null,
+  "nearby": [
+   "0 20 40 Orienation Error (°)",
+   "that, the direction of X-axis alone is not enough for rendering, as the rotation along X-axis also affects the of the view port. Instead, a ",
+   "MDR MUSE"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig4.jpg",
+  "bbox": [
+   330,
+   532,
+   551,
+   680
+  ],
+  "size": [
+   221,
+   148
+  ],
+  "caption": "Fig. 24. CDF of orientation estimation error during in- air writing.",
+  "nearby": [
+   "Fig. 24. CDF of orientation estimation error during in- air writing.",
+   "Fig. 25. CDF of location estimation error during in- air writing.",
+   "Fig. 26. CDF of LPIPS of writing traces compared to ground truth traces."
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig5.jpg",
+  "bbox": [
+   330,
+   704,
+   551,
+   771
+  ],
+  "size": [
+   221,
+   67
+  ],
+  "caption": null,
+  "nearby": [
+   "0 0.1 0.2 0.3 0.4 LPIPS",
+   "0 0.1 0.2 Location Error (m)",
+   "0 20 40 Orienation Error (°)"
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig6.jpg",
+  "bbox": [
+   354,
+   1031,
+   592,
+   1224
+  ],
+  "size": [
+   238,
+   193
+  ],
+  "caption": "Fig. 28. Star sky rendering accu- racy CDF.",
+  "nearby": [
+   "We deploy MDR and evaluate its star sky rendering accuracy, with MUSE as comparison. The overall accuracy is 86.69% for MDR, and 70.92% for ",
+   "Fig. 28. Star sky rendering accu- racy CDF.",
+   "Fig. 29. Star sky rendering accu- racy over time."
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig8.jpg",
+  "bbox": [
+   93,
+   1030,
+   333,
+   1225
+  ],
+  "size": [
+   240,
+   195
+  ],
+  "caption": "Fig. 28. Star sky rendering accu- racy CDF.",
+  "nearby": [
+   "Fig. 28. Star sky rendering accu- racy CDF.",
+   "Fig. 29. Star sky rendering accu- racy over time.",
+   "that, the direction of X-axis alone is not enough for rendering, as the rotation along X-axis also affects the of the view port. Instead, a "
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig10.jpg",
+  "bbox": [
+   861,
+   481,
+   1116,
+   677
+  ],
+  "size": [
+   255,
+   196
+  ],
+  "caption": "Fig. 26. CDF of LPIPS of writing traces compared to ground truth traces.",
+  "nearby": [
+   "(l) ’L’ (m) ’M’",
+   "(n) ’N’",
+   "Fig. 26. CDF of LPIPS of writing traces compared to ground truth traces."
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig12.jpg",
+  "bbox": [
+   568,
+   538,
+   840,
+   682
+  ],
+  "size": [
+   272,
+   144
+  ],
+  "caption": "Fig. 25. CDF of location estimation error during in- air writing.",
+  "nearby": [
+   "Fig. 25. CDF of location estimation error during in- air writing.",
+   "Fig. 26. CDF of LPIPS of writing traces compared to ground truth traces.",
+   "Fig. 27. Star sky application illus- tration."
+  ]
+ },
+ {
+  "page": 14,
+  "file": "mdr_p14_fig13.jpg",
+  "bbox": [
+   568,
+   703,
+   841,
+   769
+  ],
+  "size": [
+   273,
+   66
+  ],
+  "caption": null,
+  "nearby": [
+   "0 0.1 0.2 0.3 0.4 LPIPS",
+   "0 0.1 0.2 Location Error (m)",
+   "We deploy MDR and evaluate its star sky rendering accuracy, with MUSE as comparison. The overall accuracy is 86.69% for MDR, and 70.92% for "
+  ]
+ }
+]

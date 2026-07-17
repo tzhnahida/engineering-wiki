@@ -42,7 +42,7 @@ site: 菜鸟教程
 
 ### 界面一览
 
-[📷 raw/assets/runoob_1780454126644.png]
+![runoob_1780454126644.png](../raw/assets/runoob_1780454126644.png)
 
 ## 与 LLM Wiki 的关联
 

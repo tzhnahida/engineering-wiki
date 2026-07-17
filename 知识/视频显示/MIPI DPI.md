@@ -38,7 +38,7 @@ flowchart LR
 
 ## 2. 信号定义
 
-[📷 _llm/raw/assets/standards/dpi20/dpi20_p13_fig1.jpg|480]
+![dpi20_p13_fig1.jpg](../../assets/standards/dpi20/dpi20_p13_fig1.jpg)
 *Figure 5 — DPI 接口信号与电源连接：像素总线 + HSYNC/VSYNC/DE/PCLK + SD/CM 控制*
 
 
@@ -62,7 +62,7 @@ DPI 使用以下核心信号：
 
 ## 3. 时序关系
 
-[📷 _llm/raw/assets/standards/dpi20/dpi20_p16_fig1.jpg|560]
+![dpi20_p16_fig1.jpg](../../assets/standards/dpi20/dpi20_p16_fig1.jpg)
 *Figure 6 — DPI 时序参数定义：HSA/HBP/HACT/HFP 与垂直方向对应参数*
 
 
@@ -108,7 +108,7 @@ DPI 标准支持以下并行像素格式：
 
 ## 5. 三种操作模式
 
-[📷 _llm/raw/assets/standards/dpi20/dpi20_p31_fig1.jpg|540]
+![dpi20_p31_fig1.jpg](../../assets/standards/dpi20/dpi20_p31_fig1.jpg)
 *Figure 8 — 上电与关断恢复序列*
 
 

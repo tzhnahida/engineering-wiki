@@ -35,16 +35,16 @@ flowchart LR
 
 ## 2. 三种类型
 
-[📷 _llm/raw/assets/standards/dbi20/dbi20_p17_fig1.jpg|420]
+![dbi20_p17_fig1.jpg](../../assets/standards/dbi20/dbi20_p17_fig1.jpg)
 *Figure 5 — Type A 接口方框图（摩托罗拉 6800 总线风格）*
 
-[📷 _llm/raw/assets/standards/dbi20/dbi20_p18_fig1.jpg|440]
+![dbi20_p18_fig1.jpg](../../assets/standards/dbi20/dbi20_p18_fig1.jpg)
 *Figure 7 — Type C 接口方框图（3/4 线 SPI 串行）*
 
-[📷 _llm/raw/assets/standards/dbi20/dbi20_p23_fig1.jpg|540]
+![dbi20_p23_fig1.jpg](../../assets/standards/dbi20/dbi20_p23_fig1.jpg)
 *Figure 9 — Type A 固定 E 模式写周期时序*
 
-[📷 _llm/raw/assets/standards/dbi20/dbi20_p28_fig1.jpg|540]
+![dbi20_p28_fig1.jpg](../../assets/standards/dbi20/dbi20_p28_fig1.jpg)
 *Figure 17 — Type B（8080 风格）写周期时序：WRX 上升沿锁存*
 
 

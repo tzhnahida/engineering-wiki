@@ -1,0 +1,122 @@
+[
+ {
+  "page": 3,
+  "file": "ao3401a_p3_fig2.jpg",
+  "bbox": [
+   614,
+   231,
+   1001,
+   538
+  ],
+  "size": [
+   387,
+   307
+  ],
+  "caption": null,
+  "nearby": [
+   "TYPICAL ELECTRICAL AND THERMAL CHARACTERISTICS",
+   "Normalized On-Resistance",
+   "VGS=-10V ID=-4A"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "ao3401a_p3_fig3.jpg",
+  "bbox": [
+   183,
+   229,
+   586,
+   542
+  ],
+  "size": [
+   403,
+   313
+  ],
+  "caption": null,
+  "nearby": [
+   "TYPICAL ELECTRICAL AND THERMAL CHARACTERISTICS",
+   "Normalized On-Resistance",
+   "VGS=-2.5V"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "ao3401a_p3_fig5.jpg",
+  "bbox": [
+   193,
+   586,
+   593,
+   874
+  ],
+  "size": [
+   400,
+   288
+  ],
+  "caption": null,
+  "nearby": [
+   "Voltage (Note E)",
+   "-VDS (Volts) Fig 1: On-Region Characteristics (Note E)",
+   "0 1 2 3 4 5"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "ao3401a_p3_fig8.jpg",
+  "bbox": [
+   614,
+   591,
+   1014,
+   880
+  ],
+  "size": [
+   400,
+   289
+  ],
+  "caption": null,
+  "nearby": [
+   "(Note E)",
+   "-VGS(Volts) Figure 2: Transfer Characteristics (Note E)",
+   "0 1 2 3 4 5"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "ao3401a_p3_fig10.jpg",
+  "bbox": [
+   188,
+   958,
+   586,
+   1266
+  ],
+  "size": [
+   398,
+   308
+  ],
+  "caption": null,
+  "nearby": [
+   "(Note E)",
+   "Voltage (Note E)",
+   "-ID (A) Figure 3: On-Resistance vs. Drain Current and Gate"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "ao3401a_p3_fig12.jpg",
+  "bbox": [
+   615,
+   958,
+   1023,
+   1270
+  ],
+  "size": [
+   408,
+   312
+  ],
+  "caption": null,
+  "nearby": [
+   "(Note E)",
+   "0 18",
+   "Temperature (°C) Figure 4: On-Resistance vs. Junction Temperature"
+  ]
+ }
+]

@@ -1,0 +1,198 @@
+[
+ {
+  "page": 68,
+  "file": "hdmi14_p68_fig1.jpg",
+  "bbox": [
+   340,
+   657,
+   903,
+   1003
+  ],
+  "size": [
+   563,
+   346
+  ],
+  "caption": "Figure 4-22 Conceptual Schematic for one TMDS differential pair",
+  "nearby": [
+   "Figure 4-22 Conceptual Schematic for one TMDS differential pair",
+   "The conceptual schematic of one TMDS differential pair is shown in Figure 4-22. TMDS technology uses current drive to develop the low voltag",
+   "A single-ended differential signal, representing either the positive or negative terminal of a differential pair, is illustrated in Figure 4"
+  ]
+ },
+ {
+  "page": 68,
+  "file": "hdmi14_p68_fig3.jpg",
+  "bbox": [
+   179,
+   1198,
+   566,
+   1364
+  ],
+  "size": [
+   387,
+   166
+  ],
+  "caption": "Figure 4-22 Conceptual Schematic for one TMDS differential pair",
+  "nearby": [
+   "A single-ended differential signal, representing either the positive or negative terminal of a differential pair, is illustrated in Figure 4",
+   "HDMI Licensing, LLC Confidential Page 53 of 197",
+   "Figure 4-22 Conceptual Schematic for one TMDS differential pair"
+  ]
+ },
+ {
+  "page": 74,
+  "file": "hdmi14_p74_fig2.jpg",
+  "bbox": [
+   182,
+   953,
+   672,
+   1273
+  ],
+  "size": [
+   490,
+   320
+  ],
+  "caption": "Figure 4-30 Eye Diagram Mask at TP1 for Source Requirements",
+  "nearby": [
+   "Figure 4-30 Eye Diagram Mask at TP1 for Source Requirements",
+   "The absolute amplitude limits in Figure 4-30 allow 25% (of the average differential swing voltage) maximum undershoot when the differential ",
+   "Combining the single-ended swing voltage (Vswing) specified in Table 4-23 with a 15% overshoot (legacy) and the undershoot limits of Table 4"
+  ]
+ },
+ {
+  "page": 91,
+  "file": "hdmi14_p91_fig1.jpg",
+  "bbox": [
+   178,
+   652,
+   1009,
+   1299
+  ],
+  "size": [
+   831,
+   647
+  ],
+  "caption": "Figure 5-1 HDMI Encoder/Decoder Overview",
+  "nearby": [
+   "These data items are processed in a variety of ways and are presented to the TMDS encoder as either 2 bits of control data, 4 bits of packet",
+   "Figure 5-1 HDMI Encoder/Decoder Overview",
+   "The input stream to the Source’s encoding logic will contain video pixel, packet and control data. The packet data consists of audio and aux"
+  ]
+ },
+ {
+  "page": 92,
+  "file": "hdmi14_p92_fig1.jpg",
+  "bbox": [
+   179,
+   408,
+   1038,
+   1306
+  ],
+  "size": [
+   859,
+   898
+  ],
+  "caption": "Figure 5-2 Informative Example: TMDS periods in 720x480p video frame",
+  "nearby": [
+   "Figure 5-2 Informative Example: TMDS periods in 720x480p video frame",
+   "An example of each period placement is shown in the following figure.",
+   "Video Data Periods use transition minimized coding to encode 8 bits per channel, or 24 bits total per pixel."
+  ]
+ },
+ {
+  "page": 98,
+  "file": "hdmi14_p98_fig1.jpg",
+  "bbox": [
+   179,
+   143,
+   1034,
+   1276
+  ],
+  "size": [
+   855,
+   1133
+  ],
+  "caption": null,
+  "nearby": [
+   "High-Definition Multimedia Interface Specification Version 1.4"
+  ]
+ },
+ {
+  "page": 118,
+  "file": "hdmi14_p118_fig1.jpg",
+  "bbox": [
+   181,
+   141,
+   1012,
+   1205
+  ],
+  "size": [
+   831,
+   1064
+  ],
+  "caption": null,
+  "nearby": [
+   "High-Definition Multimedia Interface Specification Version 1.4"
+  ]
+ },
+ {
+  "page": 124,
+  "file": "hdmi14_p124_fig1.jpg",
+  "bbox": [
+   187,
+   650,
+   879,
+   947
+  ],
+  "size": [
+   692,
+   297
+  ],
+  "caption": "Figure 6-1 Default pixel encoding: RGB 4:4:4, 8 bits/component",
+  "nearby": [
+   "Figure 6-1 Default pixel encoding: RGB 4:4:4, 8 bits/component",
+   "Figure 6-1 shows the default encoding, RGB 4:4:4 for 24-bit color depth. The R, G, and B components of the first pixel for a given line of v",
+   "Figure 6-2 shows the signal mapping and timing for transferring YCBCR 4:2:2 data across HDMI. Because 4:2:2 data only requires two component"
+  ]
+ },
+ {
+  "page": 159,
+  "file": "hdmi14_p159_fig1.jpg",
+  "bbox": [
+   184,
+   213,
+   944,
+   587
+  ],
+  "size": [
+   760,
+   374
+  ],
+  "caption": "Figure 8-3 3D structure (Frame packing)",
+  "nearby": [
+   "Frame packing is one of the HDMI 3D video format structures indicated by the 3D_Structure field and is composed of two stereoscopic pictures",
+   "Figure 8-3 3D structure (Frame packing)",
+   "In this figure, the area inserted between the two Active video regions is designated as “Active space”. This Active space area shall be enco"
+  ]
+ },
+ {
+  "page": 169,
+  "file": "hdmi14_p169_fig1.jpg",
+  "bbox": [
+   177,
+   563,
+   875,
+   755
+  ],
+  "size": [
+   698,
+   192
+  ],
+  "caption": null,
+  "nearby": [
+   "The CEC and DDC connections are shown in Figure 8-5.",
+   "CEC bus DDC line Figure 8-5 CEC and DDC line connections",
+   "In order to allow CEC to be able to address specific physical devices and control switches, all devices shall have a physical address. This "
+  ]
+ }
+]

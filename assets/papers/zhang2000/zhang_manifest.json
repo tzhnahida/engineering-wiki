@@ -1,0 +1,22 @@
+[
+ {
+  "page": 4,
+  "file": "zhang_p4_fig1.jpg",
+  "bbox": [
+   143,
+   138,
+   989,
+   1088
+  ],
+  "size": [
+   846,
+   950
+  ],
+  "caption": "Fig. 1. Two sets of images taken at different distances to the calibration pattern. Each set contains five images. (a) Three images from the",
+  "nearby": [
+   "Fig. 1. Two sets of images taken at different distances to the calibration pattern. Each set contains five images. (a) Three images from the",
+   "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. 22, NO. 11, NOVEMBER 2000 1333",
+   "are shown. (b) Three images from the set taken at a larger distance are shown."
+  ]
+ }
+]

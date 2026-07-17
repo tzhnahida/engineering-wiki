@@ -1,0 +1,62 @@
+[
+ {
+  "page": 2,
+  "file": "ap3012_p2_fig1.jpg",
+  "bbox": [
+   471,
+   437,
+   729,
+   578
+  ],
+  "size": [
+   258,
+   141
+  ],
+  "caption": "Figure 2. Pin Configuration of AP3012 (Top View)",
+  "nearby": [
+   "(SOT-23-5)",
+   "Figure 2. Pin Configuration of AP3012 (Top View)",
+   "K Package"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "ap3012_p3_fig1.jpg",
+  "bbox": [
+   134,
+   351,
+   1029,
+   794
+  ],
+  "size": [
+   895,
+   443
+  ],
+  "caption": "Figure 3. Functional Block Diagram of AP3012",
+  "nearby": [
+   "Functional Block Diagram",
+   "Figure 3. Functional Block Diagram of AP3012",
+   "1.5MHz STEP-UP DC-DC CONVERTER AP3012"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "ap3012_p9_fig1.jpg",
+  "bbox": [
+   261,
+   323,
+   929,
+   664
+  ],
+  "size": [
+   668,
+   341
+  ],
+  "caption": "Figure 12. LCD/OLED Display Bias Driver Typical Circuit",
+  "nearby": [
+   "Typical Application",
+   "Note: VOUT=1.25*(1+R1/R2)=1.25*19.2=24V",
+   "C: X5R or X7R Dielectric L: SUMIDA CDTH3D14/HPNP-100NC or Equivalent"
+  ]
+ }
+]

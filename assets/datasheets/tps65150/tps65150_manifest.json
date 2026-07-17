@@ -1,0 +1,102 @@
+[
+ {
+  "page": 3,
+  "file": "tps65150_p3_fig1.jpg",
+  "bbox": [
+   165,
+   201,
+   531,
+   637
+  ],
+  "size": [
+   366,
+   436
+  ],
+  "caption": "5 Pin Configuration and Functions",
+  "nearby": [
+   "Pin Functions",
+   "5 Pin Configuration and Functions",
+   "I/O DESCRIPTION NAME VQFN HTSSOP"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "tps65150_p11_fig1.jpg",
+  "bbox": [
+   113,
+   194,
+   1104,
+   1347
+  ],
+  "size": [
+   991,
+   1153
+  ],
+  "caption": null,
+  "nearby": [
+   "7.2 Functional Block Diagram",
+   "www.ti.com SLVS576B –SEPTEMBER 2005–REVISED JANUARY 2016",
+   "TPS65150"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "tps65150_p12_fig1.jpg",
+  "bbox": [
+   181,
+   268,
+   1032,
+   949
+  ],
+  "size": [
+   851,
+   681
+  ],
+  "caption": "Figure 8 shows a simplified block diagram of the boost converter.",
+  "nearby": [
+   "Figure 8 shows a simplified block diagram of the boost converter.",
+   "Figure 8. Boost Converter Block Diagram",
+   "7.3.1 Boost Converter"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "tps65150_p15_fig1.jpg",
+  "bbox": [
+   347,
+   165,
+   871,
+   469
+  ],
+  "size": [
+   524,
+   304
+  ],
+  "caption": "Figure 9. Boost Converter Switch Current Limit During Soft-Start",
+  "nearby": [
+   "Figure 9. Boost Converter Switch Current Limit During Soft-Start",
+   "www.ti.com SLVS576B –SEPTEMBER 2005–REVISED JANUARY 2016",
+   "7.3.1.6 Gate Drive Signal"
+  ]
+ },
+ {
+  "page": 15,
+  "file": "tps65150_p15_fig3.jpg",
+  "bbox": [
+   272,
+   773,
+   946,
+   1244
+  ],
+  "size": [
+   674,
+   471
+  ],
+  "caption": "Figure 10 shows a simplified block diagram of the negative charge pump.",
+  "nearby": [
+   "Copyright © 2016, Texas Instruments Incorporated",
+   "Figure 10 shows a simplified block diagram of the negative charge pump.",
+   "7.3.2 Negative Charge Pump"
+  ]
+ }
+]

@@ -1,0 +1,162 @@
+[
+ {
+  "page": 15,
+  "file": "dcs102_p15_fig1.jpg",
+  "bbox": [
+   332,
+   900,
+   890,
+   1357
+  ],
+  "size": [
+   558,
+   457
+  ],
+  "caption": "Figure 1 Type 1 Display Architecture Block Diagram 334",
+  "nearby": [
+   "Figure 1 Type 1 Display Architecture Block Diagram 334",
+   "Power Supply. Used to convert system voltages to levels usable by the display device and display 331 driver. Can be integrated in the displa",
+   "Display Driving Circuit. Used to convert timing signals and voltages to signals appropriate to 329 drive the display device. 330"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "dcs102_p16_fig1.jpg",
+  "bbox": [
+   332,
+   826,
+   890,
+   1279
+  ],
+  "size": [
+   558,
+   453
+  ],
+  "caption": "Figure 2 Type 2 Display Architecture Block Diagram 354",
+  "nearby": [
+   "Figure 2 Type 2 Display Architecture Block Diagram 354",
+   "Video Stream Interface. Used to receive video image data and timing signals from the host 351 processor. 352",
+   "Power Supply. Used to convert system voltages to levels usable by the display device and display 349 driver. Can be integrated in the displa"
+  ]
+ },
+ {
+  "page": 17,
+  "file": "dcs102_p17_fig1.jpg",
+  "bbox": [
+   332,
+   791,
+   890,
+   1244
+  ],
+  "size": [
+   558,
+   453
+  ],
+  "caption": "Figure 3 Type 3 Display Architecture Block Diagram 374",
+  "nearby": [
+   "Figure 3 Type 3 Display Architecture Block Diagram 374",
+   "Video Stream Interface. Used to receive video image data and timing signals from the host 371 processor. 372",
+   "In all architecture types, it is assumed the power supply is under the control of the display driver. 375"
+  ]
+ },
+ {
+  "page": 19,
+  "file": "dcs102_p19_fig1.jpg",
+  "bbox": [
+   184,
+   164,
+   1043,
+   1172
+  ],
+  "size": [
+   859,
+   1008
+  ],
+  "caption": "Figure 4 Type 1 Display Architecture Power Change Sequences 403",
+  "nearby": [
+   "Figure 4 Type 1 Display Architecture Power Change Sequences 403",
+   "Version 1.02.00 23-Ju1-2009 MIPI Alliance Specification for DCS",
+   "Note 1: There shall be no abnormal visual effect when changing between power modes. 404"
+  ]
+ },
+ {
+  "page": 21,
+  "file": "dcs102_p21_fig1.jpg",
+  "bbox": [
+   324,
+   509,
+   893,
+   850
+  ],
+  "size": [
+   569,
+   341
+  ],
+  "caption": "Figure 7 Gamma curve 1 (GC0) 424",
+  "nearby": [
+   "Figure 7 Gamma curve 1 (GC0) 424",
+   "Gamma Curve 1 (GC0) is 2.2, i.e. y=x2.2 422",
+   "5.2.2 Gamma Curve 2 (GC1) 425"
+  ]
+ },
+ {
+  "page": 21,
+  "file": "dcs102_p21_fig3.jpg",
+  "bbox": [
+   322,
+   1010,
+   895,
+   1359
+  ],
+  "size": [
+   573,
+   349
+  ],
+  "caption": "Figure 8 Gamma Curve 2 (GC1) 428",
+  "nearby": [
+   "Figure 8 Gamma Curve 2 (GC1) 428",
+   "Gamma Curve 2 (GC1) is 1.8, i.e. y=x1.8 426",
+   "5.2.2 Gamma Curve 2 (GC1) 425"
+  ]
+ },
+ {
+  "page": 22,
+  "file": "dcs102_p22_fig1.jpg",
+  "bbox": [
+   322,
+   251,
+   895,
+   569
+  ],
+  "size": [
+   573,
+   318
+  ],
+  "caption": "Figure 9 Gamma Curve 3 (GC2) 433",
+  "nearby": [
+   "Figure 9 Gamma Curve 3 (GC2) 433",
+   "Gamma Curve 3 (GC2) is 2.5, i.e. y=x2.5 431",
+   "5.2.4 Gamma Curve 4 (GC3) 434"
+  ]
+ },
+ {
+  "page": 22,
+  "file": "dcs102_p22_fig3.jpg",
+  "bbox": [
+   320,
+   730,
+   898,
+   1020
+  ],
+  "size": [
+   578,
+   290
+  ],
+  "caption": "Figure 10 Gamma Curve 4 (GC3) 437",
+  "nearby": [
+   "Figure 10 Gamma Curve 4 (GC3) 437",
+   "Gamma Curve 4 (GC3) is linear, i.e. y=x1 435",
+   "5.2.4 Gamma Curve 4 (GC3) 434"
+  ]
+ }
+]

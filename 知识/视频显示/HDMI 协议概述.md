@@ -72,7 +72,7 @@ HDMI 链路包含以下信号组：
 
 ## 3. 链路架构
 
-[📷 _llm/raw/assets/standards/hdmi14/hdmi14_p91_fig1.jpg|620]
+![hdmi14_p91_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p91_fig1.jpg)
 *Figure 5-1 — HDMI 编码器/解码器总览：3 条 TMDS 数据通道 + 1 条时钟通道，Video/Data Island/Control 三种周期复用*
 
 

@@ -1,0 +1,42 @@
+[
+ {
+  "page": 3,
+  "file": "mmbt2222a_p3_fig3.jpg",
+  "bbox": [
+   127,
+   708,
+   1087,
+   921
+  ],
+  "size": [
+   960,
+   213
+  ],
+  "caption": "Figure 1. Turn−On Time Figure 2. Turn−Off Time",
+  "nearby": [
+   "SWITCHING TIME EQUIVALENT TEST CIRCUITS",
+   "Figure 1. Turn−On Time Figure 2. Turn−Off Time",
+   "Product parametric performance is indicated in the Electrical Characteristics for the listed test conditions, unless otherwise noted. Produc"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "mmbt2222a_p3_fig6.jpg",
+  "bbox": [
+   119,
+   1034,
+   1095,
+   1373
+  ],
+  "size": [
+   976,
+   339
+  ],
+  "caption": "Figure 3. DC Current Gain",
+  "nearby": [
+   "Figure 3. DC Current Gain",
+   "Figure 1. Turn−On Time Figure 2. Turn−Off Time",
+   "Scope rise time < 4 ns *Total shunt capacitance of test jig, connectors, and oscilloscope."
+  ]
+ }
+]

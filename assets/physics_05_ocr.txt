@@ -1,0 +1,67 @@
+Elapsed: 92.5s
+Chars: 1209
+
+运动方程矢量为：
+
+\[\vec{r} = v_0 t + \frac{1}{2} g t^2\]
+
+分量式为：
+
+\[\begin{cases} 
+x = v_0 \cos \alpha t \, (\text{水平分运动为匀速直线运动}) \\ 
+y = v_0 \sin \alpha t - \frac{1}{2} g t^2 \, (\text{竖直分运动为匀变速直线运动}) 
+\end{cases}\]
+
+### 三、圆周运动（包括一般曲线运动）
+
+1. **线速度**：线位移 \( s \)、线速度 \( v \)：
+
+\[s = \frac{d}{dt} r = v_0 \cos \alpha t\]
+
+\[v = \frac{ds}{dt} = v_0 \sin \alpha\]
+
+切向加速度 \( a_t \)：
+
+\[a_t = \frac{dv}{dt} = v_0 \cos \alpha\]
+
+法向加速度 \( a_n \)：
+
+\[a_n = \frac{v^2}{R} = \frac{v_0^2}{R} \sin^2 \alpha\]
+
+2. **角速度**：角位移 \( \theta \)（单位 rad）、角速度 \( \omega \)：
+
+\[\theta = \frac{d\theta}{dt} = \omega = \frac{v_0 \sin \alpha}{R}\]
+
+\[\omega = \frac{d\theta}{dt} = \frac{v_0}{R} \cos \alpha\]
+
+角速度：
+
+\[\alpha = \frac{d\omega}{dt} = \frac{v_0}{R} \sin \alpha\]
+
+3. **线量与角量关系**：
+
+\[s = R \theta, \quad v = R \omega, \quad a_t = R \alpha, \quad a_n = R \omega^2\]
+
+4. **匀变速圆周运动**：
+
+(1) **线量关系**：
+
+\[\begin{cases} 
+v = v_0 + a t \\ 
+s = v_0 t + \frac{1}{2} a t^2 
+\end{cases}\]
+
+(2) **角量关系**：
+
+\[\begin{cases} 
+\theta = \omega_0 t + \frac{1}{2} \omega_0^2 t^2 \\ 
+\omega = \omega_0 + \omega_0 \frac{a t}{t_0} 
+\end{cases}\]
+
+---
+
+### 第二章 牛顿运动定律
+
+#### 一、牛顿第二定律
+
+物体作用在轴线上的一系列物理量，包括描述物体运动状态的两个因素：力 \( F \) 和物体在该轴线上所受的惯性力 \( F = ma \)。

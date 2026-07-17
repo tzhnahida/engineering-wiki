@@ -25,10 +25,10 @@ DCS 解决的核心问题：**不同厂商的显示模组使用不同的命令�
 
 ## 2. 显示架构类型
 
-[📷 _llm/raw/assets/standards/dcs102/dcs102_p15_fig1.jpg|440]
+![dcs102_p15_fig1.jpg](../../assets/standards/dcs102/dcs102_p15_fig1.jpg)
 *Figure 1 — Type 1 显示架构：全帧缓冲在显示模组侧，主机只发增量更新*
 
-[📷 _llm/raw/assets/standards/dcs102/dcs102_p17_fig1.jpg|440]
+![dcs102_p17_fig1.jpg](../../assets/standards/dcs102/dcs102_p17_fig1.jpg)
 *Figure 3 — Type 3 显示架构：无帧缓冲，主机持续推流（对应 DSI Video Mode）*
 
 
@@ -48,7 +48,7 @@ Type 3: Host → DSI/DPI → Display Driver → Panel（实时刷新）
 
 ## 3. 电源状态机
 
-[📷 _llm/raw/assets/standards/dcs102/dcs102_p19_fig1.jpg|520]
+![dcs102_p19_fig1.jpg](../../assets/standards/dcs102/dcs102_p19_fig1.jpg)
 *Figure 4 — Type 1 架构电源状态变化序列：Power Off ↔ Sleep ↔ Display Off/On 的完整迁移路径*
 
 
@@ -98,7 +98,7 @@ Normal → [enter_sleep_mode]   → Sleep
 
 ## 4. 伽马校正
 
-[📷 _llm/raw/assets/standards/dcs102/dcs102_p21_fig1.jpg|400] [📷 _llm/raw/assets/standards/dcs102/dcs102_p21_fig3.jpg|400]
+![dcs102_p21_fig1.jpg](../../assets/standards/dcs102/dcs102_p21_fig1.jpg) ![dcs102_p21_fig3.jpg](../../assets/standards/dcs102/dcs102_p21_fig3.jpg)
 *Figure 7/8 — 内置伽马曲线 GC0（2.2）与 GC1：set_gamma_curve 命令按位选择*
 
 

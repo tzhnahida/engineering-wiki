@@ -1,0 +1,522 @@
+[
+ {
+  "page": 2,
+  "file": "vqf_p2_fig1.jpg",
+  "bbox": [
+   210,
+   110,
+   965,
+   446
+  ],
+  "size": [
+   755,
+   336
+  ],
+  "caption": "Figure 1: Orientation estimation of IMUs is achieved by sensor fusion of the gyroscope measurements with the accelerometer and, in 9D sensor",
+  "nearby": [
+   "Figure 1: Orientation estimation of IMUs is achieved by sensor fusion of the gyroscope measurements with the accelerometer and, in 9D sensor",
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "The few existing comparative studies show that the out- of-the-box performance of most algorithms is poor and that application-speciﬁc algor"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "vqf_p3_fig1.jpg",
+  "bbox": [
+   607,
+   724,
+   1086,
+   919
+  ],
+  "size": [
+   479,
+   195
+  ],
+  "caption": null,
+  "nearby": [
+   "east",
+   "The introduced auxiliary coordinate system 푖(푡푘), with 푖(푡0) = 푖(푡0), is an almost-inertial frame that slowly drifts around arbitrary axe",
+   "푥푖(푡푘)"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "vqf_p4_fig1.jpg",
+  "bbox": [
+   138,
+   112,
+   1053,
+   366
+  ],
+  "size": [
+   915,
+   254
+  ],
+  "caption": "Figure 3: Illustration of conventional and proposed ﬁlter structures (푧−1 denotes the unit delay). The proposed ﬁlter structure avoids the f",
+  "nearby": [
+   "Figure 3: Illustration of conventional and proposed ﬁlter structures (푧−1 denotes the unit delay). The proposed ﬁlter structure avoids the f",
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "rest, ̄흎"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "vqf_p4_fig3.jpg",
+  "bbox": [
+   246,
+   479,
+   942,
+   679
+  ],
+  "size": [
+   696,
+   200
+  ],
+  "caption": "Figure 4: Variants of the proposed algorithm. BasicVQF consists of strapdown integration, inclination correction, and heading correction. Th",
+  "nearby": [
+   "Figure 4: Variants of the proposed algorithm. BasicVQF consists of strapdown integration, inclination correction, and heading correction. Th",
+   "Figure 3: Illustration of conventional and proposed ﬁlter structures (푧−1 denotes the unit delay). The proposed ﬁlter structure avoids the f",
+   "mag. disturbances"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "vqf_p4_fig5.jpg",
+  "bbox": [
+   614,
+   869,
+   1085,
+   1245
+  ],
+  "size": [
+   471,
+   376
+  ],
+  "caption": "Figure 5: Example of unﬁltered and low-pass ﬁltered ac- celerations in the original sensor frame 푖and the almost- inertial frame 푖. Applyi",
+  "nearby": [
+   "Figure 5: Example of unﬁltered and low-pass ﬁltered ac- celerations in the original sensor frame 푖and the almost- inertial frame 푖. Applyi",
+   "Figure 4: Variants of the proposed algorithm. BasicVQF consists of strapdown integration, inclination correction, and heading correction. Th",
+   "+ + VQF BasicVQF"
+  ]
+ },
+ {
+  "page": 4,
+  "file": "vqf_p4_fig6.jpg",
+  "bbox": [
+   606,
+   1261,
+   1086,
+   1456
+  ],
+  "size": [
+   480,
+   195
+  ],
+  "caption": null,
+  "nearby": [
+   "0 50 100 150 time [s]",
+   "0 50 100 150 time [s]",
+   "Laidig and Seel Page 4 of 22"
+  ]
+ },
+ {
+  "page": 6,
+  "file": "vqf_p6_fig1.jpg",
+  "bbox": [
+   227,
+   113,
+   955,
+   596
+  ],
+  "size": [
+   728,
+   483
+  ],
+  "caption": "Figure 6: Step response for the Kalman ﬁlter with the proposed parametrization. The blue bands show the standard deviation 휎 of the estimate",
+  "nearby": [
+   "Figure 6: Step response for the Kalman ﬁlter with the proposed parametrization. The blue bands show the standard deviation 휎 of the estimate",
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "those phases can be detected reliably. This is leveraged by the proposed bias estimation algorithm, which determines the bias directly from "
+  ]
+ },
+ {
+  "page": 6,
+  "file": "vqf_p6_fig2.jpg",
+  "bbox": [
+   96,
+   613,
+   1085,
+   720
+  ],
+  "size": [
+   989,
+   107
+  ],
+  "caption": null,
+  "nearby": [
+   "0 200 400 time [s]",
+   "−5 0 5 10 15 20 time [s]",
+   "those phases can be detected reliably. This is leveraged by the proposed bias estimation algorithm, which determines the bias directly from "
+  ]
+ },
+ {
+  "page": 8,
+  "file": "vqf_p8_fig1.jpg",
+  "bbox": [
+   228,
+   109,
+   949,
+   379
+  ],
+  "size": [
+   721,
+   270
+  ],
+  "caption": "Figure 7: RMSE (weighted average over all datasets) achieved with the proposed VQF algorithm and with the reduced BasicVQF variant, for diﬀe",
+  "nearby": [
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "Figure 7: RMSE (weighted average over all datasets) achieved with the proposed VQF algorithm and with the reduced BasicVQF variant, for diﬀe",
+   "6D (without magnetometers)"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "vqf_p8_fig3.jpg",
+  "bbox": [
+   230,
+   500,
+   959,
+   818
+  ],
+  "size": [
+   729,
+   318
+  ],
+  "caption": "Figure 8: RMSE (weighted average over all datasets) for the proposed VQF and all state-of-the-art algorithms. VQF outperforms all eight lite",
+  "nearby": [
+   "Figure 8: RMSE (weighted average over all datasets) for the proposed VQF and all state-of-the-art algorithms. VQF outperforms all eight lite",
+   "Figure 7: RMSE (weighted average over all datasets) achieved with the proposed VQF algorithm and with the reduced BasicVQF variant, for diﬀe",
+   "2 4 6 8 10 time constant 휏acc [s]"
+  ]
+ },
+ {
+  "page": 8,
+  "file": "vqf_p8_fig4.jpg",
+  "bbox": [
+   96,
+   835,
+   1085,
+   920
+  ],
+  "size": [
+   989,
+   85
+  ],
+  "caption": null,
+  "nearby": [
+   "0 2 4 6 inclination RMSE [°]",
+   "0 5 10 15 orientation RMSE [°]",
+   "the proposed method for diﬀerent motion characteristics, diﬀerent sensor hardware, and diﬀerent sampling rates."
+  ]
+ },
+ {
+  "page": 9,
+  "file": "vqf_p9_fig1.jpg",
+  "bbox": [
+   103,
+   109,
+   1085,
+   1092
+  ],
+  "size": [
+   982,
+   983
+  ],
+  "caption": "Figure 9: Orientation estimation errors for all evaluated algorithms and for all trials of the (a,b) BROAD dataset and (c,d) the ﬁve other d",
+  "nearby": [
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "Figure 9: Orientation estimation errors for all evaluated algorithms and for all trials of the (a,b) BROAD dataset and (c,d) the ﬁve other d",
+   "Similar to the TAGP, the TAGPx is the smallest possible RMSE, averaged over the aforementioned trials for each of the six datasets. The erro"
+  ]
+ },
+ {
+  "page": 9,
+  "file": "vqf_p9_fig2.jpg",
+  "bbox": [
+   96,
+   1127,
+   1085,
+   1213
+  ],
+  "size": [
+   989,
+   86
+  ],
+  "caption": "Fig. 7 shows how the weighted error deﬁned above depends on the tuning parameters for the default and the basic variant of the proposed VQF ",
+  "nearby": [
+   "1.5° 4.8° 7.6° 2.6° 2.2° 3.5° 1.7°",
+   "4.0° 29.7° 19.2° 7.8° 14.1° 5.7° 7.3° 20.4°",
+   "Similar to the TAGP, the TAGPx is the smallest possible RMSE, averaged over the aforementioned trials for each of the six datasets. The erro"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "vqf_p10_fig1.jpg",
+  "bbox": [
+   123,
+   125,
+   1068,
+   680
+  ],
+  "size": [
+   945,
+   555
+  ],
+  "caption": "Figure 10: Averaged RMSE errors for various groups of trials of the BROAD dataset. The proposed algorithm VQF is compared with the best of t",
+  "nearby": [
+   "Figure 10: Averaged RMSE errors for various groups of trials of the BROAD dataset. The proposed algorithm VQF is compared with the best of t",
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "One main observation from this ﬁgure is that the pro- posed method VQF consistently provides considerably lower errors than the existing ori"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "vqf_p10_fig2.jpg",
+  "bbox": [
+   96,
+   711,
+   1086,
+   796
+  ],
+  "size": [
+   990,
+   85
+  ],
+  "caption": null,
+  "nearby": [
+   "0 2 4 6 2 0 RMSE averaged over group of trials [°]",
+   "One main observation from this ﬁgure is that the pro- posed method VQF consistently provides considerably lower errors than the existing ori",
+   "BasicVQF, we simply use the average of the errors obtained with both variants to determine the default values 휏acc = 3 s and 휏acc = 9 s. To "
+  ]
+ },
+ {
+  "page": 11,
+  "file": "vqf_p11_fig1.jpg",
+  "bbox": [
+   154,
+   110,
+   1034,
+   547
+  ],
+  "size": [
+   880,
+   437
+  ],
+  "caption": "Figure 11: Execution time for one update step on an AMD Ryzen 5 3600 CPU vs. orientation estimation RMSE (weighted average over all datasets",
+  "nearby": [
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "Figure 11: Execution time for one update step on an AMD Ryzen 5 3600 CPU vs. orientation estimation RMSE (weighted average over all datasets",
+   "While Fig. 8 shows a clear improvement in accuracy with respect to the state of the art when looking at errors averaged over a large number "
+  ]
+ },
+ {
+  "page": 11,
+  "file": "vqf_p11_fig2.jpg",
+  "bbox": [
+   96,
+   563,
+   1086,
+   649
+  ],
+  "size": [
+   990,
+   86
+  ],
+  "caption": null,
+  "nearby": [
+   "100 ns 1 µs 10 µs 100 µs execution time for one update step",
+   "100 ns 1 µs 10 µs 100 µs execution time for one update step",
+   "While Fig. 8 shows a clear improvement in accuracy with respect to the state of the art when looking at errors averaged over a large number "
+  ]
+ },
+ {
+  "page": 12,
+  "file": "vqf_p12_fig2.jpg",
+  "bbox": [
+   108,
+   475,
+   1077,
+   950
+  ],
+  "size": [
+   969,
+   475
+  ],
+  "caption": "Figure 13: Behavior of the bias estimation method for the ﬁrst 60 seconds of trial 4 of the BROAD dataset (undisturbed slow rotation with br",
+  "nearby": [
+   "Figure 13: Behavior of the bias estimation method for the ﬁrst 60 seconds of trial 4 of the BROAD dataset (undisturbed slow rotation with br",
+   "Figure 12: Bias estimation results for diﬀerent IOE algorithms. Green bars and percentages indicate the reduction of the bias norm with resp",
+   "bias reduction residual bias"
+  ]
+ },
+ {
+  "page": 12,
+  "file": "vqf_p12_fig3.jpg",
+  "bbox": [
+   95,
+   970,
+   1086,
+   1054
+  ],
+  "size": [
+   991,
+   84
+  ],
+  "caption": null,
+  "nearby": [
+   "0 10 20 30 40 50 60 time [s]",
+   "measurements during the rest phases at the beginning and at the end of each trial and linearly interpolating in between to account for slow ",
+   "For the proposed algorithms VQF and OﬄineVQF, we present the bias estimates obtained with the default parame- ters. For the existing methods"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "vqf_p13_fig1.jpg",
+  "bbox": [
+   107,
+   124,
+   1083,
+   593
+  ],
+  "size": [
+   976,
+   469
+  ],
+  "caption": "Figure 14: Performance of the magnetic disturbance rejection method for trial 37 of the BROAD dataset (disturbed oﬃce environment). Whenever",
+  "nearby": [
+   "Figure 14: Performance of the magnetic disturbance rejection method for trial 37 of the BROAD dataset (disturbed oﬃce environment). Whenever",
+   "VQF: Highly Accurate IMU Orientation Estimation with Bias Estimation and Magnetic Disturbance Rejection",
+   "RMSE is 6.1°. In contrast, enabling magnetic disturbance rejection reduces the maximum error to just 3.7° and the RMSE to 1.8°, which transl"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "vqf_p13_fig2.jpg",
+  "bbox": [
+   95,
+   613,
+   1086,
+   698
+  ],
+  "size": [
+   991,
+   85
+  ],
+  "caption": null,
+  "nearby": [
+   "0 20 40 60 80 100 120 140 time [s]",
+   "RMSE is 6.1°. In contrast, enabling magnetic disturbance rejection reduces the maximum error to just 3.7° and the RMSE to 1.8°, which transl",
+   "further improves the accuracy in comparison to the real- time capable VQF algorithm. MKF only achieves a slight reduction of gyroscope bias "
+  ]
+ },
+ {
+  "page": 15,
+  "file": "vqf_p15_fig1.jpg",
+  "bbox": [
+   607,
+   1315,
+   1086,
+   1446
+  ],
+  "size": [
+   479,
+   131
+  ],
+  "caption": null,
+  "nearby": [
+   "퐧 (correction rotation axis)",
+   "Laidig and Seel Page 15 of 22",
+   "푖(푡푘) 푖(푡푘)퐪= 푖(푡푘−1) 푖(푡푘−1)퐪⊗(푇푠‖흎‖ @ 흎) . (3)"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "vqf_p16_fig1.jpg",
+  "bbox": [
+   96,
+   1292,
+   576,
+   1443
+  ],
+  "size": [
+   480,
+   151
+  ],
+  "caption": null,
+  "nearby": [
+   "퐦 (magnetic ﬁeld)",
+   "ﬁlter step response",
+   "Laidig and Seel Page 16 of 22"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "vqf_p16_fig2.jpg",
+  "bbox": [
+   615,
+   1071,
+   1080,
+   1347
+  ],
+  "size": [
+   465,
+   276
+  ],
+  "caption": "Figure 17: Step response for ﬁrst- and second-order low-pass ﬁlters. The time axis is normalized by dividing by the time constant 휏of the pr",
+  "nearby": [
+   "Figure 17: Step response for ﬁrst- and second-order low-pass ﬁlters. The time axis is normalized by dividing by the time constant 휏of the pr",
+   "in 푖coordinates: 훿= atan2(푚푥, 푚푦)",
+   "Every gyroscope prediction step causes a small error, due to gyroscope bias, noise, and other measurement errors. Without correction by acce"
+  ]
+ },
+ {
+  "page": 16,
+  "file": "vqf_p16_fig3.jpg",
+  "bbox": [
+   606,
+   1365,
+   1086,
+   1472
+  ],
+  "size": [
+   480,
+   107
+  ],
+  "caption": null,
+  "nearby": [
+   "0 1 2 3 4 5 6 7 8 normalized time 푡∕휏",
+   "Laidig and Seel Page 16 of 22",
+   "ﬁrst-order exponential ﬁlter (푦1) second-order Butterworth ﬁlter (푦2)"
+  ]
+ },
+ {
+  "page": 18,
+  "file": "vqf_p18_fig1.jpg",
+  "bbox": [
+   96,
+   1281,
+   576,
+   1388
+  ],
+  "size": [
+   480,
+   107
+  ],
+  "caption": null,
+  "nearby": [
+   "Assume that the accelerometer measurements are al- ways a perfect vertical vector ([퐚(푡푘)]",
+   "(inclination correction)",
+   "흎corr"
+  ]
+ }
+]

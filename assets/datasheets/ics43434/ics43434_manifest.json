@@ -1,0 +1,120 @@
+[
+ {
+  "page": 1,
+  "file": "ics43434_p1_fig1.jpg",
+  "bbox": [
+   125,
+   961,
+   523,
+   1172
+  ],
+  "size": [
+   398,
+   211
+  ],
+  "caption": null,
+  "nearby": [
+   "FUNCTIONAL BLOCK DIAGRAM",
+   "• Digital I²S interface with high precision 24-bit data • Wide frequency response from 60 Hz to 20 kHz • High power supply rejection: −100 d",
+   "GENERAL DESCRIPTION The ICS-43434 is digital I2S output bottom port microphone. The complete ICS-43434 solution consists of a MEMS sensor, s"
+  ]
+ },
+ {
+  "page": 10,
+  "file": "ics43434_p10_fig1.jpg",
+  "bbox": [
+   482,
+   200,
+   737,
+   485
+  ],
+  "size": [
+   255,
+   285
+  ],
+  "caption": "Figure 3. Pin Configuration (top view, terminal side down)",
+  "nearby": [
+   "PIN CONFIGURATIONS AND FUNCTION DESCRIPTIONS",
+   "Figure 3. Pin Configuration (top view, terminal side down)",
+   "TABLE 8. PIN FUNCTION DESCRIPTIONS"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "ics43434_p13_fig1.jpg",
+  "bbox": [
+   248,
+   140,
+   948,
+   518
+  ],
+  "size": [
+   700,
+   378
+  ],
+  "caption": "Figure 8. System Block Diagram",
+  "nearby": [
+   "Figure 8. System Block Diagram",
+   "ICS-43434"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "ics43434_p13_fig3.jpg",
+  "bbox": [
+   70,
+   590,
+   1151,
+   725
+  ],
+  "size": [
+   1081,
+   135
+  ],
+  "caption": "Figure 9. Stereo Output I²S Format",
+  "nearby": [
+   "Figure 9. Stereo Output I²S Format",
+   "Figure 8. System Block Diagram",
+   "100kΩ"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "ics43434_p13_fig5.jpg",
+  "bbox": [
+   68,
+   795,
+   1151,
+   930
+  ],
+  "size": [
+   1083,
+   135
+  ],
+  "caption": "Figure 10. Mono Output I²S Format Left Channel (LR = 0)",
+  "nearby": [
+   "Figure 10. Mono Output I²S Format Left Channel (LR = 0)",
+   "Figure 9. Stereo Output I²S Format"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "ics43434_p13_fig7.jpg",
+  "bbox": [
+   67,
+   1001,
+   1151,
+   1137
+  ],
+  "size": [
+   1084,
+   136
+  ],
+  "caption": "Figure 11. Mono Output I²S Format Right Channel (LR = 1)",
+  "nearby": [
+   "Figure 11. Mono Output I²S Format Right Channel (LR = 1)",
+   "Figure 10. Mono Output I²S Format Left Channel (LR = 0)",
+   "Data Output Format The output data word length is 24 bits/channel. The data word format is 2’s complement, MSB-first. The output data pin (S"
+  ]
+ }
+]

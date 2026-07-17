@@ -1,0 +1,182 @@
+[
+ {
+  "page": 27,
+  "file": "cphy21_p27_fig2.jpg",
+  "bbox": [
+   180,
+   222,
+   602,
+   485
+  ],
+  "size": [
+   422,
+   263
+  ],
+  "caption": null,
+  "nearby": [
+   "Positive Polarity States Negative Polarity States",
+   "“B” to “C” (+y state)",
+   "Transmitter"
+  ]
+ },
+ {
+  "page": 27,
+  "file": "cphy21_p27_fig4.jpg",
+  "bbox": [
+   621,
+   221,
+   1040,
+   484
+  ],
+  "size": [
+   419,
+   263
+  ],
+  "caption": null,
+  "nearby": [
+   "Positive Polarity States Negative Polarity States",
+   "“C” to “B” (-y state)",
+   "Transmitter"
+  ]
+ },
+ {
+  "page": 27,
+  "file": "cphy21_p27_fig5.jpg",
+  "bbox": [
+   181,
+   493,
+   602,
+   760
+  ],
+  "size": [
+   421,
+   267
+  ],
+  "caption": null,
+  "nearby": [
+   "“C” to “A” (+z state)",
+   "Transmitter",
+   "Transmitter"
+  ]
+ },
+ {
+  "page": 27,
+  "file": "cphy21_p27_fig6.jpg",
+  "bbox": [
+   619,
+   492,
+   1040,
+   760
+  ],
+  "size": [
+   421,
+   268
+  ],
+  "caption": null,
+  "nearby": [
+   "“A” to “C” (-z state)",
+   "Transmitter",
+   "Receiver"
+  ]
+ },
+ {
+  "page": 27,
+  "file": "cphy21_p27_fig7.jpg",
+  "bbox": [
+   184,
+   768,
+   603,
+   1034
+  ],
+  "size": [
+   419,
+   266
+  ],
+  "caption": "Figure 1 Six Physical Layer Wire States of C-PHY Encoding, Nominal Values Shown",
+  "nearby": [
+   "Figure 1 Six Physical Layer Wire States of C-PHY Encoding, Nominal Values Shown",
+   "“0” -V/4",
+   "PD_C"
+  ]
+ },
+ {
+  "page": 27,
+  "file": "cphy21_p27_fig8.jpg",
+  "bbox": [
+   623,
+   767,
+   1040,
+   1035
+  ],
+  "size": [
+   417,
+   268
+  ],
+  "caption": "Figure 1 Six Physical Layer Wire States of C-PHY Encoding, Nominal Values Shown",
+  "nearby": [
+   "Figure 1 Six Physical Layer Wire States of C-PHY Encoding, Nominal Values Shown",
+   "“1” +V/4",
+   "“0” -V/4"
+  ]
+ },
+ {
+  "page": 28,
+  "file": "cphy21_p28_fig1.jpg",
+  "bbox": [
+   317,
+   482,
+   900,
+   1020
+  ],
+  "size": [
+   583,
+   538
+  ],
+  "caption": "Figure 2 State Diagram Showing All Six Wire States, and All Possible Transitions",
+  "nearby": [
+   "Figure 2 State Diagram Showing All Six Wire States, and All Possible Transitions",
+   "The information encoded in seven symbols is more than sufficient to represent a 16-bit binary value, 216 = 261",
+   "permutations in seven consecutive symbols, with five possible Wire State transitions that define each symbol. 260"
+  ]
+ },
+ {
+  "page": 29,
+  "file": "cphy21_p29_fig1.jpg",
+  "bbox": [
+   183,
+   479,
+   1039,
+   713
+  ],
+  "size": [
+   856,
+   234
+  ],
+  "caption": "Figure 3 End-to-End Transmission of Data, 16-bit Word Conversion to Channel States",
+  "nearby": [
+   "Figure 3 End-to-End Transmission of Data, 16-bit Word Conversion to Channel States",
+   "Section 6.1.3. 273",
+   "functional details of the Mapper, Symbol Encoder, Symbol Decoder and De-Mapper are described in 272"
+  ]
+ },
+ {
+  "page": 34,
+  "file": "cphy21_p34_fig1.jpg",
+  "bbox": [
+   194,
+   416,
+   1029,
+   815
+  ],
+  "size": [
+   835,
+   399
+  ],
+  "caption": "Figure 6 Three Lane PHY Configuration",
+  "nearby": [
+   "Figure 6 Three Lane PHY Configuration",
+   "clock and control signals for the Clock Multiplier Unit are not within the scope of this Specification. 335",
+   "functionality of that Lane. As shown in Figure 6, Clock signals may be shared for all Lanes. The reference 334"
+  ]
+ }
+]

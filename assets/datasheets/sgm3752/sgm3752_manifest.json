@@ -1,0 +1,122 @@
+[
+ {
+  "page": 3,
+  "file": "sgm3752_p3_fig1.jpg",
+  "bbox": [
+   401,
+   237,
+   784,
+   546
+  ],
+  "size": [
+   383,
+   309
+  ],
+  "caption": "1 SW I The Switch Pin of the Device. It is connected to the drain of the internal N-channel power FET.",
+  "nearby": [
+   "PIN CONFIGURATION",
+   "PIN DESCRIPTION",
+   "38V High Efficiency, Boost White SGM3752 LED Driver with PWM Dimming Control"
+  ]
+ },
+ {
+  "page": 3,
+  "file": "sgm3752_p3_fig3.jpg",
+  "bbox": [
+   206,
+   1086,
+   979,
+   1400
+  ],
+  "size": [
+   773,
+   314
+  ],
+  "caption": "Figure 1. Typical Application",
+  "nearby": [
+   "NOTE: I: input, O: output. TYPICAL APPLICATION",
+   "Figure 1. Typical Application",
+   "6 VIN I Input Supply Pin."
+  ]
+ },
+ {
+  "page": 7,
+  "file": "sgm3752_p7_fig1.jpg",
+  "bbox": [
+   209,
+   244,
+   976,
+   926
+  ],
+  "size": [
+   767,
+   682
+  ],
+  "caption": "Figure 2. Functional Block Diagram",
+  "nearby": [
+   "Figure 2. Functional Block Diagram",
+   "FUNCTIONAL BLOCK DIAGRAM",
+   "38V High Efficiency, Boost White SGM3752 LED Driver with PWM Dimming Control"
+  ]
+ },
+ {
+  "page": 11,
+  "file": "sgm3752_p11_fig1.jpg",
+  "bbox": [
+   629,
+   1024,
+   1088,
+   1202
+  ],
+  "size": [
+   459,
+   178
+  ],
+  "caption": "Figure 4. Ringing Cancellation Illustration",
+  "nearby": [
+   "Ways of EMI suppression include propagation limit and reduction of energy swings, such as inserting ferrite bead in power supply trace, sele",
+   "Figure 4. Ringing Cancellation Illustration",
+   "capacitor. For higher total output current applications, it is recommended to use 2.2μF or larger MLCC output"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "sgm3752_p13_fig1.jpg",
+  "bbox": [
+   188,
+   307,
+   985,
+   615
+  ],
+  "size": [
+   797,
+   308
+  ],
+  "caption": null,
+  "nearby": [
+   "TSOT-23-6",
+   "RECOMMENDED LAND PATTERN (Unit: mm)",
+   "PACKAGE OUTLINE DIMENSIONS"
+  ]
+ },
+ {
+  "page": 13,
+  "file": "sgm3752_p13_fig3.jpg",
+  "bbox": [
+   179,
+   756,
+   952,
+   927
+  ],
+  "size": [
+   773,
+   171
+  ],
+  "caption": null,
+  "nearby": [
+   "Dimensions In Millimeters",
+   "Symbol",
+   "RECOMMENDED LAND PATTERN (Unit: mm)"
+  ]
+ }
+]
