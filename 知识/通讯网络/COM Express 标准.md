@@ -3,7 +3,7 @@ type: concept
 tags: [COM Express, COMe, 嵌入式, 载板设计, PCB, 高速互连]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[[2026-07-21 - COM Express 标准详解]]"]
+sources: ["[2026-07-21 - COM Express 标准详解](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20COM%20Express%20%E6%A0%87%E5%87%86%E8%AF%A6%E8%A7%A3.md)"]
 ---
 
 # COM Express 标准

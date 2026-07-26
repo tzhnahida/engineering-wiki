@@ -3,7 +3,7 @@ type: concept
 tags: [通讯, CAN, CANopen, 协议栈, 源码分析, CiA301, PDO, SDO, NMT]
 created: 2025-07-25
 updated: 2025-07-25
-sources: ["[[2025-07-25 - CANopenNode 源码分析]]"]
+sources: ["[2025-07-25 - CANopenNode 源码分析](../../%E6%9D%A5%E6%BA%90/2025-07-25%20-%20CANopenNode%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)"]
 ---
 
 # CANopenNode 协议栈分析

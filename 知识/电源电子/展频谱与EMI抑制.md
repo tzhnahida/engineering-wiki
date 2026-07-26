@@ -3,7 +3,7 @@ type: concept
 tags: [electronics, emi, power-supply, spread-spectrum]
 created: 2026-06-12
 updated: 2026-07-15
-sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Datasheet%20Collection.md)"]
+sources: ["[2026-06-07 - Datasheet Collection](../../%E6%9D%A5%E6%BA%90/2026-06-07%20-%20Datasheet%20Collection.md)"]
 ---
 
 # 展频谱与 EMI 抑制
@@ -15,7 +15,7 @@ sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Dat
 固定 400kHz → 能量集中在 400kHz 尖峰
 展频谱 400kHz ±10% → 能量散布在 360–440kHz，峰值下降 5–10dB
 
-![tps54302_p13_fig1.jpg](../../assets/datasheets/tps54302/tps54302_p13_fig1.jpg)
+![[_llm/raw/assets/datasheets/tps54302/tps54302_p13_fig1.jpg|640]]
 *TPS54302 展频频谱实测对比（数据手册 图 6-3）：开启展频后基波及各次谐波尖峰显著压低，能量摊平到边带*
 
 ## 实现方式
@@ -28,9 +28,9 @@ TPS54302 的具体实现：以 400kHz 为中心 ±6% 扩散，调制周期 512 �
 
 ## 应用
 
-[TPS54302](../../元件/电源管理/TPS54302.md) 内置展频谱功能，[TPS55288](../../元件/电源管理/TPS55288.md) 也支持。对需要通过 FCC/CE 认证的产品，展频谱可以减少外部 EMI 滤波器成本。
+[TPS54302](../../%E5%85%83%E4%BB%B6/%E7%94%B5%E6%BA%90%E7%AE%A1%E7%90%86/TPS54302.md) 内置展频谱功能，[TPS55288](../../%E5%85%83%E4%BB%B6/%E7%94%B5%E6%BA%90%E7%AE%A1%E7%90%86/TPS55288.md) 也支持。对需要通过 FCC/CE 认证的产品，展频谱可以减少外部 EMI 滤波器成本。
 
 ## 参见
 
-- [TPS54302](../../元件/电源管理/TPS54302.md) · [TPS55288](../../元件/电源管理/TPS55288.md)
-- [DC-DC降压转换器](DC-DC降压转换器.md)
+- [TPS54302](../../%E5%85%83%E4%BB%B6/%E7%94%B5%E6%BA%90%E7%AE%A1%E7%90%86/TPS54302.md) · [TPS55288](../../%E5%85%83%E4%BB%B6/%E7%94%B5%E6%BA%90%E7%AE%A1%E7%90%86/TPS55288.md)
+- [DC-DC降压转换器](DC-DC%E9%99%8D%E5%8E%8B%E8%BD%AC%E6%8D%A2%E5%99%A8.md)

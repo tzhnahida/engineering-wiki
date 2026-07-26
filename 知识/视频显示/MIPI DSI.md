@@ -4,18 +4,18 @@ tags: [mipi, dsi, display, serial-protocol, video-mode, command-mode]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
-  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../来源/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)"
-  - "[2026-06-28 - MIPI DCS Specification v1.02](../../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
+  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)"
+  - "[2026-06-28 - MIPI DCS Specification v1.02](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
 ---
 
 # MIPI DSI
 
-> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](MIPI%20D-PHY.md)（或 [C-PHY](MIPI%20C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
+> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [[视频显示/MIPI D-PHY|D-PHY]]（或 [[视频显示/MIPI C-PHY|C-PHY]]）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
 
 ## 1. 协议分层
 
-![dsi13_p23_fig1.jpg](../../assets/standards/dsi13/dsi13_p23_fig1.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p23_fig1.jpg|560]]
 *Figure 2 — DSI 分层模型：应用层 → 低级协议层 → Lane 管理层 → D-PHY 物理层*
 
 
@@ -56,10 +56,10 @@ flowchart TB
 
 ## 2. 包格式
 
-![dsi13_p56_fig1.jpg](../../assets/standards/dsi13/dsi13_p56_fig1.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p56_fig1.jpg|600]]
 *Figure 22 — 长包结构：4B 包头（DI+WC+ECC）+ 载荷（0~65541B）+ 2B 校验和*
 
-![dsi13_p57_fig1.jpg](../../assets/standards/dsi13/dsi13_p57_fig1.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p57_fig1.jpg|440]]
 *Figure 23 — 短包结构：仅 4B（DI + 2B 数据 + ECC）*
 
 
@@ -69,12 +69,8 @@ DSI 定义了两种包类型：
 
 4 字节固定长度，用于命令、同步事件和状态读取：
 
-```
-┌─────────┬─────────┬─────────┬─────────┐
-│   DI    │ Data 0  │ Data 1  │   ECC   │
-│ 1 byte  │ 1 byte  │ 1 byte  │ 1 byte  │
-└─────────┴─────────┴─────────┴─────────┘
-```
+| DI (1 byte) | Data 0 (1 byte) | Data 1 (1 byte) | ECC (1 byte) |
+|-------------|-----------------|-----------------|--------------|
 
 | 字段 | 位宽 | 说明 |
 |------|------|------|
@@ -87,12 +83,8 @@ DSI 定义了两种包类型：
 
 6-65541 字节，用于视频像素流和长命令：
 
-```
-┌─────────┬─────────┬─────────┬───────────···───────────┬──────────┐
-│   DI    │  WC Lo  │  WC Hi  │      Payload            │ Checksum │
-│ 1 byte  │ 1 byte  │ 1 byte  │    0-65535 bytes        │  2 bytes │
-└─────────┴─────────┴─────────┴───────────···───────────┴──────────┘
-```
+| DI (1 byte) | WC Lo (1 byte) | WC Hi (1 byte) | Payload (0-65535 bytes) | Checksum (2 bytes) |
+|-------------|----------------|----------------|--------------------------|--------------------|
 
 | 字段 | 位宽 | 说明 |
 |------|------|------|
@@ -107,9 +99,7 @@ DI 字节编码了包的**目标虚拟通道**和**数据类型**：
 
 ```
 Bit:     7    6    5    4    3    2    1    0
-      ┌────┬────┬─────────────────────────────┐
-      │ VC1│ VC0│         Data Type           │
-      └────┴────┴─────────────────────────────┘
+        VC1  VC0         Data Type
 ```
 
 | 字段 | 位 | 说明 |
@@ -140,10 +130,10 @@ flowchart LR
 
 ## 4. Video Mode
 
-![dsi13_p89_fig2.jpg](../../assets/standards/dsi13/dsi13_p89_fig2.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p89_fig2.jpg|620]]
 *Figure 43 — Non-Burst 同步脉冲模式时序：HSS/HSE 包精确对齐行同步沿*
 
-![dsi13_p91_fig1.jpg](../../assets/standards/dsi13/dsi13_p91_fig1.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p91_fig1.jpg|620]]
 *Figure 45 — Burst 模式时序：像素数据高速突发后链路进入 LP 省电*
 
 
@@ -215,11 +205,7 @@ Command Mode 适用于**面板自有帧缓存 (GRAM)** 的场景：
 
 面板通过 TE 信号通知 Host 可安全写入帧缓存而不产生撕裂：
 
-```
-Host 发送写入命令 → 等待 TE 上升沿 → 写入像素数据 → 面板刷新
-                    ↑
-              TE GPIO (面板→Host)
-```
+流程：Host 发送写入命令 → 等待 TE 上升沿（TE GPIO 从面板到 Host）→ 写入像素数据 → 面板刷新
 
 DSI 通过 LP Escape Mode 的 **Tearing Effect Trigger** (Entry Command `0001_1110`) 在带内传输 TE 信号，省去独立 GPIO。
 
@@ -256,7 +242,7 @@ DSI 通过 LP Escape Mode 的 **Tearing Effect Trigger** (Entry Command `0001_11
 
 ## 7. ECC 与 Checksum
 
-![dsi13_p99_fig1.jpg](../../assets/standards/dsi13/dsi13_p99_fig1.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p99_fig1.jpg|560]]
 *Figure 46 — 发送侧 24bit ECC 生成：Hamming 码覆盖包头 24 位*
 
 
@@ -274,7 +260,7 @@ DSI 通过 LP Escape Mode 的 **Tearing Effect Trigger** (Entry Command `0001_11
 
 ## 8. 多 Lane 与 Sub-Link（DSI v1.3）
 
-![dsi13_p31_fig1.jpg](../../assets/standards/dsi13/dsi13_p31_fig1.jpg)
+![[_llm/raw/assets/standards/dsi13/dsi13_p31_fig1.jpg|480]]
 *Figure 5 — Lane 分配器概念图：字节流轮转分发到 N 条 Lane*
 
 
@@ -282,12 +268,10 @@ DSI 通过 LP Escape Mode 的 **Tearing Effect Trigger** (Entry Command `0001_11
 
 数据经 Lane Distributor 按**字节轮询**分发到 N 条 Lane：
 
-```
-Payload: B0 B1 B2 B3 B4 B5 ...
-2 Lane:  Lane0=B0,B2,B4  Lane1=B1,B3,B5
-3 Lane:  Lane0=B0,B3     Lane1=B1,B4     Lane2=B2,B5
-4 Lane:  Lane0=B0,B4     Lane1=B1,B5     Lane2=B2     Lane3=B3
-```
+字节按轮询方式分发到各 Lane（Payload: B0 B1 B2 B3 B4 B5...）：
+- **2 Lane**: Lane0 = B0, B2, B4; Lane1 = B1, B3, B5
+- **3 Lane**: Lane0 = B0, B3; Lane1 = B1, B4; Lane2 = B2, B5
+- **4 Lane**: Lane0 = B0, B4; Lane1 = B1, B5; Lane2 = B2; Lane3 = B3
 
 ### 8.2 Sub-Link（分割链路，v1.3）
 
@@ -297,7 +281,7 @@ DSI v1.3 引入 Sub-Link 概念，将多个物理 DSI 链路组合以驱动超�
 - **Deskew** 机制补偿 Sub-Link 间偏移
 - 典型应用：**Dual-DSI** 驱动 1440×2560 或更大分辨率
 
-> **Linux 驱动示例**：`panel-truly-nt35597.c`（[NT35597](../../NT35597.md)）使用 Dual-DSI（2×4 Lane）驱动 1440×2560@60Hz 面板。
+> **Linux 驱动示例**：`panel-truly-nt35597.c`（[[NT35597]]）使用 Dual-DSI（2×4 Lane）驱动 1440×2560@60Hz 面板。
 
 ## 9. DSC（Display Stream Compression，v1.3）
 
@@ -334,10 +318,10 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
-- [视频显示/MIPI D-PHY](MIPI%20D-PHY.md) — 物理层定义
-- [视频显示/MIPI DCS](MIPI%20DCS.md) — Display Command Set 命令集
-- [视频显示/MIPI DBI](MIPI%20DBI.md) — 并行总线接口
-- [视频显示/MIPI DPI](MIPI%20DPI.md) — 并行像素接口
-- [NT35597](../../NT35597.md) — Dual-DSI 面板驱动 IC 实例
-- [TC358870](../../元件/接口存储/TC358870.md) — HDMI → DSI 桥接芯片
+- [[视频显示/MIPI 概述]] — MIPI 家族全景
+- [[视频显示/MIPI D-PHY]] — 物理层定义
+- [[视频显示/MIPI DCS]] — Display Command Set 命令集
+- [[视频显示/MIPI DBI]] — 并行总线接口
+- [[视频显示/MIPI DPI]] — 并行像素接口
+- [[NT35597]] — Dual-DSI 面板驱动 IC 实例
+- [TC358870](../../%E5%85%83%E4%BB%B6/%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%82%A8/TC358870.md) — HDMI → DSI 桥接芯片

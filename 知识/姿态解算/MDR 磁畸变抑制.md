@@ -4,7 +4,7 @@ tags: [imu, ahrs, magnetometer, magnetic-distortion, orientation, sensor-fusion]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[2026-07-15 - Yang MDR 磁畸变抑制](../../来源/2026-07-15%20-%20Yang%20MDR%20磁畸变抑制.md)"
+  - "[2026-07-15 - Yang MDR 磁畸变抑制](../../%E6%9D%A5%E6%BA%90/2026-07-15%20-%20Yang%20MDR%20%E7%A3%81%E7%95%B8%E5%8F%98%E6%8A%91%E5%88%B6.md)"
 ---
 
 # MDR 磁畸变抑制姿态估计
@@ -13,7 +13,7 @@ sources:
 
 ## 核心思路
 
-![mdr_p1_fig1.jpg](../../assets/papers/mdr2024/mdr_p1_fig1.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p1_fig1.jpg|300]]
 *Fig. 1 — WRF（手表参考系）与 GRF（全局参考系：北-西-天）的关系。室内钢结构使局部磁场偏离真北最多 31°*
 
 现有方法对磁干扰只有两种态度：
@@ -42,10 +42,10 @@ MDR 沿用经典互补滤波作为姿态引擎，其核心递推式为：
 
 ## 3D 磁场数据库设计
 
-![mdr_p4_fig1.jpg](../../assets/papers/mdr2024/mdr_p4_fig1.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p4_fig1.jpg|300]]
 *Fig. 2 — 磁场时域稳定性：同一位置 12 小时三轴磁力计读数几乎不变——这是数据库可行的前提*
 
-![mdr_p4_fig3.jpg](../../assets/papers/mdr2024/mdr_p4_fig3.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p4_fig3.jpg|300]]
 *Fig. 3 — 空间相关性：磁力方向差随距离增大而增大，20 mm 内方向变化很小*
 
 ### 体素化模型
@@ -95,7 +95,7 @@ IAI(t) = IAI(t-Δt) × k_IAI + ω(t) × (1 - k_IAI)
 
 IAI 本质上是角速度大小的**指数滑动平均**，反映过去短时间内的整体运动剧烈程度。论文实验验证 IAI 与锚点误差之间呈现更线性的关系。当 IAI ≤ 1 时锚点误差可控制在 **11°** 以内。
 
-![mdr_p8_fig9.jpg](../../assets/papers/mdr2024/mdr_p8_fig9.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p8_fig9.jpg|320]]
 *Fig. 8 — IAI 与锚点方向误差的关系。相比原始角速度（Fig. 7），IAI 更具线性指示性。IAI ≤ 1 时误差控制在 11° 以内*
 
 ### 加权更新公式
@@ -143,10 +143,10 @@ MDR 沿用 MUSE 的粒子滤波做位置估计。受人体骨骼约束，手表�
 
 ## 系统工作流
 
-![mdr_p6_fig1.jpg](../../assets/papers/mdr2024/mdr_p6_fig1.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p6_fig1.jpg|560]]
 *Fig. 5 — MDR 系统工作流全貌：互补滤波 + 粒子滤波 + 数据库并行运行，位置用上一时间步结果，磁锚查询与姿态估计循环迭代*
 
-![mdr_p5_fig1.jpg](../../assets/papers/mdr2024/mdr_p5_fig1.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p5_fig1.jpg|520]]
 *Fig. 4 — MDR 应用工作流：启动→初始化（10 s 静止建立 GRF）→畸变检测→空库初始化→在线查询+更新→应用结束（不保存库）*
 
 ## 实验评估
@@ -180,7 +180,7 @@ MDR 沿用 MUSE 的粒子滤波做位置估计。受人体骨骼约束，手表�
 
 ### 总体对比
 
-![mdr_p11_fig1.jpg](../../assets/papers/mdr2024/mdr_p11_fig1.jpg)
+![[_llm/raw/assets/papers/mdr2024/mdr_p11_fig1.jpg|400]]
 *Fig. 13 — 总体姿态误差 CDF。MDR 整体平均 17.73°，AVOID 22.96°，MUSE 27.42°*
 
 MDR 较 MUSE 提升 **35.34%**，较 AVOID 提升 **22.80%**。这组数字对比清晰地揭示了两种策略的优劣：MUSE 被畸变带偏，AVOID 过于保守，MDR 介于两者之间但明显优于两者。
@@ -261,6 +261,6 @@ MDR 在 iPhone XS Max（MATLAB Mobile App）上实测可实时处理 **3.37 倍*
 
 ## 参见
 
-- [VQF 姿态解算滤波器](VQF%20姿态解算滤波器.md) — MDR 可增强 VQF 的航向对齐模块，用局部磁锚替换全局磁北
-- [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 互补滤波与卡尔曼滤波在姿态解算中的对比
-- [QMC5883P](../../元件/传感器/QMC5883P.md) — 低成本磁力计的实际磁畸变敏感性
+- [VQF 姿态解算滤波器](VQF%20%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E6%BB%A4%E6%B3%A2%E5%99%A8.md) — MDR 可增强 VQF 的航向对齐模块，用局部磁锚替换全局磁北
+- [IMU姿态解算算法演进](IMU%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E7%AE%97%E6%B3%95%E6%BC%94%E8%BF%9B.md) — 互补滤波与卡尔曼滤波在姿态解算中的对比
+- [QMC5883P](../../%E5%85%83%E4%BB%B6/%E4%BC%A0%E6%84%9F%E5%99%A8/QMC5883P.md) — 低成本磁力计的实际磁畸变敏感性

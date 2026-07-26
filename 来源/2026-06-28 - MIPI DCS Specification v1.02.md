@@ -46,9 +46,9 @@ DCS 规范定义了控制显示模组的标准化命令集。无论底层使用 
 
 ## 产生的知识页
 
-- [视频显示/MIPI DCS](../知识/视频显示/MIPI%20DCS.md) — DCS 知识页
-- [视频显示/MIPI DSI](../知识/视频显示/MIPI%20DSI.md) — DSI 承载 DCS 命令
-- [视频显示/MIPI DBI](../知识/视频显示/MIPI%20DBI.md) — DBI 承载 DCS 命令
+- [[视频显示/MIPI DCS]] — DCS 知识页
+- [[视频显示/MIPI DSI]] — DSI 承载 DCS 命令
+- [[视频显示/MIPI DBI]] — DBI 承载 DCS 命令
 
 ## 相关标准
 

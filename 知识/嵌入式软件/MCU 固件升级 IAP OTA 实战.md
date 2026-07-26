@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, MCU, 固件升级, IAP, OTA, Bootloader, Flash, 差分升级]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[[2026-07-22 - MCU 固件升级全实战总结]]"]
+sources: ["[2026-07-22 - MCU 固件升级全实战总结](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20MCU%20%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7%E5%85%A8%E5%AE%9E%E6%88%98%E6%80%BB%E7%BB%93.md)"]
 ---
 
 # MCU 固件升级 IAP OTA 实战

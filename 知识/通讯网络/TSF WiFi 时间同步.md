@@ -3,7 +3,7 @@ type: concept
 tags: [tsf, wifi, synchronization, ieee, 802.11, esp32, beacon, timestamp]
 created: 2026-06-24
 updated: 2026-07-15
-sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2026-06-24%20-%20IEEE%20802.11-2016%20TSF%20时间同步标准.md)"]
+sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../%E6%9D%A5%E6%BA%90/2026-06-24%20-%20IEEE%20802.11-2016%20TSF%20%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E6%A0%87%E5%87%86.md)"]
 ---
 
 # TSF WiFi 时间同步
@@ -16,11 +16,9 @@ sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2
 
 动捕系统有三个不同的传输通道：
 
-```
-WiFi 5GHz → ESP32 ×13    TSF 同步 (±20µs)
-USB 有线  → STM32 头显    一次校准 (±500µs)
-USB 有线  → 双目相机       帧自带时间戳
-```
+- **WiFi 5GHz → ESP32 ×13**: TSF 同步 (±20µs)
+- **USB 有线 → STM32 头显**: 一次校准 (±500µs)
+- **USB 有线 → 双目相机**: 帧自带时间戳
 
 需要一个共同的参考时间线。ESKF 的观测融合要求各传感器的时间戳误差 < 观测噪声的相关时间。100 Hz ODR = 10ms 帧间隔，要求时间误差 ≪ 1ms。
 
@@ -44,22 +42,18 @@ USB 有线  → 双目相机       帧自带时间戳
 
 ## Infrastructure BSS 同步流程 (§11.1.2.1)
 
-```
-AP (Timing Master)
-│
-├─ 每 BeaconPeriod 发 Beacon 帧
-│  └─ Timestamp 字段 = TSF_timer 值 (@第一比特传给PHY时)
-│     + AP 自己的 PHY TX 延迟 (MAC→天线传播)
-│
-└─ STA 收到 Beacon:
-   1. TS_received = (收到 timestamp 第一比特时) 的本地时钟 - RX延迟
-   2. TS_adjusted = Beacon.Timestamp + PHY_RX_delay + 处理延迟
-   3. 如果 TS_adjusted ≠ STA.TSF_timer → STA.TSF_timer = TS_adjusted  ← 无条件覆盖
-```
+**AP (Timing Master):**
+- 每 BeaconPeriod 发 Beacon 帧
+  - Timestamp 字段 = TSF_timer 值（@第一比特传给PHY时）+ AP 自己的 PHY TX 延迟 (MAC→天线传播)
+
+**STA 收到 Beacon:**
+1. TS_received = (收到 timestamp 第一比特时) 的本地时钟 - RX延迟
+2. TS_adjusted = Beacon.Timestamp + PHY_RX_delay + 处理延迟
+3. 如果 TS_adjusted ≠ STA.TSF_timer → STA.TSF_timer = TS_adjusted（无条件覆盖）
 
 > §11.1.3.1 要求发射端在 Timestamp 字段填入"第一个比特传给 PHY 时的 TSF + PHY TX 延迟"。接收端额外补偿自己的 PHY RX 延迟。这个双向补偿是实现 ±100µs 精度的关键。
 
-![tsf_p1584_fig1.jpg](../../assets/standards/ieee80211/tsf_p1584_fig1.jpg)
+![[_llm/raw/assets/standards/ieee80211/tsf_p1584_fig1.jpg|560]]
 *Figure 11-1 — 繁忙网络中的信标发送：信道忙时 Beacon 延后发出，但下一个 Beacon 仍按未延迟的名义信标间隔调度（TBTT 不漂移）*
 
 ### Timestamp 字段格式 (§9.4.1.10)
@@ -73,13 +67,13 @@ AP (Timing Master)
 
 ## ±100ppm 对你意味着什么
 
-| Beacon 间隔 | 间隔内最差漂移 (200ppm) | 你的系统影响 |
+| Beacon 间隔 | 间隔内最差漂移 (200ppm) | 对 100Hz ODR 的影响 |
 |:---:|:---:|------|
-| 100 TU ≈ 102ms (典型) | **±20.4 µs** | ≪ 10ms 帧间隔，完全无害 |
+| 100 TU ≈ 102ms (典型) | **±20.4 µs** | ≪ 10ms 帧间隔，可忽略 |
 | 1 秒 | ±200 µs | 仍在 ±500µs 内 |
 | 10 秒 | ±2 ms | **开始接近帧间隔** |
 
-> **结论**：Beacon 间隔 100ms 时，漂移在你的 100 Hz ODR 面前完全不可见。即使 AP 不按 100ms 发 Beacon（CSMA 网络忙时会延迟），只要间隔不超过 ~500ms，精度仍在 ±100µs 内。
+> **结论**：Beacon 间隔 100ms 时，漂移在 100 Hz ODR 面前完全不可见。即使 AP 不按 100ms 发 Beacon（CSMA 网络忙时会延迟），只要间隔不超过 ~500ms，精度仍在 ±100µs 内。
 
 ---
 
@@ -139,10 +133,10 @@ PC 端收包：每个 ESP32 的 TSF 值本身就是**对齐过的**——不需�
 - 只在收到的 TSF **大于**本地 TSF 时才采纳（只向前、不向后）
 - 不存在 timing master——分布式选举
 
-![tsf_p1588_fig1.jpg](../../assets/standards/ieee80211/tsf_p1588_fig1.jpg)
+![[_llm/raw/assets/standards/ieee80211/tsf_p1588_fig1.jpg|560]]
 *Figure 11-3 — IBSS 中的信标发送：各 STA 在 TBTT 后随机退避竞争发 Beacon，谁先发出谁的时间戳被采纳（仅当更快）*
 
-> 如果你的系统将来考虑 WiFi Direct/IBSS 模式（比如移动场景没用固定 AP），则需要注意这个单向同步规则。基础设施 BSS 不受影响。
+> 如果考虑 WiFi Direct/IBSS 模式（移动场景无固定 AP），则需注意单向同步规则。基础设施 BSS 不受影响。
 
 ---
 
@@ -151,11 +145,10 @@ PC 端收包：每个 ESP32 的 TSF 值本身就是**对齐过的**——不需�
 TSF 只覆盖 WiFi 站点。STM32 头显走 USB 有线，拿不到 Beacon。方案：**一次校准**。
 
 ```
-开机时: PC → STM32: gettimeofday()
-          STM32 记录: T_offset = PC_time - STM32_local_us
-每次发数据: STM32 附上 (local_time + T_offset)
-
-PC 收到后: 该时间戳 ≈ PC 系统时间 ≈ TSF 时间线
+// On boot: PC → STM32 sends gettimeofday()
+// STM32 records: T_offset = PC_time - STM32_local_us
+// On each data send: STM32 attaches (local_time + T_offset)
+// PC receives: timestamp ≈ PC system time ≈ TSF timeline
 ```
 
 PC 系统时间与 TSF 时间线通过 PC 自己的 WiFi 网卡 TSF 对齐。USB 延迟 ~1ms（稳定），满足精度要求。

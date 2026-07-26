@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, SoC, FPGA, 系统架构, 软硬协同, HPS, 控制面, 数据面]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[[2026-07-22 - SoC FPGA 系统架构]]"]
+sources: ["[2026-07-22 - SoC FPGA 系统架构](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20SoC%20FPGA%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md)"]
 ---
 
 # SoC FPGA 系统架构

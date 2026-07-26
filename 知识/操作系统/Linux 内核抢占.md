@@ -3,7 +3,7 @@ type: concept
 tags: [操作系统, Linux内核, 实时系统, 调度]
 created: 2026-07-24
 updated: 2026-07-24
-sources: ["[[2026-07-24 - Linux 内核抢占机制]]"]
+sources: ["[2026-07-24 - Linux 内核抢占机制](../../%E6%9D%A5%E6%BA%90/2026-07-24%20-%20Linux%20%E5%86%85%E6%A0%B8%E6%8A%A2%E5%8D%A0%E6%9C%BA%E5%88%B6.md)"]
 ---
 
 # Linux 内核抢占

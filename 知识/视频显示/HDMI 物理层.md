@@ -3,7 +3,7 @@ type: concept
 tags: [hdmi, physical-layer, tmds, connector, pcb-design, impedance]
 created: 2026-06-26
 updated: 2026-07-15
-sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
+sources: ["[2026-06-26 - HDMI 1.4 Specification](../../%E6%9D%A5%E6%BA%90/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
 ---
 
 # HDMI 物理层
@@ -29,7 +29,7 @@ HDMI 1.4 规范定义了五种连接器类型，覆盖从消费电子到汽车�
 
 连接器插入顺序（接插时序）：**Pin 19（HPD）最先接触**，随后是 TMDS 信号引脚，最后是 +5V 电源引脚。这一时序确保 Hot Plug Detect 先建立连接，Source 检测到 Sink 后再进行 EDID 读取和 TMDS 启动。
 
-参见：[HDMI Type A](../../元件/连接器/HDMI%20Type%20A.md)、[HDMI Type D](../../元件/连接器/HDMI%20Type%20D.md)
+参见：[HDMI Type A](../../%E5%85%83%E4%BB%B6/%E8%BF%9E%E6%8E%A5%E5%99%A8/HDMI%20Type%20A.md)、[HDMI Type D](../../%E5%85%83%E4%BB%B6/%E8%BF%9E%E6%8E%A5%E5%99%A8/HDMI%20Type%20D.md)
 
 ## 2. Type A 引脚定义
 
@@ -71,7 +71,7 @@ HDMI 线缆按最大 TMDS 时钟频率分为两类：
 
 ## 4. TMDS 电气特性
 
-![hdmi14_p68_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p68_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p68_fig1.jpg|540]]
 *Figure 4-22 — 单对 TMDS 差分线概念原理图：源端电流舵 + 接收端 3.3V 上拉 50Ω 端接*
 
 
@@ -123,7 +123,7 @@ TMDS（Transition Minimized Differential Signaling）是 HDMI 的核心物理层
 
 ## 5. 信号完整性关键参数
 
-![hdmi14_p74_fig2.jpg](../../assets/standards/hdmi14/hdmi14_p74_fig2.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p74_fig2.jpg|480]]
 *Figure 4-30 — TP1 源端眼图模板：归一化幅度 vs 0.5×Tbit 时间窗*
 
 
@@ -143,7 +143,7 @@ TMDS（Transition Minimized Differential Signaling）是 HDMI 的核心物理层
 - **总带宽** = 3 × 3.4 = 10.2 Gbps（三个数据通道合计）
 - 一个 Tbit 周期传输 1 bit 数据，10 个 Tbit = 1 像素时钟周期
 
-**编码机制概述**（参见 [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md)）：
+**编码机制概述**（参见 [[视频显示/HDMI TMDS 编码]]）：
 
 每个 TMDS 通道在 1 个像素时钟周期内传输 10 bits 编码数据，其中包含 8 bits 视频/控制数据 + 2 bits 编码开销。编码算法将 8 bit 数据转换为最小化跳变次数的 10 bit 符号，同时保证足够的 DC 平衡。
 
@@ -170,7 +170,7 @@ DDC 通道在 HDMI 连接中的作用：
 
 ## 7. CEC 线
 
-![hdmi14_p169_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p169_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p169_fig1.jpg|560]]
 *Figure 8-5 — CEC 与 DDC 的连接拓扑：CEC 单线菊花链贯穿所有设备，DDC 点对点*
 
 
@@ -210,7 +210,7 @@ HDMI 规范对物理层的可靠性提出了明确的容错要求：
 
 - 所有 TMDS 输出端必须具有短路保护
 - +5V 引脚必须有过流保护
-- ESD 保护器件（如 [USBLC6-2SC6](../../元件/分立器件/USBLC6-2SC6.md)）应放置在连接器近端，钳位电压需匹配 3.3 V TMDS 共模
+- ESD 保护器件（如 [USBLC6-2SC6](../../%E5%85%83%E4%BB%B6/%E5%88%86%E7%AB%8B%E5%99%A8%E4%BB%B6/USBLC6-2SC6.md)）应放置在连接器近端，钳位电压需匹配 3.3 V TMDS 共模
 
 ## 10. PCB 设计要点
 
@@ -235,7 +235,7 @@ HDMI 规范对物理层的可靠性提出了明确的容错要求：
 
 ### 10.3 布局与器件放置
 
-- **ESD 保护**：[USBLC6-2SC6](../../元件/分立器件/USBLC6-2SC6.md) 或同类 TVS 二极管，每对 TMDS 一个，布局在连接器 5 mm 以内
+- **ESD 保护**：[USBLC6-2SC6](../../%E5%85%83%E4%BB%B6/%E5%88%86%E7%AB%8B%E5%99%A8%E4%BB%B6/USBLC6-2SC6.md) 或同类 TVS 二极管，每对 TMDS 一个，布局在连接器 5 mm 以内
 - **AC 耦合电容**：TMDS 差分对串联 0.1 µF 电容（HDMI 规范要求的 DC 去耦位置在 Source 端内部；若芯片手册要求在板级放置，则以 0402/0201 封装紧靠芯片引脚）
 - **DDC 上拉**：SCL/SDA 上拉电阻至 5 V（非 3.3 V），电阻值根据总线电容选择（典型 1.5 kΩ-2.2 kΩ）
 - **+5V 滤波**：Pin 18 需 LC 滤波（10 µH + 10 µF），注意电感额定电流 ≥ 500 mA
@@ -254,8 +254,8 @@ HDMI 规范对物理层的可靠性提出了明确的容错要求：
 
 ## See Also
 
-- [视频显示/HDMI 协议概述](HDMI%20协议概述.md) — HDMI 协议栈（数据岛、视频周期、控制周期）
-- [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md) — TMDS 8b10b 编码算法与 DC 平衡
-- [HDMI Type A](../../元件/连接器/HDMI%20Type%20A.md) — Type A 连接器实体页（含封装信息）
-- [HDMI Type D](../../元件/连接器/HDMI%20Type%20D.md) — Type D Micro 连接器实体页
-- [TC358870](../../元件/接口存储/TC358870.md) — HDMI 1.4 到 MIPI DSI 桥接芯片
+- [[视频显示/HDMI 协议概述]] — HDMI 协议栈（数据岛、视频周期、控制周期）
+- [[视频显示/HDMI TMDS 编码]] — TMDS 8b10b 编码算法与 DC 平衡
+- [HDMI Type A](../../%E5%85%83%E4%BB%B6/%E8%BF%9E%E6%8E%A5%E5%99%A8/HDMI%20Type%20A.md) — Type A 连接器实体页（含封装信息）
+- [HDMI Type D](../../%E5%85%83%E4%BB%B6/%E8%BF%9E%E6%8E%A5%E5%99%A8/HDMI%20Type%20D.md) — Type D Micro 连接器实体页
+- [TC358870](../../%E5%85%83%E4%BB%B6/%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%82%A8/TC358870.md) — HDMI 1.4 到 MIPI DSI 桥接芯片

@@ -4,13 +4,13 @@ tags: [mipi, dcs, display, command-set, power-management]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI DCS Specification v1.02](../../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
-  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
+  - "[2026-06-28 - MIPI DCS Specification v1.02](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
 ---
 
 # MIPI DCS
 
-> **DCS (Display Command Set)** 是 MIPI 联盟定义的标准化显示命令集，为显示模组提供统一的控制接口。DCS 独立于物理传输层，可运行在 [DSI](MIPI%20DSI.md)（通过 DCS 短包/长包）或 [DBI](MIPI%20DBI.md)（通过并行总线）之上。
+> **DCS (Display Command Set)** 是 MIPI 联盟定义的标准化显示命令集，为显示模组提供统一的控制接口。DCS 独立于物理传输层，可运行在 [[视频显示/MIPI DSI|DSI]]（通过 DCS 短包/长包）或 [[视频显示/MIPI DBI|DBI]]（通过并行总线）之上。
 
 ## 1. 设计目标
 
@@ -25,10 +25,10 @@ DCS 解决的核心问题：**不同厂商的显示模组使用不同的命令�
 
 ## 2. 显示架构类型
 
-![dcs102_p15_fig1.jpg](../../assets/standards/dcs102/dcs102_p15_fig1.jpg)
+![[_llm/raw/assets/standards/dcs102/dcs102_p15_fig1.jpg|440]]
 *Figure 1 — Type 1 显示架构：全帧缓冲在显示模组侧，主机只发增量更新*
 
-![dcs102_p17_fig1.jpg](../../assets/standards/dcs102/dcs102_p17_fig1.jpg)
+![[_llm/raw/assets/standards/dcs102/dcs102_p17_fig1.jpg|440]]
 *Figure 3 — Type 3 显示架构：无帧缓冲，主机持续推流（对应 DSI Video Mode）*
 
 
@@ -48,7 +48,7 @@ Type 3: Host → DSI/DPI → Display Driver → Panel（实时刷新）
 
 ## 3. 电源状态机
 
-![dcs102_p19_fig1.jpg](../../assets/standards/dcs102/dcs102_p19_fig1.jpg)
+![[_llm/raw/assets/standards/dcs102/dcs102_p19_fig1.jpg|520]]
 *Figure 4 — Type 1 架构电源状态变化序列：Power Off ↔ Sleep ↔ Display Off/On 的完整迁移路径*
 
 
@@ -98,7 +98,7 @@ Normal → [enter_sleep_mode]   → Sleep
 
 ## 4. 伽马校正
 
-![dcs102_p21_fig1.jpg](../../assets/standards/dcs102/dcs102_p21_fig1.jpg) ![dcs102_p21_fig3.jpg](../../assets/standards/dcs102/dcs102_p21_fig3.jpg)
+![[_llm/raw/assets/standards/dcs102/dcs102_p21_fig1.jpg|400]] ![[_llm/raw/assets/standards/dcs102/dcs102_p21_fig3.jpg|400]]
 *Figure 7/8 — 内置伽马曲线 GC0（2.2）与 GC1：set_gamma_curve 命令按位选择*
 
 
@@ -199,12 +199,12 @@ mipi_dsi_dcs_write(dsi, MIPI_DCS_SET_DISPLAY_ON, NULL, 0);
 msleep(120);
 ```
 
-> 参见 [NT35597](../../NT35597.md) 的 `panel-truly-nt35597.c` 驱动，完整展示了 Dual-DSI + DCS 的初始化序列：100+ 条厂商特定命令（通过 `MIPI_DCS_SET_DISPLAY_ON` 等标准 DCS 命令配合 `DCS Long Write` 传输）。
+> 参见 [[NT35597]] 的 `panel-truly-nt35597.c` 驱动，完整展示了 Dual-DSI + DCS 的初始化序列：100+ 条厂商特定命令（通过 `MIPI_DCS_SET_DISPLAY_ON` 等标准 DCS 命令配合 `DCS Long Write` 传输）。
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](MIPI%20DSI.md) — DSI 协议（DCS 命令的传输层）
-- [视频显示/MIPI DBI](MIPI%20DBI.md) — DCS 在并行总线上的传输
-- [NT35597](../../NT35597.md) — 面板驱动 IC（DCS 命令集实战）
-- [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接（内部 DCS 转发）
+- [[视频显示/MIPI 概述]] — MIPI 家族全景
+- [[视频显示/MIPI DSI]] — DSI 协议（DCS 命令的传输层）
+- [[视频显示/MIPI DBI]] — DCS 在并行总线上的传输
+- [[NT35597]] — 面板驱动 IC（DCS 命令集实战）
+- [TC358870](../../%E5%85%83%E4%BB%B6/%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%82%A8/TC358870.md) — HDMI→DSI 桥接（内部 DCS 转发）

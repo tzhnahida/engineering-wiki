@@ -4,14 +4,14 @@ tags: [imu, deep-learning, inertial-odometry, orientation, neural-network]
 created: 2026-06-26
 updated: 2026-07-15
 sources:
-  - "[2026-07-15 - Seo DO IONet 直接姿态估计](../../来源/2026-07-15%20-%20Seo%20DO%20IONet%20直接姿态估计.md)"
+  - "[2026-07-15 - Seo DO IONet 直接姿态估计](../../%E6%9D%A5%E6%BA%90/2026-07-15%20-%20Seo%20DO%20IONet%20%E7%9B%B4%E6%8E%A5%E5%A7%BF%E6%80%81%E4%BC%B0%E8%AE%A1.md)"
 ---
 
 # DO IONet · CNN-BiLSTM 直接姿态估计
 
 > CNN 编码器 + Bi-LSTM 解码器从 200 帧 IMU 时序中直接回归当前姿态四元数——消除传统 IONet 的积分漂移。IEEE Access 2023 原版。2024 扩展版换用 Transformer 解码器再降 >10% 误差。
 
-![doionet_p3_fig1.jpg](../../assets/papers/doionet2023/doionet_p3_fig1.jpg)
+![[_llm/raw/assets/papers/doionet2023/doionet_p3_fig1.jpg|560]]
 *Figure 1 — DO IONet 框架总览：9 轴 IMU 输入 → 四路独立编码器 → Bi-LSTM 解码器 → 直接输出姿态四元数 + 位移增量*
 
 ## 核心思路：直接估计 vs. 积分估计
@@ -70,14 +70,14 @@ DO IONet 使用四类输入共 12 维通道（200 帧序列形成 200×12 张量
 
 同样的输入，输出设计的不同决定了是否漂移。这是框架级的创新，而非单纯换网络结构。
 
-![doionet_p4_fig1.jpg](../../assets/papers/doionet2023/doionet_p4_fig1.jpg)
+![[_llm/raw/assets/papers/doionet2023/doionet_p4_fig1.jpg|520]]
 *Figure 2 — 网络结构：四路独立 1D Conv (128→64 + MaxPool) → 拼接 → 双层 Bi-LSTM → FC 输出*
 
 ## 网络架构
 
 DO IONet 由编码器（CNN）和解码器（Bi-LSTM + FC）组成：
 
-![doionet_p4_fig1.jpg](../../assets/papers/doionet2023/doionet_p4_fig1.jpg)
+![[_llm/raw/assets/papers/doionet2023/doionet_p4_fig1.jpg]]
 
 *Fig. 2（原文）——DO IONet 架构：四路独立 CNN 编码器 → 拼接 → Bi-LSTM 解码器 → FC 输出 Δp + q。*
 
@@ -141,7 +141,7 @@ L_total = Σᵢ [exp(-log σ²ᵢ) · Lᵢ + log σ²ᵢ]
 
 > [!note] L_QME 测量的是误差四元数的虚部幅度，正比于 sin(θ/2)。小角度时与 θ 线性相关；大角度时梯度不会饱和，避免了 L2 损失在 180° 附近的问题。这是姿态回归任务中比 (q̂ - q) 的 L2 范数更合理的损失函数。
 
-![doionet_p8_fig1.jpg](../../assets/papers/doionet2023/doionet_p8_fig1.jpg)
+![[_llm/raw/assets/papers/doionet2023/doionet_p8_fig1.jpg|460]]
 *Figure 5 — 真值与预测姿态的方向误差范数：DO IONet 在 100s+ 长轨迹上误差不增长*
 
 ## 实验验证
@@ -168,7 +168,7 @@ TensorFlow 1.13.1 + Keras 2.3.1；Nvidia RTX 6000；Adam, lr = 1e-4；batch 32�
 
 ### 结果关键发现
 
-![doionet_p8_fig1.jpg](../../assets/papers/doionet2023/doionet_p8_fig1.jpg)
+![[_llm/raw/assets/papers/doionet2023/doionet_p8_fig1.jpg]]
 
 *Fig. 5（原文）——方向误差范数随时间变化：DO IONet（绿色）误差始终保持有界震荡，6-Axis IONet（蓝色）和 9-Axis IONet（红色）的方向误差随时间单调增长。*
 
@@ -225,7 +225,7 @@ DO IONet 在短轨迹上精度不如 9-Axis IONet。原因在于：直接回归�
 
 ## 参见
 
-- [AVNet 不变扩展卡尔曼姿态](AVNet%20不变扩展卡尔曼姿态.md) — 混合方案（深度学习 + InEKF）
-- [VQF 姿态解算滤波器](VQF%20姿态解算滤波器.md) — 经典频域姿态滤波器
-- [梯度下降姿态解算](梯度下降姿态解算.md) — Madgwick 互补滤波
-- [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 算法全景总览
+- [AVNet 不变扩展卡尔曼姿态](AVNet%20%E4%B8%8D%E5%8F%98%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E5%A7%BF%E6%80%81.md) — 混合方案（深度学习 + InEKF）
+- [VQF 姿态解算滤波器](VQF%20%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E6%BB%A4%E6%B3%A2%E5%99%A8.md) — 经典频域姿态滤波器
+- [梯度下降姿态解算](%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97.md) — Madgwick 互补滤波
+- [IMU姿态解算算法演进](IMU%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E7%AE%97%E6%B3%95%E6%BC%94%E8%BF%9B.md) — 算法全景总览

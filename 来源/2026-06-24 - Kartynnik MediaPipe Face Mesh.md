@@ -8,7 +8,7 @@ updated: 2026-06-30
 # 2026-06-24 - Kartynnik MediaPipe Face Mesh
 
 > **论文**: Kartynnik et al. (2019) — *Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs*, CVPR Workshop
-> **存放**: [参考/论文/Kartynnik 2019 - Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs.pdf](../参考/论文/Kartynnik%202019%20-%20Real-time%20Facial%20Surface%20Geometry%20from%20Monocular%20Video%20on%20Mobile%20GPUs.pdf.md)
+> **存放**: [[参考/论文/Kartynnik 2019 - Real-time Facial Surface Geometry from Monocular Video on Mobile GPUs.pdf]]
 
 ## 概述
 
@@ -23,5 +23,5 @@ MediaPipe Face Mesh：从单目视频实时估计 468 个 3D 面部顶点。采�
 
 ## 关联
 
-- [面部关键点检测](../知识/计算机视觉/面部关键点检测.md) — 知识页（含 Attention Mesh 扩展）
+- [面部关键点检测](../%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/%E9%9D%A2%E9%83%A8%E5%85%B3%E9%94%AE%E7%82%B9%E6%A3%80%E6%B5%8B.md) — 知识页（含 Attention Mesh 扩展）
 - Grishchenko 2020 — Attention Mesh（精度改进）

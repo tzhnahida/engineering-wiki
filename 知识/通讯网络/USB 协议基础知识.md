@@ -3,7 +3,7 @@ type: concept
 tags: [通讯, USB, 协议, CDC, 枚举, 描述符, 端点]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[[2026-07-22 - USB 协议基础知识入门]]"]
+sources: ["[2026-07-22 - USB 协议基础知识入门](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20USB%20%E5%8D%8F%E8%AE%AE%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%85%A5%E9%97%A8.md)"]
 ---
 
 # USB 协议基础知识

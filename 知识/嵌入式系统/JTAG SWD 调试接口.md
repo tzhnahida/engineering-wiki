@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式系统, 调试接口, JTAG, SWD, 硬件]
 created: 2026-07-24
 updated: 2026-07-24
-sources: ["[[2026-07-24 - JTAG SWD 调试接口图解]]"]
+sources: ["[2026-07-24 - JTAG SWD 调试接口图解](../../%E6%9D%A5%E6%BA%90/2026-07-24%20-%20JTAG%20SWD%20%E8%B0%83%E8%AF%95%E6%8E%A5%E5%8F%A3%E5%9B%BE%E8%A7%A3.md)"]
 ---
 
 # JTAG/SWD 调试接口

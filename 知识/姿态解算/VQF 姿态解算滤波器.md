@@ -4,7 +4,7 @@ tags: [imu, ahrs, vqf, quaternion, sensor-fusion, gyroscope, bias-estimation]
 created: 2026-06-26
 updated: 2026-07-16
 sources:
-  - "[2026-07-15 - Laidig VQF 姿态解算滤波器](../../来源/2026-07-15%20-%20Laidig%20VQF%20姿态解算滤波器.md)"
+  - "[2026-07-15 - Laidig VQF 姿态解算滤波器](../../%E6%9D%A5%E6%BA%90/2026-07-15%20-%20Laidig%20VQF%20%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E6%BB%A4%E6%B3%A2%E5%99%A8.md)"
 ---
 
 # VQF 姿态解算滤波器
@@ -13,7 +13,7 @@ sources:
 
 ## 核心设计：三级串联解耦
 
-![vqf_p2_fig1.jpg](../../assets/papers/vqf2022/vqf_p2_fig1.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p2_fig1.jpg|560]]
 *Figure 1 — IMU 姿态估计的传感器融合架构总览：陀螺积分提供高频姿态，加计/磁力计提供绝对参考，VQF 的串联模块设计使三者解耦*
 
 传统 AHRS（Madgwick、Mahony、EKF）把陀螺积分、倾斜校正、航向对齐三个任务揉在同一个反馈回路里。磁力计一旦被干扰，污染经反馈回路传染到倾斜估计——而倾斜本来只依赖加计。
@@ -33,7 +33,7 @@ $$
 - $\mathcal{E}$：9D ENU 全局坐标系（东-北-天）
 - $\delta_i$：标量航向偏移角，$\mathcal{E}_i$ 与 $\mathcal{E}$ 之间的唯一自由度
 
-![vqf_p4_fig1.jpg](../../assets/papers/vqf2022/vqf_p4_fig1.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p4_fig1.jpg|620]]
 *Figure 3 — 传统滤波器结构（上）vs VQF 结构（下）：VQF 的串联模块消除了反馈回路，磁场干扰只影响航向校正模块*
 
 > [!note] 关键洞察
@@ -70,7 +70,7 @@ VQF 的做法：
 
 关键物理直觉：$\mathcal{N}_i$ 帧中，运动加速度（加减速）在长时间尺度上均值为零，低通滤波后剩下的是重力方向。这正是"不是猜重力，而是等运动加速度自己平均掉"。
 
-![vqf_p4_fig5.jpg](../../assets/papers/vqf2022/vqf_p4_fig5.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p4_fig5.jpg|420]]
 *Figure 5 — 原始传感器系（上）vs 准惯性系（下）中的加速度：在准惯性系中低通滤波能有效滤除瞬时运动加速度，保留重力方向*
 
 校正四元数有闭式解（无需三角函数）：归一化后的 $[a_x, a_y, a_z]^\top$ 到 $[0,0,1]^\top$ 的最短旋转为 $q_w = \sqrt{(a_z+1)/2}$，$\mathbf{q}_{\text{corr}} = [q_w,\; a_y/2q_w,\; -a_x/2q_w,\; 0]^\top$。
@@ -146,7 +146,7 @@ $$
 
 运动中以倾斜校正的漂移量作为偏置观测（核心物理直觉：**陀螺偏置导致 $\mathcal{N}_i$ 帧缓慢漂移，这个漂移会被倾斜校正模块观测到**）。
 
-![vqf_p6_fig1.jpg](../../assets/papers/vqf2022/vqf_p6_fig1.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p6_fig1.jpg|560]]
 *Figure 6 — 偏置 Kalman 滤波器的阶跃响应：蓝色带为估计不确定度，静止更新收敛远快于运动更新*
 
 理想稳态下，倾斜校正的旋转向量与残差偏置的关系为（详见论文 Appendix D）：
@@ -171,7 +171,7 @@ $\mathbf{C} = \text{LPF}(\mathbf{R})$，观测方差 $w_{\text{motion}}$ 对应 
 
 ## 扩展模块二：磁干扰检测与拒绝
 
-![vqf_p13_fig1.jpg](../../assets/papers/vqf2022/vqf_p13_fig1.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p13_fig1.jpg|560]]
 *Figure 14 — 磁干扰拒绝效果 (BROAD trial 37)：无拒绝时最大误差 20.0°、RMSE 6.1°；启用后降至 3.7° 和 1.8°*
 
 ### 检测判据：幅值 + 倾角双条件
@@ -229,7 +229,7 @@ $$
 
 **参数确定**：在 $\tau_{\text{acc}} \in [1, 10]$ s、$\tau_{\text{mag}} \in [1, 30]$ s 网格上搜索 TAGPx 最小值。为同时服务 VQF 和 BasicVQF，选取 $(3\,\text{s}, 9\,\text{s})$ 使二者误差平均值最小。
 
-![vqf_p8_fig3.jpg](../../assets/papers/vqf2022/vqf_p8_fig3.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p8_fig3.jpg|620]]
 *Figure 8 — 各算法 6D（左）与 9D（右）的加权平均 RMSE*
 
 | 算法 | 6D RMSE | 9D RMSE | 特性 |
@@ -265,7 +265,7 @@ VQF 的默认参数在偏置估计上**超过**其他算法经过独立优化后
 
 ### 计算量
 
-![vqf_p11_fig1.jpg](../../assets/papers/vqf2022/vqf_p11_fig1.jpg)
+![[_llm/raw/assets/papers/vqf2022/vqf_p11_fig1.jpg|560]]
 *Figure 11 — 各算法单步执行时间 vs 精度 (AMD Ryzen 5 3600)：VQF 在 C++ 实现中达到相同数量级的计算量与最高精度*
 
 | 算法 | 6D 单步耗时 | 9D 单步耗时 | 语言 |
@@ -329,8 +329,8 @@ MIT 许可证。
 
 ## 参见
 
-- [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 全景对比
-- [梯度下降姿态解算](梯度下降姿态解算.md) — Madgwick 数学基础
-- [误差状态卡尔曼滤波](误差状态卡尔曼滤波.md) — EKF 方法对比
-- [MDR 磁畸变抑制](MDR%20磁畸变抑制.md) — 磁干扰抑制专题
-- [ICM-42688-P](../../元件/传感器/ICM-42688-P.md)
+- [IMU姿态解算算法演进](IMU%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E7%AE%97%E6%B3%95%E6%BC%94%E8%BF%9B.md) — 全景对比
+- [梯度下降姿态解算](%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97.md) — Madgwick 数学基础
+- [误差状态卡尔曼滤波](%E8%AF%AF%E5%B7%AE%E7%8A%B6%E6%80%81%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md) — EKF 方法对比
+- [MDR 磁畸变抑制](MDR%20%E7%A3%81%E7%95%B8%E5%8F%98%E6%8A%91%E5%88%B6.md) — 磁干扰抑制专题
+- [ICM-42688-P](../../%E5%85%83%E4%BB%B6/%E4%BC%A0%E6%84%9F%E5%99%A8/ICM-42688-P.md)

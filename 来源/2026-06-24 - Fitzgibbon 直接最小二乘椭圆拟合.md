@@ -8,7 +8,7 @@ updated: 2026-06-30
 # 2026-06-24 - Fitzgibbon 直接最小二乘椭圆拟合
 
 > **论文**: Fitzgibbon, Pilu & Fisher (1999) — *Direct Least Square Fitting of Ellipses*, IEEE TPAMI
-> **存放**: [参考/论文/Fitzgibbon 1999 - Direct Least Square Fitting of Ellipses.pdf](../参考/论文/Fitzgibbon%201999%20-%20Direct%20Least%20Square%20Fitting%20of%20Ellipses.pdf.md)
+> **存放**: [[参考/论文/Fitzgibbon 1999 - Direct Least Square Fitting of Ellipses.pdf]]
 
 ## 概述
 
@@ -22,5 +22,5 @@ updated: 2026-06-30
 
 ## 关联知识
 
-- [直接最小二乘椭圆拟合](../知识/计算机视觉/直接最小二乘椭圆拟合.md) — 知识页
-- [双目标定](../知识/计算机视觉/双目标定.md) — 相机标定流程
+- [直接最小二乘椭圆拟合](../%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/%E7%9B%B4%E6%8E%A5%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%A4%AD%E5%9C%86%E6%8B%9F%E5%90%88.md) — 知识页
+- [双目标定](../%E7%9F%A5%E8%AF%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/%E5%8F%8C%E7%9B%AE%E6%A0%87%E5%AE%9A.md) — 相机标定流程

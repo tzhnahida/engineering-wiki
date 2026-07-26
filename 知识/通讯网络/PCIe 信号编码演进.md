@@ -3,7 +3,7 @@ type: concept
 tags: [PCIe, 信号完整性, PAM4, FEC, 高速串行, NRZ]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[[2026-07-21 - PCIe 6.0 本质区别]]"]
+sources: ["[2026-07-21 - PCIe 6.0 本质区别](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20PCIe%206.0%20%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB.md)"]
 ---
 
 # PCIe 信号编码演进

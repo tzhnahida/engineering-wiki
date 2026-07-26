@@ -34,4 +34,4 @@ author: 边缘AI嵌入式
 
 ## 与 wiki 的关联
 
-已创建知识页：[[RTOS vs Linux 本质区别]]
+已创建知识页：[RTOS vs Linux 本质区别](../%E7%9F%A5%E8%AF%86/%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6/RTOS%20vs%20Linux%20%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB.md)

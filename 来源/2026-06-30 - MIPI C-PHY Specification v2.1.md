@@ -9,7 +9,7 @@ updated: 2026-06-30
 
 > **文档**: `MIPI_C-PHY_specification_v2-1.pdf` (272 pages)
 > **来源**: MIPI Alliance, Version 2.1, 01-Apr-2021 (Board Approved: 21-Jul-2021)
-> **存放**: [参考/标准/MIPI_C-PHY_specification_v2-1.pdf](../参考/标准/MIPI_C-PHY_specification_v2-1.pdf.md)
+> **存放**: [[参考/标准/MIPI_C-PHY_specification_v2-1.pdf]]
 
 ## 概述
 
@@ -38,7 +38,7 @@ MIPI C-PHY 是 MIPI 联盟定义的高速串行物理层规范，基于**三线�
 
 ## 关联知识
 
-- [视频显示/MIPI C-PHY](../知识/视频显示/MIPI%20C-PHY.md) — 知识页
-- [视频显示/MIPI D-PHY](../知识/视频显示/MIPI%20D-PHY.md) — 同类物理层对比
-- [视频显示/MIPI DSI](../知识/视频显示/MIPI%20DSI.md) — 上层协议（可用 C-PHY 作为 PHY）
-- [视频显示/MIPI 概述](../知识/视频显示/MIPI%20概述.md) — MIPI 家族全景
+- [[视频显示/MIPI C-PHY]] — 知识页
+- [[视频显示/MIPI D-PHY]] — 同类物理层对比
+- [[视频显示/MIPI DSI]] — 上层协议（可用 C-PHY 作为 PHY）
+- [[视频显示/MIPI 概述]] — MIPI 家族全景

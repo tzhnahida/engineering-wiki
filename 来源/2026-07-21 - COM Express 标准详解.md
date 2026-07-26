@@ -47,4 +47,4 @@ COM Express（COMe）是 PICMG 制定的嵌入式 Computer-on-Module 标准（CO
 
 ## 与 wiki 的关联
 
-已创建知识页：[[COM Express 标准]]
+已创建知识页：[COM Express 标准](../%E7%9F%A5%E8%AF%86/%E9%80%9A%E8%AE%AF%E7%BD%91%E7%BB%9C/COM%20Express%20%E6%A0%87%E5%87%86.md)
