@@ -51,4 +51,4 @@ author: LongWay
 
 ## 与 wiki 的关联
 
-已创建知识页：[[GCC __attribute__ 编译器扩展]]
+已创建知识页：[GCC __attribute__ 编译器扩展](../%E7%9F%A5%E8%AF%86/%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6/GCC%20__attribute__%20%E7%BC%96%E8%AF%91%E5%99%A8%E6%89%A9%E5%B1%95.md)

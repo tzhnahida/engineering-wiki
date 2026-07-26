@@ -38,9 +38,9 @@ v2.5 是当前最新版本，新增 8b9b Line Coding 和光互联支持。
 
 ## 产生的知识页
 
-- [视频显示/MIPI D-PHY](../知识/视频显示/MIPI%20D-PHY.md) — 物理层知识页
-- [视频显示/MIPI 概述](../知识/视频显示/MIPI%20概述.md) — MIPI 概述（引用 D-PHY）
-- [视频显示/MIPI DSI](../知识/视频显示/MIPI%20DSI.md) — DSI 协议层（基于 D-PHY）
+- [[视频显示/MIPI D-PHY]] — 物理层知识页
+- [[视频显示/MIPI 概述]] — MIPI 概述（引用 D-PHY）
+- [[视频显示/MIPI DSI]] — DSI 协议层（基于 D-PHY）
 
 ## 相关标准
 

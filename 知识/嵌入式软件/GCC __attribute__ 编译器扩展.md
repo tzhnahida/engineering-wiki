@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, C语言, 编译器, GCC, 链接器, 内存布局]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[[2026-07-22 - GCC __attribute__ 嵌入式C编译器扩展]]"]
+sources: ["[2026-07-22 - GCC __attribute__ 嵌入式C编译器扩展](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20GCC%20__attribute__%20%E5%B5%8C%E5%85%A5%E5%BC%8FC%E7%BC%96%E8%AF%91%E5%99%A8%E6%89%A9%E5%B1%95.md)"]
 ---
 
 # GCC `__attribute__` 编译器扩展

@@ -94,5 +94,5 @@ Key change: Bi-LSTM decoder → 2-layer Transformer block (multi-head self-atten
 
 ## Related Pages
 
-- [DO IONet Transformer直接姿态](../知识/姿态解算/DO%20IONet%20Transformer直接姿态.md) — Full knowledge page with detailed analysis
-- [IMU姿态解算算法演进](../知识/姿态解算/IMU姿态解算算法演进.md) — Algorithm landscape
+- [DO IONet Transformer直接姿态](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/DO%20IONet%20Transformer%E7%9B%B4%E6%8E%A5%E5%A7%BF%E6%80%81.md) — Full knowledge page with detailed analysis
+- [IMU姿态解算算法演进](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/IMU%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E7%AE%97%E6%B3%95%E6%BC%94%E8%BF%9B.md) — Algorithm landscape

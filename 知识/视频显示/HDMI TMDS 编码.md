@@ -3,7 +3,7 @@ type: concept
 tags: [hdmi, tmds, encoding, 8b10b, signal-processing]
 created: 2026-06-26
 updated: 2026-07-15
-sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
+sources: ["[2026-06-26 - HDMI 1.4 Specification](../../%E6%9D%A5%E6%BA%90/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
 ---
 
 # HDMI TMDS 编码
@@ -30,7 +30,7 @@ TMDS 时钟持续运行，频率等于视频像素率（pixel rate）。每个�
 
 ## 三种操作模式
 
-![hdmi14_p92_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p92_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p92_fig1.jpg|560]]
 *Figure 5-2 — 720×480p 视频帧中的 TMDS 周期分布：Video Period（有效像素）、Data Island（音频/InfoFrame）、Control Period 的时空布局*
 
 
@@ -78,7 +78,7 @@ Sink 端利用 Control Period 进行 **字符同步**（character alignment）�
 
 ## Video Data 编码：TMDS 转换最小化
 
-![hdmi14_p118_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p118_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p118_fig1.jpg|540]]
 *Figure 5-7 — TMDS 视频编码算法流程图：XOR/XNOR 选择（最小化跳变）→ DC 平衡（可选取反）*
 
 
@@ -176,7 +176,7 @@ TERC4 的特点：
 
 ## Data Island 包结构
 
-![hdmi14_p98_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p98_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p98_fig1.jpg|540]]
 *Figure 5-4 — Data Island 包与 ECC 结构：Packet Header 32bit（含 BCH ECC）+ 4 个 Subpacket*
 
 
@@ -253,8 +253,8 @@ sequenceDiagram
 
 ## 与 HDMI 其他知识模块的关系
 
-- [视频显示/HDMI 协议概述](HDMI%20协议概述.md) — TMDS 是 HDMI 链路层的核心编码方案
-- [视频显示/HDMI 物理层](HDMI%20物理层.md) — TMDS 差分信号的电平规范（3.3V 单端，摆幅 400-600mV）
-- [视频显示/HDMI 视频传输](HDMI%20视频传输.md) — TMDS 承载的视频像素时序和消隐期安排
-- [视频显示/HDMI EDID](HDMI%20EDID.md) — TMDS 时钟和通道支持的像素格式由 EDID 协商确定
-- [TC358870](../../元件/接口存储/TC358870.md) — 该接口芯片内部包含 TMDS 编码器，将并行 RGB 转换为 HDMI 串行输出
+- [[视频显示/HDMI 协议概述]] — TMDS 是 HDMI 链路层的核心编码方案
+- [[视频显示/HDMI 物理层]] — TMDS 差分信号的电平规范（3.3V 单端，摆幅 400-600mV）
+- [[视频显示/HDMI 视频传输]] — TMDS 承载的视频像素时序和消隐期安排
+- [[视频显示/HDMI EDID]] — TMDS 时钟和通道支持的像素格式由 EDID 协商确定
+- [TC358870](../../%E5%85%83%E4%BB%B6/%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%82%A8/TC358870.md) — 该接口芯片内部包含 TMDS 编码器，将并行 RGB 转换为 HDMI 串行输出

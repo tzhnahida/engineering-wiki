@@ -4,17 +4,17 @@ tags: [mipi, d-phy, physical-layer, serial-interface, differential-signaling]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../来源/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)"
-  - "[2026-06-28 - MIPI DSI Specification v1.3](../../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
+  - "[2026-06-28 - MIPI D-PHY Specification v2.5](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)"
+  - "[2026-06-28 - MIPI DSI Specification v1.3](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)"
 ---
 
 # MIPI D-PHY
 
-> D-PHY 是 MIPI 联盟定义的高速源同步物理层规范，专为移动设备内部短距离芯片互连设计。它被 [DSI](MIPI%20DSI.md) 和 [CSI-2](../../CSI-2.md) 等上层协议采用，提供每通道 80 Mbps ~ 4.5 Gbps 的数据传输能力。
+> D-PHY 是 MIPI 联盟定义的高速源同步物理层规范，专为移动设备内部短距离芯片互连设计。它被 [DSI](MIPI%20DSI.md) 和 [[CSI-2]] 等上层协议采用，提供每通道 80 Mbps ~ 4.5 Gbps 的数据传输能力。
 
 ## 1. 双模信号机制
 
-![dphy25_p40_fig1.jpg](../../assets/standards/dphy25/dphy25_p40_fig1.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p40_fig1.jpg|540]]
 *Figure 13 — HS 与 LP 模式的线电平：HS 差分 ±200mV @ 200mV 共模，LP 单端 0-1.2V*
 
 
@@ -42,10 +42,10 @@ stateDiagram-v2
 
 ## 2. Lane 模块架构
 
-![dphy25_p25_fig1.jpg](../../assets/standards/dphy25/dphy25_p25_fig1.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p25_fig1.jpg|480]]
 *Figure 1 — Universal Lane Module 内部功能：HS-TX/RX + LP-TX/RX/CD 组合*
 
-![dphy25_p27_fig1.jpg](../../assets/standards/dphy25/dphy25_p27_fig1.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p27_fig1.jpg|560]]
 *Figure 2 — 双数据 Lane PHY 配置：时钟 Lane + 数据 Lane 的典型组织*
 
 
@@ -81,19 +81,14 @@ D-PHY 使用 **DDR 源同步时钟**：
 - 在时钟的**双边沿**（上升+下降）采样数据
 - 数据 lane 与 Clock Lane 之间存在**通道间偏移（Lane-to-Lane Skew）**，D-PHY v2.0+ 引入 Deskew 机制
 
-```
-Clock:  ──┐     ┌──┐     ┌──┐     ┌──
-          └─────┘  └─────┘  └─────┘
-Data:   ──X──X──X──X──X──X──X──X──
-         ↑  ↑  ↑  ↑  (双边沿采样)
-```
+Clock 和 Data 的时序关系：DDR source synchronous，数据在时钟双边沿采样。
 
 ## 3. HS 传输结构
 
-![dphy25_p45_fig1.jpg](../../assets/standards/dphy25/dphy25_p45_fig1.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p45_fig1.jpg|620]]
 *Figure 15 — HS Burst 传输序列：LP-11 → SoT → HS 载荷 → EoT → LP-11*
 
-![dphy25_p45_fig3.jpg](../../assets/standards/dphy25/dphy25_p45_fig3.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p45_fig3.jpg|560]]
 *Figure 16 — HS 数据收发状态机*
 
 
@@ -111,12 +106,7 @@ HS 数据以 **Burst（突发）** 形式传输，每次 Burst 经历以下阶�
 
 ### 3.2 SoT 和 EoT
 
-```
-LP Mode ────╮            ╭──── LP Mode
-            │ HS Entry   │ HS Exit
-    LP-11 → LP-01 → LP-00 → HS-0 → [Payload] → LP-11
-            └─ SoT ──────┘              └ EoT ┘
-```
+SoT（Start of Transmission）：LP-11 → LP-01 → LP-00 进入 HS 模式。EoT（End of Transmission）：完成后返回到 LP-11 退出 HS 模式。
 
 | 参数 | v1.0 | v2.5 |
 |------|------|------|
@@ -130,7 +120,7 @@ DSI 协议层可在 payload 末尾插入 EoTp 短包标记传输结束（DSI v1.
 
 ## 4. LP 模式与 Escape Mode
 
-![dphy25_p59_fig1.jpg](../../assets/standards/dphy25/dphy25_p59_fig1.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p59_fig1.jpg|480]]
 *Figure 24 — Escape Mode 状态机：LP-11→LP-10→LP-00→LP-01→LP-00 进入序列*
 
 
@@ -173,7 +163,7 @@ ULPS 将所有 Lane 置于最低功耗状态（nA 级漏电流）：
 
 ## 5. BTA（Bus Turnaround）
 
-![dphy25_p51_fig1.jpg](../../assets/standards/dphy25/dphy25_p51_fig1.jpg)
+![[_llm/raw/assets/standards/dphy25/dphy25_p51_fig1.jpg|620]]
 *Figure 19 — 控制模式 Lane 换向流程：主从驱动权交接的电平序列*
 
 
@@ -259,8 +249,8 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](MIPI%20DSI.md) — DSI 协议层（基于 D-PHY）
-- [视频显示/HDMI 物理层](HDMI%20物理层.md) — HDMI TMDS 物理层（同类对比参照）
-- [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md) — HDMI 编码层
-- [TC358870](../../元件/接口存储/TC358870.md) — HDMI→DSI 桥接芯片（内部含 D-PHY TX）
+- [[视频显示/MIPI 概述]] — MIPI 家族全景
+- [[视频显示/MIPI DSI]] — DSI 协议层（基于 D-PHY）
+- [[视频显示/HDMI 物理层]] — HDMI TMDS 物理层（同类对比参照）
+- [[视频显示/HDMI TMDS 编码]] — HDMI 编码层
+- [TC358870](../../%E5%85%83%E4%BB%B6/%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%82%A8/TC358870.md) — HDMI→DSI 桥接芯片（内部含 D-PHY TX）

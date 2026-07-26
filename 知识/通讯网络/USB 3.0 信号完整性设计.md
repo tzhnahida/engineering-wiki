@@ -3,7 +3,7 @@ type: concept
 tags: [USB, 信号完整性, PCB布线, 差分阻抗, 高速设计]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[[2026-07-21 - USB 3.0 PCB布线设计]]"]
+sources: ["[2026-07-21 - USB 3.0 PCB布线设计](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20USB%203.0%20PCB%E5%B8%83%E7%BA%BF%E8%AE%BE%E8%AE%A1.md)"]
 ---
 
 # USB 3.0 信号完整性设计

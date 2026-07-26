@@ -3,7 +3,7 @@ type: concept
 tags: [hdmi, video, deep-color, 4k, 3d, pixel-encoding]
 created: 2026-06-26
 updated: 2026-07-15
-sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
+sources: ["[2026-06-26 - HDMI 1.4 Specification](../../%E6%9D%A5%E6%BA%90/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
 ---
 
 # HDMI 视频传输
@@ -16,7 +16,7 @@ HDMI 可传输任意视频格式的时序——这一设计原则使 HDMI 能够
 
 - **源视频特性**：原始内容的分辨率、帧率、色彩格式
 - **Source 转换能力**：Source 是否具备格式转换（如 RGB ↔ YCbCr、4:4:4 ↔ 4:2:2）能力
-- **Sink 的 EDID 能力**：Sink 通过 [视频显示/HDMI EDID](HDMI%20EDID.md) 声明其支持的格式列表
+- **Sink 的 EDID 能力**：Sink 通过 [[视频显示/HDMI EDID]] 声明其支持的格式列表
 
 HDMI 定义了三种像素编码格式可供选择：
 
@@ -56,7 +56,7 @@ HDMI 规范要求：如果 Source 在某个其他模拟或数字视频输出接�
 
 ## 3. 像素编码要求 (Section 6.2.3)
 
-![hdmi14_p124_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p124_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p124_fig1.jpg|560]]
 *Figure 6-1 — 默认像素编码 RGB 4:4:4 / 8bit：三通道各承载一个分量*
 
 
@@ -242,7 +242,7 @@ HDMI 规范为不同编码格式定义了默认色彩空间：
 
 ## 8. 3D 视频格式 (Section 8.2.3, Appendix H)
 
-![hdmi14_p159_fig1.jpg](../../assets/standards/hdmi14/hdmi14_p159_fig1.jpg)
+![[_llm/raw/assets/standards/hdmi14/hdmi14_p159_fig1.jpg|540]]
 *Figure 8-3 — 3D Frame Packing 结构：左右眼帧垂直堆叠于同一「超高帧」内传输*
 
 
@@ -411,8 +411,8 @@ Sink 可以根据内容类型自动切换画面处理模式——例如游戏模
 
 ## See Also
 
-- [视频显示/HDMI 协议概述](HDMI%20协议概述.md) — HDMI 协议栈（数据岛、视频周期、控制周期）
-- [视频显示/HDMI 物理层](HDMI%20物理层.md) — 连接器、TMDS 电气特性、PCB 设计要点
-- [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md) — TMDS 8b10b 编码算法与 DC 平衡
-- [视频显示/HDMI EDID](HDMI%20EDID.md) — 扩展显示识别数据（EDID 结构与解析）
-- [TC358870](../../元件/接口存储/TC358870.md) — HDMI 1.4 到 MIPI DSI 桥接芯片（头显项目核心器件）
+- [[视频显示/HDMI 协议概述]] — HDMI 协议栈（数据岛、视频周期、控制周期）
+- [[视频显示/HDMI 物理层]] — 连接器、TMDS 电气特性、PCB 设计要点
+- [[视频显示/HDMI TMDS 编码]] — TMDS 8b10b 编码算法与 DC 平衡
+- [[视频显示/HDMI EDID]] — 扩展显示识别数据（EDID 结构与解析）
+- [TC358870](../../%E5%85%83%E4%BB%B6/%E6%8E%A5%E5%8F%A3%E5%AD%98%E5%82%A8/TC358870.md) — HDMI 1.4 到 MIPI DSI 桥接芯片（头显项目核心器件）

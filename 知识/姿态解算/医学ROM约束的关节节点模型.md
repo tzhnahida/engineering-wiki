@@ -4,7 +4,7 @@ tags: [姿态解算, 生物力学, 运动链, EKF]
 created: 2026-07-03
 updated: 2026-07-15
 sources:
-  - "[2026-06-26 - Foxlin 鞋装惯性传感器行人追踪](../../来源/2026-06-26%20-%20Foxlin%20鞋装惯性传感器行人追踪.md)"
+  - "[2026-06-26 - Foxlin 鞋装惯性传感器行人追踪](../../%E6%9D%A5%E6%BA%90/2026-06-26%20-%20Foxlin%20%E9%9E%8B%E8%A3%85%E6%83%AF%E6%80%A7%E4%BC%A0%E6%84%9F%E5%99%A8%E8%A1%8C%E4%BA%BA%E8%BF%BD%E8%B8%AA.md)"
   - "医学 ROM 数据来自 Kapandji 关节生理学等标准参考"
 ---
 
@@ -30,63 +30,47 @@ sources:
 
 ### 节点数据结构
 
+**拓扑与几何：**
+
+```python
+id: "L_ELBOW"
+parent: "L_SHOULDER"
+chain_position: 3          # 运动链深度
+bone_length: 0.27          # m，个人标定
 ```
-Node {
-  id: "L_ELBOW",
-  parent: "L_SHOULDER",
-  chain_position: 3,          // 运动链深度
-  bone_length: 0.27,          // m，个人标定
 
-  // 医学 ROM 约束
-  rom: {
-    flexion_extension:    [0, 145],    // 屈伸 [min, max] deg
-    pronation_supination: [-80, 85],   // 旋前旋后
-    carrying_angle:       [5, 15],     // 提携角（解剖位固定偏角）
-  },
+**医学 ROM 约束：**
 
-  // EKF 内部
-  state: {
+```python
+rom: {
+    flexion_extension:    [0, 145],    # 屈伸 [min, max] deg
+    pronation_supination: [-80, 85],   # 旋前旋后
+    carrying_angle:       [5, 15],     # 提携角（解剖位固定偏角）
+}
+```
+
+**EKF 内部状态：**
+
+```python
+state: {
     R: SO(3),
     b_g: [3]float64,
     b_a: [3]float64,
-  },
-  covariance: [6][6]float64,
 }
+covariance: [6][6]float64
 ```
 
 ### 15 节点拓扑
 
-```
-          HEAD (1)
-           │
-   NECK ───┴─── TRUNK (2)
-           │
-    ┌──────┴──────┐
-    │             │
- L_SHOULDER(3)  R_SHOULDER(9)
-    │             │
- L_UPPER_ARM(4) R_UPPER_ARM(10)
-    │             │
- L_ELBOW(5)     R_ELBOW(11)
-    │             │
- L_FOREARM(6)   R_FOREARM(12)
-    │             │
- L_WRIST(7)     R_WRIST(13)
-    │             │
- L_HAND(8)      R_HAND(14)
+**运动链层次（parent → child）：**
 
- PELVIS(0) ──── 根节点
-    │
- L_THIGH(15)
-    │
- L_KNEE(16)
-    │
- L_SHANK(17)
-    │
- L_FOOT(18)
-    │
- (右侧对称 R_THIGH..R_FOOT)
-```
+- **PELVIS(0)** — 根节点
+  - **TRUNK(2)**
+    - HEAD(1) / NECK
+    - **左侧上肢**: L_SHOULDER(3) → L_UPPER_ARM(4) → L_ELBOW(5) → L_FOREARM(6) → L_WRIST(7) → L_HAND(8)
+    - **右侧上肢**: R_SHOULDER(9) → R_UPPER_ARM(10) → R_ELBOW(11) → R_FOREARM(12) → R_WRIST(13) → R_HAND(14)
+  - **左侧下肢**: L_THIGH(15) → L_KNEE(16) → L_SHANK(17) → L_FOOT(18)
+  - **右侧下肢**: R_THIGH → R_KNEE → R_SHANK → R_FOOT (右侧对称)
 
 ---
 
@@ -191,13 +175,9 @@ $$\frac{\partial \theta}{\partial R} \approx \frac{\partial}{\partial \phi} \tex
 
 ### 4.1 EKF 约束堆栈
 
-```
-Constraints = [
-  L1_GEOMETRIC:  bone_length_constraint(),    // |l_ij| = const
-  L2_BIOMECH:    rom_constraint(),             // θ ∈ [θ_min, θ_max]
-  L3_SOFT_ROM:   rom_penalty(),                // 接近边界时渐变惩罚
-]
-```
+- **L1\_GEOMETRIC**: bone_length_constraint() — |l_ij| = const，骨骼长度约束
+- **L2\_BIOMECH**: rom_constraint() — θ ∈ [θ_min, θ_max]，医学 ROM 硬约束
+- **L3\_SOFT\_ROM**: rom_penalty() — 接近边界时渐变惩罚，软约束
 
 ### 4.2 三层约束的区别
 
@@ -220,11 +200,7 @@ if ROM_constraint_violation(node_i):
 
 形成了**双向信息流**：
 
-```
-运动链姿态 → ROM 检查 → 约束更新
-     ↑                      ↓
-     └── 节点可靠性 ← 约束违反检测
-```
+正向：运动链姿态经 ROM 检查，更新约束边界；逆向：约束违反检测结果反馈至节点可靠性评分，异常节点降低其约束传递权重。
 
 ---
 
@@ -269,4 +245,4 @@ if ROM_constraint_violation(node_i):
 - AAOS: *Joint Motion: Method of Measuring and Recording*, 1965
 - ISB: *Recommendations for Standardization in the Reporting of Kinematic Data*, 2002, 2005
 - GB/T 10000-1988: 中国成年人人体尺寸
-- [SO(3)-EKF 与运动链约束的全身姿态解算](../../SO(3)-EKF%20与运动链约束的全身姿态解算.md) — 本文的 ROMM 约束嵌入该框架的约束层
+- [[SO(3)-EKF 与运动链约束的全身姿态解算]] — 本文的 ROMM 约束嵌入该框架的约束层

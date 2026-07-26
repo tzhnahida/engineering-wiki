@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, RTOS, Linux, 系统架构, 对比, 实时性]
 created: 2026-07-23
 updated: 2026-07-23
-sources: ["[[2026-07-23 - RTOS vs Linux 本质区别]]"]
+sources: ["[2026-07-23 - RTOS vs Linux 本质区别](../../%E6%9D%A5%E6%BA%90/2026-07-23%20-%20RTOS%20vs%20Linux%20%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB.md)"]
 ---
 
 # RTOS vs Linux 本质区别

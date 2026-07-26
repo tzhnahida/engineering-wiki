@@ -8,7 +8,7 @@ updated: 2026-06-30
 # 2026-06-24 - Solà Error-State Kalman Filter
 
 > **论文**: Solà (2017) — *Quaternion Kinematics for the Error-State Kalman Filter*, arXiv:1711.02508
-> **存放**: [参考/论文/Solà 2017 - Quaternion Kinematics for the Error-State Kalman Filter.pdf](../参考/论文/Solà%202017%20-%20Quaternion%20Kinematics%20for%20the%20Error-State%20Kalman%20Filter.pdf.md)
+> **存放**: [[参考/论文/Solà 2017 - Quaternion Kinematics for the Error-State Kalman Filter.pdf]]
 
 ## 概述
 
@@ -23,5 +23,5 @@ ESKF（误差状态卡尔曼滤波）的完整数学教程。系统推导四元�
 
 ## 关联知识
 
-- [误差状态卡尔曼滤波](../知识/姿态解算/误差状态卡尔曼滤波.md) — 知识页
-- [姿态解算/统一因子图姿态推断框架](../知识/姿态解算/统一因子图姿态推断框架.md) — 因子图扩展
+- [误差状态卡尔曼滤波](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/%E8%AF%AF%E5%B7%AE%E7%8A%B6%E6%80%81%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md) — 知识页
+- [[姿态解算/统一因子图姿态推断框架]] — 因子图扩展

@@ -11,7 +11,7 @@ updated: 2026-07-15
 **作者**: Long Qian, Xinchuang Lin, Xiaoguang Niu, Qihai Huang, Leilei Li, Guangyi Guo, Zexin Wang, Ruizhi Chen
 **期刊**: Satellite Navigation, 2025, 6:15. DOI: 10.1186/s43020-025-00168-7. 开放获取 (CC BY 4.0).
 **机构**: 武汉大学 LIESMARS + 重庆大学
-**PDF**: [参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf](../参考/论文/Qian%202025%20-%20AVNet%20Attitude%20Velocity%20IEKF.pdf.md)
+**PDF**: [[参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf]]
 
 ## 核心贡献
 
@@ -44,6 +44,6 @@ updated: 2026-07-15
 
 ## 与本 wiki 的关系
 
-- 知识页：[AVNet 不变扩展卡尔曼姿态](../知识/姿态解算/AVNet%20不变扩展卡尔曼姿态.md)
-- 关联概念：[迭代不变扩展卡尔曼滤波](../知识/姿态解算/迭代不变扩展卡尔曼滤波.md)、[误差状态卡尔曼滤波](../知识/姿态解算/误差状态卡尔曼滤波.md)、[DO IONet Transformer直接姿态](../知识/姿态解算/DO%20IONet%20Transformer直接姿态.md)、[IMU姿态解算算法演进](../知识/姿态解算/IMU姿态解算算法演进.md)
+- 知识页：[AVNet 不变扩展卡尔曼姿态](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/AVNet%20%E4%B8%8D%E5%8F%98%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E5%A7%BF%E6%80%81.md)
+- 关联概念：[迭代不变扩展卡尔曼滤波](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/%E8%BF%AD%E4%BB%A3%E4%B8%8D%E5%8F%98%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md)、[误差状态卡尔曼滤波](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/%E8%AF%AF%E5%B7%AE%E7%8A%B6%E6%80%81%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md)、[DO IONet Transformer直接姿态](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/DO%20IONet%20Transformer%E7%9B%B4%E6%8E%A5%E5%A7%BF%E6%80%81.md)、[IMU姿态解算算法演进](../%E7%9F%A5%E8%AF%86/%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97/IMU%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E7%AE%97%E6%B3%95%E6%BC%94%E8%BF%9B.md)
 - 方法论集合：深度学习 + 不变 Kalman 滤波混合方法

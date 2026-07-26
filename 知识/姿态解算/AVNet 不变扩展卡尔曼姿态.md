@@ -3,14 +3,14 @@ type: concept
 tags: [imu, deep-learning, kalman-filter, invariant-ekf, sensor-fusion, attitude-estimation]
 created: 2026-06-26
 updated: 2026-07-15
-sources: ["[2026-07-15 - Qian AVNet 不变EKF姿态速度学习](../../来源/2026-07-15%20-%20Qian%20AVNet%20不变EKF姿态速度学习.md)"]
+sources: ["[2026-07-15 - Qian AVNet 不变EKF姿态速度学习](../../%E6%9D%A5%E6%BA%90/2026-07-15%20-%20Qian%20AVNet%20%E4%B8%8D%E5%8F%98EKF%E5%A7%BF%E6%80%81%E9%80%9F%E5%BA%A6%E5%AD%A6%E4%B9%A0.md)"]
 ---
 
 # AVNet · 深度学习 + 不变扩展卡尔曼姿态融合
 
 > CNN+GRU 从手机 IMU 学出姿态和速度，同时学出 Kalman 协方差——深度学习替代了所有人工调参。武汉大学 2025。
 
-![avnet_p4_fig1.jpg](../../assets/papers/avnet2025/avnet_p4_fig1.jpg)
+![[_llm/raw/assets/papers/avnet2025/avnet_p4_fig1.jpg|620]]
 *Fig. 1 — DMDVDR 框架总览：AVNet → 协方差适配器 → InEKF，端到端 IMU→3D 位姿*
 
 ## 问题设定：智能手机车载航位推算
@@ -26,7 +26,7 @@ sources: ["[2026-07-15 - Qian AVNet 不变EKF姿态速度学习](../../来源/20
 > 传统航位推算用 IMU 原始数据做机械编排（积分得姿态→速度→位置），误差随时间三次方增长。AVNet 的方案是：网络从 IMU 时序中**直接回归**出姿态和速度作为"伪观测"，Kalman 滤波再用这些观测去校正机械编排——网络替代的是物理传感器，而不是替代滤波模型。
 
 
-![avnet_p5_fig1.jpg](../../assets/papers/avnet2025/avnet_p5_fig1.jpg)
+![[_llm/raw/assets/papers/avnet2025/avnet_p5_fig1.jpg|560]]
 *Fig. 2 — AVNet 架构：1D Conv(5)+ReLU+MaxPool×2 → FC×2 → GRU → DDATT+DDODO*
 
 ## AVNet 网络：CNN-GRU 混合架构
@@ -74,7 +74,7 @@ AVNet 的配套网络——一个更简单的 2 层 CNN——实时输出过程�
 - **训练策略**：间接优化——适配器输出接入 InEKF，以**相对平移误差**为损失函数端到端训练。这使得协方差参数更接近其**数学意义**（滤波不确定性）而非物理意义
 
 > [!note] 协方差适配器的设计哲学
-> 传统 Kalman 滤波的 Q 和 R 是固定超参。适配器让网络根据当前 IMU 信号质量**实时调节**测量噪声——IMU 信号可信时降低 R（信任伪观测），可疑时升高 R（依赖模型预测）。这个 "learned uncertainty" 思路与 [AI-IMU Dead Reckoning](../../AI-IMU%20Dead%20Reckoning.md) 一脉相承，但 AVNet 的适配器输出维度更丰富（覆盖所有状态 + 测量噪声）。
+> 传统 Kalman 滤波的 Q 和 R 是固定超参。适配器让网络根据当前 IMU 信号质量**实时调节**测量噪声——IMU 信号可信时降低 R（信任伪观测），可疑时升高 R（依赖模型预测）。这个 "learned uncertainty" 思路与 [[AI-IMU Dead Reckoning]] 一脉相承，但 AVNet 的适配器输出维度更丰富（覆盖所有状态 + 测量噪声）。
 
 ## InEKF 融合框架：为什么是李群方法
 
@@ -180,7 +180,7 @@ v_v = R_v_s · (R_s_w · v_w + [ω]× · p_s_v)
 
 （数据来源：论文 Table 1，11 条序列的综合范围，因速度和轨迹形状而异。）
 
-![avnet_p17_fig3.jpg](../../assets/papers/avnet2025/avnet_p17_fig3.jpg)
+![[_llm/raw/assets/papers/avnet2025/avnet_p17_fig3.jpg]]
 
 ### 关键发现
 
@@ -198,7 +198,7 @@ v_v = R_v_s · (R_s_w · v_w + [ω]× · p_s_v)
 - **垂直方向**：固定重力假设导致垂直方向误差大于水平方向（停车场实际有轻微坡度）
 - **初始姿态**：需外部给定初始姿态用于积分累积——初始姿态误差会影响后续所有估计
 
-## 对比：AVNet vs [DO IONet Transformer直接姿态](DO%20IONet%20Transformer直接姿态.md)
+## 对比：AVNet vs [DO IONet Transformer直接姿态](DO%20IONet%20Transformer%E7%9B%B4%E6%8E%A5%E5%A7%BF%E6%80%81.md)
 
 | | DO IONet | AVNet |
 |------|---------|------|
@@ -219,8 +219,8 @@ v_v = R_v_s · (R_s_w · v_w + [ω]× · p_s_v)
 
 ## 参见
 
-- [迭代不变扩展卡尔曼滤波](迭代不变扩展卡尔曼滤波.md) — IterIEKF 将 InEKF 测量更新迭代 3-5 次，可在类似混合框架中进一步提升精度
-- [误差状态卡尔曼滤波](误差状态卡尔曼滤波.md) — ESKF 是 InEKF 在欧几里得空间中的等价物，对比理解李群方法的优势
-- [DO IONet Transformer直接姿态](DO%20IONet%20Transformer直接姿态.md) — 纯深度方案，与 AVNet 混合方案形成对照
-- [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 将 AVNet 置于算法全景中定位其混合方法位置
-- [2026-06-24 - Solà Error-State Kalman Filter](../../来源/2026-06-24%20-%20Solà%20Error-State%20Kalman%20Filter.md) — Error-State KF 原文，InEKF 的直接理论前身
+- [迭代不变扩展卡尔曼滤波](%E8%BF%AD%E4%BB%A3%E4%B8%8D%E5%8F%98%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md) — IterIEKF 将 InEKF 测量更新迭代 3-5 次，可在类似混合框架中进一步提升精度
+- [误差状态卡尔曼滤波](%E8%AF%AF%E5%B7%AE%E7%8A%B6%E6%80%81%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md) — ESKF 是 InEKF 在欧几里得空间中的等价物，对比理解李群方法的优势
+- [DO IONet Transformer直接姿态](DO%20IONet%20Transformer%E7%9B%B4%E6%8E%A5%E5%A7%BF%E6%80%81.md) — 纯深度方案，与 AVNet 混合方案形成对照
+- [IMU姿态解算算法演进](IMU%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E7%AE%97%E6%B3%95%E6%BC%94%E8%BF%9B.md) — 将 AVNet 置于算法全景中定位其混合方法位置
+- [2026-06-24 - Solà Error-State Kalman Filter](../../%E6%9D%A5%E6%BA%90/2026-06-24%20-%20Sol%C3%A0%20Error-State%20Kalman%20Filter.md) — Error-State KF 原文，InEKF 的直接理论前身

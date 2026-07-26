@@ -4,13 +4,13 @@ tags: [mipi, dbi, display, parallel-interface, mcu-bus]
 created: 2026-06-28
 updated: 2026-07-15
 sources:
-  - "[2026-06-28 - MIPI DBI Specification v2.0](../../来源/2026-06-28%20-%20MIPI%20DBI%20Specification%20v2.0.md)"
-  - "[2026-06-28 - MIPI DCS Specification v1.02](../../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
+  - "[2026-06-28 - MIPI DBI Specification v2.0](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DBI%20Specification%20v2.0.md)"
+  - "[2026-06-28 - MIPI DCS Specification v1.02](../../%E6%9D%A5%E6%BA%90/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)"
 ---
 
 # MIPI DBI
 
-> **DBI (Display Bus Interface)** 是 MIPI 联盟定义的并行显示总线接口，基于经典的微处理器总线协议（Intel 8080 和 Motorola 6800），用于主机通过并行数据总线控制显示模组。DBI 通常与 [DCS](MIPI%20DCS.md) 命令集配合使用。
+> **DBI (Display Bus Interface)** 是 MIPI 联盟定义的并行显示总线接口，基于经典的微处理器总线协议（Intel 8080 和 Motorola 6800），用于主机通过并行数据总线控制显示模组。DBI 通常与 [[视频显示/MIPI DCS|DCS]] 命令集配合使用。
 
 ## 1. 定位与用途
 
@@ -35,16 +35,16 @@ flowchart LR
 
 ## 2. 三种类型
 
-![dbi20_p17_fig1.jpg](../../assets/standards/dbi20/dbi20_p17_fig1.jpg)
+![[_llm/raw/assets/standards/dbi20/dbi20_p17_fig1.jpg|420]]
 *Figure 5 — Type A 接口方框图（摩托罗拉 6800 总线风格）*
 
-![dbi20_p18_fig1.jpg](../../assets/standards/dbi20/dbi20_p18_fig1.jpg)
+![[_llm/raw/assets/standards/dbi20/dbi20_p18_fig1.jpg|440]]
 *Figure 7 — Type C 接口方框图（3/4 线 SPI 串行）*
 
-![dbi20_p23_fig1.jpg](../../assets/standards/dbi20/dbi20_p23_fig1.jpg)
+![[_llm/raw/assets/standards/dbi20/dbi20_p23_fig1.jpg|540]]
 *Figure 9 — Type A 固定 E 模式写周期时序*
 
-![dbi20_p28_fig1.jpg](../../assets/standards/dbi20/dbi20_p28_fig1.jpg)
+![[_llm/raw/assets/standards/dbi20/dbi20_p28_fig1.jpg|540]]
 *Figure 17 — Type B（8080 风格）写周期时序：WRX 上升沿锁存*
 
 
@@ -104,7 +104,7 @@ DBI 支持多种数据总线宽度：
 
 ## 4. 与 DCS 的关系
 
-DBI 不定义命令语义——它只提供传输管道。显示控制命令由 [DCS](MIPI%20DCS.md) 定义：
+DBI 不定义命令语义——它只提供传输管道。显示控制命令由 [[视频显示/MIPI DCS|DCS]] 定义：
 
 ```mermaid
 flowchart TB
@@ -131,7 +131,7 @@ DSI 的 DCS 包类型（DT=0x05/0x15/0x39）直接对应 DBI 的命令传输操�
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](MIPI%20DSI.md) — DSI（DBI 的串行替代方案）
-- [视频显示/MIPI DCS](MIPI%20DCS.md) — Display Command Set（DBI 上运行的命令层）
-- [视频显示/MIPI DPI](MIPI%20DPI.md) — 并行像素接口（无 GRAM，实时刷新）
+- [[视频显示/MIPI 概述]] — MIPI 家族全景
+- [[视频显示/MIPI DSI]] — DSI（DBI 的串行替代方案）
+- [[视频显示/MIPI DCS]] — Display Command Set（DBI 上运行的命令层）
+- [[视频显示/MIPI DPI]] — 并行像素接口（无 GRAM，实时刷新）

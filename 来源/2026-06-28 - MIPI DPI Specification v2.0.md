@@ -22,9 +22,9 @@ DPI 规范定义了并行像素级显示接口，使用 HSYNC/VSYNC/DE/DOTCLK �
 
 ## 产生的知识页
 
-- [视频显示/MIPI DPI](../知识/视频显示/MIPI%20DPI.md) — DPI 知识页
-- [视频显示/MIPI 概述](../知识/视频显示/MIPI%20概述.md) — MIPI 概述（引用 DPI）
-- [视频显示/MIPI DSI](../知识/视频显示/MIPI%20DSI.md) — DPI 在 DSI Video Mode 中的串行等价
+- [[视频显示/MIPI DPI]] — DPI 知识页
+- [[视频显示/MIPI 概述]] — MIPI 概述（引用 DPI）
+- [[视频显示/MIPI DSI]] — DPI 在 DSI Video Mode 中的串行等价
 
 ## 相关标准
 
