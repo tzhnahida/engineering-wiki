@@ -3,7 +3,7 @@ type: concept
 tags: [姿态解算, InEKF, 李群, SE2(3), 卡尔曼滤波, 源码分析]
 created: 2025-07-25
 updated: 2025-07-25
-sources: ["[2026-07-15 - Bonnabel 不变扩展卡尔曼滤波](../../%E6%9D%A5%E6%BA%90/2026-07-15%20-%20Bonnabel%20%E4%B8%8D%E5%8F%98%E6%89%A9%E5%B1%95%E5%8D%A1%E5%B0%94%E6%9B%BC%E6%BB%A4%E6%B3%A2.md)", "[2026-06-24 - Solà Error-State Kalman Filter](../../%E6%9D%A5%E6%BA%90/2026-06-24%20-%20Sol%C3%A0%20Error-State%20Kalman%20Filter.md)"]
+sources: ["[2026-07-15 - Bonnabel 不变扩展卡尔曼滤波](../../来源/2026-07-15%20-%20Bonnabel%20不变扩展卡尔曼滤波.md)", "[2026-06-24 - Solà Error-State Kalman Filter](../../来源/2026-06-24%20-%20Solà%20Error-State%20Kalman%20Filter.md)"]
 ---
 
 # InEKF 不变扩展卡尔曼滤波源码

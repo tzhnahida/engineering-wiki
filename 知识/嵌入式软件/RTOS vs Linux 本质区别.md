@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, RTOS, Linux, 系统架构, 对比, 实时性]
 created: 2026-07-23
 updated: 2026-07-23
-sources: ["[2026-07-23 - RTOS vs Linux 本质区别](../../%E6%9D%A5%E6%BA%90/2026-07-23%20-%20RTOS%20vs%20Linux%20%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB.md)"]
+sources: ["[2026-07-23 - RTOS vs Linux 本质区别](../../来源/2026-07-23%20-%20RTOS%20vs%20Linux%20本质区别.md)"]
 ---
 
 # RTOS vs Linux 本质区别
@@ -107,7 +107,7 @@ Linux = 一座城市：有道路、仓库、管理部门、居民区，
 
 ## 相关页面
 
-- [[FreeRTOS/1. FreeRTOS 概述与架构]]
-- [[FreeRTOS/11. FreeRTOS 中断管理]]
-- [MCU裸机软件分层架构](MCU%E8%A3%B8%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.md)
-- [SoC FPGA 系统架构](SoC%20FPGA%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md) — RTOS+Linux 分工在 SoC FPGA 上的典型实现
+- [FreeRTOS/1. FreeRTOS 概述与架构](FreeRTOS/1.%20FreeRTOS%20概述与架构.md)
+- [FreeRTOS/11. FreeRTOS 中断管理](FreeRTOS/11.%20FreeRTOS%20中断管理.md)
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md)
+- [SoC FPGA 系统架构](SoC%20FPGA%20系统架构.md) — RTOS+Linux 分工在 SoC FPGA 上的典型实现

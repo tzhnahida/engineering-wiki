@@ -22,5 +22,5 @@ Paho MQTT Embedded-C 是 Eclipse 的 MQTT 3.1.1 客户端 C 实现。nanopb 是 
 
 ## 分析产出
 
-- [[MQTT nanobp/1. MQTT 协议与 Paho Embedded-C]]
-- [[MQTT nanobp/2. nanopb 与 IoT 数据序列化]]
+- [MQTT nanobp/1. MQTT 协议与 Paho Embedded-C](../知识/嵌入式软件/MQTT%20nanobp/1.%20MQTT%20协议与%20Paho%20Embedded-C.md)
+- [MQTT nanobp/2. nanopb 与 IoT 数据序列化](../知识/嵌入式软件/MQTT%20nanobp/2.%20nanopb%20与%20IoT%20数据序列化.md)

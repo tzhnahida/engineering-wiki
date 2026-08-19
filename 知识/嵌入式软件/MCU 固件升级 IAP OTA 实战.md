@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, MCU, 固件升级, IAP, OTA, Bootloader, Flash, 差分升级]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[2026-07-22 - MCU 固件升级全实战总结](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20MCU%20%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7%E5%85%A8%E5%AE%9E%E6%88%98%E6%80%BB%E7%BB%93.md)"]
+sources: ["[2026-07-22 - MCU 固件升级全实战总结](../../来源/2026-07-22%20-%20MCU%20固件升级全实战总结.md)", "[2026-07-29 - RS-232-E Serial Interface Standard](../../来源/2026-07-29%20-%20RS-232-E%20Serial%20Interface%20Standard.md)"]
 ---
 
 # MCU 固件升级 IAP OTA 实战
@@ -293,5 +293,6 @@ RTOS 使用 PSP（进程堆栈），Bootloader 使用 MSP（主堆栈），直�
 
 ## 相关页面
 
-- [MCU裸机软件分层架构](MCU%E8%A3%B8%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.md) — Bootloader 与 APP 的职责分离是分层原则的典型案例
-- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20%E7%BC%96%E8%AF%91%E5%99%A8%E6%89%A9%E5%B1%95.md) — Boot 中 section 属性可用于固化版本信息到固定地址
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md) — Bootloader 与 APP 的职责分离是分层原则的典型案例
+- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — Boot 中 section 属性可用于固化版本信息到固定地址
+- [嵌入式软件/SWUpdate 嵌入式Linux OTA](SWUpdate%20嵌入式Linux%20OTA.md) — Linux 侧 OTA：双分区原子替换 + U-Boot 自动回退

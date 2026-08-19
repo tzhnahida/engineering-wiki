@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, SoC, FPGA, 系统架构, 软硬协同, HPS, 控制面, 数据面]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[2026-07-22 - SoC FPGA 系统架构](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20SoC%20FPGA%20%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84.md)"]
+sources: ["[2026-07-22 - SoC FPGA 系统架构](../../来源/2026-07-22%20-%20SoC%20FPGA%20系统架构.md)"]
 ---
 
 # SoC FPGA 系统架构
@@ -167,6 +167,6 @@ FPGA 负责：专用接口协议、实时数据通路、并行加速
 
 ## 相关页面
 
-- [MCU裸机软件分层架构](MCU%E8%A3%B8%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.md) — 控制面/数据面分离是分层架构在 SoC FPGA 上的自然延伸
-- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20%E7%BC%96%E8%AF%91%E5%99%A8%E6%89%A9%E5%B1%95.md) — section 属性可用于 FPGA 侧的内存映射寄存器定义
-- [MCU 固件升级 IAP OTA 实战](MCU%20%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7%20IAP%20OTA%20%E5%AE%9E%E6%88%98.md) — SoC FPGA 的 HPS 侧同样需要固件升级策略
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md) — 控制面/数据面分离是分层架构在 SoC FPGA 上的自然延伸
+- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — section 属性可用于 FPGA 侧的内存映射寄存器定义
+- [MCU 固件升级 IAP OTA 实战](MCU%20固件升级%20IAP%20OTA%20实战.md) — SoC FPGA 的 HPS 侧同样需要固件升级策略

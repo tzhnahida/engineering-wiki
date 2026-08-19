@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, C语言, 宏, 预处理器, X-Macro, 代码生成]
 created: 2026-07-23
 updated: 2026-07-23
-sources: ["[2026-07-23 - C语言宏高级写法](../../%E6%9D%A5%E6%BA%90/2026-07-23%20-%20C%E8%AF%AD%E8%A8%80%E5%AE%8F%E9%AB%98%E7%BA%A7%E5%86%99%E6%B3%95.md)"]
+sources: ["[2026-07-23 - C语言宏高级写法](../../来源/2026-07-23%20-%20C语言宏高级写法.md)"]
 ---
 
 # C 语言宏高级技巧
@@ -278,6 +278,6 @@ void all_devices_init(void) {
 
 ## 相关页面
 
-- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20%E7%BC%96%E8%AF%91%E5%99%A8%E6%89%A9%E5%B1%95.md) — 同系列第 4 期，`used` + `section` 与 X-Macro 可组合使用
-- [结构体内存对齐与位域](%E7%BB%93%E6%9E%84%E4%BD%93%E5%86%85%E5%AD%98%E5%AF%B9%E9%BD%90%E4%B8%8E%E4%BD%8D%E5%9F%9F.md) — 同系列第 3 期，位域可与宏拼接组合定义寄存器映射
-- [MCU裸机软件分层架构](MCU%E8%A3%B8%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.md) — X-Macro 生成的设备表是 device 层初始化的编译期实现
+- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — 同系列第 4 期，`used` + `section` 与 X-Macro 可组合使用
+- [结构体内存对齐与位域](结构体内存对齐与位域.md) — 同系列第 3 期，位域可与宏拼接组合定义寄存器映射
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md) — X-Macro 生成的设备表是 device 层初始化的编译期实现

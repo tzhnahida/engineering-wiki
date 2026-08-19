@@ -3,8 +3,10 @@ type: concept
 tags: [tsf, wifi, synchronization, ieee, 802.11, esp32, beacon, timestamp]
 created: 2026-06-24
 updated: 2026-07-15
-sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../%E6%9D%A5%E6%BA%90/2026-06-24%20-%20IEEE%20802.11-2016%20TSF%20%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E6%A0%87%E5%87%86.md)"]
+sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2026-06-24%20-%20IEEE%20802.11-2016%20TSF%20时间同步标准.md)"]
 ---
+
+> 本页聚焦 802.11 Clause 11.1 Timing Synchronization Function。WiFi 协议全貌见 [通讯网络/WiFi 协议概述](WiFi%20协议概述.md)。
 
 # TSF WiFi 时间同步
 
@@ -53,7 +55,7 @@ sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../%E6%9D%A
 
 > §11.1.3.1 要求发射端在 Timestamp 字段填入"第一个比特传给 PHY 时的 TSF + PHY TX 延迟"。接收端额外补偿自己的 PHY RX 延迟。这个双向补偿是实现 ±100µs 精度的关键。
 
-![[_llm/raw/assets/standards/ieee80211/tsf_p1584_fig1.jpg|560]]
+![tsf_p1584_fig1.jpg](../../assets/standards/ieee80211/tsf_p1584_fig1.jpg)
 *Figure 11-1 — 繁忙网络中的信标发送：信道忙时 Beacon 延后发出，但下一个 Beacon 仍按未延迟的名义信标间隔调度（TBTT 不漂移）*
 
 ### Timestamp 字段格式 (§9.4.1.10)
@@ -133,7 +135,7 @@ PC 端收包：每个 ESP32 的 TSF 值本身就是**对齐过的**——不需�
 - 只在收到的 TSF **大于**本地 TSF 时才采纳（只向前、不向后）
 - 不存在 timing master——分布式选举
 
-![[_llm/raw/assets/standards/ieee80211/tsf_p1588_fig1.jpg|560]]
+![tsf_p1588_fig1.jpg](../../assets/standards/ieee80211/tsf_p1588_fig1.jpg)
 *Figure 11-3 — IBSS 中的信标发送：各 STA 在 TBTT 后随机退避竞争发 Beacon，谁先发出谁的时间戳被采纳（仅当更快）*
 
 > 如果考虑 WiFi Direct/IBSS 模式（移动场景无固定 AP），则需注意单向同步规则。基础设施 BSS 不受影响。

@@ -3,7 +3,7 @@ type: concept
 tags: [嵌入式, GUI, LVGL, 图形库, 渲染, 嵌入式软件, 显示驱动]
 created: 2026-07-26
 updated: 2026-07-26
-sources: ["[2026-07-26 - LVGL 官方文档与架构分析](../../%E6%9D%A5%E6%BA%90/2026-07-26%20-%20LVGL%20%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E4%B8%8E%E6%9E%B6%E6%9E%84%E5%88%86%E6%9E%90.md)", "[2026-07-26 - LVGL 源码分析](../../%E6%9D%A5%E6%BA%90/2026-07-26%20-%20LVGL%20%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)"]
+sources: ["[2026-07-26 - LVGL 官方文档与架构分析](../../来源/2026-07-26%20-%20LVGL%20官方文档与架构分析.md)", "[2026-07-26 - LVGL 源码分析](../../来源/2026-07-26%20-%20LVGL%20源码分析.md)"]
 ---
 
 # LVGL 图形库
@@ -276,17 +276,26 @@ lv_obj_t * my_widget_create(lv_obj_t * parent) {
 
 每个 display 有一个**根屏幕对象**（通过 `lv_scr_act()` 获取），所有 widget 构成一个树：
 
-```
-Screen (root, parent=NULL)
-├── Top Layer (持久层，覆盖屏幕)
-├── 主内容区
-│   ├── Button
-│   │   └── Label (btn 的子对象)
-│   ├── Slider
-│   └── Container (Panel)
-│       ├── Chart
-│       └── Table
-└── System Layer (最高层，如键盘弹出)
+```mermaid
+flowchart TB
+    Screen["Screen (root, parent=NULL)"]
+    Top["Top Layer (持久层)"]
+    Main["主内容区"]
+    Button["Button"]
+    Label["Label (btn 子对象)"]
+    Slider["Slider"]
+    Container["Container (Panel)"]
+    Chart["Chart"]
+    Table["Table"]
+    System["System Layer (键盘弹出等)"]
+    
+    Screen --> Top
+    Screen --> Main
+    Screen --> System
+    Main --> Button --> Label
+    Main --> Slider
+    Main --> Container --> Chart
+    Container --> Table
 ```
 
 关键函数：
@@ -404,18 +413,22 @@ LVGL 的核心优化是**只重绘变化的区域**：
 
 LVGL v9 引入了 **Draw Unit** 架构：
 
-```
-        lv_draw_dispatch()
-               │
-       ┌───────┼───────┐
-       │       │       │
-   Draw Unit 1  DU 2   DU 3
-    (SW, pri=0) (DMA2D) (PXP)
-               │
-         ┌─────┴─────┐
-         │           │
-    lv_draw_task_t  lv_draw_task_t
-    (FILL rect)    (IMAGE logo.png)
+```mermaid
+flowchart TB
+    Dispatch["lv_draw_dispatch()"]
+    DU1["Draw Unit 1<br/>(SW, pri=0)"]
+    DU2["Draw Unit 2<br/>(DMA2D)"]
+    DU3["Draw Unit 3<br/>(PXP)"]
+    Task1["lv_draw_task_t<br/>(FILL rect)"]
+    Task2["lv_draw_task_t<br/>(IMAGE logo.png)"]
+    
+    Dispatch --> DU1
+    Dispatch --> DU2
+    Dispatch --> DU3
+    DU1 --> Task1
+    DU1 --> Task2
+    DU2 --> Task1
+    DU2 --> Task2
 ```
 
 - 每个 draw unit 有**优先级分数**（`supported_score`），分数高者优先获取任务

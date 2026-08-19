@@ -3,7 +3,7 @@ type: concept
 tags: [hdmi, edid, ddc, i2c, display-configuration]
 created: 2026-06-26
 updated: 2026-06-26
-sources: ["[2026-06-26 - HDMI 1.4 Specification](../../%E6%9D%A5%E6%BA%90/2026-06-26%20-%20HDMI%201.4%20Specification.md)"]
+sources: ["[2026-06-26 - HDMI 1.4 Specification](../../来源/2026-06-26%20-%20HDMI%201.4%20Specification.md)", "[2026-07-29 - I2C Bus Specification UM10204](../../来源/2026-07-29%20-%20I2C%20Bus%20Specification%20UM10204.md)"]
 ---
 
 # HDMI EDID / DDC / 显示配置
@@ -291,10 +291,10 @@ sequenceDiagram
 
 ## 相关页面
 
-- [[视频显示/HDMI 协议概述]] — HDMI 整体协议体系
-- [[视频显示/HDMI 物理层]] — 电气特性和 PCB 设计指导
-- [[视频显示/HDMI TMDS 编码]] — 最小化传输差分信号编码
-- [[视频显示/HDMI 视频传输]] — 视频格式、时序和字符生成
+- [视频显示/HDMI 协议概述](HDMI%20协议概述.md) — HDMI 整体协议体系
+- [视频显示/HDMI 物理层](HDMI%20物理层.md) — 电气特性和 PCB 设计指导
+- [视频显示/HDMI TMDS 编码](HDMI%20TMDS%20编码.md) — 最小化传输差分信号编码
+- [视频显示/HDMI 视频传输](HDMI%20视频传输.md) — 视频格式、时序和字符生成
 
 ## 参考资料
 

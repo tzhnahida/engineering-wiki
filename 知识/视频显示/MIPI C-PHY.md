@@ -4,19 +4,19 @@ tags: [mipi, c-phy, physical-layer, serial-interface, three-phase-encoding]
 created: 2026-06-30
 updated: 2026-07-15
 sources:
-  - "[2026-06-30 - MIPI C-PHY Specification v2.1](../../%E6%9D%A5%E6%BA%90/2026-06-30%20-%20MIPI%20C-PHY%20Specification%20v2.1.md)"
+  - "[2026-06-30 - MIPI C-PHY Specification v2.1](../../来源/2026-06-30%20-%20MIPI%20C-PHY%20Specification%20v2.1.md)"
 ---
 
 # MIPI C-PHY
 
-> C-PHY 是 MIPI 联盟定义的高速串行物理层规范，基于**三线三电平（3-Phase）符号编码**，每符号传输 ~2.28 bits。相比 [[视频显示/MIPI D-PHY|D-PHY]] 的差分对方案，C-PHY 用三根线实现嵌入式时钟，省去独立时钟通道，引脚效率更高。C-PHY 的 LP 模式和 Escape Mode 几乎完全复用 D-PHY，可与 D-PHY 共用同一 IC 引脚实现双模器件。
+> C-PHY 是 MIPI 联盟定义的高速串行物理层规范，基于**三线三电平（3-Phase）符号编码**，每符号传输 ~2.28 bits。相比 [D-PHY](MIPI%20D-PHY.md) 的差分对方案，C-PHY 用三根线实现嵌入式时钟，省去独立时钟通道，引脚效率更高。C-PHY 的 LP 模式和 Escape Mode 几乎完全复用 D-PHY，可与 D-PHY 共用同一 IC 引脚实现双模器件。
 
 ## 1. 核心编码原理
 
-![[_llm/raw/assets/standards/cphy21/cphy21_p27_fig7.jpg|400]]
+![cphy21_p27_fig7.jpg](../../assets/standards/cphy21/cphy21_p27_fig7.jpg)
 *Figure 1 — C-PHY 三线六状态（+x/-x/+y/-y/+z/-z）的电流路径与电平组合*
 
-![[_llm/raw/assets/standards/cphy21/cphy21_p28_fig1.jpg|460]]
+![cphy21_p28_fig1.jpg](../../assets/standards/cphy21/cphy21_p28_fig1.jpg)
 *Figure 2 — 六状态转移图：每个 UI 必须换状态，5 种转移编码 log₂5≈2.32bit*
 
 
@@ -137,10 +137,10 @@ C-PHY 的 HS Burst 流程：LP Mode → LP-111 → LP-001 → LP-000（HS Entry�
 
 ## 4. Lane 架构
 
-![[_llm/raw/assets/standards/cphy21/cphy21_p29_fig1.jpg|640]]
+![cphy21_p29_fig1.jpg](../../assets/standards/cphy21/cphy21_p29_fig1.jpg)
 *Figure 3 — 16bit 数据端到端传输：映射器 → 三线状态序列 → 解映射还原*
 
-![[_llm/raw/assets/standards/cphy21/cphy21_p34_fig1.jpg|560]]
+![cphy21_p34_fig1.jpg](../../assets/standards/cphy21/cphy21_p34_fig1.jpg)
 *Figure 6 — 三 Lane PHY 配置：C-PHY 无独立时钟 Lane，时钟内嵌于状态转移*
 
 
@@ -244,8 +244,8 @@ DSI v1.3 和 CSI-2 v2.0+ 均可在 D-PHY 或 C-PHY 上运行。
 
 ## 相关页面
 
-- [[视频显示/MIPI 概述]] — MIPI 家族全景与 D-PHY/C-PHY 关系
-- [[视频显示/MIPI D-PHY]] — 差分物理层对比
-- [[视频显示/MIPI DSI]] — 显示串行接口（可使用 C-PHY）
-- [[视频显示/HDMI 物理层]] — HDMI TMDS 物理层（同类参照）
-- [2026-06-30 - MIPI C-PHY Specification v2.1](../../%E6%9D%A5%E6%BA%90/2026-06-30%20-%20MIPI%20C-PHY%20Specification%20v2.1.md) — 来源摘要
+- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景与 D-PHY/C-PHY 关系
+- [视频显示/MIPI D-PHY](MIPI%20D-PHY.md) — 差分物理层对比
+- [视频显示/MIPI DSI](MIPI%20DSI.md) — 显示串行接口（可使用 C-PHY）
+- [视频显示/HDMI 物理层](HDMI%20物理层.md) — HDMI TMDS 物理层（同类参照）
+- [2026-06-30 - MIPI C-PHY Specification v2.1](../../来源/2026-06-30%20-%20MIPI%20C-PHY%20Specification%20v2.1.md) — 来源摘要

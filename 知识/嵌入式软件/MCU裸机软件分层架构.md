@@ -3,12 +3,12 @@ type: concept
 tags: [嵌入式, 软件架构, 分层设计, MCU, RTOS]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[2026-07-21 - 嵌入式软件分层通用原则](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E9%80%9A%E7%94%A8%E5%8E%9F%E5%88%99.md)"]
+sources: ["[2026-07-21 - 嵌入式软件分层通用原则](../../来源/2026-07-21%20-%20嵌入式软件分层通用原则.md)", "[2026-07-29 - I2C Bus Specification UM10204](../../来源/2026-07-29%20-%20I2C%20Bus%20Specification%20UM10204.md)", "[2026-07-29 - RS-232-E Serial Interface Standard](../../来源/2026-07-29%20-%20RS-232-E%20Serial%20Interface%20Standard.md)"]
 ---
 
 # MCU 裸机软件分层架构
 
-![[mcu-六层架构.svg]]
+![mcu-六层架构.svg](../../mcu-六层架构.svg)
 
 > 📝 [在 Excalidraw 中编辑](https://excalidraw.com) — 拖入 `_llm/raw/mcu-六层架构.excalidraw`
 
@@ -99,6 +99,7 @@ component is cross-cutting
 
 ## 相关页面
 
-- [PCIe 信号编码演进](../%E9%80%9A%E8%AE%AF%E7%BD%91%E7%BB%9C/PCIe%20%E4%BF%A1%E5%8F%B7%E7%BC%96%E7%A0%81%E6%BC%94%E8%BF%9B.md)
-- [USB 3.0 信号完整性设计](../%E9%80%9A%E8%AE%AF%E7%BD%91%E7%BB%9C/USB%203.0%20%E4%BF%A1%E5%8F%B7%E5%AE%8C%E6%95%B4%E6%80%A7%E8%AE%BE%E8%AE%A1.md)
-- [COM Express 标准](../%E9%80%9A%E8%AE%AF%E7%BD%91%E7%BB%9C/COM%20Express%20%E6%A0%87%E5%87%86.md)
+- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — static 封装 · extern 规范 · 模块边界
+- [PCIe 信号编码演进](../通讯网络/PCIe%20信号编码演进.md)
+- [USB 3.0 信号完整性设计](../通讯网络/USB%203.0%20信号完整性设计.md)
+- [COM Express 标准](../通讯网络/COM%20Express%20标准.md)

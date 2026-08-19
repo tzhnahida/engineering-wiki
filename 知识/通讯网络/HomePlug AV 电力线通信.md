@@ -3,7 +3,7 @@ type: concept
 tags: [通讯, plc, powerline, homeplug, ieee1901]
 created: 2026-08-03
 updated: 2026-08-03
-sources: ["[2012-03-16 - QCA6410 HomePlug AV 数据手册](2012-03-16%20-%20QCA6410%20HomePlug%20AV%20数据手册.md)"]
+sources: ["[2012-03-16 - QCA6410 HomePlug AV 数据手册](../../来源/2012-03-16%20-%20QCA6410%20HomePlug%20AV%20数据手册.md)"]
 ---
 
 # HomePlug AV 电力线通信
@@ -76,7 +76,7 @@ HomePlug AV MAC 支持多流 QoS：
 
 ## SoC 集成趋势
 
-现代 HomePlug AV 芯片（如 [QCA6410](QCA6410.md)）高度集成：
+现代 HomePlug AV 芯片（如 [QCA6410](../../元件/QCA6410.md)）高度集成：
 
 - 单芯片 SoC：MAC + PHY + AFE + 线路驱动
 - 集成 10/100 Ethernet PHY（直接桥接以太网）
@@ -96,6 +96,6 @@ HomePlug AV MAC 支持多流 QoS：
 
 ## 参见
 
-- [QCA6410](QCA6410.md) — HomePlug AV SoC 元件
+- [QCA6410](../../元件/QCA6410.md) — HomePlug AV SoC 元件
 - [Ethernet 协议概述](Ethernet%20协议概述.md) — 802.3 以太网
-- [2012-03-16 - QCA6410 HomePlug AV 数据手册](2012-03-16%20-%20QCA6410%20HomePlug%20AV%20数据手册.md) — 来源文档
+- [2012-03-16 - QCA6410 HomePlug AV 数据手册](../../来源/2012-03-16%20-%20QCA6410%20HomePlug%20AV%20数据手册.md) — 来源文档

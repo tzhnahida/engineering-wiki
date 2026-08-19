@@ -3,7 +3,7 @@ type: concept
 tags: [PCIe, 信号完整性, PAM4, FEC, 高速串行, NRZ]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[2026-07-21 - PCIe 6.0 本质区别](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20PCIe%206.0%20%E6%9C%AC%E8%B4%A8%E5%8C%BA%E5%88%AB.md)"]
+sources: ["[2026-07-21 - PCIe 6.0 本质区别](../../来源/2026-07-21%20-%20PCIe%206.0%20本质区别.md)"]
 ---
 
 # PCIe 信号编码演进
@@ -90,6 +90,6 @@ DDR 目前仍以 NRZ 为主，更关注低功耗、低延迟、DQS-DQ 相位、V
 
 ## 相关页面
 
-- [USB 3.0 信号完整性设计](USB%203.0%20%E4%BF%A1%E5%8F%B7%E5%AE%8C%E6%95%B4%E6%80%A7%E8%AE%BE%E8%AE%A1.md)
-- [COM Express 标准](COM%20Express%20%E6%A0%87%E5%87%86.md)
-- [MCU裸机软件分层架构](../%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6/MCU%E8%A3%B8%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.md)
+- [USB 3.0 信号完整性设计](USB%203.0%20信号完整性设计.md)
+- [COM Express 标准](COM%20Express%20标准.md)
+- [MCU裸机软件分层架构](../嵌入式软件/MCU裸机软件分层架构.md)

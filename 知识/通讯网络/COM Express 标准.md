@@ -3,7 +3,7 @@ type: concept
 tags: [COM Express, COMe, 嵌入式, 载板设计, PCB, 高速互连]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[2026-07-21 - COM Express 标准详解](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20COM%20Express%20%E6%A0%87%E5%87%86%E8%AF%A6%E8%A7%A3.md)"]
+sources: ["[2026-07-21 - COM Express 标准详解](../../来源/2026-07-21%20-%20COM%20Express%20标准详解.md)"]
 ---
 
 # COM Express 标准
@@ -106,6 +106,6 @@ sources: ["[2026-07-21 - COM Express 标准详解](../../%E6%9D%A5%E6%BA%90/2026
 
 ## 相关页面
 
-- [PCIe 信号编码演进](PCIe%20%E4%BF%A1%E5%8F%B7%E7%BC%96%E7%A0%81%E6%BC%94%E8%BF%9B.md)
-- [USB 3.0 信号完整性设计](USB%203.0%20%E4%BF%A1%E5%8F%B7%E5%AE%8C%E6%95%B4%E6%80%A7%E8%AE%BE%E8%AE%A1.md)
-- [MCU裸机软件分层架构](../%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6/MCU%E8%A3%B8%E6%9C%BA%E8%BD%AF%E4%BB%B6%E5%88%86%E5%B1%82%E6%9E%B6%E6%9E%84.md)
+- [PCIe 信号编码演进](PCIe%20信号编码演进.md)
+- [USB 3.0 信号完整性设计](USB%203.0%20信号完整性设计.md)
+- [MCU裸机软件分层架构](../嵌入式软件/MCU裸机软件分层架构.md)

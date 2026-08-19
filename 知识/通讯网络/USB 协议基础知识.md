@@ -3,7 +3,7 @@ type: concept
 tags: [通讯, USB, 协议, CDC, 枚举, 描述符, 端点]
 created: 2026-07-22
 updated: 2026-07-22
-sources: ["[2026-07-22 - USB 协议基础知识入门](../../%E6%9D%A5%E6%BA%90/2026-07-22%20-%20USB%20%E5%8D%8F%E8%AE%AE%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%85%A5%E9%97%A8.md)"]
+sources: ["[2026-07-22 - USB 协议基础知识入门](../../来源/2026-07-22%20-%20USB%20协议基础知识入门.md)", "[2026-07-29 - USB 2.0 Specification](../../来源/2026-07-29%20-%20USB%202.0%20Specification.md)", "[2026-07-29 - USB 3.2 Specification](../../来源/2026-07-29%20-%20USB%203.2%20Specification.md)"]
 ---
 
 # USB 协议基础知识
@@ -235,7 +235,7 @@ CDC ACM 虚拟串口是 MCU 项目最常见的 USB 应用。一个 CDC ACM 设�
 
 ## 相关页面
 
-- [USB 3.0 信号完整性设计](USB%203.0%20%E4%BF%A1%E5%8F%B7%E5%AE%8C%E6%95%B4%E6%80%A7%E8%AE%BE%E8%AE%A1.md) — USB 3.0 物理层 PCB 布线（本页是协议层互补）
-- [[通讯网络/PCIe 信号编码演进]] — 另一种串行总线从 NRZ 到 PAM4 的演进
-- [MCU 固件升级 IAP OTA 实战](../%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6/MCU%20%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7%20IAP%20OTA%20%E5%AE%9E%E6%88%98.md) — USB DFU 是固件升级的传输通道之一
-- [[元件/其他/CH340]] — 常用 USB 转串口芯片
+- [USB 3.0 信号完整性设计](USB%203.0%20信号完整性设计.md) — USB 3.0 物理层 PCB 布线（本页是协议层互补）
+- [通讯网络/PCIe 信号编码演进](PCIe%20信号编码演进.md) — 另一种串行总线从 NRZ 到 PAM4 的演进
+- [MCU 固件升级 IAP OTA 实战](../嵌入式软件/MCU%20固件升级%20IAP%20OTA%20实战.md) — USB DFU 是固件升级的传输通道之一
+- [元件/其他/CH340](../../元件/接口存储/CH340.md) — 常用 USB 转串口芯片

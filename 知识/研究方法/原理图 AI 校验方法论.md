@@ -3,7 +3,7 @@ type: concept
 tags: [electronics, methodology, EDA, AI-validation]
 created: 2026-08-13
 updated: 2026-08-13
-sources: ["[2026-08-13 - OrCAD 网表导出与解析](2026-08-13%20-%20OrCAD%20%E7%BD%91%E8%A1%A8%E5%AF%BC%E5%87%BA%E4%B8%8E%E8%A7%A3%E6%9E%90.md)"]
+sources: ["[2026-08-13 - OrCAD 网表导出与解析](../../来源/2026-08-13%20-%20OrCAD%20网表导出与解析.md)"]
 ---
 
 # 原理图 AI 校验方法论

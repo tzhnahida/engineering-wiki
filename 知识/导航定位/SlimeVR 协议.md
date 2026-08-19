@@ -7,7 +7,7 @@ sources:
   - "https://docs.slimevr.dev"
   - "https://github.com/SlimeVR/SlimeVR-Server"
   - "https://github.com/SlimeVR/SlimeVR-Firmware"
-  - "[2026-06-24 - SlimeVR 协议文档](../../%E6%9D%A5%E6%BA%90/2026-06-24%20-%20SlimeVR%20%E5%8D%8F%E8%AE%AE%E6%96%87%E6%A1%A3.md)"
+  - "[2026-06-24 - SlimeVR 协议文档](../../来源/2026-06-24%20-%20SlimeVR%20协议文档.md)"
 ---
 
 # SlimeVR 协议

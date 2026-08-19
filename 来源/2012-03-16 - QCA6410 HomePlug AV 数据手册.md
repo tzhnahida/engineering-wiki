@@ -61,6 +61,6 @@ updated: 2026-08-03
 
 ## 参见
 
-- [QCA6410](QCA6410.md) — 元件页
-- [HomePlug AV 电力线通信](HomePlug%20AV%20电力线通信.md) — 知识页
-- [Ethernet 协议概述](Ethernet%20协议概述.md) — 802.3 以太网基础
+- [QCA6410](../元件/QCA6410.md) — 元件页
+- [HomePlug AV 电力线通信](../知识/通讯网络/HomePlug%20AV%20电力线通信.md) — 知识页
+- [Ethernet 协议概述](../知识/通讯网络/Ethernet%20协议概述.md) — 802.3 以太网基础

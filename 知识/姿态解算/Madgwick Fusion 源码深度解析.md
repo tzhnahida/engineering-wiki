@@ -3,7 +3,7 @@ type: concept
 tags: [姿态解算, Madgwick, AHRS, 源码分析, 梯度下降, 互补滤波]
 created: 2025-07-25
 updated: 2025-07-25
-sources: ["[2026-06-24 - Madgwick AHRS 姿态解算滤波器](../../%E6%9D%A5%E6%BA%90/2026-06-24%20-%20Madgwick%20AHRS%20%E5%A7%BF%E6%80%81%E8%A7%A3%E7%AE%97%E6%BB%A4%E6%B3%A2%E5%99%A8.md)"]
+sources: ["[2026-06-24 - Madgwick AHRS 姿态解算滤波器](../../来源/2026-06-24%20-%20Madgwick%20AHRS%20姿态解算滤波器.md)"]
 ---
 
 # Madgwick Fusion 源码深度解析

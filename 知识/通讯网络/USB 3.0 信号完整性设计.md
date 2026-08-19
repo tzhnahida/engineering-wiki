@@ -3,7 +3,7 @@ type: concept
 tags: [USB, 信号完整性, PCB布线, 差分阻抗, 高速设计]
 created: 2026-07-21
 updated: 2026-07-21
-sources: ["[2026-07-21 - USB 3.0 PCB布线设计](../../%E6%9D%A5%E6%BA%90/2026-07-21%20-%20USB%203.0%20PCB%E5%B8%83%E7%BA%BF%E8%AE%BE%E8%AE%A1.md)"]
+sources: ["[2026-07-21 - USB 3.0 PCB布线设计](../../来源/2026-07-21%20-%20USB%203.0%20PCB布线设计.md)", "[2026-07-29 - USB 3.2 Specification](../../来源/2026-07-29%20-%20USB%203.2%20Specification.md)"]
 ---
 
 # USB 3.0 信号完整性设计
@@ -81,6 +81,6 @@ USB 3.0 信号回流路径完全依赖地平面。地平面不完整 → 回流�
 
 ## 相关页面
 
-- [PCIe 信号编码演进](PCIe%20%E4%BF%A1%E5%8F%B7%E7%BC%96%E7%A0%81%E6%BC%94%E8%BF%9B.md)
-- [COM Express 标准](COM%20Express%20%E6%A0%87%E5%87%86.md)
-- [[视频显示/HDMI 物理层]]
+- [PCIe 信号编码演进](PCIe%20信号编码演进.md)
+- [COM Express 标准](COM%20Express%20标准.md)
+- [视频显示/HDMI 物理层](../视频显示/HDMI%20物理层.md)
