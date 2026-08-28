@@ -3,7 +3,7 @@ type: concept
 tags: [sata, storage, ahci, protocol, interface]
 created: 2026-08-03
 updated: 2026-08-03
-sources: []
+sources: ["⚠️ 存疑：SATA 3.0 Specification 下载文件实为 404 错误页（位于 参考/标准/SATA/），正文参数待正规原文确认"]
 ---
 
 # SATA 存储接口协议
@@ -201,5 +201,5 @@ AHCI 关键寄存器：
 
 ## 相关页面
 
-- [通讯网络/NVMe SSD 协议](NVMe%20SSD%20协议.md) — NVMe 架构、队列模型、命令体系
-- [通讯网络/PCIe 信号编码演进](PCIe%20信号编码演进.md) — 8b/10b → 128b/130b → PAM4
+- [通讯网络/NVMe SSD 协议](../../知识/通讯网络/NVMe%20SSD%20协议.md) — NVMe 架构、队列模型、命令体系
+- [通讯网络/PCIe 信号编码演进](../../知识/通讯网络/PCIe%20信号编码演进.md) — 8b/10b → 128b/130b → PAM4

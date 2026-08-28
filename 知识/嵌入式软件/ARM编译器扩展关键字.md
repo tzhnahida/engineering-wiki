@@ -3,7 +3,7 @@ type: concept
 tags: [arm, armclang, compiler, keyword, __asm, __inline, __restrict, embedded]
 created: 2026-08-01
 updated: 2026-08-01
-sources: []
+sources: ["⚠️ 存疑：内容综合自公开语言/编译器文档，原文未入库"]
 ---
 
 # ARM 编译器扩展关键字
@@ -161,7 +161,7 @@ __declspec(dllimport) int external_func(void);
 
 ## 相关页面
 
-- [嵌入式软件/ARM编译器Pragma指令指南](ARM编译器Pragma指令指南.md) — #pragma pack / section / diagnostic
-- [嵌入式软件/ARM内置函数与ACLE指南](ARM内置函数与ACLE指南.md) — __builtin_arm_* / CMSIS intrinsics
-- [嵌入式软件/GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — packed / aligned / section / weak
-- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — volatile/static/const/extern
+- [嵌入式软件/ARM编译器Pragma指令指南](../../知识/嵌入式软件/ARM编译器Pragma指令指南.md) — #pragma pack / section / diagnostic
+- [嵌入式软件/ARM内置函数与ACLE指南](../../知识/嵌入式软件/ARM内置函数与ACLE指南.md) — __builtin_arm_* / CMSIS intrinsics
+- [嵌入式软件/GCC __attribute__ 编译器扩展](../../知识/嵌入式软件/GCC%20__attribute__%20编译器扩展.md) — packed / aligned / section / weak
+- [嵌入式软件/嵌入式C关键字实战指南](../../知识/嵌入式软件/嵌入式C关键字实战指南.md) — volatile/static/const/extern

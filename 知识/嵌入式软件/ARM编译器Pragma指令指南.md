@@ -3,7 +3,7 @@ type: concept
 tags: [arm, armclang, pragma, compiler, embedded, migration]
 created: 2026-08-01
 updated: 2026-08-01
-sources: []
+sources: ["⚠️ 存疑：内容综合自公开语言/编译器文档，原文未入库"]
 ---
 
 # ARM 编译器 Pragma 指令指南
@@ -170,7 +170,7 @@ void UART_Handler(void) {
 
 ## 相关页面
 
-- [嵌入式软件/ARM编译器扩展关键字](ARM编译器扩展关键字.md) — `__asm` / `__inline` / `__restrict`
-- [嵌入式软件/GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — packed / section / aligned / weak
-- [嵌入式软件/C预处理器完全指南](C预处理器完全指南.md) — `#define` / `#if` / `_Pragma`
-- [嵌入式软件/结构体内存对齐与位域](结构体内存对齐与位域.md) — pragma pack 的对齐机制原理
+- [嵌入式软件/ARM编译器扩展关键字](../../知识/嵌入式软件/ARM编译器扩展关键字.md) — `__asm` / `__inline` / `__restrict`
+- [嵌入式软件/GCC __attribute__ 编译器扩展](../../知识/嵌入式软件/GCC%20__attribute__%20编译器扩展.md) — packed / section / aligned / weak
+- [嵌入式软件/C预处理器完全指南](../../知识/嵌入式软件/C预处理器完全指南.md) — `#define` / `#if` / `_Pragma`
+- [嵌入式软件/结构体内存对齐与位域](../../知识/嵌入式软件/结构体内存对齐与位域.md) — pragma pack 的对齐机制原理

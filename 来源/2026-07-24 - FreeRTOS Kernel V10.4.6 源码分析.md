@@ -21,15 +21,15 @@ format: source-code
 
 | 源文件 | 行数 | 分析产出 | 知识页面 |
 |--------|------|----------|----------|
-| `list.c` + `list.h` | ~300 | 循环双链表 + 哨兵机制 | [FreeRTOS 链表实现](../FreeRTOS%20链表实现.md) |
-| `tasks.c` + `task.h` | ~5443 | TCB、调度器、状态机、上下文切换 | [FreeRTOS 任务管理与调度](../FreeRTOS%20任务管理与调度.md) |
-| `queue.c` + `queue.h` + `semphr.h` | ~3100 | 队列环形缓冲区、信号量、互斥锁、优先级继承、双锁机制 | [FreeRTOS 队列管理](../FreeRTOS%20队列管理.md)、[FreeRTOS 信号量与互斥锁](../FreeRTOS%20信号量与互斥锁.md) |
-| `timers.c` + `timers.h` | ~2500 | 命令队列协议、守护任务、双列表溢出处理 | [FreeRTOS 软件定时器](../FreeRTOS%20软件定时器.md) |
-| `event_groups.c` | ~800 | 位掩码同步、无序事件链表 | [FreeRTOS 事件组](../FreeRTOS%20事件组.md) |
-| `stream_buffer.c` + `message_buffer.h` | ~1200 | 字节流、消息边界、任务通知阻塞 | [FreeRTOS 流缓冲区与消息缓冲区](../FreeRTOS%20流缓冲区与消息缓冲区.md) |
-| `heap_1~5.c` | ~2000 | 五种分配策略、碎片化对比 | [FreeRTOS 内存管理](../FreeRTOS%20内存管理.md) |
-| `port.c` + `portmacro.h` (ARM_CM3/CM4F) | ~500 | BASEPRI 临界区、PendSV 汇编、栈帧初始化 | [FreeRTOS 中断管理](../FreeRTOS%20中断管理.md) |
-| `tasks.c` (通知部分) | ~500 | TCB 内嵌通知值、零对象开销 IPC | [FreeRTOS 任务通知](../FreeRTOS%20任务通知.md) |
+| `list.c` + `list.h` | ~300 | 循环双链表 + 哨兵机制 | [FreeRTOS 链表实现](../知识/嵌入式软件/FreeRTOS/2.%20FreeRTOS%20链表实现.md) |
+| `tasks.c` + `task.h` | ~5443 | TCB、调度器、状态机、上下文切换 | [FreeRTOS 任务管理与调度](../知识/嵌入式软件/FreeRTOS/3.%20FreeRTOS%20任务管理与调度.md) |
+| `queue.c` + `queue.h` + `semphr.h` | ~3100 | 队列环形缓冲区、信号量、互斥锁、优先级继承、双锁机制 | [FreeRTOS 队列管理](../知识/嵌入式软件/FreeRTOS/4.%20FreeRTOS%20队列管理.md)、[FreeRTOS 信号量与互斥锁](../知识/嵌入式软件/FreeRTOS/5.%20FreeRTOS%20信号量与互斥锁.md) |
+| `timers.c` + `timers.h` | ~2500 | 命令队列协议、守护任务、双列表溢出处理 | [FreeRTOS 软件定时器](../知识/嵌入式软件/FreeRTOS/8.%20FreeRTOS%20软件定时器.md) |
+| `event_groups.c` | ~800 | 位掩码同步、无序事件链表 | [FreeRTOS 事件组](../知识/嵌入式软件/FreeRTOS/7.%20FreeRTOS%20事件组.md) |
+| `stream_buffer.c` + `message_buffer.h` | ~1200 | 字节流、消息边界、任务通知阻塞 | [FreeRTOS 流缓冲区与消息缓冲区](../知识/嵌入式软件/FreeRTOS/9.%20FreeRTOS%20流缓冲区与消息缓冲区.md) |
+| `heap_1~5.c` | ~2000 | 五种分配策略、碎片化对比 | [FreeRTOS 内存管理](../知识/嵌入式软件/FreeRTOS/10.%20FreeRTOS%20内存管理.md) |
+| `port.c` + `portmacro.h` (ARM_CM3/CM4F) | ~500 | BASEPRI 临界区、PendSV 汇编、栈帧初始化 | [FreeRTOS 中断管理](../知识/嵌入式软件/FreeRTOS/11.%20FreeRTOS%20中断管理.md) |
+| `tasks.c` (通知部分) | ~500 | TCB 内嵌通知值、零对象开销 IPC | [FreeRTOS 任务通知](../知识/嵌入式软件/FreeRTOS/6.%20FreeRTOS%20任务通知.md) |
 
 ## 关键架构发现
 

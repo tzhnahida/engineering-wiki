@@ -35,7 +35,7 @@ sources: [LLM Wiki](../../LLM%20Wiki.md)
 
 ## 灵感来源
 
-与 Vannevar Bush 的 [Memex](../../Memex.md) (1945) 精神相通——个人策划的知识存储，文件之间的关联路径与文件本身同样珍贵。Bush 没解决的维护问题，LLM 解决了。
+与 Vannevar Bush 的 Memex (1945) 精神相通——个人策划的知识存储，文件之间的关联路径与文件本身同样珍贵。Bush 没解决的维护问题，LLM 解决了。
 
 ## 推荐工具
 
@@ -43,4 +43,4 @@ sources: [LLM Wiki](../../LLM%20Wiki.md)
 
 ## 参见
 
-- [CLAUDE.md](../../CLAUDE.md.md) —— 实现这套方法论的 LLM 规则文档
+- [CLAUDE.md](../../CLAUDE.md) —— 实现这套方法论的 LLM 规则文档

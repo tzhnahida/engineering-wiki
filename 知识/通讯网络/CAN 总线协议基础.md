@@ -202,7 +202,7 @@ flowchart LR
 
 ### 6.2 CANopen 上层协议
 
-裸 CAN 只定义数据链路层和物理层。上层应用协议需要额外标准——CANopen (CiA 301) 是最广泛使用的选项。参见 [通讯网络/CANopenNode 协议栈分析](CANopenNode%20协议栈分析.md)。
+裸 CAN 只定义数据链路层和物理层。上层应用协议需要额外标准——CANopen (CiA 301) 是最广泛使用的选项。参见 [通讯网络/CANopenNode 协议栈分析](../../知识/通讯网络/CANopenNode%20协议栈分析.md)。
 
 ## 7. 常见问题
 
@@ -216,4 +216,4 @@ flowchart LR
 
 ## 相关页面
 
-- [通讯网络/CANopenNode 协议栈分析](CANopenNode%20协议栈分析.md) — CANopen 上层协议实现
+- [通讯网络/CANopenNode 协议栈分析](../../知识/通讯网络/CANopenNode%20协议栈分析.md) — CANopen 上层协议实现

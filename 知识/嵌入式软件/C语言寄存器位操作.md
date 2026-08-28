@@ -309,4 +309,4 @@ uint16_t result = (uint16_t)((uint32_t)data & 0xFFFFU);
 
 ## 相关页面
 
-- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — volatile/const/static/extern 全关键字速查
+- [嵌入式软件/嵌入式C关键字实战指南](../../知识/嵌入式软件/嵌入式C关键字实战指南.md) — volatile/const/static/extern 全关键字速查

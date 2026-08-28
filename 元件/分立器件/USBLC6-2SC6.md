@@ -1,4 +1,4 @@
-﻿---
+---
 type: entity
 tags: [electronics, esd, usb, protection]
 created: 2026-06-07

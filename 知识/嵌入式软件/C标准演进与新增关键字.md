@@ -3,7 +3,7 @@ type: concept
 tags: [C语言, 标准, C99, C11, C17, C23, 关键字, 演进]
 created: 2026-08-01
 updated: 2026-08-01
-sources: []
+sources: ["⚠️ 存疑：内容综合自公开语言/编译器文档，原文未入库"]
 ---
 
 # C 标准演进与新增关键字
@@ -201,8 +201,8 @@ _BitInt(24) adc_value;                         // 24位整数
 
 ## 相关页面
 
-- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — volatile/static/const/extern 实战
-- [嵌入式软件/ARM编译器扩展关键字](ARM编译器扩展关键字.md) — __asm / __inline / __restrict
-- [嵌入式软件/C预处理器完全指南](C预处理器完全指南.md) — #define / #if / #pragma
-- [嵌入式软件/结构体内存对齐与位域](结构体内存对齐与位域.md) — _Alignas / packed / pragma pack
-- [嵌入式软件/C宏的副作用与类型安全](C宏的副作用与类型安全.md) — _Generic 安全替代
+- [嵌入式软件/嵌入式C关键字实战指南](../../知识/嵌入式软件/嵌入式C关键字实战指南.md) — volatile/static/const/extern 实战
+- [嵌入式软件/ARM编译器扩展关键字](../../知识/嵌入式软件/ARM编译器扩展关键字.md) — __asm / __inline / __restrict
+- [嵌入式软件/C预处理器完全指南](../../知识/嵌入式软件/C预处理器完全指南.md) — #define / #if / #pragma
+- [嵌入式软件/结构体内存对齐与位域](../../知识/嵌入式软件/结构体内存对齐与位域.md) — _Alignas / packed / pragma pack
+- [嵌入式软件/C宏的副作用与类型安全](../../知识/嵌入式软件/C宏的副作用与类型安全.md) — _Generic 安全替代

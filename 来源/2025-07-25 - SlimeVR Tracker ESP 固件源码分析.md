@@ -1,4 +1,4 @@
----
+﻿---
 type: source
 tags: [slimevr, firmware, esp32, vqf, source-analysis]
 created: 2025-07-25

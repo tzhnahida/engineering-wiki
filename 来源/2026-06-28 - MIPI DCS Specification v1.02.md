@@ -52,5 +52,5 @@ DCS 规范定义了控制显示模组的标准化命令集。无论底层使用 
 
 ## 相关标准
 
-- [2026-06-28 - MIPI DSI Specification v1.3](2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)
-- [2026-06-28 - MIPI D-PHY Specification v2.5](2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)
+- [2026-06-28 - MIPI DSI Specification v1.3](../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)
+- [2026-06-28 - MIPI D-PHY Specification v2.5](../来源/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md)

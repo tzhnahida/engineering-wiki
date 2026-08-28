@@ -1,4 +1,4 @@
----
+﻿---
 type: entity
 tags: [electronics, amplifier, current-sense, analog, ti]
 created: 2026-06-07

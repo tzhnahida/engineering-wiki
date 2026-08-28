@@ -3,7 +3,7 @@ type: concept
 tags: [arm, intrinsics, builtin, cmsis, acle, cortex-m, embedded]
 created: 2026-08-01
 updated: 2026-08-01
-sources: []
+sources: ["⚠️ 存疑：内容综合自公开语言/编译器文档，原文未入库"]
 ---
 
 # ARM 内置函数与 ACLE 指南
@@ -226,7 +226,7 @@ static uint32_t hw_crc32(const uint8_t *data, size_t len) {
 
 ## 相关页面
 
-- [嵌入式软件/ARM编译器扩展关键字](ARM编译器扩展关键字.md) — __asm / __inline / __restrict
-- [嵌入式软件/ARM编译器Pragma指令指南](ARM编译器Pragma指令指南.md) — #pragma 完全指南
-- [嵌入式软件/GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — always_inline / section / aligned
-- [嵌入式软件/C预处理器完全指南](C预处理器完全指南.md) — 平台检测宏、条件编译
+- [嵌入式软件/ARM编译器扩展关键字](../../知识/嵌入式软件/ARM编译器扩展关键字.md) — __asm / __inline / __restrict
+- [嵌入式软件/ARM编译器Pragma指令指南](../../知识/嵌入式软件/ARM编译器Pragma指令指南.md) — #pragma 完全指南
+- [嵌入式软件/GCC __attribute__ 编译器扩展](../../知识/嵌入式软件/GCC%20__attribute__%20编译器扩展.md) — always_inline / section / aligned
+- [嵌入式软件/C预处理器完全指南](../../知识/嵌入式软件/C预处理器完全指南.md) — 平台检测宏、条件编译

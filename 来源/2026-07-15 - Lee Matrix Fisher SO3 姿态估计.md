@@ -1,4 +1,4 @@
----
+﻿---
 type: source
 tags: [imu, bayesian, so3, lie-group, paper]
 created: 2026-07-15

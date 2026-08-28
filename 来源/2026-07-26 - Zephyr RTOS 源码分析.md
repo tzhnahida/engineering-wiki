@@ -53,4 +53,4 @@ Zephyr 是 Linux 基金会维护的可扩展安全 RTOS。支持 ARM/x86/RISC-V/
 
 ## 已产出的知识页
 
-- [Zephyr/1. Zephyr 概述与架构全景](../Zephyr/1.%20Zephyr%20概述与架构全景.md)
+- [嵌入式软件/Zephyr/1. Zephyr 架构与构建系统](../知识/嵌入式软件/Zephyr/1.%20Zephyr%20架构与构建系统.md)

@@ -1,4 +1,4 @@
-﻿---
+---
 type: entity
 tags: [electronics, tvs, diode, protection, high-power]
 created: 2026-06-07

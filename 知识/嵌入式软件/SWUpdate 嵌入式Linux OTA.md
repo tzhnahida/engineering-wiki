@@ -22,7 +22,7 @@ sources: ["[2026-08-04 - SWUpdate 嵌入式Linux OTA框架](../../来源/2026-08
 | 服务端 | 串口/蓝牙/USB 本地 | HTTP / hawkBit 远程 |
 | 增量 | 差分包 (少数方案) | librsync delta update |
 
-> Bare metal MCU 的 IAP/OTA 方案见 [嵌入式软件/MCU 固件升级 IAP OTA 实战](MCU%20固件升级%20IAP%20OTA%20实战.md)。
+> Bare metal MCU 的 IAP/OTA 方案见 [嵌入式软件/MCU 固件升级 IAP OTA 实战](../../知识/嵌入式软件/MCU%20固件升级%20IAP%20OTA%20实战.md)。
 
 ## 2. 核心机制：双副本 (Dual-Copy)
 
@@ -225,5 +225,5 @@ make
 
 ## 相关页面
 
-- [嵌入式软件/MCU 固件升级 IAP OTA 实战](MCU%20固件升级%20IAP%20OTA%20实战.md) — Bare metal MCU 固件升级方案
-- [嵌入式软件/嵌入式固件开发流程](嵌入式固件开发流程.md) — 固件开发的完整生命周期
+- [嵌入式软件/MCU 固件升级 IAP OTA 实战](../../知识/嵌入式软件/MCU%20固件升级%20IAP%20OTA%20实战.md) — Bare metal MCU 固件升级方案
+- [嵌入式软件/嵌入式固件开发流程](../../知识/嵌入式软件/嵌入式固件开发流程.md) — 固件开发的完整生命周期

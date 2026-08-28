@@ -8,7 +8,7 @@ sources: ["[2026-07-21 - 嵌入式软件分层通用原则](../../来源/2026-07
 
 # MCU 裸机软件分层架构
 
-![mcu-六层架构.svg](../../mcu-六层架构.svg)
+![mcu-六层架构.svg](../../assets/mcu-六层架构.svg)
 
 > 📝 [在 Excalidraw 中编辑](https://excalidraw.com) — 拖入 `_llm/raw/mcu-六层架构.excalidraw`
 
@@ -99,7 +99,7 @@ component is cross-cutting
 
 ## 相关页面
 
-- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — static 封装 · extern 规范 · 模块边界
-- [PCIe 信号编码演进](../通讯网络/PCIe%20信号编码演进.md)
-- [USB 3.0 信号完整性设计](../通讯网络/USB%203.0%20信号完整性设计.md)
-- [COM Express 标准](../通讯网络/COM%20Express%20标准.md)
+- [嵌入式软件/嵌入式C关键字实战指南](../../知识/嵌入式软件/嵌入式C关键字实战指南.md) — static 封装 · extern 规范 · 模块边界
+- [PCIe 信号编码演进](../../知识/通讯网络/PCIe%20信号编码演进.md)
+- [USB 3.0 信号完整性设计](../../知识/通讯网络/USB%203.0%20信号完整性设计.md)
+- [COM Express 标准](../../知识/通讯网络/COM%20Express%20标准.md)

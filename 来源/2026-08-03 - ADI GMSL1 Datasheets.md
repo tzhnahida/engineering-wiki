@@ -1,4 +1,4 @@
----
+﻿---
 type: source
 tags: [design-guide, gmsl, serializer, analog-devices]
 created: 2026-08-03

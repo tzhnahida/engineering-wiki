@@ -157,4 +157,4 @@ int m = max_gnu(i++, j++);
 
 ## 相关页面
 
-- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — inline vs 宏 · enum vs #define · 自查清单
+- [嵌入式软件/嵌入式C关键字实战指南](../../知识/嵌入式软件/嵌入式C关键字实战指南.md) — inline vs 宏 · enum vs #define · 自查清单

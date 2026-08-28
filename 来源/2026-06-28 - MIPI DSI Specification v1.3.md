@@ -48,5 +48,5 @@ v1.3 是当前广泛使用的主流版本，新增 Sub-Link（分割链路/Deske
 
 ## 相关标准
 
-- [2026-06-28 - MIPI D-PHY Specification v2.5](2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md) — DSI 的物理层基础
-- [2026-06-28 - MIPI DCS Specification v1.02](2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md) — DSI 承载的命令集
+- [2026-06-28 - MIPI D-PHY Specification v2.5](../来源/2026-06-28%20-%20MIPI%20D-PHY%20Specification%20v2.5.md) — DSI 的物理层基础
+- [2026-06-28 - MIPI DCS Specification v1.02](../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md) — DSI 承载的命令集

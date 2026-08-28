@@ -3,12 +3,16 @@ type: concept
 tags: [lvds, differential-signal, hardware, interface, signal-integrity]
 created: 2026-08-03
 updated: 2026-08-03
-sources: []
+sources:
+  - "[2026-08-03 - TI FPD-Link III Datasheets](../../来源/2026-08-03%20-%20TI%20FPD-Link%20III%20Datasheets.md)"
+  - "[2026-08-03 - ADI GMSL1 Datasheets](../../来源/2026-08-03%20-%20ADI%20GMSL1%20Datasheets.md)"
 ---
 
 # LVDS 差分信号基础
 
 > LVDS (Low-Voltage Differential Signaling) 是最广泛使用的高速差分信号标准之一。它定义的不是协议，而是**物理层电气规范**——只要你符合 LVDS 的电平/摆率/共模范围，上层跑什么协议都行（FPD-Link、GMSL、MIPI D-PHY 的物理基础都源于 LVDS）。
+>
+> ⚠️ 来源说明：TIA/EIA-644 电气参数的标准原文未入库（⚠️ 存疑）；与 FPD-Link/GMSL 的关系部分引自对应数据手册来源页。
 
 ## 1. 电气规范
 
@@ -176,5 +180,5 @@ LVDS 典型要求:
 
 ## 相关页面
 
-- [硬件设计/高速PCB设计通用规范](高速PCB设计通用规范.md) — 差分对设计、阻抗控制、参考平面
-- [硬件设计/DDR 布线设计规范](DDR%20布线设计规范.md) — 等长匹配、Stub、过孔
+- [硬件设计/高速PCB设计通用规范](../../知识/硬件设计/高速PCB设计通用规范.md) — 差分对设计、阻抗控制、参考平面
+- [硬件设计/DDR 布线设计规范](../../知识/硬件设计/DDR%20布线设计规范.md) — 等长匹配、Stub、过孔

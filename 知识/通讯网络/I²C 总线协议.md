@@ -83,7 +83,7 @@ flowchart TB
 
 ### 3.1 START 与 STOP 条件
 
-![i2c_start_address.svg](../../assets/diagrams/i2c_start_address.svg)
+<!-- 图示缺失:原 SVG 未入库 -->
 
 | 条件 | 操作 | 含义 |
 |------|------|------|
@@ -95,7 +95,7 @@ flowchart TB
 
 完整 I²C 传输 = **地址帧 + N × 数据帧**，每帧 9 bits（8 数据 + 1 ACK）：
 
-![i2c_data_transfer.svg](../../assets/diagrams/i2c_data_transfer.svg)
+<!-- 图示缺失:原 SVG 未入库 -->
 
 1. 主机发 **START**
 2. 主机发 **7-bit 地址 + R/W bit**（0=写，1=读）
@@ -153,7 +153,7 @@ S | 11110xx+W | ACK | ADDR[7:0] | ACK | ...
 
 从机可以在 ACK 位后**拉低 SCL**，强制主机等待：
 
-![i2c_clock_stretching.svg](../../assets/diagrams/i2c_clock_stretching.svg)
+<!-- 图示缺失:原 SVG 未入库 -->
 
 | 场景 | 说明 |
 |------|------|
@@ -183,6 +183,6 @@ S | 11110xx+W | ACK | ADDR[7:0] | ACK | ...
 
 ## 相关页面
 
-- [通讯网络/SPI 总线协议](SPI%20总线协议.md) — 四线全双工替代方案
-- [通讯网络/UART 串行通信](UART%20串行通信.md) — 异步串行对比
-- [视频显示/HDMI EDID](../视频显示/HDMI%20EDID.md) — DDC 通道基于 I²C
+- [通讯网络/SPI 总线协议](../../知识/通讯网络/SPI%20总线协议.md) — 四线全双工替代方案
+- [通讯网络/UART 串行通信](../../知识/通讯网络/UART%20串行通信.md) — 异步串行对比
+- [视频显示/HDMI EDID](../../知识/视频显示/HDMI%20EDID.md) — DDC 通道基于 I²C

@@ -97,5 +97,5 @@ HomePlug AV MAC 支持多流 QoS：
 ## 参见
 
 - [QCA6410](../../元件/QCA6410.md) — HomePlug AV SoC 元件
-- [Ethernet 协议概述](Ethernet%20协议概述.md) — 802.3 以太网
+- [Ethernet 协议概述](../../知识/通讯网络/Ethernet%20协议概述.md) — 802.3 以太网
 - [2012-03-16 - QCA6410 HomePlug AV 数据手册](../../来源/2012-03-16%20-%20QCA6410%20HomePlug%20AV%20数据手册.md) — 来源文档

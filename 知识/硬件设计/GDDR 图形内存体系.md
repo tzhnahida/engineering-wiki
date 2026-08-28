@@ -3,7 +3,9 @@ type: concept
 tags: [gddr, graphics-memory, gddr6, gddr6x, gddr5, dram, pam4]
 created: 2026-08-03
 updated: 2026-08-03
-sources: []
+sources:
+  - "[2026-08-28 - Micron GDDR6 8Gb SGRAM Brief](../../来源/2026-08-28%20-%20Micron%20GDDR6%208Gb%20SGRAM%20Brief.md)"
+  - "[2026-08-28 - Micron GDDR6X PAM4 技术简报](../../来源/2026-08-28%20-%20Micron%20GDDR6X%20PAM4%20技术简报.md)"
 ---
 
 # GDDR 图形内存体系
@@ -163,5 +165,5 @@ GDDR6/6X 的可靠性机制比 DDR4 更激进：
 
 ## 相关页面
 
-- [硬件设计/DDR 协议基础](DDR%20协议基础.md) — DDR 命令真值表、时序参数对比
-- [硬件设计/DDR4 vs DDR5 架构对比](DDR4%20vs%20DDR5%20架构对比.md) — POD vs SSTL、DFE 演进
+- [硬件设计/DDR 协议基础](../../知识/硬件设计/DDR%20协议基础.md) — DDR 命令真值表、时序参数对比
+- [硬件设计/DDR4 vs DDR5 架构对比](../../知识/硬件设计/DDR4%20vs%20DDR5%20架构对比.md) — POD vs SSTL、DFE 演进

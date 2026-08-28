@@ -256,5 +256,5 @@ NVMe 规范定义了两种传输模型：
 
 ## 相关页面
 
-- [PCIe 信号编码演进](PCIe%20信号编码演进.md) — 8b/10b → 128b/130b → PAM4
-- [通讯网络/USB 协议基础知识](USB%20协议基础知识.md) — 对比 USB Mass Storage (BOT/UASP)
+- [PCIe 信号编码演进](../../知识/通讯网络/PCIe%20信号编码演进.md) — 8b/10b → 128b/130b → PAM4
+- [通讯网络/USB 协议基础知识](../../知识/通讯网络/USB%20协议基础知识.md) — 对比 USB Mass Storage (BOT/UASP)

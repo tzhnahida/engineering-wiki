@@ -11,7 +11,7 @@ sources:
 
 # MIPI DSI
 
-> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](MIPI%20D-PHY.md)（或 [C-PHY](MIPI%20C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
+> **DSI (Display Serial Interface)** 是 MIPI 联盟定义的显示串行接口协议，连接主机处理器（Host）和显示模组（Peripheral）。DSI 构建在 [D-PHY](../../知识/视频显示/MIPI%20D-PHY.md)（或 [C-PHY](../../知识/视频显示/MIPI%20C-PHY.md)）物理层之上，定义了包格式、视频/命令传输模式、ECC 纠错和虚拟通道复用机制。
 
 ## 1. 协议分层
 
@@ -281,7 +281,7 @@ DSI v1.3 引入 Sub-Link 概念，将多个物理 DSI 链路组合以驱动超�
 - **Deskew** 机制补偿 Sub-Link 间偏移
 - 典型应用：**Dual-DSI** 驱动 1440×2560 或更大分辨率
 
-> **Linux 驱动示例**：`panel-truly-nt35597.c`（[NT35597](../../NT35597.md)）使用 Dual-DSI（2×4 Lane）驱动 1440×2560@60Hz 面板。
+> **Linux 驱动示例**：`panel-truly-nt35597.c`（NT35597）使用 Dual-DSI（2×4 Lane）驱动 1440×2560@60Hz 面板。
 
 ## 9. DSC（Display Stream Compression，v1.3）
 
@@ -318,10 +318,10 @@ sequenceDiagram
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
-- [视频显示/MIPI D-PHY](MIPI%20D-PHY.md) — 物理层定义
-- [视频显示/MIPI DCS](MIPI%20DCS.md) — Display Command Set 命令集
-- [视频显示/MIPI DBI](MIPI%20DBI.md) — 并行总线接口
-- [视频显示/MIPI DPI](MIPI%20DPI.md) — 并行像素接口
-- [NT35597](../../NT35597.md) — Dual-DSI 面板驱动 IC 实例
+- [视频显示/MIPI 概述](../../知识/视频显示/MIPI%20概述.md) — MIPI 家族全景
+- [视频显示/MIPI D-PHY](../../知识/视频显示/MIPI%20D-PHY.md) — 物理层定义
+- [视频显示/MIPI DCS](../../知识/视频显示/MIPI%20DCS.md) — Display Command Set 命令集
+- [视频显示/MIPI DBI](../../知识/视频显示/MIPI%20DBI.md) — 并行总线接口
+- [视频显示/MIPI DPI](../../知识/视频显示/MIPI%20DPI.md) — 并行像素接口
+- NT35597 — Dual-DSI 面板驱动 IC 实例
 - [TC358870](../../元件/接口存储/TC358870.md) — HDMI → DSI 桥接芯片

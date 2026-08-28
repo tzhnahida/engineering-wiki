@@ -8,7 +8,7 @@ sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2
 
 # WiFi 协议概述 (IEEE 802.11)
 
-> IEEE 802.11 是无线局域网 (WLAN) 的国际标准，定义了 MAC (媒体访问控制) 层和 PHY (物理) 层的完整规范。本页覆盖 802.11 协议栈的核心概念：MAC 帧结构、CSMA/CA 接入机制、PHY 演进和安全框架。时间同步细节见 [通讯网络/TSF WiFi 时间同步](TSF%20WiFi%20时间同步.md)。
+> IEEE 802.11 是无线局域网 (WLAN) 的国际标准，定义了 MAC (媒体访问控制) 层和 PHY (物理) 层的完整规范。本页覆盖 802.11 协议栈的核心概念：MAC 帧结构、CSMA/CA 接入机制、PHY 演进和安全框架。时间同步细节见 [通讯网络/TSF WiFi 时间同步](../../知识/通讯网络/TSF%20WiFi%20时间同步.md)。
 
 ## 1. 协议栈架构
 
@@ -219,5 +219,5 @@ flowchart LR
 
 ## 相关页面
 
-- [通讯网络/TSF WiFi 时间同步](TSF%20WiFi%20时间同步.md) — Clock Synchronization (Clause 11.1)
-- [通讯网络/Ethernet 协议概述](Ethernet%20协议概述.md) — 有线局域网对比
+- [通讯网络/TSF WiFi 时间同步](../../知识/通讯网络/TSF%20WiFi%20时间同步.md) — Clock Synchronization (Clause 11.1)
+- [通讯网络/Ethernet 协议概述](../../知识/通讯网络/Ethernet%20协议概述.md) — 有线局域网对比
