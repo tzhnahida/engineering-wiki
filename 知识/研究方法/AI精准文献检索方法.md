@@ -1,4 +1,4 @@
-﻿---
+---
 type: concept
 tags: [研究方法, 文献检索, 学术写作]
 created: 2026-07-03

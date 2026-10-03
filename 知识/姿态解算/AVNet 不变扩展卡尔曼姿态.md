@@ -198,7 +198,7 @@ v_v = R_v_s · (R_s_w · v_w + [ω]× · p_s_v)
 - **垂直方向**：固定重力假设导致垂直方向误差大于水平方向（停车场实际有轻微坡度）
 - **初始姿态**：需外部给定初始姿态用于积分累积——初始姿态误差会影响后续所有估计
 
-## 对比：AVNet vs [DO IONet Transformer直接姿态](../../知识/姿态解算/DO%20IONet%20Transformer直接姿态.md)
+## 对比：AVNet vs [DO IONet Transformer直接姿态](DO%20IONet%20Transformer直接姿态.md)
 
 | | DO IONet | AVNet |
 |------|---------|------|
@@ -219,8 +219,8 @@ v_v = R_v_s · (R_s_w · v_w + [ω]× · p_s_v)
 
 ## 参见
 
-- [迭代不变扩展卡尔曼滤波](../../知识/姿态解算/迭代不变扩展卡尔曼滤波.md) — IterIEKF 将 InEKF 测量更新迭代 3-5 次，可在类似混合框架中进一步提升精度
-- [误差状态卡尔曼滤波](../../知识/姿态解算/误差状态卡尔曼滤波.md) — ESKF 是 InEKF 在欧几里得空间中的等价物，对比理解李群方法的优势
-- [DO IONet Transformer直接姿态](../../知识/姿态解算/DO%20IONet%20Transformer直接姿态.md) — 纯深度方案，与 AVNet 混合方案形成对照
-- [IMU姿态解算算法演进](../../知识/姿态解算/IMU姿态解算算法演进.md) — 将 AVNet 置于算法全景中定位其混合方法位置
+- [迭代不变扩展卡尔曼滤波](迭代不变扩展卡尔曼滤波.md) — IterIEKF 将 InEKF 测量更新迭代 3-5 次，可在类似混合框架中进一步提升精度
+- [误差状态卡尔曼滤波](误差状态卡尔曼滤波.md) — ESKF 是 InEKF 在欧几里得空间中的等价物，对比理解李群方法的优势
+- [DO IONet Transformer直接姿态](DO%20IONet%20Transformer直接姿态.md) — 纯深度方案，与 AVNet 混合方案形成对照
+- [IMU姿态解算算法演进](IMU姿态解算算法演进.md) — 将 AVNet 置于算法全景中定位其混合方法位置
 - [2026-06-24 - Solà Error-State Kalman Filter](../../来源/2026-06-24%20-%20Solà%20Error-State%20Kalman%20Filter.md) — Error-State KF 原文，InEKF 的直接理论前身

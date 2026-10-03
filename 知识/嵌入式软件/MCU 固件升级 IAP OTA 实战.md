@@ -293,6 +293,6 @@ RTOS 使用 PSP（进程堆栈），Bootloader 使用 MSP（主堆栈），直�
 
 ## 相关页面
 
-- [MCU裸机软件分层架构](../../知识/嵌入式软件/MCU裸机软件分层架构.md) — Bootloader 与 APP 的职责分离是分层原则的典型案例
-- [GCC __attribute__ 编译器扩展](../../知识/嵌入式软件/GCC%20__attribute__%20编译器扩展.md) — Boot 中 section 属性可用于固化版本信息到固定地址
-- [嵌入式软件/SWUpdate 嵌入式Linux OTA](../../知识/嵌入式软件/SWUpdate%20嵌入式Linux%20OTA.md) — Linux 侧 OTA：双分区原子替换 + U-Boot 自动回退
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md) — Bootloader 与 APP 的职责分离是分层原则的典型案例
+- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — Boot 中 section 属性可用于固化版本信息到固定地址
+- [嵌入式软件/SWUpdate 嵌入式Linux OTA](SWUpdate%20嵌入式Linux%20OTA.md) — Linux 侧 OTA：双分区原子替换 + U-Boot 自动回退

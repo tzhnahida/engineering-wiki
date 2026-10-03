@@ -45,7 +45,7 @@ sources: ["⚠️ 存疑：内容综合自公开语言/编译器文档，原文�
 ```
 
 > [!warning] 宏的副作用陷阱
-> `MAX(a++, b)` 中 `a` 会被递增两次。能用 `static inline` 就别写函数宏。详见 [嵌入式软件/C宏的副作用与类型安全](../../知识/嵌入式软件/C宏的副作用与类型安全.md)。
+> `MAX(a++, b)` 中 `a` 会被递增两次。能用 `static inline` 就别写函数宏。详见 [嵌入式软件/C宏的副作用与类型安全](C宏的副作用与类型安全.md)。
 
 ### 2.3 字符串化 (`#`) 与连接 (`##`)
 
@@ -177,7 +177,7 @@ struct my_struct { /* ... */ };
 // 等价于: #pragma pack(push, 1)
 ```
 
-详见 [嵌入式软件/ARM编译器Pragma指令指南](../../知识/嵌入式软件/ARM编译器Pragma指令指南.md)。
+详见 [嵌入式软件/ARM编译器Pragma指令指南](ARM编译器Pragma指令指南.md)。
 
 ## 7. 标准预定义宏
 
@@ -271,7 +271,7 @@ const struct { GPIO_TypeDef *port; uint16_t pin; } pin_config[] = {
 };
 ```
 
-详见 [嵌入式软件/C 语言宏高级技巧](../../知识/嵌入式软件/C%20语言宏高级技巧.md)。
+详见 [嵌入式软件/C 语言宏高级技巧](C%20语言宏高级技巧.md)。
 
 ### 8.2 编译时配置选择
 
@@ -308,12 +308,12 @@ const struct { GPIO_TypeDef *port; uint16_t pin; } pin_config[] = {
 #include "gpio_defs.h"
 ```
 
-详见 [嵌入式软件/C 语言宏高级技巧](../../知识/嵌入式软件/C%20语言宏高级技巧.md)。
+详见 [嵌入式软件/C 语言宏高级技巧](C%20语言宏高级技巧.md)。
 
 ## 相关页面
 
-- [嵌入式软件/C 语言宏高级技巧](../../知识/嵌入式软件/C%20语言宏高级技巧.md) — X-Macro、代码生成、预处理器元编程
-- [嵌入式软件/C宏的副作用与类型安全](../../知识/嵌入式软件/C宏的副作用与类型安全.md) — 宏陷阱、static inline 替代
-- [嵌入式软件/GCC __attribute__ 编译器扩展](../../知识/嵌入式软件/GCC%20__attribute__%20编译器扩展.md) — GCC/armclang 属性系统
-- [嵌入式软件/ARM编译器Pragma指令指南](../../知识/嵌入式软件/ARM编译器Pragma指令指南.md) — `#pragma` 完全指南
-- [嵌入式软件/嵌入式C关键字实战指南](../../知识/嵌入式软件/嵌入式C关键字实战指南.md) — volatile/static/const/extern 全关键字
+- [嵌入式软件/C 语言宏高级技巧](C%20语言宏高级技巧.md) — X-Macro、代码生成、预处理器元编程
+- [嵌入式软件/C宏的副作用与类型安全](C宏的副作用与类型安全.md) — 宏陷阱、static inline 替代
+- [嵌入式软件/GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — GCC/armclang 属性系统
+- [嵌入式软件/ARM编译器Pragma指令指南](ARM编译器Pragma指令指南.md) — `#pragma` 完全指南
+- [嵌入式软件/嵌入式C关键字实战指南](嵌入式C关键字实战指南.md) — volatile/static/const/extern 全关键字

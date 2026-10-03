@@ -6,7 +6,7 @@ updated: 2026-07-15
 sources: ["[2026-06-24 - IEEE 802.11-2016 TSF 时间同步标准](../../来源/2026-06-24%20-%20IEEE%20802.11-2016%20TSF%20时间同步标准.md)"]
 ---
 
-> 本页聚焦 802.11 Clause 11.1 Timing Synchronization Function。WiFi 协议全貌见 [通讯网络/WiFi 协议概述](../../知识/通讯网络/WiFi%20协议概述.md)。
+> 本页聚焦 802.11 Clause 11.1 Timing Synchronization Function。WiFi 协议全貌见 [通讯网络/WiFi 协议概述](WiFi%20协议概述.md)。
 
 # TSF WiFi 时间同步
 

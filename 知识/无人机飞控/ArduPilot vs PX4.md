@@ -49,7 +49,7 @@ flowchart LR
 
 ## 估计器对比
 
-- **ArduPilot EKF3**:lane + affinity + 自动切换封装成少数高层决策,官方立场"大多数用户不需要修改任何 EKF 参数"(详见 [无人机飞控/ArduPilot EKF3 姿态估计](../../知识/无人机飞控/ArduPilot%20EKF3%20姿态估计.md))。
+- **ArduPilot EKF3**:lane + affinity + 自动切换封装成少数高层决策,官方立场"大多数用户不需要修改任何 EKF 参数"(详见 [无人机飞控/ArduPilot EKF3 姿态估计](ArduPilot%20EKF3%20姿态估计.md))。
 - **PX4 EKF2(ECL)**:把组合逻辑摊开成参数矩阵(EKF2_GPS_CTRL / EKF2_BARO_CTRL / EKF2_RNG_CTRL / EKF2_HGT_REF 等),附加 GSF yaw 多假设滤波器。
 - 两者殊途同归:都做多实例冗余与源选择,差异在于**封装哲学**。
 
@@ -67,7 +67,7 @@ flowchart LR
 
 ## 相关页面
 
-- [无人机飞控/ArduPilot 架构总览](../../知识/无人机飞控/ArduPilot%20架构总览.md) — ArduPilot 侧架构细节
-- [无人机飞控/ArduPilot EKF3 姿态估计](../../知识/无人机飞控/ArduPilot%20EKF3%20姿态估计.md) — EKF3 机制
-- [无人机飞控/MAVLink 协议](../../知识/无人机飞控/MAVLink%20协议.md) — 双方共享的通信标准
-- [无人机飞控/ArduPilot 治理与生态](../../知识/无人机飞控/ArduPilot%20治理与生态.md) — 治理细节与商业生态
+- [无人机飞控/ArduPilot 架构总览](ArduPilot%20架构总览.md) — ArduPilot 侧架构细节
+- [无人机飞控/ArduPilot EKF3 姿态估计](ArduPilot%20EKF3%20姿态估计.md) — EKF3 机制
+- [无人机飞控/MAVLink 协议](MAVLink%20协议.md) — 双方共享的通信标准
+- [无人机飞控/ArduPilot 治理与生态](ArduPilot%20治理与生态.md) — 治理细节与商业生态

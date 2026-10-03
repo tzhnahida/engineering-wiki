@@ -1,4 +1,4 @@
-﻿---
+---
 type: source
 tags: [electronics, datasheet, collection]
 created: 2026-06-07

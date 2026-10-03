@@ -10,7 +10,7 @@ sources:
 
 # MIPI DBI
 
-> **DBI (Display Bus Interface)** 是 MIPI 联盟定义的并行显示总线接口，基于经典的微处理器总线协议（Intel 8080 和 Motorola 6800），用于主机通过并行数据总线控制显示模组。DBI 通常与 [DCS](../../知识/视频显示/MIPI%20DCS.md) 命令集配合使用。
+> **DBI (Display Bus Interface)** 是 MIPI 联盟定义的并行显示总线接口，基于经典的微处理器总线协议（Intel 8080 和 Motorola 6800），用于主机通过并行数据总线控制显示模组。DBI 通常与 [DCS](MIPI%20DCS.md) 命令集配合使用。
 
 ## 1. 定位与用途
 
@@ -104,7 +104,7 @@ DBI 支持多种数据总线宽度：
 
 ## 4. 与 DCS 的关系
 
-DBI 不定义命令语义——它只提供传输管道。显示控制命令由 [DCS](../../知识/视频显示/MIPI%20DCS.md) 定义：
+DBI 不定义命令语义——它只提供传输管道。显示控制命令由 [DCS](MIPI%20DCS.md) 定义：
 
 ```mermaid
 flowchart TB
@@ -131,7 +131,7 @@ DSI 的 DCS 包类型（DT=0x05/0x15/0x39）直接对应 DBI 的命令传输操�
 
 ## 相关页面
 
-- [视频显示/MIPI 概述](../../知识/视频显示/MIPI%20概述.md) — MIPI 家族全景
-- [视频显示/MIPI DSI](../../知识/视频显示/MIPI%20DSI.md) — DSI（DBI 的串行替代方案）
-- [视频显示/MIPI DCS](../../知识/视频显示/MIPI%20DCS.md) — Display Command Set（DBI 上运行的命令层）
-- [视频显示/MIPI DPI](../../知识/视频显示/MIPI%20DPI.md) — 并行像素接口（无 GRAM，实时刷新）
+- [视频显示/MIPI 概述](MIPI%20概述.md) — MIPI 家族全景
+- [视频显示/MIPI DSI](MIPI%20DSI.md) — DSI（DBI 的串行替代方案）
+- [视频显示/MIPI DCS](MIPI%20DCS.md) — Display Command Set（DBI 上运行的命令层）
+- [视频显示/MIPI DPI](MIPI%20DPI.md) — 并行像素接口（无 GRAM，实时刷新）

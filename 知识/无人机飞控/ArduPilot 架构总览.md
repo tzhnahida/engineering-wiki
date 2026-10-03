@@ -56,7 +56,7 @@ ArduPilot 保留了 Arduino 的 `setup()/loop()` 外壳,但内部是真正的多
 - **并发保护**:AP_HAL 信号量(如 I2C 总线互斥)+ 无锁数据结构(环形缓冲)。
 
 > [!note] 与通用 RTOS 的关系
-> ArduPilot 自己实现了一套"协作式分片 + 少量系统线程"的调度哲学,而非依赖通用 RTOS 的任务模型。ChibiOS 只提供内核与驱动,上层调度策略完全由 ArduPilot 掌控。这与 [FreeRTOS](../../知识/嵌入式软件/FreeRTOS/1.%20FreeRTOS%20概述与架构.md) 的抢占式多任务、以及 [Zephyr](../../知识/嵌入式软件/Zephyr/2.%20Zephyr%20内核深度.md) 的双优先级+EDF 模型形成有趣的对照 —— 飞控场景用"IMU 采样节拍"天然对齐了控制律的确定性需求。
+> ArduPilot 自己实现了一套"协作式分片 + 少量系统线程"的调度哲学,而非依赖通用 RTOS 的任务模型。ChibiOS 只提供内核与驱动,上层调度策略完全由 ArduPilot 掌控。这与 [FreeRTOS](../嵌入式软件/FreeRTOS/1.%20FreeRTOS%20概述与架构.md) 的抢占式多任务、以及 [Zephyr](../嵌入式软件/Zephyr/2.%20Zephyr%20内核深度.md) 的双优先级+EDF 模型形成有趣的对照 —— 飞控场景用"IMU 采样节拍"天然对齐了控制律的确定性需求。
 
 ## 构建系统:waf
 
@@ -105,8 +105,8 @@ ArduPilot 保留了 Arduino 的 `setup()/loop()` 外壳,但内部是真正的多
 
 ## 相关页面
 
-- [无人机飞控/ArduPilot EKF3 姿态估计](../../知识/无人机飞控/ArduPilot%20EKF3%20姿态估计.md) — 姿态/位置估计中枢
-- [无人机飞控/MAVLink 协议](../../知识/无人机飞控/MAVLink%20协议.md) — 通信协议
-- [无人机飞控/ArduPilot vs PX4](../../知识/无人机飞控/ArduPilot%20vs%20PX4.md) — 与 PX4 的路线对比
-- [无人机飞控/ArduPilot 治理与生态](../../知识/无人机飞控/ArduPilot%20治理与生态.md) — 历史、治理与硬件生态
-- [嵌入式系统/STM32H7 域架构与存储体系](../../知识/嵌入式系统/STM32H7%20域架构与存储体系.md) — 飞控主控芯片平台
+- [无人机飞控/ArduPilot EKF3 姿态估计](ArduPilot%20EKF3%20姿态估计.md) — 姿态/位置估计中枢
+- [无人机飞控/MAVLink 协议](MAVLink%20协议.md) — 通信协议
+- [无人机飞控/ArduPilot vs PX4](ArduPilot%20vs%20PX4.md) — 与 PX4 的路线对比
+- [无人机飞控/ArduPilot 治理与生态](ArduPilot%20治理与生态.md) — 历史、治理与硬件生态
+- [嵌入式系统/STM32H7 域架构与存储体系](../嵌入式系统/STM32H7%20域架构与存储体系.md) — 飞控主控芯片平台

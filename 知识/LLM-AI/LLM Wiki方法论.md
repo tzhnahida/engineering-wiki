@@ -43,4 +43,4 @@ sources: [LLM Wiki](../../LLM%20Wiki.md)
 
 ## 参见
 
-- [CLAUDE.md](../../CLAUDE.md) —— 实现这套方法论的 LLM 规则文档
+- [CLAUDE.md](../../CLAUDE.md.md) —— 实现这套方法论的 LLM 规则文档

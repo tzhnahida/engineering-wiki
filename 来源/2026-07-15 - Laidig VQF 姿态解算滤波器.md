@@ -1,4 +1,4 @@
-﻿---
+---
 type: source
 tags: [imu, ahrs, quaternion, paper]
 created: 2026-07-15

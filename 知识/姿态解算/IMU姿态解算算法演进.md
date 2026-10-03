@@ -63,7 +63,7 @@ graph LR
 
 ---
 
-### VQF (2023) → [详页](../../知识/姿态解算/VQF%20姿态解算滤波器.md)
+### VQF (2023) → [详页](VQF%20姿态解算滤波器.md)
 
 > 解耦式四元数滤波器，当前经典算法天花板。
 > Laidig & Seel, *Information Fusion* 91:187–204. DOI: [10.1016/j.inffus.2022.10.014](https://doi.org/10.1016/j.inffus.2022.10.014)
@@ -82,7 +82,7 @@ graph LR
 
 ---
 
-### Correntropy GD (2024) → [详页](../../知识/姿态解算/相关熵梯度下降姿态解算.md)
+### Correntropy GD (2024) → [详页](相关熵梯度下降姿态解算.md)
 
 > Li et al., *IEEE TIM* 73 (2024).
 > DOI: [10.1109/TIM.2023.3334336](https://doi.org/10.1109/TIM.2023.3334336)
@@ -99,7 +99,7 @@ graph LR
 
 ---
 
-### MDR (2024) → [详页](../../知识/姿态解算/MDR%20磁畸变抑制.md)
+### MDR (2024) → [详页](MDR%20磁畸变抑制.md)
 
 > Yang et al., arXiv:2410.12304 (Oct 2024).
 > 完整版：[escholarship.org](https://escholarship.org/content/qt04m228kd/qt04m228kd.pdf)
@@ -114,7 +114,7 @@ graph LR
 
 ## 深度学习方案
 
-### DO IONet (2023–2024) → [详页](../../知识/姿态解算/DO%20IONet%20Transformer直接姿态.md)
+### DO IONet (2023–2024) → [详页](DO%20IONet%20Transformer直接姿态.md)
 
 > Han et al., *JAMET* 48(2):96–106 (2024).
 > DOI: [10.5916/jamet.2024.48.2.96](https://doi.org/10.5916/jamet.2024.48.2.96)
@@ -131,7 +131,7 @@ graph LR
 
 ---
 
-### AVNet + InEKF (2025) → [详页](../../知识/姿态解算/AVNet%20不变扩展卡尔曼姿态.md)
+### AVNet + InEKF (2025) → [详页](AVNet%20不变扩展卡尔曼姿态.md)
 
 > Qian et al., *Satellite Navigation* 6:15 (2025).
 > DOI: [10.1186/s43020-025-00168-7](https://doi.org/10.1186/s43020-025-00168-7)（开放获取）
@@ -144,7 +144,7 @@ graph LR
 
 ---
 
-### Matrix Fisher SO(3) (2025) → [详页](../../知识/姿态解算/Matrix%20Fisher%20SO3概率姿态.md)
+### Matrix Fisher SO(3) (2025) → [详页](Matrix%20Fisher%20SO3概率姿态.md)
 
 > *Information Fusion*, 2025.
 
@@ -197,7 +197,7 @@ graph LR
 ## 参见
 
 - [2026-06-24 - Madgwick AHRS 姿态解算滤波器](../../来源/2026-06-24%20-%20Madgwick%20AHRS%20姿态解算滤波器.md) — Madgwick 算法详解
-- [梯度下降姿态解算](../../知识/姿态解算/梯度下降姿态解算.md) — 梯度下降法理论推导
+- [梯度下降姿态解算](梯度下降姿态解算.md) — 梯度下降法理论推导
 - [2026-06-24 - Solà Error-State Kalman Filter](../../来源/2026-06-24%20-%20Solà%20Error-State%20Kalman%20Filter.md) — EKF 全局融合基础
 - [ICM-42688-P](../../元件/传感器/ICM-42688-P.md) — 典型低噪声 IMU
 - [QMC5883P](../../元件/传感器/QMC5883P.md) — 低成本磁力计

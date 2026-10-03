@@ -11,7 +11,7 @@ updated: 2026-07-15
 **作者**: Long Qian, Xinchuang Lin, Xiaoguang Niu, Qihai Huang, Leilei Li, Guangyi Guo, Zexin Wang, Ruizhi Chen
 **期刊**: Satellite Navigation, 2025, 6:15. DOI: 10.1186/s43020-025-00168-7. 开放获取 (CC BY 4.0).
 **机构**: 武汉大学 LIESMARS + 重庆大学
-**PDF**: [[参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf]]
+**PDF**: [参考/论文/Qian 2025 - AVNet Attitude Velocity IEKF.pdf](../参考/论文/Qian%202025%20-%20AVNet%20Attitude%20Velocity%20IEKF.pdf.md)
 
 ## 核心贡献
 

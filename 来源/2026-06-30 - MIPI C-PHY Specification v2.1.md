@@ -9,7 +9,7 @@ updated: 2026-06-30
 
 > **文档**: `MIPI_C-PHY_specification_v2-1.pdf` (272 pages)
 > **来源**: MIPI Alliance, Version 2.1, 01-Apr-2021 (Board Approved: 21-Jul-2021)
-> **存放**: [[参考/标准/MIPI_C-PHY_specification_v2-1.pdf]]
+> **存放**: [参考/标准/MIPI_C-PHY_specification_v2-1.pdf](../参考/标准/MIPI_C-PHY_specification_v2-1.pdf.md)
 
 ## 概述
 

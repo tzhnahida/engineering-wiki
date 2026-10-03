@@ -1,4 +1,4 @@
-﻿---
+---
 type: source
 tags: [uwb, imu, mocap, kalman-filter, sensor-fusion]
 created: 2026-06-30

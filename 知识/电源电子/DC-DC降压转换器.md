@@ -2,7 +2,7 @@
 type: concept
 tags: [electronics, power-supply, dc-dc, switching-regulator]
 created: 2026-06-07
-updated: 2026-07-15
+updated: 2026-09-18
 sources: ["[2026-06-07 - Datasheet Collection](../../来源/2026-06-07%20-%20Datasheet%20Collection.md)"]
 ---
 
@@ -48,4 +48,5 @@ $$D = \frac{V_{OUT}}{V_{IN}}$$
 ## See Also
 
 - [SiC46x](../../元件/电源管理/SiC46x.md) — 实体页（Vishay microBUCK 系列）
-- [电源电子/恒定导通时间控制](../../知识/电源电子/恒定导通时间控制.md) — COT 控制方案详解
+- [电源电子/恒定导通时间控制](恒定导通时间控制.md) — COT 控制方案详解
+- [元件选型/电感分类与选型](../元件选型/电感分类与选型.md) — 功率电感储能原理、L-I 偏置曲线与结构选型

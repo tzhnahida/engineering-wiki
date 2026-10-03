@@ -44,5 +44,5 @@ v2.5 是当前最新版本，新增 8b9b Line Coding 和光互联支持。
 
 ## 相关标准
 
-- [2026-06-28 - MIPI DSI Specification v1.3](../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md) — DSI 基于 D-PHY
-- [2026-06-28 - MIPI DCS Specification v1.02](../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)
+- [2026-06-28 - MIPI DSI Specification v1.3](2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md) — DSI 基于 D-PHY
+- [2026-06-28 - MIPI DCS Specification v1.02](2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)

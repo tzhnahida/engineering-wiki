@@ -1,4 +1,4 @@
-﻿---
+---
 type: entity
 tags: [electronics, transistor, npn, general-purpose]
 created: 2026-06-07

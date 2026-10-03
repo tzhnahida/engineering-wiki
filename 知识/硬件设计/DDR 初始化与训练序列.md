@@ -229,6 +229,6 @@ flowchart TB
 
 ## 相关页面
 
-- [硬件设计/DDR 协议基础](../../知识/硬件设计/DDR%20协议基础.md) — 命令真值表 · 状态机 · Mode Register · 时序参数
-- [硬件设计/DDR 布线设计规范](../../知识/硬件设计/DDR%20布线设计规范.md) — Fly-by 拓扑 · 等长匹配 · 阻抗 · SI/PI
-- [硬件设计/DDR4 vs DDR5 架构对比](../../知识/硬件设计/DDR4%20vs%20DDR5%20架构对比.md) — DFE · 子通道 · Gear Mode · PHY 对比
+- [硬件设计/DDR 协议基础](DDR%20协议基础.md) — 命令真值表 · 状态机 · Mode Register · 时序参数
+- [硬件设计/DDR 布线设计规范](DDR%20布线设计规范.md) — Fly-by 拓扑 · 等长匹配 · 阻抗 · SI/PI
+- [硬件设计/DDR4 vs DDR5 架构对比](DDR4%20vs%20DDR5%20架构对比.md) — DFE · 子通道 · Gear Mode · PHY 对比

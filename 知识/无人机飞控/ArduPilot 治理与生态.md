@@ -51,7 +51,7 @@ timeline
 | Linux 系 | Navio2 / Navigator / BeagleBone | Cortex-A + Linux | AP_HAL_Linux 用户态 |
 | 新兴(2023–) | ESP32 系列 | 双核 Tensilica | Copter 4.4 起 |
 
-飞控主控的 H7 平台细节见 [嵌入式系统/STM32H7 域架构与存储体系](../../知识/嵌入式系统/STM32H7%20域架构与存储体系.md)。
+飞控主控的 H7 平台细节见 [嵌入式系统/STM32H7 域架构与存储体系](../嵌入式系统/STM32H7%20域架构与存储体系.md)。
 
 - **Pixhawk 标准**:名称源自 ETH 学生团队,现为 Dronecode 注册商标,由 Pixhawk SIG 维护 FMU/Autopilot Bus/Connector(Pixhawk Standard 连接器)等开放标准;ArduPilot 与 PX4 双固件共享该硬件生态。
 - **固件分级**:完整固件超 1MB;1MB flash 板发布自动裁剪固件(无 Lua/ADSB/FFT 等),2MB 板全功能;Custom Firmware Build Server 可自助裁剪;实测 Copter stable 有 636 个构建变体(2026-08)。
@@ -59,7 +59,7 @@ timeline
 ## 外设生态
 
 - **GPS/RTK**:uBlox 系(M8/M9/M10 → F9 RTK),Here3/Here4、ArduSimple;GPS-for-yaw 双天线定向。
-- **CAN/DroneCAN**:AP_Periph 体系把小板刷成 GPS/空速/ESC 遥测节点(物理层即 [CAN 总线](../../知识/通讯网络/CAN%20总线协议基础.md))。
+- **CAN/DroneCAN**:AP_Periph 体系把小板刷成 GPS/空速/ESC 遥测节点(物理层即 [CAN 总线](../通讯网络/CAN%20总线协议基础.md))。
 - **感知**:LightWare/Benewake/TeraRanger 激光雷达(避障/定高/精密降落)、光流、Intel RealSense、ModalAI VOXL。
 - **其他**:ADS-B IN(uAvionix)、EFI 燃油发动机(DroneCAN/PiccoloCAN)、DShot/bdshot 双向电调遥测、Gremsy 云台。
 
@@ -76,9 +76,9 @@ timeline
 
 ## 与 MAVLink 的关系
 
-MAVLink 协议 2009 年由 Lorenz Meier 以 LGPL 发布;ArduPilot 是最早的实现方之一(2010-07 其 HIL 测试逻辑即被整合进 MAVLink),MAVLink 官方指南将 ArduPilot 列为第一实现,`ardupilotmega.xml` 是其专用方言;ArduPilot 团队同时维护 pymavlink 与 MAVProxy 两个工具链核心件。协议细节见 [无人机飞控/MAVLink 协议](../../知识/无人机飞控/MAVLink%20协议.md)。
+MAVLink 协议 2009 年由 Lorenz Meier 以 LGPL 发布;ArduPilot 是最早的实现方之一(2010-07 其 HIL 测试逻辑即被整合进 MAVLink),MAVLink 官方指南将 ArduPilot 列为第一实现,`ardupilotmega.xml` 是其专用方言;ArduPilot 团队同时维护 pymavlink 与 MAVProxy 两个工具链核心件。协议细节见 [无人机飞控/MAVLink 协议](MAVLink%20协议.md)。
 
 ## 相关页面
 
-- [无人机飞控/ArduPilot 架构总览](../../知识/无人机飞控/ArduPilot%20架构总览.md) — 软件架构
-- [无人机飞控/ArduPilot vs PX4](../../知识/无人机飞控/ArduPilot%20vs%20PX4.md) — 与 PX4 的治理与路线对比
+- [无人机飞控/ArduPilot 架构总览](ArduPilot%20架构总览.md) — 软件架构
+- [无人机飞控/ArduPilot vs PX4](ArduPilot%20vs%20PX4.md) — 与 PX4 的治理与路线对比

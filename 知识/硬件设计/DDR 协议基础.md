@@ -8,7 +8,7 @@ sources: ["[2026-08-02 - DDR布线六大陷阱与规范指南](../../来源/2026
 
 # DDR 协议基础
 
-> DDR SDRAM 的命令真值表、状态机、Mode Register 体系和关键时序参数。基于 JEDEC JESD79-4 (DDR4) 标准。布线约束见 [硬件设计/DDR 布线设计规范](../../知识/硬件设计/DDR%20布线设计规范.md)，初始化训练见 [硬件设计/DDR 初始化与训练序列](../../知识/硬件设计/DDR%20初始化与训练序列.md)。
+> DDR SDRAM 的命令真值表、状态机、Mode Register 体系和关键时序参数。基于 JEDEC JESD79-4 (DDR4) 标准。布线约束见 [硬件设计/DDR 布线设计规范](DDR%20布线设计规范.md)，初始化训练见 [硬件设计/DDR 初始化与训练序列](DDR%20初始化与训练序列.md)。
 
 ## 1. 命令真值表
 
@@ -212,6 +212,6 @@ Bank Group 3: Bank12 Bank13 Bank14 Bank15
 
 ## 相关页面
 
-- [硬件设计/DDR 初始化与训练序列](../../知识/硬件设计/DDR%20初始化与训练序列.md) — 上电初始化 + Write Leveling + Read Training + DFE
-- [硬件设计/DDR 布线设计规范](../../知识/硬件设计/DDR%20布线设计规范.md) — Fly-by 拓扑 · 等长匹配 · 阻抗控制 · SI/PI
-- [硬件设计/DDR4 vs DDR5 架构对比](../../知识/硬件设计/DDR4%20vs%20DDR5%20架构对比.md) — DFE · 子通道 · Gear Mode · PHY 设计
+- [硬件设计/DDR 初始化与训练序列](DDR%20初始化与训练序列.md) — 上电初始化 + Write Leveling + Read Training + DFE
+- [硬件设计/DDR 布线设计规范](DDR%20布线设计规范.md) — Fly-by 拓扑 · 等长匹配 · 阻抗控制 · SI/PI
+- [硬件设计/DDR4 vs DDR5 架构对比](DDR4%20vs%20DDR5%20架构对比.md) — DFE · 子通道 · Gear Mode · PHY 设计

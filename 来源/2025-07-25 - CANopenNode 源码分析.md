@@ -1,4 +1,4 @@
-﻿---
+---
 type: source
 tags: [canopen, can, protocol, ciA301, embedded, source-analysis]
 created: 2025-07-25

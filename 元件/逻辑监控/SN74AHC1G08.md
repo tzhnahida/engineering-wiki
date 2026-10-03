@@ -1,4 +1,4 @@
-﻿---
+---
 type: entity
 tags: [electronics, logic, and-gate, ti]
 created: 2026-06-07

@@ -28,5 +28,5 @@ DPI 规范定义了并行像素级显示接口，使用 HSYNC/VSYNC/DE/DOTCLK �
 
 ## 相关标准
 
-- [2026-06-28 - MIPI DSI Specification v1.3](../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)
-- [2026-06-28 - MIPI DBI Specification v2.0](../来源/2026-06-28%20-%20MIPI%20DBI%20Specification%20v2.0.md)
+- [2026-06-28 - MIPI DSI Specification v1.3](2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md)
+- [2026-06-28 - MIPI DBI Specification v2.0](2026-06-28%20-%20MIPI%20DBI%20Specification%20v2.0.md)

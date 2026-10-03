@@ -107,7 +107,7 @@ Linux = 一座城市：有道路、仓库、管理部门、居民区，
 
 ## 相关页面
 
-- [FreeRTOS/1. FreeRTOS 概述与架构](../../知识/嵌入式软件/FreeRTOS/1.%20FreeRTOS%20概述与架构.md)
-- [FreeRTOS/11. FreeRTOS 中断管理](../../知识/嵌入式软件/FreeRTOS/11.%20FreeRTOS%20中断管理.md)
-- [MCU裸机软件分层架构](../../知识/嵌入式软件/MCU裸机软件分层架构.md)
-- [SoC FPGA 系统架构](../../知识/嵌入式软件/SoC%20FPGA%20系统架构.md) — RTOS+Linux 分工在 SoC FPGA 上的典型实现
+- [FreeRTOS/1. FreeRTOS 概述与架构](FreeRTOS/1.%20FreeRTOS%20概述与架构.md)
+- [FreeRTOS/11. FreeRTOS 中断管理](FreeRTOS/11.%20FreeRTOS%20中断管理.md)
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md)
+- [SoC FPGA 系统架构](SoC%20FPGA%20系统架构.md) — RTOS+Linux 分工在 SoC FPGA 上的典型实现

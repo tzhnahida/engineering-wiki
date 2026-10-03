@@ -28,5 +28,5 @@ DBI 规范定义了基于微处理器并行总线的显示接口，提供 Type A
 
 ## 相关标准
 
-- [2026-06-28 - MIPI DSI Specification v1.3](../来源/2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md) — DSI 是 DBI 的串行替代
-- [2026-06-28 - MIPI DCS Specification v1.02](../来源/2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)
+- [2026-06-28 - MIPI DSI Specification v1.3](2026-06-28%20-%20MIPI%20DSI%20Specification%20v1.3.md) — DSI 是 DBI 的串行替代
+- [2026-06-28 - MIPI DCS Specification v1.02](2026-06-28%20-%20MIPI%20DCS%20Specification%20v1.02.md)

@@ -30,7 +30,7 @@ updated: 2026-07-15
 
 ### 同厂横向对比
 
-| | ESP32-C6 | [ESP32-S3](../../元件/MCU无线/ESP32-S3.md) | [ESP8266EX](../../元件/MCU无线/ESP8266EX.md) |
+| | ESP32-C6 | [ESP32-S3](ESP32-S3.md) | [ESP8266EX](ESP8266EX.md) |
 |---|---|---|---|
 | CPU | RISC-V 单核 160 MHz + LP 核 20 MHz | Xtensa LX7 双核 240 MHz | Xtensa L106 80/160 MHz |
 | WiFi | **WiFi 6** (802.11ax, 20 MHz) | WiFi 4 (802.11n) | WiFi 4 (802.11n) |
@@ -43,7 +43,7 @@ updated: 2026-07-15
 | Deep-sleep | 7 µA（LP 存储保持） | ~7 µA | ~20 µA |
 | 定位 | 低功耗三模 IoT 端节点 | 多媒体/AI 网关 | 上一代低成本 WiFi |
 
-选型逻辑：需要 **Thread/Zigbee/Matter 边界路由**、**WiFi 6 TWT 电池设备**、或 **deep-sleep 下仍要跑逻辑（LP 核）**时选 C6；需要大 RAM（PSRAM）、摄像头 DVP、双核算力时选 [ESP32-S3](../../元件/MCU无线/ESP32-S3.md)。
+选型逻辑：需要 **Thread/Zigbee/Matter 边界路由**、**WiFi 6 TWT 电池设备**、或 **deep-sleep 下仍要跑逻辑（LP 核）**时选 C6；需要大 RAM（PSRAM）、摄像头 DVP、双核算力时选 [ESP32-S3](ESP32-S3.md)。
 
 ## 2. 极限工况
 
@@ -208,7 +208,7 @@ stateDiagram-v2
 | 封装外 flash | 最大 16 MB | SPI/Dual/Quad/QPI，XTS-AES 硬件加解密，指令/数据各 16 MB 按 64 KB 块映射 |
 
 > [!warning] 没有 PSRAM 接口
-> ESP32-C6 外部存储只支持 flash，**不支持 PSRAM 扩展**——大缓冲（音频/图像/大型 TLS 会话池）应用要么精打细算 512 KB SRAM，要么换 [ESP32-S3](../../元件/MCU无线/ESP32-S3.md)。
+> ESP32-C6 外部存储只支持 flash，**不支持 PSRAM 扩展**——大缓冲（音频/图像/大型 TLS 会话池）应用要么精打细算 512 KB SRAM，要么换 [ESP32-S3](ESP32-S3.md)。
 
 ### 6.3 三模射频与共存
 
@@ -308,6 +308,6 @@ stateDiagram-v2
 
 ## 参见
 
-- [ESP32-S3](../../元件/MCU无线/ESP32-S3.md) — 同厂高性能路线（双核 Xtensa + PSRAM + USB OTG）
-- [ESP8266EX](../../元件/MCU无线/ESP8266EX.md) — 上一代低成本 WiFi SoC，对照可见十年架构演进
+- [ESP32-S3](ESP32-S3.md) — 同厂高性能路线（双核 Xtensa + PSRAM + USB OTG）
+- [ESP8266EX](ESP8266EX.md) — 上一代低成本 WiFi SoC，对照可见十年架构演进
 - [通讯网络/TSF WiFi 时间同步](../../知识/通讯网络/TSF%20WiFi%20时间同步.md) — 基于 C6/S3 硬件 TSF 定时器的 µs 级多节点同步方案

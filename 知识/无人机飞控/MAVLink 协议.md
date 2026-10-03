@@ -59,12 +59,12 @@ sequenceDiagram
 
 - **实现方**:ArduPilot 与 PX4 是最主要的两大实现;地面站 Mission Planner、QGroundControl、MAVProxy 全部以 MAVLink 为接口。
 - **工具链**:pymavlink(Python 库,由 ArduPilot 的 tridge 开发)、MAVSDK(Dronecode 旗下,主要与 PX4 生态绑定)。
-- **DroneCAN**:与 MAVLink 互补 —— MAVLink 用于飞控↔地面站/机载电脑链路,DroneCAN 用于飞控↔外设(CAN 物理层,基于 [CAN 总线](../../知识/通讯网络/CAN%20总线协议基础.md))。
-- 底层物理承载最常用 [UART 串口](../../知识/通讯网络/UART%20串行通信.md) 数传电台(SiK 433/915MHz),协议本身与物理层解耦。
+- **DroneCAN**:与 MAVLink 互补 —— MAVLink 用于飞控↔地面站/机载电脑链路,DroneCAN 用于飞控↔外设(CAN 物理层,基于 [CAN 总线](../通讯网络/CAN%20总线协议基础.md))。
+- 底层物理承载最常用 [UART 串口](../通讯网络/UART%20串行通信.md) 数传电台(SiK 433/915MHz),协议本身与物理层解耦。
 
 ## 相关页面
 
-- [无人机飞控/ArduPilot 架构总览](../../知识/无人机飞控/ArduPilot%20架构总览.md) — GCS_MAVLINK 在架构中的位置
-- [无人机飞控/ArduPilot vs PX4](../../知识/无人机飞控/ArduPilot%20vs%20PX4.md) — 两项目 MAVLink 立场对比
-- [通讯网络/CAN 总线协议基础](../../知识/通讯网络/CAN%20总线协议基础.md) — DroneCAN 的物理层基础
-- [通讯网络/UART 串行通信](../../知识/通讯网络/UART%20串行通信.md) — 最常见承载链路
+- [无人机飞控/ArduPilot 架构总览](ArduPilot%20架构总览.md) — GCS_MAVLINK 在架构中的位置
+- [无人机飞控/ArduPilot vs PX4](ArduPilot%20vs%20PX4.md) — 两项目 MAVLink 立场对比
+- [通讯网络/CAN 总线协议基础](../通讯网络/CAN%20总线协议基础.md) — DroneCAN 的物理层基础
+- [通讯网络/UART 串行通信](../通讯网络/UART%20串行通信.md) — 最常见承载链路

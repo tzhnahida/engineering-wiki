@@ -1,4 +1,4 @@
-﻿---
+---
 type: entity
 tags: [electronics, usb, type-c, controller, pd]
 created: 2026-06-07

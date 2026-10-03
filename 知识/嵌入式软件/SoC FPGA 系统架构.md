@@ -167,6 +167,6 @@ FPGA 负责：专用接口协议、实时数据通路、并行加速
 
 ## 相关页面
 
-- [MCU裸机软件分层架构](../../知识/嵌入式软件/MCU裸机软件分层架构.md) — 控制面/数据面分离是分层架构在 SoC FPGA 上的自然延伸
-- [GCC __attribute__ 编译器扩展](../../知识/嵌入式软件/GCC%20__attribute__%20编译器扩展.md) — section 属性可用于 FPGA 侧的内存映射寄存器定义
-- [MCU 固件升级 IAP OTA 实战](../../知识/嵌入式软件/MCU%20固件升级%20IAP%20OTA%20实战.md) — SoC FPGA 的 HPS 侧同样需要固件升级策略
+- [MCU裸机软件分层架构](MCU裸机软件分层架构.md) — 控制面/数据面分离是分层架构在 SoC FPGA 上的自然延伸
+- [GCC __attribute__ 编译器扩展](GCC%20__attribute__%20编译器扩展.md) — section 属性可用于 FPGA 侧的内存映射寄存器定义
+- [MCU 固件升级 IAP OTA 实战](MCU%20固件升级%20IAP%20OTA%20实战.md) — SoC FPGA 的 HPS 侧同样需要固件升级策略

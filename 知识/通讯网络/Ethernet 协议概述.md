@@ -154,11 +154,11 @@ flowchart LR
 
 ### 5.2 LWIP 协议栈
 
-嵌入式 TCP/IP 通常使用 LWIP。参见 [嵌入式软件/LWIP/1. LWIP 概述与架构](../../知识/嵌入式软件/LWIP/1.%20LWIP%20概述与架构.md)。
+嵌入式 TCP/IP 通常使用 LWIP。参见 [嵌入式软件/LWIP/1. LWIP 概述与架构](../嵌入式软件/LWIP/1.%20LWIP%20概述与架构.md)。
 
 ## 相关页面
 
-- [通讯网络/WiFi 协议概述](../../知识/通讯网络/WiFi%20协议概述.md) — 无线局域网对比
-- [嵌入式软件/LWIP/1. LWIP 概述与架构](../../知识/嵌入式软件/LWIP/1.%20LWIP%20概述与架构.md) — 嵌入式 TCP/IP 协议栈
-- [嵌入式软件/LWIP/4. LWIP IP 层](../../知识/嵌入式软件/LWIP/4.%20LWIP%20IP%20层.md) — IP 层实现
-- [嵌入式软件/LWIP/7. LWIP netif 网络接口](../../知识/嵌入式软件/LWIP/7.%20LWIP%20netif%20网络接口.md) — netif 网络接口抽象
+- [通讯网络/WiFi 协议概述](WiFi%20协议概述.md) — 无线局域网对比
+- [嵌入式软件/LWIP/1. LWIP 概述与架构](../嵌入式软件/LWIP/1.%20LWIP%20概述与架构.md) — 嵌入式 TCP/IP 协议栈
+- [嵌入式软件/LWIP/4. LWIP IP 层](../嵌入式软件/LWIP/4.%20LWIP%20IP%20层.md) — IP 层实现
+- [嵌入式软件/LWIP/7. LWIP netif 网络接口](../嵌入式软件/LWIP/7.%20LWIP%20netif%20网络接口.md) — netif 网络接口抽象

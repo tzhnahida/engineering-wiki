@@ -1,4 +1,4 @@
-﻿---
+---
 type: source
 tags: [design-guide, fpd-link, serializer, deserializer, ti]
 created: 2026-08-03

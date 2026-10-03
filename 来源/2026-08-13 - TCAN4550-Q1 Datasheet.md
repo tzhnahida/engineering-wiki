@@ -48,4 +48,4 @@ updated: 2026-08-13
 ## 相关页面
 
 - [TCAN4550](../元件/接口存储/TCAN4550.md) — 元件页
-- [2026-07-29 - Bosch CAN 2.0 Specification](../来源/2026-07-29%20-%20Bosch%20CAN%202.0%20Specification.md) — CAN 协议基础
+- [2026-07-29 - Bosch CAN 2.0 Specification](2026-07-29%20-%20Bosch%20CAN%202.0%20Specification.md) — CAN 协议基础
