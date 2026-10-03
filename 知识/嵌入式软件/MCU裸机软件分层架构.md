@@ -8,7 +8,7 @@ sources: ["[2026-07-21 - 嵌入式软件分层通用原则](../../来源/2026-07
 
 # MCU 裸机软件分层架构
 
-![mcu-六层架构.svg](../../mcu-六层架构.svg)
+![mcu-六层架构.svg](mcu-六层架构.svg)
 
 > 📝 [在 Excalidraw 中编辑](https://excalidraw.com) — 拖入 `_llm/raw/mcu-六层架构.excalidraw`
 

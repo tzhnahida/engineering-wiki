@@ -3,7 +3,7 @@ type: concept
 tags: [LLM-AI, 记忆, agent, 分层, sleep-time]
 created: 2026-09-05
 updated: 2026-09-05
-sources: （内部来源，未公开）"]
+sources: ["—"]
 ---
 
 # Agent 记忆分层(长期记忆设计)

@@ -3,7 +3,7 @@ type: concept
 tags: [语言学习, AI口语, 竞品, 纠错, 产品模式]
 created: 2026-09-05
 updated: 2026-09-05
-sources: （内部来源，未公开）"]
+sources: ["—"]
 ---
 
 # AI 口语陪练产品模式
